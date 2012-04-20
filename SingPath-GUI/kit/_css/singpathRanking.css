@@ -1,0 +1,1145 @@
+#wrapper #countryRankingBoxInfo #country01Box { padding: 0px; float: left; width: 320px; position: relative; font-size: 16px; margin: 0px; height: 25px; top: 5px; text-align: left; left: 5px; background: #0F0 no-repeat; }
+ranking list
+#wrapper #rankingList #raBox01 { margin: 2px 0px 0px; padding: 0px; float: left; height: 45px; width: 480px; position: relative; left: 0px; top: 2px; clear: left; }
+#wrapper #rankingList #raBox01 #raBox01NumDetails { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: 3px; top: 9px; font-size: 20px; float: left; font-family: Arial, Helvetica, sans-serif; }
+#wrapper #rankingList #raBox01 #raBox01Gravatar { margin: 0px; padding: 0px; height: 45px; width: 46px; position: relative; top: 0px; left: 3px; float: left; }
+#wrapper #rankingList #raBox01 #raBox01Details { margin: 0px; padding: 0px; height: 30px; width: 180px; position: relative; left: 10px; top: 9px; font-weight: bold; text-align: left; font-family: Arial, Helvetica, sans-serif; float: left; font-size: 12px; }
+#wrapper #rankingList #raBox01 #raBox01CountryZone { margin: 0px; padding: 0px; height: 29px; width: 35px; position: relative; float: left; top: 7px; left: 10px; }
+#wrapper #rankingList #raBox01 #raBox01BadgesZone01 { margin: 0px; padding: 0px; height: 29px; width: 45px; position: relative; float: left; top: 9px; left: 18px; }
+#wrapper #rankingList #raBox01 #raBox01BadgesZone02 { margin: 0px; padding: 0px; height: 29px; width: 45px; position: relative; float: left; top: 9px; left: 15px; }
+#wrapper #rankingList #raBox01 #raBox01Solved { margin: 0px; padding: 0px; height: 30px; width: 65px; position: relative; top: 14px; font-size: 16px; float: left; font-family: Arial, Helvetica, sans-serif; font-weight: bold; text-align: center; left: 18px; }
+#wrapper #rankingList #raBox02 { margin: 2px 0px 0px; padding: 0px; float: left; height: 45px; width: 480px; position: relative; left: 0px; top: 2px; clear: left; }
+#wrapper #rankingList #raBox02 #raBox02NumDetails { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: 3px; top: 9px; font-size: 20px; float: left; font-family: Arial, Helvetica, sans-serif; }
+#wrapper #rankingList #raBox02 #raBox02Gravatar { margin: 0px; padding: 0px; height: 45px; width: 46px; position: relative; top: 0px; left: 3px; float: left; }
+#wrapper #rankingList #raBox02 #raBox02Details { margin: 0px; padding: 0px; height: 30px; width: 180px; position: relative; left: 10px; top: 9px; font-weight: bold; text-align: left; font-family: Arial, Helvetica, sans-serif; float: left; font-size: 12px; }
+#wrapper #rankingList #raBox02 #raBox02CountryZone { margin: 0px; padding: 0px; height: 29px; width: 35px; position: relative; float: left; top: 7px; left: 10px; }
+#wrapper #rankingList #raBox02 #raBox02BadgesZone01 { margin: 0px; padding: 0px; height: 29px; width: 45px; position: relative; float: left; top: 9px; left: 18px; }
+#wrapper #rankingList #raBox02 #raBox02BadgesZone02 { margin: 0px; padding: 0px; height: 29px; width: 45px; position: relative; float: left; top: 9px; left: 15px; }
+#wrapper #rankingList #raBox02 #raBox02Solved { margin: 0px; padding: 0px; height: 30px; width: 65px; position: relative; top: 14px; font-size: 16px; float: left; font-family: Arial, Helvetica, sans-serif; font-weight: bold; text-align: center; left: 18px; }
+#wrapper #rankingList #raBox03 { margin: 2px 0px 0px; padding: 0px; float: left; height: 45px; width: 480px; position: relative; left: 0px; top: 2px; clear: left; }
+#wrapper #rankingList #raBox03 #raBox03NumDetails { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: 3px; top: 9px; font-size: 20px; float: left; font-family: Arial, Helvetica, sans-serif; }
+#wrapper #rankingList #raBox03 #raBox03Gravatar { margin: 0px; padding: 0px; height: 45px; width: 46px; position: relative; top: 0px; left: 3px; float: left; }
+#wrapper #rankingList #raBox03 #raBox03Details { margin: 0px; padding: 0px; height: 30px; width: 180px; position: relative; left: 10px; top: 9px; font-weight: bold; text-align: left; font-family: Arial, Helvetica, sans-serif; float: left; font-size: 12px; }
+#wrapper #rankingList #raBox03 #raBox03CountryZone { margin: 0px; padding: 0px; height: 29px; width: 35px; position: relative; float: left; top: 7px; left: 10px; }
+#wrapper #rankingList #raBox03 #raBox03BadgesZone01 { margin: 0px; padding: 0px; height: 29px; width: 45px; position: relative; float: left; top: 9px; left: 18px; }
+#wrapper #rankingList #raBox03 #raBox03BadgesZone02 { margin: 0px; padding: 0px; height: 29px; width: 45px; position: relative; float: left; top: 9px; left: 15px; }
+#wrapper #rankingList #raBox03 #raBox03Solved { margin: 0px; padding: 0px; height: 30px; width: 65px; position: relative; top: 14px; font-size: 16px; float: left; font-family: Arial, Helvetica, sans-serif; font-weight: bold; text-align: center; left: 18px; }
+#wrapper #rankingList #raBox04 { margin: 2px 0px 0px; padding: 0px; float: left; height: 45px; width: 480px; position: relative; left: 0px; top: 2px; clear: left; }
+#wrapper #rankingList #raBox04 #raBox04NumDetails { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: 3px; top: 9px; font-size: 20px; float: left; font-family: Arial, Helvetica, sans-serif; }
+#wrapper #rankingList #raBox04 #raBox04Gravatar { margin: 0px; padding: 0px; height: 45px; width: 46px; position: relative; top: 0px; left: 3px; float: left; }
+#wrapper #rankingList #raBox04 #raBox04Details { margin: 0px; padding: 0px; height: 30px; width: 180px; position: relative; left: 10px; top: 9px; font-weight: bold; text-align: left; font-family: Arial, Helvetica, sans-serif; float: left; font-size: 12px; }
+#wrapper #rankingList #raBox04 #raBox04CountryZone { margin: 0px; padding: 0px; height: 29px; width: 35px; position: relative; float: left; top: 7px; left: 10px; }
+#wrapper #rankingList #raBox04 #raBox04BadgesZone01 { margin: 0px; padding: 0px; height: 29px; width: 45px; position: relative; float: left; top: 9px; left: 18px; }
+#wrapper #rankingList #raBox04 #raBox04BadgesZone02 { margin: 0px; padding: 0px; height: 29px; width: 45px; position: relative; float: left; top: 9px; left: 15px; }
+#wrapper #rankingList #raBox04 #raBox04Solved { margin: 0px; padding: 0px; height: 30px; width: 65px; position: relative; top: 14px; font-size: 16px; float: left; font-family: Arial, Helvetica, sans-serif; font-weight: bold; text-align: center; left: 18px; }
+#wrapper #rankingList #raBox05 { margin: 2px 0px 0px; padding: 0px; float: left; height: 45px; width: 480px; position: relative; left: 0px; top: 2px; clear: left; }
+#wrapper #rankingList #raBox05 #raBox05NumDetails { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: 3px; top: 9px; font-size: 20px; float: left; font-family: Arial, Helvetica, sans-serif; }
+#wrapper #rankingList #raBox05 #raBox05Gravatar { margin: 0px; padding: 0px; height: 45px; width: 46px; position: relative; top: 0px; left: 3px; float: left; }
+#wrapper #rankingList #raBox05 #raBox05Details { margin: 0px; padding: 0px; height: 30px; width: 180px; position: relative; left: 10px; top: 9px; font-weight: bold; text-align: left; font-family: Arial, Helvetica, sans-serif; float: left; font-size: 12px; }
+#wrapper #rankingList #raBox05 #raBox05CountryZone { margin: 0px; padding: 0px; height: 29px; width: 35px; position: relative; float: left; top: 7px; left: 10px; }
+#wrapper #rankingList #raBox05 #raBox05BadgesZone01 { margin: 0px; padding: 0px; height: 29px; width: 45px; position: relative; float: left; top: 9px; left: 18px; }
+#wrapper #rankingList #raBox05 #raBox05BadgesZone02 { margin: 0px; padding: 0px; height: 29px; width: 45px; position: relative; float: left; top: 9px; left: 15px; }
+#wrapper #rankingList #raBox05 #raBox05Solved { margin: 0px; padding: 0px; height: 30px; width: 65px; position: relative; top: 14px; font-size: 16px; float: left; font-family: Arial, Helvetica, sans-serif; font-weight: bold; text-align: center; left: 18px; }
+#wrapper #rankingList #raBox06 { margin: 2px 0px 0px; padding: 0px; float: left; height: 45px; width: 480px; position: relative; left: 0px; top: 2px; clear: left; }
+#wrapper #rankingList #raBox06 #raBox06NumDetails { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: 3px; top: 9px; font-size: 20px; float: left; font-family: Arial, Helvetica, sans-serif; }
+#wrapper #rankingList #raBox06 #raBox06Gravatar { margin: 0px; padding: 0px; height: 45px; width: 46px; position: relative; top: 0px; left: 3px; float: left; }
+#wrapper #rankingList #raBox06 #raBox06Details { margin: 0px; padding: 0px; height: 30px; width: 180px; position: relative; left: 10px; top: 9px; font-weight: bold; text-align: left; font-family: Arial, Helvetica, sans-serif; float: left; font-size: 12px; }
+#wrapper #rankingList #raBox06 #raBox06CountryZone { margin: 0px; padding: 0px; height: 29px; width: 35px; position: relative; float: left; top: 7px; left: 10px; }
+#wrapper #rankingList #raBox06 #raBox06BadgesZone01 { margin: 0px; padding: 0px; height: 29px; width: 45px; position: relative; float: left; top: 9px; left: 18px; }
+#wrapper #rankingList #raBox06 #raBox06BadgesZone02 { margin: 0px; padding: 0px; height: 29px; width: 45px; position: relative; float: left; top: 9px; left: 15px; }
+#wrapper #rankingList #raBox06 #raBox06Solved { margin: 0px; padding: 0px; height: 30px; width: 65px; position: relative; top: 14px; font-size: 16px; float: left; font-family: Arial, Helvetica, sans-serif; font-weight: bold; text-align: center; left: 18px; }
+#wrapper #rankingList #raBox07 { margin: 2px 0px 0px; padding: 0px; float: left; height: 45px; width: 480px; position: relative; left: 0px; top: 2px; clear: left; }
+#wrapper #rankingList #raBox07 #raBox07NumDetails { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: 3px; top: 9px; font-size: 20px; float: left; font-family: Arial, Helvetica, sans-serif; }
+#wrapper #rankingList #raBox07 #raBox07Gravatar { margin: 0px; padding: 0px; height: 45px; width: 46px; position: relative; top: 0px; left: 3px; float: left; }
+#wrapper #rankingList #raBox07 #raBox07Details { margin: 0px; padding: 0px; height: 30px; width: 180px; position: relative; left: 10px; top: 9px; font-weight: bold; text-align: left; font-family: Arial, Helvetica, sans-serif; float: left; font-size: 12px; }
+#wrapper #rankingList #raBox07 #raBox07CountryZone { margin: 0px; padding: 0px; height: 29px; width: 35px; position: relative; float: left; top: 7px; left: 10px; }
+#wrapper #rankingList #raBox07 #raBox07BadgesZone01 { margin: 0px; padding: 0px; height: 29px; width: 45px; position: relative; float: left; top: 9px; left: 18px; }
+#wrapper #rankingList #raBox07 #raBox07BadgesZone02 { margin: 0px; padding: 0px; height: 29px; width: 45px; position: relative; float: left; top: 9px; left: 15px; }
+#wrapper #rankingList #raBox07 #raBox07Solved { margin: 0px; padding: 0px; height: 30px; width: 65px; position: relative; top: 14px; font-size: 16px; float: left; font-family: Arial, Helvetica, sans-serif; font-weight: bold; text-align: center; left: 18px; }
+#wrapper #rankingList #raBox08 { margin: 2px 0px 0px; padding: 0px; float: left; height: 45px; width: 480px; position: relative; left: 0px; top: 2px; clear: left; }
+#wrapper #rankingList #raBox08 #raBox08NumDetails { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: 3px; top: 9px; font-size: 20px; float: left; font-family: Arial, Helvetica, sans-serif; }
+#wrapper #rankingList #raBox08 #raBox08Gravatar { margin: 0px; padding: 0px; height: 45px; width: 46px; position: relative; top: 0px; left: 3px; float: left; }
+#wrapper #rankingList #raBox08 #raBox08Details { margin: 0px; padding: 0px; height: 30px; width: 180px; position: relative; left: 10px; top: 9px; font-weight: bold; text-align: left; font-family: Arial, Helvetica, sans-serif; float: left; font-size: 12px; }
+#wrapper #rankingList #raBox08 #raBox08CountryZone { margin: 0px; padding: 0px; height: 29px; width: 35px; position: relative; float: left; top: 7px; left: 10px; }
+#wrapper #rankingList #raBox08 #raBox08BadgesZone01 { margin: 0px; padding: 0px; height: 29px; width: 45px; position: relative; float: left; top: 9px; left: 18px; }
+#wrapper #rankingList #raBox08 #raBox08BadgesZone02 { margin: 0px; padding: 0px; height: 29px; width: 45px; position: relative; float: left; top: 9px; left: 15px; }
+#wrapper #rankingList #raBox08 #raBox08Solved { margin: 0px; padding: 0px; height: 30px; width: 65px; position: relative; top: 14px; font-size: 16px; float: left; font-family: Arial, Helvetica, sans-serif; font-weight: bold; text-align: center; left: 18px; }
+#wrapper #rankingList #raBox09 { margin: 2px 0px 0px; padding: 0px; float: left; height: 45px; width: 480px; position: relative; left: 0px; top: 2px; clear: left; }
+#wrapper #rankingList #raBox09 #raBox09NumDetails { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: 3px; top: 9px; font-size: 20px; float: left; font-family: Arial, Helvetica, sans-serif; }
+#wrapper #rankingList #raBox09 #raBox09Gravatar { margin: 0px; padding: 0px; height: 45px; width: 46px; position: relative; top: 0px; left: 3px; float: left; }
+#wrapper #rankingList #raBox09 #raBox09Details { margin: 0px; padding: 0px; height: 30px; width: 180px; position: relative; left: 10px; top: 9px; font-weight: bold; text-align: left; font-family: Arial, Helvetica, sans-serif; float: left; font-size: 12px; }
+#wrapper #rankingList #raBox09 #raBox09CountryZone { margin: 0px; padding: 0px; height: 29px; width: 35px; position: relative; float: left; top: 7px; left: 10px; }
+#wrapper #rankingList #raBox09 #raBox09BadgesZone01 { margin: 0px; padding: 0px; height: 29px; width: 45px; position: relative; float: left; top: 9px; left: 18px; }
+#wrapper #rankingList #raBox09 #raBox09BadgesZone02 { margin: 0px; padding: 0px; height: 29px; width: 45px; position: relative; float: left; top: 9px; left: 15px; }
+#wrapper #rankingList #raBox09 #raBox09Solved { margin: 0px; padding: 0px; height: 30px; width: 65px; position: relative; top: 14px; font-size: 16px; float: left; font-family: Arial, Helvetica, sans-serif; font-weight: bold; text-align: center; left: 18px; }
+#wrapper #rankingList #raBox10 { margin: 2px 0px 0px; padding: 0px; float: left; height: 45px; width: 480px; position: relative; left: 0px; top: 2px; clear: left; }
+#wrapper #rankingList #raBox10 #raBox10NumDetails { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: 3px; top: 9px; font-size: 20px; float: left; font-family: Arial, Helvetica, sans-serif; }
+#wrapper #rankingList #raBox10 #raBox10Gravatar { margin: 0px; padding: 0px; height: 45px; width: 46px; position: relative; top: 0px; left: 3px; float: left; }
+#wrapper #rankingList #raBox10 #raBox10Details { margin: 0px; padding: 0px; height: 30px; width: 180px; position: relative; left: 10px; top: 9px; font-weight: bold; text-align: left; font-family: Arial, Helvetica, sans-serif; float: left; font-size: 12px; }
+#wrapper #rankingList #raBox10 #raBox10CountryZone { margin: 0px; padding: 0px; height: 29px; width: 35px; position: relative; float: left; top: 7px; left: 10px; }
+#wrapper #rankingList #raBox10 #raBox10BadgesZone01 { margin: 0px; padding: 0px; height: 29px; width: 45px; position: relative; float: left; top: 9px; left: 18px; }
+#wrapper #rankingList #raBox10 #raBox10BadgesZone02 { margin: 0px; padding: 0px; height: 29px; width: 45px; position: relative; float: left; top: 9px; left: 15px; }
+#wrapper #rankingList #raBox10 #raBox10Solved { margin: 0px; padding: 0px; height: 30px; width: 65px; position: relative; top: 14px; font-size: 16px; float: left; font-family: Arial, Helvetica, sans-serif; font-weight: bold; text-align: center; left: 18px; }
+#wrapper #rankingList #raBox11 { margin: 2px 0px 0px; padding: 0px; float: left; height: 45px; width: 480px; position: relative; left: 0px; top: 2px; clear: left; }
+#wrapper #rankingList #raBox11 #raBox11NumDetails { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: 3px; top: 9px; font-size: 20px; float: left; font-family: Arial, Helvetica, sans-serif; }
+#wrapper #rankingList #raBox11 #raBox11Gravatar { margin: 0px; padding: 0px; height: 45px; width: 46px; position: relative; top: 0px; left: 3px; float: left; }
+#wrapper #rankingList #raBox11 #raBox11Details { margin: 0px; padding: 0px; height: 30px; width: 180px; position: relative; left: 10px; top: 9px; font-weight: bold; text-align: left; font-family: Arial, Helvetica, sans-serif; float: left; font-size: 12px; }
+#wrapper #rankingList #raBox11 #raBox11CountryZone { margin: 0px; padding: 0px; height: 29px; width: 35px; position: relative; float: left; top: 7px; left: 10px; }
+#wrapper #rankingList #raBox11 #raBox11BadgesZone01 { margin: 0px; padding: 0px; height: 29px; width: 45px; position: relative; float: left; top: 9px; left: 18px; }
+#wrapper #rankingList #raBox11 #raBox11BadgesZone02 { margin: 0px; padding: 0px; height: 29px; width: 45px; position: relative; float: left; top: 9px; left: 15px; }
+#wrapper #rankingList #raBox11 #raBox11Solved { margin: 0px; padding: 0px; height: 30px; width: 65px; position: relative; top: 14px; font-size: 16px; float: left; font-family: Arial, Helvetica, sans-serif; font-weight: bold; text-align: center; left: 18px; }
+#wrapper #rankingList #raBox12 { margin: 2px 0px 0px; padding: 0px; float: left; height: 45px; width: 480px; position: relative; left: 0px; top: 2px; clear: left; }
+#wrapper #rankingList #raBox12 #raBox12NumDetails { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: 3px; top: 9px; font-size: 20px; float: left; font-family: Arial, Helvetica, sans-serif; }
+#wrapper #rankingList #raBox12 #raBox12Gravatar { margin: 0px; padding: 0px; height: 45px; width: 46px; position: relative; top: 0px; left: 3px; float: left; }
+#wrapper #rankingList #raBox12 #raBox12Details { margin: 0px; padding: 0px; height: 30px; width: 180px; position: relative; left: 10px; top: 9px; font-weight: bold; text-align: left; font-family: Arial, Helvetica, sans-serif; float: left; font-size: 12px; }
+#wrapper #rankingList #raBox12 #raBox12CountryZone { margin: 0px; padding: 0px; height: 29px; width: 35px; position: relative; float: left; top: 7px; left: 10px; }
+#wrapper #rankingList #raBox12 #raBox12BadgesZone01 { margin: 0px; padding: 0px; height: 29px; width: 45px; position: relative; float: left; top: 9px; left: 18px; }
+#wrapper #rankingList #raBox12 #raBox12BadgesZone02 { margin: 0px; padding: 0px; height: 29px; width: 45px; position: relative; float: left; top: 9px; left: 15px; }
+#wrapper #rankingList #raBox12 #raBox12Solved { margin: 0px; padding: 0px; height: 30px; width: 65px; position: relative; top: 14px; font-size: 16px; float: left; font-family: Arial, Helvetica, sans-serif; font-weight: bold; text-align: center; left: 18px; }
+#wrapper #rankingList #raBox13 { margin: 2px 0px 0px; padding: 0px; float: left; height: 45px; width: 480px; position: relative; left: 0px; top: 2px; clear: left; }
+#wrapper #rankingList #raBox13 #raBox13NumDetails { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: 3px; top: 9px; font-size: 20px; float: left; font-family: Arial, Helvetica, sans-serif; }
+#wrapper #rankingList #raBox13 #raBox13Gravatar { margin: 0px; padding: 0px; height: 45px; width: 46px; position: relative; top: 0px; left: 3px; float: left; }
+#wrapper #rankingList #raBox13 #raBox13Details { margin: 0px; padding: 0px; height: 30px; width: 180px; position: relative; left: 10px; top: 9px; font-weight: bold; text-align: left; font-family: Arial, Helvetica, sans-serif; float: left; font-size: 12px; }
+#wrapper #rankingList #raBox13 #raBox13CountryZone { margin: 0px; padding: 0px; height: 29px; width: 35px; position: relative; float: left; top: 7px; left: 10px; }
+#wrapper #rankingList #raBox13 #raBox13BadgesZone01 { margin: 0px; padding: 0px; height: 29px; width: 45px; position: relative; float: left; top: 9px; left: 18px; }
+#wrapper #rankingList #raBox13 #raBox13BadgesZone02 { margin: 0px; padding: 0px; height: 29px; width: 45px; position: relative; float: left; top: 9px; left: 15px; }
+#wrapper #rankingList #raBox13 #raBox13Solved { margin: 0px; padding: 0px; height: 30px; width: 65px; position: relative; top: 14px; font-size: 16px; float: left; font-family: Arial, Helvetica, sans-serif; font-weight: bold; text-align: center; left: 18px; }
+#wrapper #rankingList #raBox14 { margin: 2px 0px 0px; padding: 0px; float: left; height: 45px; width: 480px; position: relative; left: 0px; top: 2px; clear: left; }
+#wrapper #rankingList #raBox14 #raBox14NumDetails { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: 3px; top: 9px; font-size: 20px; float: left; font-family: Arial, Helvetica, sans-serif; }
+#wrapper #rankingList #raBox14 #raBox14Gravatar { margin: 0px; padding: 0px; height: 45px; width: 46px; position: relative; top: 0px; left: 3px; float: left; }
+#wrapper #rankingList #raBox14 #raBox14Details { margin: 0px; padding: 0px; height: 30px; width: 180px; position: relative; left: 10px; top: 9px; font-weight: bold; text-align: left; font-family: Arial, Helvetica, sans-serif; float: left; font-size: 12px; }
+#wrapper #rankingList #raBox14 #raBox14CountryZone { margin: 0px; padding: 0px; height: 29px; width: 35px; position: relative; float: left; top: 7px; left: 10px; }
+#wrapper #rankingList #raBox14 #raBox14BadgesZone01 { margin: 0px; padding: 0px; height: 29px; width: 45px; position: relative; float: left; top: 9px; left: 18px; }
+#wrapper #rankingList #raBox14 #raBox14BadgesZone02 { margin: 0px; padding: 0px; height: 29px; width: 45px; position: relative; float: left; top: 9px; left: 15px; }
+#wrapper #rankingList #raBox14 #raBox14Solved { margin: 0px; padding: 0px; height: 30px; width: 65px; position: relative; top: 14px; font-size: 16px; float: left; font-family: Arial, Helvetica, sans-serif; font-weight: bold; text-align: center; left: 18px; }
+#wrapper #rankingList #raBox15 { margin: 2px 0px 0px; padding: 0px; float: left; height: 45px; width: 480px; position: relative; left: 0px; top: 2px; clear: left; }
+#wrapper #rankingList #raBox15 #raBox15NumDetails { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: 3px; top: 9px; font-size: 20px; float: left; font-family: Arial, Helvetica, sans-serif; }
+#wrapper #rankingList #raBox15 #raBox15Gravatar { margin: 0px; padding: 0px; height: 45px; width: 46px; position: relative; top: 0px; left: 3px; float: left; }
+#wrapper #rankingList #raBox15 #raBox15Details { margin: 0px; padding: 0px; height: 30px; width: 180px; position: relative; left: 10px; top: 9px; font-weight: bold; text-align: left; font-family: Arial, Helvetica, sans-serif; float: left; font-size: 12px; }
+#wrapper #rankingList #raBox15 #raBox15CountryZone { margin: 0px; padding: 0px; height: 29px; width: 35px; position: relative; float: left; top: 7px; left: 10px; }
+#wrapper #rankingList #raBox15 #raBox15BadgesZone01 { margin: 0px; padding: 0px; height: 29px; width: 45px; position: relative; float: left; top: 9px; left: 18px; }
+#wrapper #rankingList #raBox15 #raBox15BadgesZone02 { margin: 0px; padding: 0px; height: 29px; width: 45px; position: relative; float: left; top: 9px; left: 15px; }
+#wrapper #rankingList #raBox15 #raBox15Solved { margin: 0px; padding: 0px; height: 30px; width: 65px; position: relative; top: 14px; font-size: 16px; float: left; font-family: Arial, Helvetica, sans-serif; font-weight: bold; text-align: center; left: 18px; }
+#wrapper #rankingList #raBox16 { margin: 2px 0px 0px; padding: 0px; float: left; height: 45px; width: 480px; position: relative; left: 0px; top: 2px; clear: left; }
+#wrapper #rankingList #raBox16 #raBox16NumDetails { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: 3px; top: 9px; font-size: 20px; float: left; font-family: Arial, Helvetica, sans-serif; }
+#wrapper #rankingList #raBox16 #raBox16Gravatar { margin: 0px; padding: 0px; height: 45px; width: 46px; position: relative; top: 0px; left: 3px; float: left; }
+#wrapper #rankingList #raBox16 #raBox16Details { margin: 0px; padding: 0px; height: 30px; width: 180px; position: relative; left: 10px; top: 9px; font-weight: bold; text-align: left; font-family: Arial, Helvetica, sans-serif; float: left; font-size: 12px; }
+#wrapper #rankingList #raBox16 #raBox16CountryZone { margin: 0px; padding: 0px; height: 29px; width: 35px; position: relative; float: left; top: 7px; left: 10px; }
+#wrapper #rankingList #raBox16 #raBox16BadgesZone01 { margin: 0px; padding: 0px; height: 29px; width: 45px; position: relative; float: left; top: 9px; left: 18px; }
+#wrapper #rankingList #raBox16 #raBox16BadgesZone02 { margin: 0px; padding: 0px; height: 29px; width: 45px; position: relative; float: left; top: 9px; left: 15px; }
+#wrapper #rankingList #raBox16 #raBox16Solved { margin: 0px; padding: 0px; height: 30px; width: 65px; position: relative; top: 14px; font-size: 16px; float: left; font-family: Arial, Helvetica, sans-serif; font-weight: bold; text-align: center; left: 18px; }
+#wrapper #rankingList #raBox17 { margin: 2px 0px 0px; padding: 0px; float: left; height: 45px; width: 480px; position: relative; left: 0px; top: 2px; clear: left; }
+#wrapper #rankingList #raBox17 #raBox17NumDetails { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: 3px; top: 9px; font-size: 20px; float: left; font-family: Arial, Helvetica, sans-serif; }
+#wrapper #rankingList #raBox17 #raBox17Gravatar { margin: 0px; padding: 0px; height: 45px; width: 46px; position: relative; top: 0px; left: 3px; float: left; }
+#wrapper #rankingList #raBox17 #raBox17Details { margin: 0px; padding: 0px; height: 30px; width: 180px; position: relative; left: 10px; top: 9px; font-weight: bold; text-align: left; font-family: Arial, Helvetica, sans-serif; float: left; font-size: 12px; }
+#wrapper #rankingList #raBox17 #raBox17CountryZone { margin: 0px; padding: 0px; height: 29px; width: 35px; position: relative; float: left; top: 7px; left: 10px; }
+#wrapper #rankingList #raBox17 #raBox17BadgesZone01 { margin: 0px; padding: 0px; height: 29px; width: 45px; position: relative; float: left; top: 9px; left: 18px; }
+#wrapper #rankingList #raBox17 #raBox17BadgesZone02 { margin: 0px; padding: 0px; height: 29px; width: 45px; position: relative; float: left; top: 9px; left: 15px; }
+#wrapper #rankingList #raBox17 #raBox17Solved { margin: 0px; padding: 0px; height: 30px; width: 65px; position: relative; top: 14px; font-size: 16px; float: left; font-family: Arial, Helvetica, sans-serif; font-weight: bold; text-align: center; left: 18px; }
+#wrapper #rankingList #raBox18 { margin: 2px 0px 0px; padding: 0px; float: left; height: 45px; width: 480px; position: relative; left: 0px; top: 2px; clear: left; }
+#wrapper #rankingList #raBox18 #raBox18NumDetails { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: 3px; top: 9px; font-size: 20px; float: left; font-family: Arial, Helvetica, sans-serif; }
+#wrapper #rankingList #raBox18 #raBox18Gravatar { margin: 0px; padding: 0px; height: 45px; width: 46px; position: relative; top: 0px; left: 3px; float: left; }
+#wrapper #rankingList #raBox18 #raBox18Details { margin: 0px; padding: 0px; height: 30px; width: 180px; position: relative; left: 10px; top: 9px; font-weight: bold; text-align: left; font-family: Arial, Helvetica, sans-serif; float: left; font-size: 12px; }
+#wrapper #rankingList #raBox18 #raBox18CountryZone { margin: 0px; padding: 0px; height: 29px; width: 35px; position: relative; float: left; top: 7px; left: 10px; }
+#wrapper #rankingList #raBox18 #raBox18BadgesZone01 { margin: 0px; padding: 0px; height: 29px; width: 45px; position: relative; float: left; top: 9px; left: 18px; }
+#wrapper #rankingList #raBox18 #raBox18BadgesZone02 { margin: 0px; padding: 0px; height: 29px; width: 45px; position: relative; float: left; top: 9px; left: 15px; }
+#wrapper #rankingList #raBox18 #raBox18Solved { margin: 0px; padding: 0px; height: 30px; width: 65px; position: relative; top: 14px; font-size: 16px; float: left; font-family: Arial, Helvetica, sans-serif; font-weight: bold; text-align: center; left: 18px; }
+#wrapper #rankingList #raBox19 { margin: 2px 0px 0px; padding: 0px; float: left; height: 45px; width: 480px; position: relative; left: 0px; top: 2px; clear: left; }
+#wrapper #rankingList #raBox19 #raBox19NumDetails { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: 3px; top: 9px; font-size: 20px; float: left; font-family: Arial, Helvetica, sans-serif; }
+#wrapper #rankingList #raBox19 #raBox19Gravatar { margin: 0px; padding: 0px; height: 45px; width: 46px; position: relative; top: 0px; left: 3px; float: left; }
+#wrapper #rankingList #raBox19 #raBox19Details { margin: 0px; padding: 0px; height: 30px; width: 180px; position: relative; left: 10px; top: 9px; font-weight: bold; text-align: left; font-family: Arial, Helvetica, sans-serif; float: left; font-size: 12px; }
+#wrapper #rankingList #raBox19 #raBox19CountryZone { margin: 0px; padding: 0px; height: 29px; width: 35px; position: relative; float: left; top: 7px; left: 10px; }
+#wrapper #rankingList #raBox19 #raBox19BadgesZone01 { margin: 0px; padding: 0px; height: 29px; width: 45px; position: relative; float: left; top: 9px; left: 18px; }
+#wrapper #rankingList #raBox19 #raBox19BadgesZone02 { margin: 0px; padding: 0px; height: 29px; width: 45px; position: relative; float: left; top: 9px; left: 15px; }
+#wrapper #rankingList #raBox19 #raBox19Solved { margin: 0px; padding: 0px; height: 30px; width: 65px; position: relative; top: 14px; font-size: 16px; float: left; font-family: Arial, Helvetica, sans-serif; font-weight: bold; text-align: center; left: 18px; }
+#wrapper #rankingList #raBox20 { margin: 2px 0px 0px; padding: 0px; float: left; height: 45px; width: 480px; position: relative; left: 0px; top: 2px; clear: left; }
+#wrapper #rankingList #raBox20 #raBox20NumDetails { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: 3px; top: 9px; font-size: 20px; float: left; font-family: Arial, Helvetica, sans-serif; }
+#wrapper #rankingList #raBox20 #raBox20Gravatar { margin: 0px; padding: 0px; height: 45px; width: 46px; position: relative; top: 0px; left: 3px; float: left; }
+#wrapper #rankingList #raBox20 #raBox20Details { margin: 0px; padding: 0px; height: 30px; width: 180px; position: relative; left: 10px; top: 9px; font-weight: bold; text-align: left; font-family: Arial, Helvetica, sans-serif; float: left; font-size: 12px; }
+#wrapper #rankingList #raBox20 #raBox20CountryZone { margin: 0px; padding: 0px; height: 29px; width: 35px; position: relative; float: left; top: 7px; left: 10px; }
+#wrapper #rankingList #raBox20 #raBox20BadgesZone01 { margin: 0px; padding: 0px; height: 29px; width: 45px; position: relative; float: left; top: 9px; left: 18px; }
+#wrapper #rankingList #raBox20 #raBox20BadgesZone02 { margin: 0px; padding: 0px; height: 29px; width: 45px; position: relative; float: left; top: 9px; left: 15px; }
+#wrapper #rankingList #raBox20 #raBox20Solved { margin: 0px; padding: 0px; height: 30px; width: 65px; position: relative; top: 14px; font-size: 16px; float: left; font-family: Arial, Helvetica, sans-serif; font-weight: bold; text-align: center; left: 18px; }
+#wrapper #rankingList #raBox21 { margin: 2px 0px 0px; padding: 0px; float: left; height: 45px; width: 480px; position: relative; left: 0px; top: 2px; clear: left; }
+#wrapper #rankingList #raBox21 #raBox21NumDetails { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: 3px; top: 9px; font-size: 20px; float: left; font-family: Arial, Helvetica, sans-serif; }
+#wrapper #rankingList #raBox21 #raBox21Gravatar { margin: 0px; padding: 0px; height: 45px; width: 46px; position: relative; top: 0px; left: 3px; float: left; }
+#wrapper #rankingList #raBox21 #raBox21Details { margin: 0px; padding: 0px; height: 30px; width: 180px; position: relative; left: 10px; top: 9px; font-weight: bold; text-align: left; font-family: Arial, Helvetica, sans-serif; float: left; font-size: 12px; }
+#wrapper #rankingList #raBox21 #raBox21CountryZone { margin: 0px; padding: 0px; height: 29px; width: 35px; position: relative; float: left; top: 7px; left: 10px; }
+#wrapper #rankingList #raBox21 #raBox21BadgesZone01 { margin: 0px; padding: 0px; height: 29px; width: 45px; position: relative; float: left; top: 9px; left: 18px; }
+#wrapper #rankingList #raBox21 #raBox21BadgesZone02 { margin: 0px; padding: 0px; height: 29px; width: 45px; position: relative; float: left; top: 9px; left: 15px; }
+#wrapper #rankingList #raBox21 #raBox21Solved { margin: 0px; padding: 0px; height: 30px; width: 65px; position: relative; top: 14px; font-size: 16px; float: left; font-family: Arial, Helvetica, sans-serif; font-weight: bold; text-align: center; left: 18px; }
+#wrapper #rankingList #raBox22 { margin: 2px 0px 0px; padding: 0px; float: left; height: 45px; width: 480px; position: relative; left: 0px; top: 2px; clear: left; }
+#wrapper #rankingList #raBox22 #raBox22NumDetails { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: 3px; top: 9px; font-size: 20px; float: left; font-family: Arial, Helvetica, sans-serif; }
+#wrapper #rankingList #raBox22 #raBox22Gravatar { margin: 0px; padding: 0px; height: 45px; width: 46px; position: relative; top: 0px; left: 3px; float: left; }
+#wrapper #rankingList #raBox22 #raBox22Details { margin: 0px; padding: 0px; height: 30px; width: 180px; position: relative; left: 10px; top: 9px; font-weight: bold; text-align: left; font-family: Arial, Helvetica, sans-serif; float: left; font-size: 12px; }
+#wrapper #rankingList #raBox22 #raBox22CountryZone { margin: 0px; padding: 0px; height: 29px; width: 35px; position: relative; float: left; top: 7px; left: 10px; }
+#wrapper #rankingList #raBox22 #raBox22BadgesZone01 { margin: 0px; padding: 0px; height: 29px; width: 45px; position: relative; float: left; top: 9px; left: 18px; }
+#wrapper #rankingList #raBox22 #raBox22BadgesZone02 { margin: 0px; padding: 0px; height: 29px; width: 45px; position: relative; float: left; top: 9px; left: 15px; }
+#wrapper #rankingList #raBox22 #raBox22Solved { margin: 0px; padding: 0px; height: 30px; width: 65px; position: relative; top: 14px; font-size: 16px; float: left; font-family: Arial, Helvetica, sans-serif; font-weight: bold; text-align: center; left: 18px; }
+#wrapper #rankingList #raBox23 { margin: 2px 0px 0px; padding: 0px; float: left; height: 45px; width: 480px; position: relative; left: 0px; top: 2px; clear: left; }
+#wrapper #rankingList #raBox23 #raBox23NumDetails { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: 3px; top: 9px; font-size: 20px; float: left; font-family: Arial, Helvetica, sans-serif; }
+#wrapper #rankingList #raBox23 #raBox23Gravatar { margin: 0px; padding: 0px; height: 45px; width: 46px; position: relative; top: 0px; left: 3px; float: left; }
+#wrapper #rankingList #raBox23 #raBox23Details { margin: 0px; padding: 0px; height: 30px; width: 180px; position: relative; left: 10px; top: 9px; font-weight: bold; text-align: left; font-family: Arial, Helvetica, sans-serif; float: left; font-size: 12px; }
+#wrapper #rankingList #raBox23 #raBox23CountryZone { margin: 0px; padding: 0px; height: 29px; width: 35px; position: relative; float: left; top: 7px; left: 10px; }
+#wrapper #rankingList #raBox23 #raBox23BadgesZone01 { margin: 0px; padding: 0px; height: 29px; width: 45px; position: relative; float: left; top: 9px; left: 18px; }
+#wrapper #rankingList #raBox23 #raBox23BadgesZone02 { margin: 0px; padding: 0px; height: 29px; width: 45px; position: relative; float: left; top: 9px; left: 15px; }
+#wrapper #rankingList #raBox23 #raBox23Solved { margin: 0px; padding: 0px; height: 30px; width: 65px; position: relative; top: 14px; font-size: 16px; float: left; font-family: Arial, Helvetica, sans-serif; font-weight: bold; text-align: center; left: 18px; }
+#wrapper #rankingList #raBox24 { margin: 2px 0px 0px; padding: 0px; float: left; height: 45px; width: 480px; position: relative; left: 0px; top: 2px;  clear: left; }
+#wrapper #rankingList #raBox24 #raBox24NumDetails { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: 3px; top: 9px; font-size: 20px; float: left; font-family: Arial, Helvetica, sans-serif; }
+#wrapper #rankingList #raBox24 #raBox24Gravatar { margin: 0px; padding: 0px; height: 45px; width: 46px; position: relative; top: 0px; left: 3px; float: left; }
+#wrapper #rankingList #raBox24 #raBox24Details { margin: 0px; padding: 0px; height: 30px; width: 180px; position: relative; left: 10px; top: 9px; font-weight: bold; text-align: left; font-family: Arial, Helvetica, sans-serif; float: left; font-size: 12px; }
+#wrapper #rankingList #raBox24 #raBox24CountryZone { margin: 0px; padding: 0px; height: 29px; width: 35px; position: relative; float: left; top: 7px; left: 10px; }
+#wrapper #rankingList #raBox24 #raBox24BadgesZone01 { margin: 0px; padding: 0px; height: 29px; width: 45px; position: relative; float: left; top: 9px; left: 18px; }
+#wrapper #rankingList #raBox24 #raBox24BadgesZone02 { margin: 0px; padding: 0px; height: 29px; width: 45px; position: relative; float: left; top: 9px; left: 15px; }
+#wrapper #rankingList #raBox24 #raBox24Solved { margin: 0px; padding: 0px; height: 30px; width: 65px; position: relative; top: 14px; font-size: 16px; float: left; font-family: Arial, Helvetica, sans-serif; font-weight: bold; text-align: center; left: 18px; }
+#wrapper #rankingList #raBox25 { margin: 2px 0px 0px; padding: 0px; float: left; height: 45px; width: 480px; position: relative; left: 0px; top: 2px;  clear: left; }
+#wrapper #rankingList #raBox25 #raBox25NumDetails { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: 3px; top: 9px; font-size: 20px; float: left; font-family: Arial, Helvetica, sans-serif; }
+#wrapper #rankingList #raBox25 #raBox25Gravatar { margin: 0px; padding: 0px; height: 45px; width: 46px; position: relative; top: 0px; left: 3px; float: left; }
+#wrapper #rankingList #raBox25 #raBox25Details { margin: 0px; padding: 0px; height: 30px; width: 180px; position: relative; left: 10px; top: 9px; font-weight: bold; text-align: left; font-family: Arial, Helvetica, sans-serif; float: left; font-size: 12px; }
+#wrapper #rankingList #raBox25 #raBox25CountryZone { margin: 0px; padding: 0px; height: 29px; width: 35px; position: relative; float: left; top: 7px; left: 10px; }
+#wrapper #rankingList #raBox25 #raBox25BadgesZone01 { margin: 0px; padding: 0px; height: 29px; width: 45px; position: relative; float: left; top: 9px; left: 18px; }
+#wrapper #rankingList #raBox25 #raBox25BadgesZone02 { margin: 0px; padding: 0px; height: 29px; width: 45px; position: relative; float: left; top: 9px; left: 15px; }
+#wrapper #rankingList #raBox25 #raBox25Solved { margin: 0px; padding: 0px; height: 30px; width: 65px; position: relative; top: 14px; font-size: 16px; float: left; font-family: Arial, Helvetica, sans-serif; font-weight: bold; text-align: center; left: 18px; }
+#wrapper #rankingList #raBoxUR { margin: 2px 0px 0px; padding: 0px; float: left; height: 45px; width: 480px; position: relative; left: 0px; top: 2px; clear: left; color: #FFF; background: url(../_images/rankingPage/highlightBar.png) no-repeat left top; }
+#wrapper #rankingList #raBoxUR #raBoxURNumDetails { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: 3px; top: 9px; font-size: 20px; float: left; font-family: Arial, Helvetica, sans-serif; }
+#wrapper #rankingList #raBoxUR #raBoxURGravatar { margin: 0px; padding: 0px; height: 45px; width: 46px; position: relative; top: 0px; left: 3px; float: left; }
+#wrapper #rankingList #raBoxUR #raBoxURDetails { margin: 0px; padding: 0px; height: 30px; width: 180px; position: relative; left: 10px; top: 9px; font-weight: bold; text-align: left; font-family: Arial, Helvetica, sans-serif; float: left; font-size: 12px; }
+#wrapper #rankingList #raBoxUR #raBoxURCountryZone { margin: 0px; padding: 0px; height: 29px; width: 35px; position: relative; float: left; top: 7px; left: 10px; }
+#wrapper #rankingList #raBoxUR #raBoxURBadgesZone01 { margin: 0px; padding: 0px; height: 29px; width: 45px; position: relative; float: left; top: 9px; left: 18px; }
+#wrapper #rankingList #raBoxUR #raBoxURBadgesZone02 { margin: 0px; padding: 0px; height: 29px; width: 45px; position: relative; float: left; top: 9px; left: 15px; }
+#wrapper #rankingList #raBoxUR #raBoxURSolved { margin: 0px; padding: 0px; height: 30px; width: 65px; position: relative; top: 14px; font-size: 16px; float: left; font-family: Arial, Helvetica, sans-serif; font-weight: bold; text-align: center; left: 18px; }
+
+#wrapper #rankCtryList #rankCtryList01{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px;
+}
+#wrapper #rankCtryList #rankCtryList01 #rankCtryList01NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList01 #rankCtryList01Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList01 #rankCtryList01Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList01 #rankCtryList01NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList02{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px; 
+}
+#wrapper #rankCtryList #rankCtryList02 #rankCtryList02NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList02 #rankCtryList02Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList02 #rankCtryList02Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList02 #rankCtryList02NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList03{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px;
+}
+#wrapper #rankCtryList #rankCtryList03 #rankCtryList03NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left; 
+}
+#wrapper #rankCtryList #rankCtryList03 #rankCtryList03Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList03 #rankCtryList03Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList03 #rankCtryList03NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList04{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px;
+}
+#wrapper #rankCtryList #rankCtryList04 #rankCtryList04NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList04 #rankCtryList04Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList04 #rankCtryList04Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList04 #rankCtryList04NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList05{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px; 
+}
+#wrapper #rankCtryList #rankCtryList05 #rankCtryList05NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList05 #rankCtryList05Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList05 #rankCtryList05Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList05 #rankCtryList05NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList06{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px; 
+}
+#wrapper #rankCtryList #rankCtryList06 #rankCtryList06NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList06 #rankCtryList06Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList06 #rankCtryList06Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList06 #rankCtryList06NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList07{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px;
+}
+#wrapper #rankCtryList #rankCtryList07 #rankCtryList07NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList07 #rankCtryList07Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList07 #rankCtryList07Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList07 #rankCtryList07NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList08{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px;
+}
+#wrapper #rankCtryList #rankCtryList08 #rankCtryList08NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left; 
+}
+#wrapper #rankCtryList #rankCtryList08 #rankCtryList08Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList08 #rankCtryList08Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList08 #rankCtryList08NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList09{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px;
+}
+#wrapper #rankCtryList #rankCtryList09 #rankCtryList09NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList09 #rankCtryList09Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList09 #rankCtryList09Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList09 #rankCtryList09NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList10{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px;
+}
+#wrapper #rankCtryList #rankCtryList10 #rankCtryList10NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList10 #rankCtryList10Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList10 #rankCtryList10Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList10 #rankCtryList10NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList11{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px;
+}
+#wrapper #rankCtryList #rankCtryList11 #rankCtryList11NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList11 #rankCtryList11Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList11 #rankCtryList11Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList11 #rankCtryList11NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList12{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px; 
+}
+#wrapper #rankCtryList #rankCtryList12 #rankCtryList12NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList12 #rankCtryList12Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList12 #rankCtryList12Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList12 #rankCtryList12NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList13{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px;
+}
+#wrapper #rankCtryList #rankCtryList13 #rankCtryList13NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left; 
+}
+#wrapper #rankCtryList #rankCtryList13 #rankCtryList13Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList13 #rankCtryList13Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList13 #rankCtryList13NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList14{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px; 
+}
+#wrapper #rankCtryList #rankCtryList14 #rankCtryList14NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList14 #rankCtryList14Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList14 #rankCtryList14Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList14 #rankCtryList14NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList15{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px;
+}
+#wrapper #rankCtryList #rankCtryList15 #rankCtryList15NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList15 #rankCtryList15Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList15 #rankCtryList15Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList15 #rankCtryList15NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList16{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px;
+}
+#wrapper #rankCtryList #rankCtryList16 #rankCtryList16NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList16 #rankCtryList16Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList16 #rankCtryList16Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList16 #rankCtryList16NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px;  
+}
+
+#wrapper #rankCtryList #rankCtryList17{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px;
+}
+#wrapper #rankCtryList #rankCtryList17 #rankCtryList17NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList17 #rankCtryList17Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList17 #rankCtryList17Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList17 #rankCtryList17NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px;  
+}
+
+#wrapper #rankCtryList #rankCtryList18{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px;
+}
+#wrapper #rankCtryList #rankCtryList18 #rankCtryList18NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left; 
+}
+#wrapper #rankCtryList #rankCtryList18 #rankCtryList18Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList18 #rankCtryList18Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList18 #rankCtryList18NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList19{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px; 
+}
+#wrapper #rankCtryList #rankCtryList19 #rankCtryList19NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList19 #rankCtryList19Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList19 #rankCtryList19Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList19 #rankCtryList19NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px;  
+}
+
+#wrapper #rankCtryList #rankCtryList20{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px;
+}
+#wrapper #rankCtryList #rankCtryList20 #rankCtryList20NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList20 #rankCtryList20Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList20 #rankCtryList20Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList20 #rankCtryList20NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px;  
+}
+
+
+#wrapper #rankCtryList #rankCtryList20{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px; 
+}
+#wrapper #rankCtryList #rankCtryList20 #rankCtryList20NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList20 #rankCtryList20Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList20 #rankCtryList20Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList20 #rankCtryList20NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px;  
+}
+
+#wrapper #rankCtryList #rankCtryList21{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px; 
+}
+#wrapper #rankCtryList #rankCtryList21 #rankCtryList21NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList21 #rankCtryList21Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList21 #rankCtryList21Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList21 #rankCtryList21NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px;  
+}
+
+#wrapper #rankCtryList #rankCtryList22{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px; 
+}
+#wrapper #rankCtryList #rankCtryList22 #rankCtryList22NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList22 #rankCtryList22Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList22 #rankCtryList22Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList22 #rankCtryList22NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px;  
+}
+
+#wrapper #rankCtryList #rankCtryList23{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px;
+}
+#wrapper #rankCtryList #rankCtryList23 #rankCtryList23NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left; 
+}
+#wrapper #rankCtryList #rankCtryList23 #rankCtryList23Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList23 #rankCtryList23Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList23 #rankCtryList23NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList24{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px;
+}
+#wrapper #rankCtryList #rankCtryList24 #rankCtryList24NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList24 #rankCtryList24Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList24 #rankCtryList24Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList24 #rankCtryList24NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px;  
+}
+
+#wrapper #rankCtryList #rankCtryList25{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px;
+}
+#wrapper #rankCtryList #rankCtryList25 #rankCtryList25NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList25 #rankCtryList25Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList25 #rankCtryList25Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList25 #rankCtryList25NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList26{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px; 
+}
+#wrapper #rankCtryList #rankCtryList26 #rankCtryList26NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList26 #rankCtryList26Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList26 #rankCtryList26Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList26 #rankCtryList26NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px;  
+}
+
+#wrapper #rankCtryList #rankCtryList27{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px; 
+}
+#wrapper #rankCtryList #rankCtryList27 #rankCtryList27NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList27 #rankCtryList27Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList27 #rankCtryList27Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList27 #rankCtryList27NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px;  
+}
+
+#wrapper #rankCtryList #rankCtryList28{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px; 
+}
+#wrapper #rankCtryList #rankCtryList28 #rankCtryList28NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left; 
+}
+#wrapper #rankCtryList #rankCtryList28 #rankCtryList28Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList28 #rankCtryList28Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList28 #rankCtryList28NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList29{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px; 
+}
+#wrapper #rankCtryList #rankCtryList29 #rankCtryList29NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList29 #rankCtryList29Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList29 #rankCtryList29Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList29 #rankCtryList29NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px;  
+}
+
+#wrapper #rankCtryList #rankCtryList30{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px; 
+}
+#wrapper #rankCtryList #rankCtryList30 #rankCtryList30NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList30 #rankCtryList30Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList30 #rankCtryList30Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList30 #rankCtryList30NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px;  
+}
+
+
+#wrapper #rankCtryList #rankCtryList31{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px; 
+}
+#wrapper #rankCtryList #rankCtryList31 #rankCtryList31NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList31 #rankCtryList31Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList31 #rankCtryList31Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList31 #rankCtryList31NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList32{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px; 
+}
+#wrapper #rankCtryList #rankCtryList32 #rankCtryList32NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList32 #rankCtryList32Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList32 #rankCtryList32Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList32 #rankCtryList32NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList33{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px;
+}
+#wrapper #rankCtryList #rankCtryList33 #rankCtryList33NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left; 
+}
+#wrapper #rankCtryList #rankCtryList33 #rankCtryList33Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList33 #rankCtryList33Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList33 #rankCtryList33NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList34{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px;
+}
+#wrapper #rankCtryList #rankCtryList34 #rankCtryList34NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList34 #rankCtryList34Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList34 #rankCtryList34Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList34 #rankCtryList34NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px;  
+}
+
+#wrapper #rankCtryList #rankCtryList35{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px;
+}
+#wrapper #rankCtryList #rankCtryList35 #rankCtryList35NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList35 #rankCtryList35Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList35 #rankCtryList35Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList35 #rankCtryList35NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px;  
+}
+
+#wrapper #rankCtryList #rankCtryList36{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px; 
+}
+#wrapper #rankCtryList #rankCtryList36 #rankCtryList36NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList36 #rankCtryList36Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList36 #rankCtryList36Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList36 #rankCtryList36NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px;  
+}
+
+#wrapper #rankCtryList #rankCtryList37{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px; 
+}
+#wrapper #rankCtryList #rankCtryList37 #rankCtryList37NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList37 #rankCtryList37Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList37 #rankCtryList37Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList37 #rankCtryList37NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList38{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px; 
+}
+#wrapper #rankCtryList #rankCtryList38 #rankCtryList38NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 22px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left; 
+}
+#wrapper #rankCtryList #rankCtryList38 #rankCtryList38Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList38 #rankCtryList38Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList38 #rankCtryList38NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px;  
+}
+
+#wrapper #rankCtryList #rankCtryList39{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px; 
+}
+#wrapper #rankCtryList #rankCtryList39 #rankCtryList39NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 22px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList39 #rankCtryList39Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList39 #rankCtryList39Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList39 #rankCtryList39NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList40{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px; 
+}
+#wrapper #rankCtryList #rankCtryList40 #rankCtryList40NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 22px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList40 #rankCtryList40Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList40 #rankCtryList40Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList40 #rankCtryList40NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+
+#wrapper #rankCtryList #rankCtryList41{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px;
+}
+#wrapper #rankCtryList #rankCtryList41 #rankCtryList41NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList41 #rankCtryList41Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList41 #rankCtryList41Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList41 #rankCtryList41NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px;  
+}
+
+#wrapper #rankCtryList #rankCtryList42{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px; 
+}
+#wrapper #rankCtryList #rankCtryList42 #rankCtryList42NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList42 #rankCtryList42Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList42 #rankCtryList42Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList42 #rankCtryList42NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px;  
+}
+
+#wrapper #rankCtryList #rankCtryList43{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px;
+}
+#wrapper #rankCtryList #rankCtryList43 #rankCtryList43NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left; 
+}
+#wrapper #rankCtryList #rankCtryList43 #rankCtryList43Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList43 #rankCtryList43Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList43 #rankCtryList43NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px;  
+}
+
+#wrapper #rankCtryList #rankCtryList44{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px; 
+}
+#wrapper #rankCtryList #rankCtryList44 #rankCtryList44NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList44 #rankCtryList44Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList44 #rankCtryList44Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList44 #rankCtryList44NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px;  
+}
+
+#wrapper #rankCtryList #rankCtryList45{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px;
+}
+#wrapper #rankCtryList #rankCtryList45 #rankCtryList45NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList45 #rankCtryList45Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList45 #rankCtryList45Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList45 #rankCtryList45NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px;  
+}
+
+#wrapper #rankCtryList #rankCtryList46{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px;
+}
+#wrapper #rankCtryList #rankCtryList46 #rankCtryList46NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList46 #rankCtryList46Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList46 #rankCtryList46Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList46 #rankCtryList46NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px;  
+}
+
+#wrapper #rankCtryList #rankCtryList47{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px;
+}
+#wrapper #rankCtryList #rankCtryList47 #rankCtryList47NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList47 #rankCtryList47Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList47 #rankCtryList47Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList47 #rankCtryList47NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px;  
+}
+
+#wrapper #rankCtryList #rankCtryList48{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px;
+}
+#wrapper #rankCtryList #rankCtryList48 #rankCtryList48NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left; 
+}
+#wrapper #rankCtryList #rankCtryList48 #rankCtryList48Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList48 #rankCtryList48Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList48 #rankCtryList48NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px;  
+}
+
+#wrapper #rankCtryList #rankCtryList49{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px; 
+}
+#wrapper #rankCtryList #rankCtryList49 #rankCtryList49NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList49 #rankCtryList49Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList49 #rankCtryList49Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList49 #rankCtryList49NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList50{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px;
+}
+#wrapper #rankCtryList #rankCtryList50 #rankCtryList50NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList50 #rankCtryList50Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList50 #rankCtryList50Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList50 #rankCtryList50NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px;  
+}
+
+
+#wrapper #rankCtryList #rankCtryList51{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px;
+}
+#wrapper #rankCtryList #rankCtryList51 #rankCtryList51NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList51 #rankCtryList51Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList51 #rankCtryList51Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList51 #rankCtryList51NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList52{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px; 
+}
+#wrapper #rankCtryList #rankCtryList52 #rankCtryList52NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList52 #rankCtryList52Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList52 #rankCtryList52Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList52 #rankCtryList52NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px;  
+}
+
+#wrapper #rankCtryList #rankCtryList53{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px;
+}
+#wrapper #rankCtryList #rankCtryList53 #rankCtryList53NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left; 
+}
+#wrapper #rankCtryList #rankCtryList53 #rankCtryList53Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList53 #rankCtryList53Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList53 #rankCtryList53NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList54{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px;
+}
+#wrapper #rankCtryList #rankCtryList54 #rankCtryList54NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList54 #rankCtryList54Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList54 #rankCtryList54Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList54 #rankCtryList54NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList55{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px; 
+}
+#wrapper #rankCtryList #rankCtryList55 #rankCtryList55NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList55 #rankCtryList55Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList55 #rankCtryList55Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList55 #rankCtryList55NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList56{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px; 
+}
+#wrapper #rankCtryList #rankCtryList56 #rankCtryList56NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList56 #rankCtryList56Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList56 #rankCtryList56Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList56 #rankCtryList56NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList57{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px;
+}
+#wrapper #rankCtryList #rankCtryList57 #rankCtryList57NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList57 #rankCtryList57Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList57 #rankCtryList57Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList57 #rankCtryList57NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList58{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px;
+}
+#wrapper #rankCtryList #rankCtryList58 #rankCtryList58NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left; 
+}
+#wrapper #rankCtryList #rankCtryList58 #rankCtryList58Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList58 #rankCtryList58Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList58 #rankCtryList58NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList59{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px;
+}
+#wrapper #rankCtryList #rankCtryList59 #rankCtryList59NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList59 #rankCtryList59Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList59 #rankCtryList59Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList59 #rankCtryList59NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList60{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px;
+}
+#wrapper #rankCtryList #rankCtryList60 #rankCtryList60NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList60 #rankCtryList60Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList60 #rankCtryList60Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList60 #rankCtryList60NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+
+#wrapper #rankCtryList #rankCtryList61{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px;
+}
+#wrapper #rankCtryList #rankCtryList61 #rankCtryList61NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList61 #rankCtryList61Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList61 #rankCtryList61Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList61 #rankCtryList61NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList62{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px; 
+}
+#wrapper #rankCtryList #rankCtryList62 #rankCtryList62NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList62 #rankCtryList62Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList62 #rankCtryList62Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList62 #rankCtryList62NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px;  
+}
+
+#wrapper #rankCtryList #rankCtryList63{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px;
+}
+#wrapper #rankCtryList #rankCtryList63 #rankCtryList63NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left; 
+}
+#wrapper #rankCtryList #rankCtryList63 #rankCtryList63Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList63 #rankCtryList63Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList63 #rankCtryList63NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList64{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px;
+}
+#wrapper #rankCtryList #rankCtryList64 #rankCtryList64NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList64 #rankCtryList64Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList64 #rankCtryList64Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList64 #rankCtryList64NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList65{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px; 
+}
+#wrapper #rankCtryList #rankCtryList65 #rankCtryList65NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList65 #rankCtryList65Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList65 #rankCtryList65Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList65 #rankCtryList65NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList66{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px; 
+}
+#wrapper #rankCtryList #rankCtryList66 #rankCtryList66NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList66 #rankCtryList66Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList66 #rankCtryList66Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList66 #rankCtryList66NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList67{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px;
+}
+#wrapper #rankCtryList #rankCtryList67 #rankCtryList67NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList67 #rankCtryList67Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList67 #rankCtryList67Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList67 #rankCtryList67NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList68{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px;
+}
+#wrapper #rankCtryList #rankCtryList68 #rankCtryList68NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left; 
+}
+#wrapper #rankCtryList #rankCtryList68 #rankCtryList68Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList68 #rankCtryList68Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList68 #rankCtryList68NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList69{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px;
+}
+#wrapper #rankCtryList #rankCtryList69 #rankCtryList69NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList69 #rankCtryList69Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList69 #rankCtryList69Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList69 #rankCtryList69NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList70{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px;
+}
+#wrapper #rankCtryList #rankCtryList70 #rankCtryList70NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList70 #rankCtryList70Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList70 #rankCtryList70Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList70 #rankCtryList70NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+
+#wrapper #rankCtryList #rankCtryList71{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px;
+}
+#wrapper #rankCtryList #rankCtryList71 #rankCtryList71NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList71 #rankCtryList71Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList71 #rankCtryList71Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList71 #rankCtryList71NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList72{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px; 
+}
+#wrapper #rankCtryList #rankCtryList72 #rankCtryList72NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList72 #rankCtryList72Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList72 #rankCtryList72Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList72 #rankCtryList72NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px;  
+}
+
+#wrapper #rankCtryList #rankCtryList73{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px;
+}
+#wrapper #rankCtryList #rankCtryList73 #rankCtryList73NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left; 
+}
+#wrapper #rankCtryList #rankCtryList73 #rankCtryList73Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList73 #rankCtryList73Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList73 #rankCtryList73NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList74{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px;
+}
+#wrapper #rankCtryList #rankCtryList74 #rankCtryList74NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList74 #rankCtryList74Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList74 #rankCtryList74Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList74 #rankCtryList74NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList75{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px; 
+}
+#wrapper #rankCtryList #rankCtryList75 #rankCtryList75NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList75 #rankCtryList75Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList75 #rankCtryList75Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList75 #rankCtryList75NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList76{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px; 
+}
+#wrapper #rankCtryList #rankCtryList76 #rankCtryList76NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList76 #rankCtryList76Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList76 #rankCtryList76Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList76 #rankCtryList76NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList77{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px;
+}
+#wrapper #rankCtryList #rankCtryList77 #rankCtryList77NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList77 #rankCtryList77Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList77 #rankCtryList77Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList77 #rankCtryList77NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList78{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px;
+}
+#wrapper #rankCtryList #rankCtryList78 #rankCtryList78NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left; 
+}
+#wrapper #rankCtryList #rankCtryList78 #rankCtryList78Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList78 #rankCtryList78Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList78 #rankCtryList78NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList79{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px;
+}
+#wrapper #rankCtryList #rankCtryList79 #rankCtryList79NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList79 #rankCtryList79Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList79 #rankCtryList79Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList79 #rankCtryList79NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList80{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px;
+}
+#wrapper #rankCtryList #rankCtryList80 #rankCtryList80NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList80 #rankCtryList80Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList80 #rankCtryList80Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList80 #rankCtryList80NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+
+#wrapper #rankCtryList #rankCtryList81{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px;
+}
+#wrapper #rankCtryList #rankCtryList81 #rankCtryList81NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList81 #rankCtryList81Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList81 #rankCtryList81Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList81 #rankCtryList81NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList82{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px; 
+}
+#wrapper #rankCtryList #rankCtryList82 #rankCtryList82NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList82 #rankCtryList02Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList82 #rankCtryList82Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList82 #rankCtryList82NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px;  
+}
+
+#wrapper #rankCtryList #rankCtryList83{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px;
+}
+#wrapper #rankCtryList #rankCtryList83 #rankCtryList83NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left; 
+}
+#wrapper #rankCtryList #rankCtryList83 #rankCtryList83Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList83 #rankCtryList83Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList83 #rankCtryList83NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList84{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px;
+}
+#wrapper #rankCtryList #rankCtryList84 #rankCtryList84NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList84 #rankCtryList84Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList84 #rankCtryList84Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList84 #rankCtryList84NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList85{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px; 
+}
+#wrapper #rankCtryList #rankCtryList85 #rankCtryList85NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList85 #rankCtryList85Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList85 #rankCtryList85Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList85 #rankCtryList85NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList86{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px; 
+}
+#wrapper #rankCtryList #rankCtryList86 #rankCtryList86NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList86 #rankCtryList86Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList86 #rankCtryList86Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList86 #rankCtryList86NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList87{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px;
+}
+#wrapper #rankCtryList #rankCtryList87 #rankCtryList87NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList87 #rankCtryList87Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList87 #rankCtryList87Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList87 #rankCtryList87NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList88{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px;
+}
+#wrapper #rankCtryList #rankCtryList88 #rankCtryList88NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left; 
+}
+#wrapper #rankCtryList #rankCtryList88 #rankCtryList88Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList88 #rankCtryList88Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList88 #rankCtryList88NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList89{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px;
+}
+#wrapper #rankCtryList #rankCtryList89 #rankCtryList89NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList89 #rankCtryList89Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList89 #rankCtryList89Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList89 #rankCtryList89NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}
+
+#wrapper #rankCtryList #rankCtryList90{ margin: 2px 0px 0px; padding: 0px; height: 35px; width: 340px; position: relative; left: 5px; top: 0px;
+}
+#wrapper #rankCtryList #rankCtryList90 #rankCtryList90NumDetails01 { margin: 0px; padding: 0px; height: 30px; width: 40px; position: relative; left: -1px; top: 4px; font-size: 24px; float: left; font-family: Arial, Helvetica, sans-serif; clear: left;}
+#wrapper #rankCtryList #rankCtryList90 #rankCtryList90Flag01 { margin: 0px; padding: 0px; height: 35px; width: 40px; position: relative; top: 0px; left: 0px; float: left;  
+}
+#wrapper #rankCtryList #rankCtryList90 #rankCtryList90Details01 { margin: 0px; padding: 0px; height: 20px; width: 180px; position: relative; left: 5px; top: 9px; font-weight: bold; text-align: left; font-size: 15px; font-family: Arial, Helvetica, sans-serif; float: left; 
+}
+#wrapper #rankCtryList #rankCtryList90 #rankCtryList90NumPeople01 { margin: 0px; padding: 0px; height: 20px; width: 75px; position: relative; top: 7px; font-size: 18px; float: left; font-family: Arial, Helvetica, sans-serif; text-align: center; left: 5px; 
+}

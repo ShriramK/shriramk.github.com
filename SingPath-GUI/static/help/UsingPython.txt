@@ -1,0 +1,353 @@
+Questions and sections needing more work are tagged with ###
+
+CHANGE LOG:
+4/16/09 DMQ 187+ added note on integer division.
+             12+ added reference to tutorial.         
+3/14/09 DMQ 253+ change terminology from "point" to "bind".
+
+======== Using Python ========             DRAFT                   DMQ 4/16/09
+
+This is a help page with basic topics you should read before any of the other
+help pages.  The other pages may assume you understand this page.  It is
+written in tutorial style, but it may be too brief as an introduction to
+Python.  See http://docs.python.org/3.0/tutorial/index.html for a more complete
+introduction.
+
+=== Getting Started ===
+
+Download and install the latest version of Python 3, available from
+http://python.org/download
+
+Get familiar with the resources available at python.org, including
+documentation and community resources.  Try the Python Tutorial at
+http://docs.python.org/3.0/tutorial.  
+
+Practice using IDLE, Python's Integrated Development Environment.  IDLE is very
+simple, but it has all the features you will need in learning Python. Look at
+the IDLE Help file (from IDLE's Help menu) for a brief explanation of the menu
+commands and shortcut keys.  These shortcuts are different on every system.
+The examples here are for Windows.
+
+Try the examples below.  Practice using the shortcut keys.  Some of the most
+helpful are the command history keys, ALT-P and ALT-N, and the editing keys,
+Home/End, CTRL-Left/Right/Backspace/Delete, CTRL-K and CTRL-Z.  These save a
+lot of time when you are trying to learn a language by trial-and-error.
+
+Use the menu command File > Exit (or CTRL-Q) to end your session.  To stop a
+runaway process, CTRL-C usually works.  If not, you may have to kill one or
+more "zombie" processes in memory.  Try this now, so you won't forget what to
+do later.  In Windows, use the Task Manager (CTRL-ALT-DELETE) and kill all
+processes named pythonw.exe.  In Unix, ###
+
+Try the Python Docs command (also on the IDLE Help menu).  This should open a
+new window in your web browser, showing the docs for the version of Python you
+are running.
+
+=== Discovering Python ===
+
+"Discoverabiity" was a major design goal in Python.  This is the ability to
+discover how things work without a lot of effort.  Python's dir() and help()
+functions are the keys to discovery.
+
+When you first start IDLE, you get something like this:
+
+Python 3.0.1 (r301:69561, Feb 13 2009, 20:04:18) [MSC v.1500 32 bit (Intel)]
+>>>
+
+The >>> is a prompt for you to type a statement or expression to be evaluated.
+Much of the work in Python is done by calling functions.  Here is an
+expression, a simple statement, and a function call with no arguments.
+
+   >>> 2 + 3
+   5
+   >>> n2 = 2 + 3
+   >>> dir()
+   ['__builtins__', '__doc__', '__name__', '__package__', 'n2']
+   >>>
+
+The expression is evaluated immediately.  The statement evaluates an
+expression, and stores the result in memory.  The dir() function returns a list
+of all the names in the directory of whatever object you provide as an
+argument. If you leave out the argument, the default object is the current
+module, the one which the interpreter is now running.  Since we have just
+started the interpreter, we have only the one variable name we have defined,
+plus four __special__ names added automatically at the start of every session.
+The double __underscores__ are a reminder not to accidentally use these names
+for variables in your program.  Think of the underscores as thorns!!
+
+Names in a directory point to objects in memory.  Let's see what each of these
+names points to.
+
+   >>> __builtins__
+   <module 'builtins' (built-in)>
+   >>> __doc__
+   >>> __name__
+   '__main__'
+   >>> __package__
+   >>> n2
+   5
+   >>>
+
+__doc__ and __package__ have not been assigned to any object.  __name__ has
+been assigned to a string object '__main__'.  n2 has been assigned to the
+integer 5.  __builtins__ looks interesting.  Let's see what is inside of it.
+
+>>> dir(__builtins__)
+['ArithmeticError', 'AssertionError', 'AttributeError', 'BaseException',
+'BufferError', 'BytesWarning', 'DeprecationWarning', 'EOFError', 'Ellipsis',
+'EnvironmentError', 'Exception', 'False', 'FloatingPointError',
+'FutureWarning', 'GeneratorExit', 'IOError', 'ImportError', 'ImportWarning',
+'IndentationError', 'IndexError', 'KeyError', 'KeyboardInterrupt',
+'LookupError', 'MemoryError', 'NameError', 'None', 'NotImplemented',
+'NotImplementedError', 'OSError', 'OverflowError',
+'PendingDeprecationWarning', 'ReferenceError', 'RuntimeError',
+'RuntimeWarning', 'StopIteration', 'SyntaxError', 'SyntaxWarning',
+'SystemError', 'SystemExit', 'TabError', 'True', 'TypeError',
+'UnboundLocalError', 'UnicodeDecodeError', 'UnicodeEncodeError',
+'UnicodeError', 'UnicodeTranslateError', 'UnicodeWarning', 'UserWarning',
+'ValueError', 'Warning', 'WindowsError', 'ZeroDivisionError', '_',
+'__build_class__', '__debug__', '__doc__', '__import__', '__name__',
+'__package__', 'abs', 'all', 'any', 'ascii', 'bin', 'bool', 'bytearray',
+'bytes', 'chr', 'classmethod', 'compile', 'complex', 'copyright', 'credits',
+'delattr', 'dict', 'dir', 'divmod', 'enumerate', 'eval', 'exec', 'exit',
+'filter', 'float', 'format', 'frozenset', 'getattr', 'globals', 'hasattr',
+'hash', 'help', 'hex', 'id', 'input', 'int', 'isinstance', 'issubclass',
+'iter', 'len', 'license', 'list', 'locals', 'map', 'max', 'memoryview', 'min',
+'next', 'object', 'oct', 'open', 'ord', 'pow', 'print', 'property', 'quit',
+'range', 'repr', 'reversed', 'round', 'set', 'setattr', 'slice', 'sorted',
+'staticmethod', 'str', 'sum', 'super', 'tuple', 'type', 'vars', 'zip']
+>>>
+
+Whoa!!!  Don't panic.  You only need a few of these to work the
+problems.  There will be plenty of time later for the rest.  Learning
+everything in Python can be a lifetime endeavor.  Just remember to use the
+dir() function to get an overview of any new object you are working with.
+
+Let's focus now on just a few of the most useful __builtins__ (dir, help, len,
+list, range).  The help() function provides a quick summary on the use of
+any object.
+
+   >>> help(len)
+   Help on function len() in module __builtins__:
+
+   len(...)
+       len(object) -> integer
+
+       Return the number of items of a sequence or mapping.
+
+How many items would you guess are in the __builtins__ directory?
+
+   >>> len(dir(__builtins__))
+   131
+
+dir() returns a list, and len() evaluates the length of that list.  len() can
+be used also on strings and many other objects.
+
+   >>> len('abcde')  # a string of 5 characters
+   5
+
+A list is one of the most versatile objects in Python.  It is shown as a
+sequence of items, separated by commas, and enclosed in square brackets.  The
+items in the list above were all strings, but lists can contain any sequence
+of objects.  Here we see a list with an assortment of ints, floats, strings, a
+function and a range object.
+
+   >>> list2 = [1, 2.5, 'abc', 4, 5, len, range(10)]
+   >>> list2
+   [1, 2.5, 'abc', 4, 5, <built-in function len>, range(0, 10)]
+
+ints, floats, and strings have a simple representation.  Other objects have to
+be shown as a description inside <angle brackets>.  The range object can be
+shown as a function call that will produce the object.
+
+range objects are useful whenever you need a range of integers.  A simple list
+would work, but it might take up a lot of memory if the range is large.  A
+range object takes the place of a list, returning one number at a time, as
+needed by your program.  If you really want a complete list, all in one place,
+use the list function on a range object.
+
+   >>> list(range(-10, 10, 2))
+   [-10, -8, -6, -4, -2, 0, 2, 4, 6, 8]
+
+=== Elegant Python ===
+
+Ranges can be used to generate more complex lists.
+
+>>> [n**2 for n in range(10)]
+[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+
+Lists can be used to define functions.
+
+>>> def factors(N): return [n for n in range(2, N//2 + 1) if N % n == 0]
+>>> factors(999)
+[3, 9, 27, 37, 111, 333]
+
+Note the use of integer division in the second argument to the range object.
+N/2 would be 499.5, and range() accepts only integers as arguments.  See
+http://docs.python.org/3.0/tutorial/introduction.html#numbers for more on
+integer division.
+
+We'll have a lot more to say about lists, loops, and logic later, but for now,
+see if you can understand how this function works.  Practice using the dir()
+and help() functions on list objects and their methods.
+
+def primes(N):
+    '''Return a list of the 10 largest prime numbers less than N.
+
+    >>> primes(1000)
+    [937, 941, 947, 953, 967, 971, 977, 983, 991, 997]
+    '''
+    workset = [2, 3, 5, 7]   # start with all primes less than 11
+    
+    for n in range(11, N, 2):  # check every odd number starting with 11
+
+            for p in workset:
+                if n % p == 0:    # remainder of n//p is zero, therefore
+                    break         # n is not a prime
+            else:
+                workset.append(n)    # append n to the workset
+                
+    return workset[-10:]             # return just the last 10 numbers
+
+
+=== Libraries ===
+
+Beyond the builtins, Python has huge collections of modules providing just
+about every function you can imagine.  The most commonly-used modules are in
+the standard library that comes with Python.  Others can be found in the
+Python Package Index at http://pypi.python.org/pypi.  Let's look at one module
+from the standard library.
+
+>>> import math  # load the math module from the standard library
+
+>>> dir(math)
+['__doc__', '__name__', '__package__', 'acos', 'acosh', 'asin', 'asinh',
+'atan', 'atan2', 'atanh', 'ceil', 'copysign', 'cos', 'cosh', 'degrees',
+'e', 'exp', 'fabs', 'factorial', 'floor', 'fmod', 'frexp', 'fsum', 'hypot',
+'isinf', 'isnan', 'ldexp', 'log', 'log10', 'log1p', 'modf', 'pi', 'pow',
+'radians', 'sin', 'sinh', 'sqrt', 'tan', 'tanh', 'trunc']
+
+>>> help(math.atan2)
+Help on built-in function atan2 in module math:
+
+atan2(...)
+    atan2(y, x)
+
+    Return the arc tangent (measured in radians) of y/x.
+    Unlike atan(y/x), the signs of both x and y are considered.
+
+=== Variables and Objects in Python ===
+
+### Is this section appropriate for level-0, or should we move it to one of the
+level-1 modules? -- Dave ###
+
+Python is different than other languages you may have studied.  Variables are
+like labels applied to objects, not containers that hold raw data.  Size, type,
+and all other attributes of the object are kept with the object itself, not the
+label.  This adds a little work for the computer, but makes things simpler for
+the programmer.  You never have to tell the computer the type of an object.  It
+figures that out by looking at the object itself.
+
+Labels are more properly called identifiers in Python, and labeling is called
+"binding".  You can bind one or more identifiers to any object, and later
+rebind an identifier to another object.
+
+   >>> s1 = 'hello'           # bind identifier s1 to a string object
+   >>> s2 = s1                # bind s2 to the same object (not to s1)
+   >>> s3 = 'hel' + s1[3:]    # bind s3 to a new object
+   >>> s1 = s3                # rebind s1 to the new object (s2 stays)
+
+   >>> s1 == s2 == s3 == 'hello'  # all objects have the same type and value
+   True
+   
+   >>> s2 is s3               # but there are two distinct objects in memory
+   False
+   >>> s1 is s3
+   True
+
+For more on variables and objects in Python, see
+http://ece.arizona.edu/~edatools/ece175/Lecture/python-variables.htm   
+http://effbot.org/zone/python-objects.htm
+
+In Python, there is no distinction between primitive values and objects.
+Everything is an object.  Even a simple integer can talk.
+
+>>> Tu = 2
+>>> dir(Tu)
+['__abs__', '__add__', '__and__', '__bool__', '__ceil__', '__class__',
+'__delattr__', '__divmod__', '__doc__', '__eq__', '__float__', '__floor__',
+'__floordiv__', '__format__', '__ge__', '__getattribute__',
+'__getnewargs__', '__gt__', '__hash__', '__index__', '__init__', '__int__',
+'__invert__', '__le__', '__lshift__', '__lt__', '__mod__', '__mul__',
+'__ne__', '__neg__', '__new__', '__or__', '__pos__', '__pow__', '__radd__',
+'__rand__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__',
+'__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__',
+'__round__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__',
+'__rtruediv__', '__rxor__', '__setattr__', '__sizeof__', '__str__',
+'__sub__', '__subclasshook__', '__truediv__', '__trunc__', '__xor__',
+'conjugate', 'denominator', 'imag', 'numerator', 'real']
+
+>>> type(Tu)        # What kind of object are you, Mr. Tu?
+<class 'int'>
+>>> help(Tu)
+... 188 lines of info on int objects.  See for yourself.
+
+>>> Tu.denominator  # If you were a fraction, what be your denominator?
+1
+>>> Tu.imag         # How about your imaginary part?
+0
+>>> float(Tu)       # builtin function converts an int to a float
+2.0
+>>> complex(Tu)     # builtin function complex
+(2+0j)
+
+>>> help(complex)
+Help on class complex in module builtins:
+
+class complex(object)
+ |  complex(real[, imag]) -> complex number
+ |  
+ |  Create a complex number from a real part and an optional imaginary part.
+ |  This is equivalent to (real + imag*1j) where imag defaults to 0.
+ ...
+
+On rare occasions, you may want to use primitives.  A huge array of numbers,
+for example, will use less memory if we take advantage of the fact that all
+elements of the array are the same size and type.
+
+   >>> from array import array       # class array from module array
+   >>> ary2 = array('f', range(10))  # create an array of floats
+   >>> ary2.append(99.5)             # array objects work like lists
+   >>> ary2.append('xyz')            # .. with the expected restrictions
+    ...
+   TypeError: a float is required
+   >>> ary2
+   array('f', [0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 99.5])
+   >>> 
+
+Don't try that last printout with any realistic size array, or you will have
+one of those situations where you need to kill the zombies!!
+
+=== Advanced Programming ===
+
+### This section is intended as interesting anecdotal information, but I don't
+want it to distract from our current mission of teaching high-school students.
+Perhaps it reflects too much my own bias toward teaching technical
+professionals. -- Dave ###
+
+Python is not a toy language.  With one big exception, it can do anything the
+major "industrial" languages can do.  That exception is speed.  As an
+interpreted language, Python cannot match the speed of a compiled, machine-
+oriented language like C.  You will probably never notice a speed problem with
+Python, but if you do, you can write functions in C, and call them from Python.
+Many of Python's builtin functions are written this way.
+
+The NumPy and SciPy packages, which have vast capabilities for scientific
+number crunching, make good use of Python's C interface. Python and C together
+provide the ultimate combo of an easy-to-use interpreted language, fully
+integrated with a simple and fast machine-level language.
+
+To learn all you will ever need to know about programming,
+
+   >>> import this
+   ... try it :>)

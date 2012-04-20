@@ -1,0 +1,11 @@
+a{text-decoration:none;}
+a:link{color:#ccc}
+a:visited{color:#999}
+a:hover{color:#f7d3a4}
+a:active{color:#333}
+.commonBtn .left{background-image:url("../_images/commonButtons/parts/left.png");background-repeat:no-repeat;float:left;width:8px;height:23px}
+.commonBtn .middle{background-image:url("../_images/commonButtons/parts/middle.png");background-repeat:repeat-x;font-family:Arial;color:#4f7984;line-height:21px;float:left;height:23px;padding:0 5px}
+.commonBtn .right{background-image:url("../_images/commonButtons/parts/right.png");background-repeat:no-repeat;float:left;width:8px;height:23px}
+.commonBtn:hover .left{background-image:url("../_images/commonButtons/parts/left-hover.png")}
+.commonBtn:hover .middle{background-image:url("../_images/commonButtons/parts/middle-hover.png");color:#fff}
+.commonBtn:hover .right{background-image:url("../_images/commonButtons/parts/right-hover.png")}

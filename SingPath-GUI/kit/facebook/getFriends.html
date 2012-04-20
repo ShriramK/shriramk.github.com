@@ -1,0 +1,254 @@
+<html>
+<body>
+<!--container to hold all items. IF auth = responded, items will appear. -->
+<div id = "container"> 
+
+<div>
+  <!--Invite code-->  
+<a href="#" style="border:none" onClick="FB.ui({method: 'apprequests',message: 'test testtesttest'}); return false;"><img src="http://dl.dropbox.com/u/34692926/Testing/resources%28760x480%29/resource%20760px/main%20menu/Image/inviteButton.png" width="206" height="44" style="position:absolute; top:34px; left:210px; border:none;"></a>
+
+</div>
+
+
+
+<!--Imports SWF from: http://dl.dropbox.com/u/34692926/Testing/Framework760x480.swf-->
+<div id="swf">
+<script src="Scripts/swfobject_modified.js" type="text/javascript"></script>
+
+ <object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="760" height="550">
+    <param name="movie" value="http://dl.dropbox.com/u/34692926/Testing/game.swf">
+    <param name="quality" value="high">
+    <param name="wmode" value="opaque">
+    <param name="swfversion" value="6.0.65.0">
+  
+    <!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. -->
+    <!--[if !IE]>-->
+    <object type="application/x-shockwave-flash" data="http://dl.dropbox.com/u/34692926/Testing/game.swf" width="760" height="550">
+      <!--<![endif]-->
+      <param name="quality" value="high">
+      <param name="wmode" value="opaque">
+      <param name="swfversion" value="6.0.65.0">
+      <param name="expressinstall" value="Scripts/expressInstall.swf">
+      <!-- The browser displays the following alternative content for users with Flash Player 6.0 and older. -->
+      <div>
+        <h4>Content on this page requires a newer version of Adobe Flash Player.</h4>
+        <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" width="112" height="33" /></a></p>
+      </div>
+      <!--[if !IE]>-->
+    </object>
+    <!--<![endif]-->
+  </object>
+  
+
+
+</div>
+<!--every FB related code will run in fb-root. e.g: api/ui unless otherwise specified(e.g. to run in profile_pics) -->
+<!--div id="fb-root" must be present. do not delete -->
+<div id="fb-root"></div> 
+<!--this div must be above the scripts for FB and its functions.-->
+<table width="750px" height="185px" background="http://dl.dropbox.com/u/34692926/Testing/resources%28760x480%29/resource%20760px/main%20menu/Image/friendsareasmaller.jpg">
+<tr>
+<td align="right">
+<a href="#" style="border:none" onClick="prev();return false"><img src="http://dl.dropbox.com/u/34692926/Testing/resources%28760x480%29/resource%20760px/main%20menu/Image/prevFriend.jpg" width="36" height="154" style="border:none;"></a>
+</td>
+<td width="89%">
+<div id="profile_pics" align="left"></div> 
+</td>
+<td>
+<a href="#" style="border:none" onClick="next();return false"><img src="http://dl.dropbox.com/u/34692926/Testing/resources%28760x480%29/resource%20760px/main%20menu/Image/nextFriend.jpg" width="36" height="154" style="border:none;"></a>
+</td>
+</tr>
+</table>
+</div>
+
+
+
+<script src="http://connect.facebook.net/en_US/all.js"></script> 
+<script> 
+var profilePicsDiv = document.getElementById('profile_pics');
+var NameDiv = document.getElementById('name');
+var containDiv = document.getElementById('container');
+FB.init({ appId: '284015401625134', status: true, cookie: true, xfbml: true });
+
+FB.Event.subscribe('auth.sessionChange', function (response) {
+    if (response.session) {
+        // A user has logged in, and a new cookie has been saved
+        window.location.reload();
+    } else {
+        window.location.reload();
+        // alert('logged out of Facebook.com, push ok to continue.')
+        // The user has logged out, and the cookie has been cleared
+    }
+});
+FB.getLoginStatus(function(response) {
+  if (!response.session) {
+    profilePicsDiv.innerHTML = '<em></em>';
+	containDiv.innerHTML = '<em>Please click on the login button to continue </em> ';
+	
+    return;
+    
+  }
+  FB.api({ method: 'friends.getAppUsers' }, 
+  function(result) 
+  {
+    //Log.info('friends.get response', result);
+	
+	
+    var markup = '';
+	var markupN = '';
+    var numFriends = result ? Math.min(5, result.length) : 0;
+	
+    if (numFriends > 0) 
+	{
+      for (var i=0; i<numFriends; i++) 
+	  {
+        markup +=
+		(
+		
+		  '&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<fb:profile-pic size="square" ' +
+                          'uid="' + result[i] + '" ' + 'facebook-logo="false"' + 'linked="false"' +
+          '></fb:profile-pic> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp'
+        );
+		
+			
+      }
+	
+	 
+	  
+    }
+	
+	
+    profilePicsDiv.innerHTML = markup;
+	//NameDiv.innerHTML = markupN;
+    FB.XFBML.parse(profilePicsDiv);
+	//FB.XFBML.parse(NameDiv);
+  });
+  
+});
+
+function next(){
+	 FB.api({ method: 'friends.getAppUsers' }, 
+  function(result) 
+  {
+    //Log.info('friends.get response', result);
+	
+	
+    var markup = '';
+	var markupN = '';
+    var numFriends = result ? Math.min(result.length):0;
+	
+    if (numFriends > 5) 
+	{
+      for (var j=5; j<numFriends; j++) 
+	  {
+		  
+        markup +=
+		(
+		  '&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<fb:profile-pic size="square" ' +
+                          'uid="' + result[j] + '" ' + 'facebook-logo="false"' + 'linked="false"' +
+          '></fb:profile-pic> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp'
+		   
+        );
+		
+		
+      }
+	 	  
+    }
+	
+	 else{
+		 if (numFriends > 0) 
+	{
+      for (var j=0; j<numFriends; j++) 
+	  {
+		  
+        markup +=
+		(
+		   '&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<fb:profile-pic size="square" ' +
+                          'uid="' + result[j] + '" ' + 'facebook-logo="false"' + 'linked="false"' +
+          '></fb:profile-pic> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp'
+		   
+        );
+		
+		
+      }
+	 	  
+    }
+		  
+	  };
+	
+	
+    profilePicsDiv.innerHTML = markup;
+	//NameDiv.innerHTML = markupN;
+    FB.XFBML.parse(profilePicsDiv);
+	//FB.XFBML.parse(NameDiv);
+  });
+  
+}
+function prev(){
+	 FB.api({ method: 'friends.getAppUsers' }, 
+  function(result) 
+  {
+    //Log.info('friends.get response', result);
+	
+	
+    var markup = '';
+	var markupN = '';
+    var numFriends = result ? Math.min(5, result.length):0;
+	
+    if (numFriends > 0) 
+	{
+      for (var j=0; j<numFriends; j++) 
+	  {
+		  
+        markup +=
+		(
+		  '&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<fb:profile-pic size="square" ' +
+                          'uid="' + result[j] + '" ' + 'facebook-logo="false"' + 'linked="false"' +
+          '></fb:profile-pic> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp'
+		   
+        );
+		
+		
+      }
+	 	  
+    }
+	
+	 
+	
+	
+    profilePicsDiv.innerHTML = markup;
+	//NameDiv.innerHTML = markupN;
+    FB.XFBML.parse(profilePicsDiv);
+	//FB.XFBML.parse(NameDiv);
+  });
+  
+}
+
+//checks if user is logged-in/authorised. If connected, login button will dissapear.
+function updateUserBox() {
+    var user_box = document.getElementById("login");
+    //user_box.innerHTML = "<fb:name uid=loggedinuser useyou='false'></fb:name><fb:profile-pic uid=loggedinuser facebook-logo='true' linked='false'></fb:profile-pic>";
+	 user_box.innerHTML = "<fb:profile-pic uid=loggedinuser facebook-logo='true' linked='false'></fb:profile-pic>";
+    FB.XFBML.Host.parseDomTree();
+        } 
+
+FB_RequireFeatures(["Connect"], function() {
+            FB.init("appkey", "/Content/xd_receiver.htm", { "ifUserConnected": updateUserBox });
+            FB.Connect.showPermissionDialog("user_about_me,friends_about_me,user_photos,friends_photos");
+            FB.Connect.requireSession();
+        });
+</script> 
+
+<div id="logindisplay">
+    <span id="login">
+      <fb:login-button background="dark" onlogin="facebook_onlogin_ready();">
+      </fb:login-button>
+    </span>
+</div>
+<script type="text/javascript">
+swfobject.registerObject("FlashID");
+</script>
+</body>
+</html>
+
+	 

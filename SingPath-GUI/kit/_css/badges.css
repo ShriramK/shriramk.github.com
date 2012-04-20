@@ -1,0 +1,411 @@
+body {
+  background-color: #666;
+  text-align: center;
+  padding: 0px;
+  left: auto;
+  right: auto;
+  height: auto;
+  width: auto;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  color: #4F7984;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 14px;
+  white-space: nowrap;
+}
+table {
+  border-spacing: 0px;
+  table-layout: fixed;
+}
+td {
+  padding: 0px;
+  overflow: hidden;
+}
+table.__body {
+  background-image: url("../_images/greyBackground.jpg");
+  background-repeat: repeat-y;
+  width: 100%;
+  border: 0px solid blue;
+  display: table;
+}
+div.divTitle {
+}
+div.divContent {
+  font-size: 13px;
+  white-space: normal;
+  overflow: auto;
+}
+td.element1 {
+  padding-left: 10px;
+  padding-top: 8px;
+}
+td.element2 {
+  padding-left: 10px;
+  padding-right: 6px;
+  padding-top: 8px;
+}
+/* pageHeader box */
+
+table.pageHeader {
+  background-image: url(../_images/02headerShadow01.jpg);
+  background-repeat: no-repeat;
+  background-position: -1px -1px;
+  width: 905px;
+  height: 69px;
+}
+table.pageHeader > tbody > tr.header {
+  height: 0px;
+}
+table.pageHeader > tbody > tr > td.header {
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: left;
+  padding-left: 10px;
+  vertical-align: top;
+}
+table.pageHeader > tbody > tr.content {
+  vertical-align: top;
+  height: 69px;
+}
+table.pageHeader > tbody > tr > td.content {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 7px;
+}
+table.pageHeader div.content {
+  background-color: red;
+  width: 905px;
+  height: 62px;
+}
+table.pageHeader > tbody > tr.footer {
+  height: 0px;
+}
+table.twocolumn tr {
+  vertical-align: top;
+}
+/* badgeInformationBox box */
+
+table.badgeInformationBox {
+  background-image: url(../_images/badgesPage/15badgesPage_02.png);
+  background-repeat: no-repeat;
+  background-position: -11px -6px;
+  width: 563px;
+  height: 113px;
+}
+table.badgeInformationBox > tbody > tr.header {
+  height: 22px;
+}
+table.badgeInformationBox > tbody > tr > td.header {
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: left;
+  padding-left: 10px;
+  vertical-align: top;
+}
+table.badgeInformationBox > tbody > tr.content {
+  vertical-align: top;
+  height: 91px;
+}
+table.badgeInformationBox > tbody > tr > td.content {
+  padding-left: 5px;
+  padding-right: 9px;
+  padding-top: 1px;
+  padding-bottom: 19px;
+}
+table.badgeInformationBox div.content {
+  width: 549px;
+  height: 71px;
+  white-space: normal;
+  text-align: left;
+}
+table.badgeInformationBox > tbody > tr.footer {
+  height: 0px;
+}
+/* yourBadgesBox box */
+
+table.yourBadgesBox {
+  background-image: url(../_images/badgesPage/15badgesPage_04.png);
+  background-repeat: no-repeat;
+  background-position: -10px -4px;
+  width: 565px;
+  height: 339px;
+}
+table.yourBadgesBox > tbody > tr.header {
+  height: 22px;
+}
+table.yourBadgesBox > tbody > tr > td.header {
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: left;
+  padding-left: 10px;
+  vertical-align: top;
+}
+table.yourBadgesBox > tbody > tr.content {
+  vertical-align: top;
+  height: 317px;
+}
+table.yourBadgesBox > tbody > tr > td.content {
+  padding-left: 5px;
+  padding-right: 9px;
+  padding-top: 4px;
+  padding-bottom: 19px;
+}
+table.yourBadgesBox div.content {
+  width: 551px;
+  height: 294px;
+  text-align: left;
+}
+table.yourBadgesBox div.content > table {
+  width: 551px;
+  height: 294px;
+  white-space: normal;
+}
+table.yourBadgesBox div.content > table tr.top {
+  width: 551px;
+  height: 182px;
+}
+table.yourBadgesBox div.content > table tr.top div {
+  width: 551px;
+  height: 182px;
+  overflow: auto;
+}
+table.yourBadgesBox div.content > table tr.bottom {
+  width: 551px;
+  height: 112px;
+}
+table.yourBadgesBox div.content > table tr.bottom table {
+  width: 551px;
+  height: 112px;
+  color: white;
+}
+table.yourBadgesBox div.content > table tr.bottom table td.bottom1 {
+  width: 95px;
+  text-align: center;
+  padding-top: 22px;
+}
+table.yourBadgesBox div.content > table tr.bottom table td.bottom2 {
+  width: 456px;
+  padding-top: 5px;
+}
+table.yourBadgesBox div.content > table tr.bottom table td.bottom2 div {
+  width: 456px;
+  height: 107px;
+  overflow: auto;
+}
+table.yourBadgesBox > tbody > tr.footer {
+  height: 0px;
+}
+/* yourCountryBadgesBox box */
+
+table.yourCountryBadgesBox {
+  background-image: url(../_images/badgesPage/15badgesPage_06.png);
+  background-repeat: no-repeat;
+  background-position: -10px -8px;
+  width: 566px;
+  height: 255px;
+}
+table.yourCountryBadgesBox > tbody > tr.header {
+  height: 22px;
+}
+table.yourCountryBadgesBox > tbody > tr > td.header {
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: left;
+  padding-left: 10px;
+  vertical-align: top;
+}
+table.yourCountryBadgesBox > tbody > tr.content {
+  vertical-align: top;
+  height: 233px;
+}
+table.yourCountryBadgesBox > tbody > tr > td.content {
+  padding-left: 5px;
+  padding-right: 9px;
+  padding-top: 4px;
+  padding-bottom: 19px;
+}
+table.yourCountryBadgesBox div.content {
+  width: 552px;
+  height: 210px;
+  text-align: left;
+}
+table.yourCountryBadgesBox div.content > table {
+  width: 552px;
+  height: 210px;
+  white-space: normal;
+}
+table.yourCountryBadgesBox div.content > table tr.top {
+  width: 552px;
+  height: 136px;
+}
+table.yourCountryBadgesBox div.content > table tr.top div {
+  width: 552px;
+  height: 136px;
+  overflow: auto;
+}
+table.yourCountryBadgesBox div.content > table tr.bottom {
+  width: 552px;
+  height: 74px;
+}
+table.yourCountryBadgesBox div.content > table tr.bottom table {
+  width: 552px;
+  height: 74px;
+  color: white;
+}
+table.yourCountryBadgesBox div.content > table tr.bottom table td.bottom1 {
+  width: 71px;
+  text-align: center;
+  padding-top: 14px;
+}
+table.yourCountryBadgesBox div.content > table tr.bottom table td.bottom2 {
+  width: 480px;
+  padding-top: 5px;
+}
+table.yourCountryBadgesBox div.content > table tr.bottom table td.bottom2 div {
+  width: 480px;
+  height: 70px;
+  overflow: auto;
+}
+table.yourCountryBadgesBox > tbody > tr.footer {
+  height: 0px;
+}
+/* countryBadgesInformationBox box */
+
+table.countryBadgesInformationBox {
+  background-image: url(../_images/badgesPage/15badgesPage_08.png);
+  background-repeat: no-repeat;
+  background-position: -10px -9px;
+  width: 566px;
+  height: 166px;
+}
+table.countryBadgesInformationBox > tbody > tr.header {
+  height: 22px;
+}
+table.countryBadgesInformationBox > tbody > tr > td.header {
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: left;
+  padding-left: 10px;
+  vertical-align: top;
+}
+table.countryBadgesInformationBox > tbody > tr.content {
+  vertical-align: top;
+  height: 144px;
+}
+table.countryBadgesInformationBox > tbody > tr > td.content {
+  padding-left: 5px;
+  padding-right: 9px;
+  padding-top: 2px;
+  padding-bottom: 19px;
+}
+table.countryBadgesInformationBox div.content {
+  width: 552px;
+  height: 123px;
+  white-space: normal;
+  text-align: left;
+}
+table.countryBadgesInformationBox > tbody > tr.footer {
+  height: 0px;
+}
+/* yourPathBadgesBox box */
+
+table.yourPathBadgesBox {
+  background-image: url(../_images/badgesPage/15badgesPage_03.png);
+  background-repeat: no-repeat;
+  background-position: -9px -6px;
+  width: 308px;
+  height: 365px;
+}
+table.yourPathBadgesBox > tbody > tr.header {
+  height: 22px;
+}
+table.yourPathBadgesBox > tbody > tr > td.header {
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: left;
+  padding-left: 10px;
+  vertical-align: top;
+}
+table.yourPathBadgesBox > tbody > tr.content {
+  vertical-align: top;
+  height: 343px;
+}
+table.yourPathBadgesBox > tbody > tr > td.content {
+  padding-left: 5px;
+  padding-right: 9px;
+  padding-top: 4px;
+  padding-bottom: 19px;
+}
+table.yourPathBadgesBox div.content {
+  width: 294px;
+  height: 320px;
+  white-space: normal;
+  overflow: auto;
+  text-align: left;
+}
+table.yourPathBadgesBox > tbody > tr.footer {
+  height: 0px;
+}
+/* pathBadgesInformationBox box */
+
+table.pathBadgesInformationBox {
+  background-image: url(../_images/badgesPage/15badgesPage_05.png);
+  background-repeat: no-repeat;
+  background-position: -9px -6px;
+  width: 308px;
+  height: 334px;
+}
+table.pathBadgesInformationBox > tbody > tr.header {
+  height: 22px;
+}
+table.pathBadgesInformationBox > tbody > tr > td.header {
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: left;
+  padding-left: 10px;
+  vertical-align: top;
+}
+table.pathBadgesInformationBox > tbody > tr.content {
+  vertical-align: top;
+  height: 312px;
+}
+table.pathBadgesInformationBox > tbody > tr > td.content {
+  padding-left: 5px;
+  padding-right: 9px;
+  padding-top: 4px;
+  padding-bottom: 19px;
+}
+table.pathBadgesInformationBox div.content {
+  width: 294px;
+  height: 289px;
+  white-space: normal;
+  overflow: auto;
+  text-align: left;
+}
+table.pathBadgesInformationBox > tbody > tr.footer {
+  height: 0px;
+}
+
+/* selected badge */
+
+table.yourPathBadgesBox img.notEarnedBadge, table.yourPathBadgesBox img.earnedBadge {
+  width: 45px;
+  height: 29px;
+  border: 1px solid transparent;
+}
+img.selectedBadge {
+  background-color: #f7d3a3;
+  border-radius: 5px; /* chrome */
+  -moz-border-radius: 5px; /* firefox */
+}
+

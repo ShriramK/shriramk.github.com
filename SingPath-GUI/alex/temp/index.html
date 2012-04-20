@@ -1,0 +1,26 @@
+<!doctype html>
+<html xmlns:ng="http://angularjs.org/">
+<head>
+  <meta charset="utf-8">
+  <title>my angular app</title>
+  <link rel="stylesheet" href="css/app.css"/>
+  <script type="text/javascript">
+  function SimpleController2($route, $resource, $xhr) {
+    $route.parent(this)
+    this.Player = $resource('/jsonapi/player')
+    this.player = this.Player.get()
+}    
+SimpleController2.$inject = ['$route', '$resource', '$xhr']
+  </script>
+
+</head>
+<body ng:controller="AppCtrl">
+
+  <ng:view></ng:view>
+  <script src="../lib/angular/angular.min.js" ng:autobind></script>
+  <script src="js/services.js"></script>
+  <script src="js/controllers.js"></script>
+  <script src="js/filters.js"></script>
+  <script src="js/widgets.js"></script>
+</body>
+</html>

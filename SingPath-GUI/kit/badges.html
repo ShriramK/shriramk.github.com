@@ -1,0 +1,236 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html ng-app="resource">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Singpath - The Most Fun Way to Practice Software - Badges</title>
+  
+  <link href="_css/SingPathMain.css" rel="stylesheet" type="text/css" />
+  <link href="_css/common.css"       rel="stylesheet" type="text/css" />
+  <link href="_css/badges.css"       rel="stylesheet" type="text/css" />
+
+  <script src="lib/angular/angular.min.js"          type="text/javascript"></script>
+  <script src="lib/angular/angular-resource.min.js" type="text/javascript"></script>
+  <script src="js/app_modules.js"                   type="text/javascript"></script>
+  <script src="js/commonTools.js"                   type="text/javascript"></script>
+  <script src="js/controllers.js"                   type="text/javascript"></script>
+  <script src="_js/feedback-v2.js"                  type="text/javascript"></script>
+  
+  <script src="_js/jquery-1.4.2.js" type="text/javascript"></script>
+  <script src="_js/settings.js" type="text/javascript"></script>
+  <script src="_js/jsonrender/common.js" type="text/javascript"></script>
+  
+  <script src="http://jquery-jsonp.googlecode.com/files/jquery.jsonp-2.1.4.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+		window.MENU = false;
+  </script>
+</head> 
+<body ng-controller="LoadPageCtrl">
+  <div id="wrapper">
+    <!-- Include Page Header: Logo, Login menu, head menu option -->
+    <div ng-include src="'includes/pageHeader.html'"></div>
+    
+    
+    <!-- Custom page content -->
+     <table class="__body"> 
+       <tr> 
+         <td> 
+           <table class="twocolumn"> 
+             <tr> 
+               <td class="element1"> 
+                 <table class="badgeInformationBox"> 
+                   <tr class="header"> 
+                     <td class="header"> 
+                      Badges Information
+                     </td> 
+                   </tr> 
+                   <tr class="content"> 
+                     <td class="content"> 
+                       <div class="content"> 
+                        <div id="badgeInformationBox">
+All your badges on are on the right and you will be able to see all your different types
+below the languages box. You may need a badge to advance a level. Please see the
+information below to discover information on each badge. To achieve a country badge
+someone from that country must solve your problem.
+                        </div>
+                       </div> 
+                     </td> 
+                   </tr> 
+                  
+                 </table>
+                 <table class="yourBadgesBox">
+                   <tr class="header"> 
+                     <td class="header"> 
+                      Your Badges
+                     </td> 
+                   </tr> 
+                   <tr class="content"> 
+                     <td class="content"> 
+                       <div class="content"> 
+                         <table>
+                           <tr class="top">
+                             <td>
+                               <div id="yourBadgesBoxTop" ng-controller="YourLevelBadgesCtrl" ng-cloak>
+                                <img ng-repeat="yourbadge in this.badges.badges.filter(doFilter)" alt="Badge" ng-src='{{yourbadge.imageURL}}' ng-class='returnClass(yourbadge)' title='{{yourbadge.description}}' ng-click="clickEvent(this,yourbadge);"/>
+                               </div>
+                             </td>
+                           </tr>
+                           <tr class="bottom">
+                             <td>
+                               <table>
+                                 <tr>
+                                   <td class="bottom1">
+                                     <div id="yourBadgesBoxBottom1">
+                                     </div>
+                                   </td>
+                                   <td class="bottom2">
+                                     <div id="yourBadgesBoxBottom2">
+                                     </div>
+                                   </td>
+                                 </tr>
+                               </table>
+                             </td>
+                           </tr>
+                         </table>
+                       </div> 
+                     </td> 
+                   </tr> 
+                  
+                 </table> 
+                 <table class="yourCountryBadgesBox"> 
+                   <tr class="header"> 
+                     <td class="header"> 
+                      Your Country Badges
+                     </td> 
+                   </tr> 
+                   <tr class="content"> 
+                     <td class="content"> 
+                       <div class="content"> 
+                         <table>
+                           <tr class="top">
+                             <td>
+                               <div id="yourCountryBadgesBoxTop" ng-controller="CountryLevelBadgesCtrl" ng-cloak>
+                                  <img ng-repeat="yourbadge in this.badges.badges.filter(doFilter)" ng-src='{{yourbadge.imageURL}}' alt="Badge" title='{{yourbadge.description}}' ng-class='returnClass(yourbadge)' ng-click="clickEvent(this,yourbadge);"/>
+                               </div>
+                             </td>
+                           </tr>
+                           <tr class="bottom">
+                             <td>
+                               <table>
+                                 <tr>
+                                   <td class="bottom1">
+                                     <div id="yourCountryBadgesBoxBottom1">
+                                     </div>
+                                   </td>
+                                   <td class="bottom2">
+                                     <div id="yourCountryBadgesBoxBottom2">
+                                     </div>
+                                   </td>
+                                 </tr>
+                               </table>
+                             </td>
+                           </tr>
+                         </table>
+                       </div> 
+                     </td> 
+                   </tr> 
+                  
+                 </table> 
+                 <table class="countryBadgesInformationBox"> 
+                   <tr class="header"> 
+                     <td class="header"> 
+                      Country Badges Information
+                     </td> 
+                   </tr> 
+                   <tr class="content"> 
+                     <td class="content"> 
+                       <div class="content"> 
+                        <div id="countryBadgesInformationBox">
+Country badges are earned when you create a challenge and someone from another
+country unlocks your challenge. Country Badges also have a minimum badge level
+associated with them. So for example, you may have to have someone with a Level 3
+badge from the US unlock your challenge to earn the US badge but you only need a
+Level 1 unlocker from France to earn the France badge. Players will be able to collect
+country badges for every country in the world if they want to. Once a player registers a
+player from each country in a zone, they will receive the region badge!
+                        </div>
+                       </div> 
+                     </td> 
+                   </tr> 
+                  
+                 </table> 
+               </td> 
+               <td class="element2"> 
+                 <table class="yourPathBadgesBox"> 
+                   <tr class="header"> 
+                     <td class="header"> 
+                      Your Path Badges
+                     </td> 
+                   </tr> 
+                   <tr class="content"> 
+                     <td class="content"> 
+                       <div class="content" id="yourPathBadgesBox" ng-controller="YourBadgesBoxTop" ng-cloak>
+                          <img ng-repeat="yourbadge in this.badges.badges.filter(doFilter)" ng-src='{{yourbadge.imageURL}}' alt="Badge" title='{{yourbadge.description}}' ng-class='returnClass(yourbadge)' ng-style="returnStyle(yourbadge)" ng-click="clickEvent(this,yourbadge);"/>
+                       </div> 
+                     </td> 
+                   </tr> 
+                  
+                 </table> 
+                 <table class="pathBadgesInformationBox"> 
+                   <tr class="header"> 
+                     <td class="header"> 
+                      Path Badges Information
+                     </td> 
+                   </tr> 
+                   <tr class="content"> 
+                     <td class="content"> 
+                       <div class="content" id="pathBadgesInformationBox">
+Being able to play a level can require a
+badge(s) as well. Levels can require badges
+and badges can require other badges but
+badges NEVER require levels. Everything just
+has the option of requiring a badge.<br>
+The Badges run in sequence. You need to will
+need to solve 10 questions to advance.<br>
+<div style="text-align: center">
+<table style="display: inline-table">
+<tr style="vertical-align: middle;">
+<td id="badge1">
+<img src="../static/badges/python/p001_on.png"/>
+</td>
+<td>
+<img src="_images/badgesPage/smallArrow.png"/>
+</td>
+<td id="badge2">
+<img src="../static/badges/python/p002_on.png"/>
+</td>
+<td>
+<img src="_images/badgesPage/smallArrow.png"/>
+</td>
+<td id="badge3">
+<img src="../static/badges/python/p003_on.png"/>
+</td>
+</tr>
+</table>
+</div>
+                       </div> 
+                     </td> 
+                   </tr> 
+                  
+                 </table> 
+               </td> 
+             </tr> 
+           </table> 
+         </td> 
+       </tr> 
+     </table>
+    
+    
+    <!-- Include Page Footer -->
+    <div ng-include src="'includes/pageFooter.html'"></div>
+  </div>
+  
+  
+  <!-- Google Analytics -->
+  <div ng-include src="'includes/googleAnalytics.html'"></div>
+</body>
+</html>

@@ -1,0 +1,180 @@
+/* edit profile */
+
+table.editProfile {
+  background-image: url(../_images/homePage/editProfilePopupBg.png);
+  background-repeat: no-repeat;
+  background-position: -11px -13px;
+  display: inline-table;
+  width: 640px;
+  height: 501px;
+  font-size: 16px;
+  font-weight: bold;
+  border-spacing: 0px;
+}
+table.editProfile tr.boxContent > td {
+  padding-top: 0;
+}
+td.editProfileClose {
+  vertical-align: top;
+  text-align: right;
+}
+table.editProfile2 {
+  width: 630px;
+  height: 425px;
+}
+td.hpProfileDetails {
+  width: 457px;
+  text-align: left;
+  vertical-align: top;
+  padding-top: 10px;
+}
+table.editProfileDetails > tbody > tr {
+  height: 35px;
+}
+table.editProfileDetails td.title {
+  text-align: right;
+  padding-right: 15px;
+}
+td.editProfileTopRow {
+  height: 41px;
+}
+td.editGravatarLarge {
+  width: 141px;
+  height: 127px;
+  text-align: center;
+  vertical-align: top;
+}
+img.editGravatarLarge {
+  margin-top: 34px;
+  margin-right: 0px;
+  width: 95px;
+  height: 95px;
+  border-radius: 8px; /* chrome */
+  -moz-border-radius: 8px; /* firefox */
+}
+div.linkToGravatar {
+  width: 141px;
+  padding-top: 10px;
+  text-align: center;
+}
+div.linkToGravatar table {
+  display: inline-table;
+  margin-right: 13px;
+}
+td.editProfile {
+  padding-left: 8px;
+}
+input.editProfile, select.editProfile, textarea.editProfile {
+  background: white;
+  border: 0px solid;
+  font-weight: bold;
+  color: #4F7984;
+  height: 19px;
+  padding: 0;
+  margin: 0;
+  border-spacing: 0;
+}
+td.inputRadio, td.inputShort, td.inputMedium, td.inputLong, td.textareaLong {
+  background-position: 0 50%;
+  background-repeat: no-repeat;
+  vertical-align: bottom;
+  padding-bottom: 8px;
+}
+td.inputRadio {
+  background-image: url('../_images/homePage/inputSmall.png');
+  width: 216px;
+  padding-bottom: 5px;
+  padding-left: 6px;
+}
+td.inputRadio > input {
+  width: 27px;
+  height: 27px;
+}
+td.inputShort {
+  background-image: url('../_images/homePage/inputShort.png');
+  width: 216px;
+}
+td.inputShort > input, td.inputShort > select {
+  width: 86px;
+}
+td.inputMedium {
+  background-image: url('../_images/homePage/inputMedium.png');
+  width: 216px;
+}
+td.inputMedium > input, td.inputMedium > select {
+  width: 201px;
+}
+td.inputLong {
+  background-image: url('../_images/homePage/inputLong.png');
+  width: 315px;
+}
+td.inputLong > input, td.inputLong > select {
+  width: 298px;
+}
+td.textareaLong {
+  background-image: url('../_images/homePage/textareaLong.png');
+  width: 315px;
+}
+td.textareaLong > textarea {
+  width: 298px;
+  height: 83px;
+}
+tr.editProfileEmpty {
+  height: 10px;
+}
+tr.editProfileButtons {
+  height: 34px;
+}
+img.editProfileButtons {
+  border: 0px solid;
+}
+img.editProfileCancelButton {
+  margin-top: 5px;
+  margin-right: 4px;
+}
+img.editProfileSaveButton {
+  margin-right: 12px;
+}
+tr.editProfileDetails {
+  height: 189px;
+}
+tr.editProfileBottomRow {
+  height: 10px;
+}
+tr.submitButton {
+  height: 48px;
+}
+td.submitButton {
+  text-align: right;
+}
+table.editProfileDetails > tbody > tr.editProfileAbout {
+  height: 101px;
+}
+tr.editProfileAbout > td.title {
+  padding-top: 10px;
+  vertical-align: top;
+}
+tr.editProfileYearOfBirth > td.editProfile {
+  padding-bottom: 0px;
+  vertical-align: bottom;
+}
+table.yearOfBirth {
+  width: 326px;
+}
+table.yearOfBirth td.input {
+  width: 86px;
+  padding-bottom: 8px;
+}
+table.yearOfBirth td.input input.editProfile {
+  width: 86px;
+}
+table.yearOfBirth td.comment {
+  width: 240px;
+  padding-bottom: 5px;
+}
+div.yearOfBirth {
+  font-size: 9px;
+  white-space: normal;
+  padding-left: 10px;
+  padding-right: 25px;
+}

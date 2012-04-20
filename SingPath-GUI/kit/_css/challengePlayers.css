@@ -1,0 +1,127 @@
+/* challengePlayers page */
+
+/* all_challenges tab */
+
+table.challengePlayersOut {
+  background-image: url(../_images/challengeBoard/challengesBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -10px 24px;
+  width: 889px;
+  height: 1083px;
+  text-align: left;
+}
+table.challengePlayersOut td.tabHeaderOut {
+  padding-left: 0px;
+}
+table.challengePlayersOut tr.boxContent > td {
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 11px;
+  padding-top: 0px;
+}
+table.table_header {
+  height: 16px;
+  text-align: center;
+  color: #ffffff;
+  white-space: normal;
+}
+table.players > tbody > tr {
+  height: 40px;
+}
+table.players > tbody > tr > td {
+  color: #4F7984;
+}
+table > tbody > tr > td.gravatar {
+  width: 40px;
+}
+table > tbody > tr > td.gravatar > img {
+  border: 2px solid #8FA5AB;
+  width: 32px;
+  cursor: pointer;
+  border-radius: 3px; /* chrome */
+  -moz-border-radius: 3px; /* firefox */
+}
+table > tbody > tr > td.player {
+  width: 100px;
+  text-align: left;
+}
+table > tbody > tr > td.player > div {
+  width: 100px;
+  text-align: left;
+  cursor: pointer;
+}
+table > tbody > tr > td.flag {
+  width: 40px;
+}
+table > tbody > tr > td.register_date,
+table > tbody > tr > td.unlock_date,
+table > tbody > tr > td.submit_date {
+  width: 125px;
+  text-align: center;
+}
+table > tbody > tr > td.message {
+  width: 208px;
+  white-space: normal;
+}
+table > tbody > tr > td.attachment {
+  width: 110px;
+  text-align: center;
+}
+table > tbody > tr > td.submit_answer {
+  width: 0px;
+}
+div.all_players, div.registered_players, div.unlocked_players, div.submitted_players {
+  width: 873px;
+  height: 1038px;
+  overflow: auto;
+}
+img {
+  border: 0px solid;
+}
+
+/* back button */
+
+a.backToChallengeBoard {
+  text-decoration: none;
+}
+a.backToChallengeBoard div {
+  text-align: center;
+  padding-top: 8px;
+}
+
+/* messageBox box */
+
+table.messageBox {
+  background-image: url(../_images/challengeView/messageBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -10px -4px;
+  width: 893px;
+  height: 41px;
+}
+table.messageBox > tbody > tr.header {
+  height: 0px;
+}
+table.messageBox > tbody > tr > td.header {
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: left;
+  padding-left: 10px;
+  vertical-align: top;
+}
+table.messageBox > tbody > tr.content {
+  vertical-align: top;
+  height: 41px;
+}
+table.messageBox > tbody > tr > td.content {
+  padding-left: 5px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 11px;
+}
+table.messageBox div.content {
+  width: 878px;
+  height: 25px;
+  color: white;
+  text-align: left;
+}

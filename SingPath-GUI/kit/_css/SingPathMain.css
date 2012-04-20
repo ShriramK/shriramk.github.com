@@ -1,0 +1,4940 @@
+body { text-align: center; padding: 0px; left: auto; right: auto; color: #4F7984; font-family: Arial,Helvetica,sans-serif; font-size: 14px; white-space: nowrap; background: #666 url(../_images/background.jpg) repeat-x center top; margin: 0px auto; 
+}
+table {
+  border-spacing: 0px;
+  table-layout: fixed;
+}
+td {
+  padding: 0px;
+  overflow: hidden;
+}
+.__page {
+  border: 0px solid black;
+  width: 906px;
+  margin: 0 auto;
+}
+.__header {
+  border: 0px solid red;
+  width: 100%;
+}
+table.__body {
+  background-image: url("../_images/greyBackground.jpg");
+  background-repeat: repeat-y;
+  border: 0px solid blue;
+  display: table;
+  margin-top: 35px;
+}
+tr.element > td {
+  padding-left: 10px;
+  padding-right: 6px;
+  padding-top: 8px;
+}
+tr.element1 > td {
+  padding-left: 10px;
+  padding-top: 8px;
+}
+tr.element2 > td {
+  padding-left: 5px;
+  padding-right: 6px;
+  padding-top: 8px;
+}
+tr.bottomBox > td {
+  padding-bottom: 8px;
+}
+.__col1 {
+  display: table-cell;
+  vertical-align: top;
+  width: 508px;
+}
+.__col2 {
+  display: table-cell;
+  vertical-align: top;
+  width: 398px;
+}
+.__profiles {
+  width: 100%;
+}
+.__currpaths {
+  width: 100%;
+}
+.__badges {
+  width: 100%;
+  background: #789657;
+}
+.__toprankings {
+  width: 100%;
+  background: #AB3434;
+}
+.__footer {
+  border: 0px solid red;
+  width: 100%;
+}
+
+.wrapper {
+  background-image: url("../_images/greyBackground.jpg");
+  background-position: center center;
+  background-repeat: repeat-y;
+}
+a {
+  text-decoration: none;
+  color: #4F7984;
+}
+img {
+  border: 0px solid;
+}
+
+/* box header and box content */
+
+td.boxHeader {
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 0px;
+  vertical-align: bottom;
+}
+tr.boxHeaderWithButton > td.boxHeader {
+  padding-top: 8px;
+}
+td.boxHeaderButton {
+  text-align: right;
+  height: 29px;
+  padding-right: 15px;
+}
+tr.boxContent > td {
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 6px;
+}
+tr.boxBody > td {
+  padding-top: 5px;
+  padding-left: 8px;
+  padding-right: 12px;
+  padding-bottom: 5px;
+}
+
+/* HEADER */
+
+table.header {
+  font-family: Verdana, Geneva, sans-serif;
+  background-image: url(../_images/02headerShadow01.jpg);
+  background-repeat: no-repeat;
+  margin: 0px;
+  padding: 0px;
+  height: 70px;
+  width: 906px;
+  top: 0px;
+}
+td.logo {
+  text-align: left;
+  width: 397px;
+}
+a.logo {
+  margin-left: 9px;
+}
+img.logo {
+  width: 169px;
+  height: 46px;
+  margin-top: -4px;
+}
+.logIndetailsTop {
+  background-image: url(../_images/02homeLogin03.png);
+  background-repeat: no-repeat;
+  background-position: 0px 9px;
+}
+td.logInProfile {
+  width: 84px;
+  text-align: right;
+}
+div.logInProfile {
+  left: 40px;
+  top: 15px;
+}
+img.logInProfile {
+  margin-top: 15px;
+}
+.logInProfileHome {
+  margin: 0px;
+  padding: 0px;
+  height: 37px;
+  width: 44px;
+  left: 40px;
+  top: 12px;
+}
+div.logInGravatarPhoto {
+  left: 98px;
+  top: 10px;
+  width: 40px;
+  height: 40px;
+}
+img.logInGravatarPhoto {
+  height: 40px;
+  width: 40px;
+  margin-top: 12px;
+  margin-right: 8px;
+  border-radius: 4px; /* chrome */
+  -moz-border-radius: 4px; /* firefox */
+}
+td.logInGravatarPhoto {
+  width: 76px;
+  text-align: center;
+}
+.logIndetailsNameText {
+  margin-top: 12px;
+  height: 20px;
+  width: 310px;
+  font-weight: bold;
+}
+td.logIndetailsNameText {
+  background-position: 0 18px;
+  background-repeat: no-repeat;
+  vertical-align: bottom;
+  padding-bottom: 10px;
+  background-image: url('../_images/homePage/inputLong.png');
+  width: 315px;
+  text-align: center;
+}
+
+
+
+/* PROFILE */
+
+td.profileDetails {
+  vertical-align: top;
+}
+table.profileDetails {
+  background-image: url(../_images/homePage/profileBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -11px -1px;
+  width: 494px;
+  height: 285px;
+  font-size: 16px;
+  font-weight: bold;
+  border-spacing: 0px;
+}
+table.profileDetails[class ~= "student"] {
+  background-image: url(../_images/homePage/profileStudentBoxBg.png);
+}
+table.profileDetails[class ~= "professional"] {
+  background-image: url(../_images/homePage/profileProfessionalBoxBg.png);
+}
+table.profileDetailsSmall {
+  background-image: url(../_images/homePage/profileBoxBgSmall.png);
+  background-repeat: no-repeat;
+  background-position: -11px -5px;
+  width: 494px;
+  height: 240px;
+  font-size: 16px;
+  font-weight: bold;
+  border-spacing: 0px;
+}
+table.profileDetailsSmall[class ~= "student"] {
+  background-image: url(../_images/homePage/profileStudentBoxBgSmall.png);
+}
+table.profileDetailsSmall[class ~= "professional"] {
+  background-image: url(../_images/homePage/profileProfessionalBoxBgSmall.png);
+}
+div.editDetailsButton {
+  height: 24px;
+  width: 104px;
+}
+img.editDetailsButton {
+  margin-right: 15px;
+}
+table.profileDetails > tbody > tr.boxContent {
+  height: 256px;
+}
+table.profileDetails > tbody > tr.boxContent > td {
+  padding-top: 0px;
+}
+table.profileDetailsSmall > tbody > tr.boxContent {
+  height: 211px;
+}
+table.profileDetailsSmall > tbody > tr.boxContent > td {
+  padding-top: 0px;
+}
+tr.profileNameText {
+  height: 24px;
+}
+td.profileNameText {
+  color: #F7D3A4;
+}
+div.profileNameText {
+  vertical-align: middle;
+}
+table.profileDetails tr.hpGravatarLarge {
+  height: 226px;
+}
+table.profileDetailsSmall tr.hpGravatarLarge {
+  height: 181px;
+}
+td.hpGravatarLarge {
+  width: 141px;
+  text-align: right;
+  vertical-align: top;
+  padding-top: 10px;
+}
+img.hpGravatarLarge {
+  margin-right: 16px;
+  width: 95px;
+  height: 95px;
+  border-radius: 9px; /* chrome */
+  -moz-border-radius: 9px; /* firefox */
+}
+div.countryAndGender {
+  padding-top: 10px;
+  padding-left: 18px;
+  text-align: left;
+}
+table.profileDetailsInfo td {
+  padding: 3px;
+  text-align: left;
+}
+table.profileDetailsInfo td.label {
+  text-align: right;
+}
+table.profileDetailsInfo td.value {
+  white-space: normal;
+  font-weight: normal;
+}
+
+/* Current Paths */
+
+table.homeCurrentPath {
+  background-image: url(../_images/homePage/currentPathsBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -11px -4px;
+  width: 494px;
+  height: 327px;
+  vertical-align: top;
+}
+table.homeCurrentPath td.boxHeader {
+  padding-left: 0px;
+  padding-top: 3px;
+}
+td.levels {
+  vertical-align: top;
+  padding-left: 19px;
+  padding-right: 13px;
+}
+div.levels, div.myPaths, div.otherPaths {
+  overflow: auto;
+  height: 238px;
+}
+table.levels {
+  width: 450px;
+}
+tr.cpLevelButton {
+  border: 0px solid;
+  height: 40px;
+}
+td.cpLevelButton {
+  text-align: left;
+  width: 172px;
+}
+td.cpLevelSmallerButton {
+  text-align: left;
+  width: 122px;
+}
+img.cpLevelButton {
+  margin-left: 5px;
+}
+td.horizontalLine {
+  background-image: url(../_images/homePage/horizontalLine.png);
+  background-repeat: no-repeat;
+  background-position: 3px 0px;
+  height: 4px;
+}
+.cpDetails {
+  font-size: 20px;
+  font-weight: bold;
+  height: 30px;
+  width: 120px;
+  text-align: left;
+}
+.cpDetailsSmaller {
+  font-size: 14px;
+  font-weight: bold;
+  width: 197px;
+  text-align: left;
+  vertical-align: middle;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+td.cpRunPathButton {
+  width: 180px;
+  text-align: right;
+}
+td.cpRunPathSmallerButton {
+  width: 131px;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+td.cpRunPathSmallerButton > div {
+  display: inline-block;
+  height: 32px;
+  vertical-align: middle;
+}
+td.cpRunPathSmallerButton > div > a {
+  display: inline-block;
+  position: relative;
+  top: 4px;
+}
+div.cpRunPathButton {
+  height: 32px;
+  width: 140px;
+}
+td.cpCreateButton {
+  width: 140px;
+  height: 52px;
+  text-align: left;
+  vertical-align: top;
+}
+img.cpCreateButton {
+  margin-top: 5px;
+  margin-left: 9px;
+}
+td.cpTournamentButton {
+  width: 140px;
+  height: 55px;
+  text-align: right;
+  vertical-align: top;
+}
+img.cpTournamentButton {
+  margin-top: 5px;
+  margin-right: 9px;
+}
+td.cpNoPaths {
+  text-align: left;
+  white-space: normal;
+}
+
+/* confirmationBox box */
+
+table.confirmationBox {
+  background-image: url(../_images/commonButtons/confirmDeleteBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -10px -7px;
+  width: 498px;
+  height: 266px;
+  display: inline-table;
+}
+table.confirmationBox > tbody > tr.header {
+  height: 22px;
+}
+table.confirmationBox > tbody > tr > td.header {
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: left;
+  padding-left: 10px;
+  vertical-align: top;
+}
+table.confirmationBox > tbody > tr.content {
+  vertical-align: top;
+  height: 244px;
+}
+table.confirmationBox > tbody > tr > td.content {
+  padding-left: 5px;
+  padding-right: 9px;
+  padding-top: 1px;
+  padding-bottom: 9px;
+}
+table.confirmationBox div.content {
+  width: 484px;
+  height: 234px;
+}
+table.confirmationBox > tbody > tr.footer {
+  height: 0px;
+}
+
+/* underConstruction box */
+
+table.underConstructionBox {
+  background-image: url(../_images/commonButtons/underConstructionBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -11px -6px;
+  width: 644px;
+  height: 208px;
+  display: inline-table;
+}
+table.underConstructionBox > tbody > tr.header {
+  height: 23px;
+}
+table.underConstructionBox > tbody > tr > td.header {
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 2px;
+}
+table.underConstructionBox > tbody > tr.content {
+  vertical-align: top;
+}
+table.underConstructionBox > tbody > tr > td.content {
+  padding-left: 5px;
+  padding-right: 9px;
+  padding-top: 1px;
+  padding-bottom: 9px;
+}
+table.underConstructionBox div.content {
+}
+table.underConstructionBox > tbody > tr.footer {
+  height: 0px;
+}
+div#underConstruction td.warning {
+  width: 580px;
+}
+div#underConstruction td.warning img {
+  width: 547px;
+  height: 90px;
+}
+div#underConstruction td.close {
+  width: 25px;
+  vertical-align: top;
+}
+div#underConstruction td.close img {
+  width: 25px;
+  height: 21px;
+}
+div#underConstruction div.message {
+  height: 78px;
+  font-size: 16px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+div#underConstruction div.message * {
+  vertical-align: middle;
+}
+div#underConstruction div.message img {
+  height: 50px;
+}
+div#underConstruction div.buttons {
+  height: 52px;
+}
+div#underConstruction div.buttons > table > tbody > tr {
+  vertical-align: middle;
+}
+div#underConstruction div.buttons > table > tbody > tr > td {
+  width: 242px;
+  text-align: center;
+}
+
+/* Badges */
+
+table.homeBadges {
+  background-image: url(../_images/homePage/badgesBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -4px -6px;
+  width: 387px;
+  height: 212px;
+}
+tr.viewBadgesButton {
+  height: 33px;
+}
+td.viewBadgesButton {
+  text-align: right;
+}
+img.viewBadgesButton {
+  width: 104px;
+  height: 24px;
+  margin-top: 4px;
+  margin-right: 15px;
+  display: none;
+}
+td.hbBadgesZone {
+  vertical-align: top;
+  padding-top: 4px;
+}
+div.hbBadgesZone {
+  white-space: normal;
+  height: 168px;
+  overflow: auto;
+  width: 377px;
+}
+
+
+/* Top rankings */
+
+table.topRankings {
+  background-image: url(../_images/02topRanking.png);
+  background-repeat: no-repeat;
+  background-position: -4px -4px;
+  width: 387px;
+  height: 211px;
+}
+tr.viewRankingButton {
+  height: 29px;
+}
+tr.topRankings {
+  height: 187px;
+}
+td.viewRankingButton {
+  text-align: right;
+}
+div.topRankings {
+  height: 171px;
+  width: 377px;
+}
+img.viewRankingButton {
+  margin-right: 15px;
+}
+table.topRankingsRow {
+  width: 377px;
+}
+tr.topRankingsRow {
+  height: 59px;
+}
+tr.topRankingsRow1 img {
+  margin-top: 3px;
+}
+td.topRankingsRank {
+  width: 42px;
+  font-size: 24px;
+}
+td.topRankingsGravatar {
+  width: 41px;
+  text-align: left;
+}
+img.topRankingsGravatar {
+  width: 34px;
+  height: 34px;
+  border: 0px #4F7984 solid;
+  border-radius: 3px; /* chrome */
+  -moz-border-radius: 3px; /* firefox */
+}
+td.topRankingsName {
+  width: 172px;
+  font-weight: bold;
+  text-align: left;
+}
+td.topRankingsName font {
+  cursor: pointer;
+}
+td.topRankingsBadge {
+  width: 45px;
+  text-align: left;
+}
+img.topRankingsBadge {
+  margin-top: 4px;
+}
+td.topRankingsFlag {
+  width: 37px;
+}
+td.topRankingsSolved {
+  width: 40px;
+  font-weight: bold;
+}
+
+/* Challenges */
+
+table.homeChallenges {
+  background-image: url(../_images/homePage/challengesBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -4px -2px;
+  height: 199px;
+  width: 387px;
+}
+a.viewChallengesButton table {
+  display: inline-table;
+}
+a.viewChallengesButton div {
+  padding-right: 15px;
+}
+table.homeChallenges tr.boxContent > td {
+  vertical-align: top;
+  padding-right: 8px;
+  padding-top: 0px;
+  padding-bottom: 8px;
+}
+div#hpChallenges {
+  width: 374px;
+  height: 162px;
+  overflow: auto;
+}
+table.hpChallenge > tbody > tr {
+  height: 40px;
+  text-align: left;
+}
+table.hpChallenge > tbody > tr > td.name {
+  width: 194px;
+  border-bottom: 2px solid #4F7984;
+}
+table.hpChallenge > tbody > tr > td.name > a {
+  color: #4F7984;
+}
+table.hpChallenge > tbody > tr > td.location {
+  width: 45px;
+  border-bottom: 2px solid #4F7984;
+}
+table.hpChallenge > tbody > tr > td.needed {
+  width: 90px;
+  border-bottom: 2px solid #4F7984;
+}
+table.hpChallenge > tbody > tr > td.locked {
+  width: 45px;
+  border-bottom: 2px solid #4F7984;
+}
+
+/* footer */
+
+.footer {
+  background-image: url(../_images/landingPages/indexPage/01landingPage17.jpg);
+  height: 38px;
+  width: 906px;
+  text-align: center;
+  clear:both;
+}
+td.gr8ph1csFooter { 
+background-image:url(../_images/landingPages/indexPage/01landingPage18.jpg);   
+text-align: right;
+background-color: #999;
+padding: 3px 0px;
+}
+
+img.gr8ph1csFooter {
+  width: 138px;
+  height: 27px;
+}
+.footer a:link {
+  color: #999;
+}
+.footer a:visited {
+  color: #999;
+}
+.footer a:hover {
+  color: #F7D3A4;
+}
+.footer a:active {
+  color: #333;
+}
+
+/* current path */
+
+table.levCurrentPathMessageBox {
+  background-image: url(../_images/levelsPage/currentPathBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -11px -6px;
+  height: 132px;
+  width: 889px;
+  vertical-align: top;
+}
+table.levCurrentPathMessageBox tr.levCurrentPathMessageBox {
+  height: 108px;
+}
+table.levCurrentPathMessageBox td.levCurrentPathMessageBox {
+  padding-bottom: 9px;
+  padding-left: 5px;
+  padding-right: 8px;
+  padding-top: 5px;
+}
+table.levCurrentPathMessageBox td.tabHeaderOut {
+  padding-left: 0px;
+}
+div.levCPTextTitle {
+  text-align: left;
+  height: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+div.levCPText {
+  text-align: left;
+  height: 74px;
+  overflow: auto;
+  white-space: normal;
+}
+
+/* Current Level */
+
+td.levCurrentLevelMessageBox {
+  background-image: url(../_images/gamesPage/04games02.png);
+  background-repeat: no-repeat;
+  height: 140px;
+  width: 906px;
+  vertical-align: top;
+}
+div.levCLTextTitle {
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 35px;
+}
+div.levCLText {
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 70px;
+  overflow: auto;
+  white-space: normal;
+}
+
+/* levelgames */
+
+.levelGamesChoose {
+  background-image: url(../_images/gamesPage/levelgames.png);
+  background-repeat: no-repeat;
+  height: 489px;
+  width: 508px;
+}
+div.levelGamesChooseLoading {
+  text-align: left;
+  overflow: auto;
+  width: 479px;
+  height: 393px;
+}
+table.levelGames, table.levelGamesEdit, table.levelGamesContribute {
+  width: 470px;
+}
+tr.levelGames {
+  height: 32px;
+}
+table.levelGames td.levelGameMoveButtons {
+  width: 0px;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+table.levelGames td.levelGameDescription {
+  width: 305px;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+table.levelGames td.levelGameEditor {
+  width: 106px;
+  text-align: center;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+table.levelGames td.levelGameSolved {
+  width: 59px;
+  text-align: center;
+  vertical-align: top;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+table.levelGamesEdit td.levelGameMoveButtons {
+  width: 78px;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+table.levelGamesEdit td.levelGameDescription {
+  width: 149px;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+table.levelGamesEdit td.levelGameEditor {
+  width: 106px;
+  text-align: center;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+table.levelGamesEdit td.levelGameSolved {
+  width: 137px;
+  text-align: left;
+  vertical-align: top;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+table.levelGamesContribute td.levelGameMoveButtons {
+  width: 0px;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+table.levelGamesContribute td.levelGameDescription {
+  width: 266px;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+table.levelGamesContribute td.levelGameEditor {
+  width: 106px;
+  text-align: center;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+table.levelGamesContribute td.levelGameSolved {
+  width: 98px;
+  text-align: left;
+  vertical-align: top;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+tr.levelGames div.badge {
+  width: 20px;
+  height: 32px;
+  vertical-align: middle;
+  text-align: center;
+  display: inline-block;
+}
+tr.levelGames div.contribute {
+  height: 32px;
+  vertical-align: middle;
+  text-align: center;
+  overflow: hidden;
+}
+table.levelGames div.contribute {
+  width: 0px;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+table.levelGamesEdit div.contribute {
+  width: 39px;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+tr.levelGames div.badge img.badge {
+  padding-top: 10px;
+}
+tr.levelGames div.contributehidden {
+  display: none;
+}
+tr.levelGames div.contributevisible {
+  display: inline-block;
+}
+tr.levelGames div.editproblemhidden {
+  display: none;
+}
+tr.levelGames div.editproblemvisible {
+  display: inline-block;
+}
+tr.levelGames div.editproblem {
+  height: 32px;
+  vertical-align: middle;
+  text-align: center;
+  overflow: hidden;
+}
+table.levelGames div.editproblem {
+  width: 0px;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+table.levelGamesEdit div.editproblem {
+  width: 78px;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+tr.levelGames img.decision {
+  width: 39px;
+  height: 29px;
+  vertical-align: middle;
+  text-align: center;
+}
+tr.levelGames div.decision { /*just a placeholder*/
+  width: 39px;
+  height: 29px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* message box */
+
+td.levMessageBox {
+  background-image: url(../_images/currentPathPage/05CurrentPath03.png);
+  height: 48px;
+  width: 906px;
+  text-align: center;
+}
+table.levMessageBox {
+  padding-left: 28px;
+}
+.levMBText {
+  height: 35px;
+  width: 800px;
+  font-size: 14px;
+  text-align: left;
+  color: #FFF;
+
+}
+.levMBBookIcon {
+  text-align: right;
+  height: 40px;
+  width: 50px;
+}
+
+/* levels */
+
+table.levelsChoose {
+  background-image: url(../_images/levelsPage/levelsBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -11px 25px;
+  height: 482px;
+  width: 494px;
+}
+table.levelsChoose[class ~= problemsChoose] {
+  background-image: url(../_images/levelsPage/problemsBoxBg.png);
+}
+table.levelsChoose td.levelsChooseLoading {
+  padding-top: 17px;
+  padding-bottom: 9px;
+}
+table.levelsChoose td.tabHeaderOut {
+  padding-left: 0px;
+  padding-top: 2px;
+}
+div.levelsChooseLoading {
+  text-align: left;
+  overflow: auto;
+  width: 479px;
+  height: 393px;
+}
+table.pathLevels {
+  padding: 0px;
+  border-spacing: 0px;
+  width: 100%;
+}
+table.pathLevels tr {
+  height: 33px;
+}
+td.lpathLevelButton {
+  width: 110px;
+}
+td.pathLevelButton img {
+  width: 104px;
+  height: 24px;
+}
+td.pathLevelButton span.emptySmallButton {
+  font-size: 16px;
+  padding-top: 3px;
+}
+td.levelDescription {
+  width: 254px;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+td.levelProgress {
+  text-align: center;
+  width: 50px;
+}
+td.levelBadge {
+  width: 40px;
+  height: 33px;
+  text-align: right;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+td.levelBadge > div:first-child {
+  width: 40px;
+  height: 30px;
+  display: inline-block;
+}
+td.levelsNextGameButton {
+  height: 41px;
+  text-align: right;
+}
+img.levelsNextGameButton {
+  margin-right: 14px;
+}
+
+/* share box */
+
+table.shareBox {
+  background-image: url(../_images/commonButtons/shareBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -9px -4px;
+  height: 74px;
+  width: 494px;
+}
+table.shareBox tr.boxContent {
+  height: 53px;
+}
+table.shareBox td.shareBoxText {
+  height: 35px;
+  font-size: 14px;
+  text-align: left;
+  color: #4F7984;
+  vertical-align: top;
+  padding-bottom: 0;
+  padding-top: 16px;
+  padding-left: 15px;
+}
+table.shareBox td.shareBoxButtons {
+  height: 35px;
+  width: 200px;
+  font-size: 14px;
+  text-align: left;
+  color: #FFF;
+  vertical-align: bottom;
+  padding-bottom: 14px;
+  padding-top: 0px;
+}
+
+/* share box small */
+
+table.shareBoxSmall {
+  background-image: url(../_images/commonButtons/shareBoxBgSmall.png);
+  background-repeat: no-repeat;
+  background-position: -3px -4px;
+  height: 76px;
+  width: 387px;
+}
+table.shareBoxSmall tr.boxContent {
+  height: 53px;
+}
+table.shareBoxSmall td.shareBoxText {
+  height: 35px;
+  font-size: 14px;
+  text-align: left;
+  color: #4F7984;
+  vertical-align: top;
+  padding-bottom: 0;
+  padding-top: 7px;
+  white-space: normal;
+  padding-left: 15px;
+}
+table.shareBoxSmall td.shareBoxButtons {
+  height: 35px;
+  width: 200px;
+  font-size: 14px;
+  text-align: left;
+  color: #FFF;
+  vertical-align: bottom;
+  padding-bottom: 14px;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/* play game */
+
+table.playGameOptions {
+  background-image: url(../_images/levelsPage/playGameBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -4px -5px;
+  height: 118px;
+  width: 386px;
+}
+tr.playGameOptionsRow1 td {
+  padding-top: 5px;
+}
+tr.playGameOptionsRow2 td {
+  padding-bottom: 5px;
+}
+
+
+/* bytes */
+
+table.bytesAdv {
+  background-image: url(../_images/levelsPage/bytesBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -6px -8px;
+  height: 176px;
+  width: 386px;
+}
+
+/* bytesBox box */
+
+table.bytesBox {
+  background-image: url(../_images/challengeView/bytesBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -4px -6px;
+  width: 391px;
+  height: 218px;
+}
+table.bytesBox > tbody > tr.header {
+  height: 22px;
+}
+table.bytesBox > tbody > tr > td.header {
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: left;
+  padding-left: 10px;
+  vertical-align: top;
+}
+table.bytesBox > tbody > tr.content {
+  vertical-align: top;
+  height: 196px;
+}
+table.bytesBox > tbody > tr > td.content {
+  padding-left: 5px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 10px;
+}
+table.bytesBox div.content {
+  width: 376px;
+  height: 184px;
+}
+table.bytesBox > tbody > tr.footer {
+  height: 0px;
+}
+
+
+/* play page */
+
+table.tourCurrentPathMessageBox {
+  background-image: url(../_images/tournamentPages/currentProblemBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -11px -11px;
+  height: 154px;
+  width: 889px;
+}
+table.tourCurrentPathMessageBox > tbody > tr.boxContent {
+  height: 132px;
+}
+div.tourCPTextTitle {
+  height: 22px;
+  font-size: 20px;
+  text-align: left;
+}
+div.tourCPText {
+  height: 99px;
+  font-size: 14px;
+  text-align: left;
+  overflow:auto;
+  white-space: normal;
+}
+table.tourMessageBox {
+  background-image: url(../_images/tournamentPages/counterBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -11px -3px;
+  height: 37px;
+  width: 889px;
+}
+td.tourMBText {
+  width: 500px;
+  height: 37px;
+  font-size: 14px;
+  text-align: left;
+  color: #FFF;
+}
+td.tourMBText div {
+  padding-left: 10px;
+}
+td.tourMBLabel {
+  width: 220px;
+  font-size: 18px;
+  font-weight: bolder;
+  color: #FFF;
+  text-align: right;
+}
+td.tourMBClock {
+  width: 170px;
+  height: 37px;
+  font-size: 26px;
+  font-weight: bolder;
+  color: #FFF;
+  text-align: right;
+}
+td.tourMBClock span {
+  padding-right: 11px;
+}
+table.tourCurrentPathTestPage {
+  background-image: url(../_images/tournamentPages/codeBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -9px -4px;
+  width: 493px;
+  height: 534px;
+}
+tr.tourRunCodeTopButton {
+  height: 50px;
+}
+td.tourRunCodeTopButton {
+  text-align: right;
+  vertical-align: top;
+  padding-top: 3px;
+  padding-right: 15px;
+}
+img.tourRunCodeTopButton {
+  width: 166px;
+  height: 38px;
+}
+table.tourCurrentPathTestPage td.boxHeader {
+  padding-top: 0px;
+  padding-bottom: 7px;
+}
+#user_code_editor{
+    position: relative;
+    height: 433px;
+    width: 472px;
+    margin-left: 10px;
+    text-align: left;
+}
+tr.tourRunCodeBottomButton {
+  height: 47px;
+}
+td.tourRunCodeBottomButton {
+  text-align: right;
+  vertical-align: top;
+  padding-top: 6px;
+  padding-right: 15px;
+}
+img.tourRunCodeBottomButton {
+  width: 166px;
+  height: 38px;
+}
+table.pExampleMessage {
+  background-image: url(../_images/tournamentPages/exampleBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -4px 4px;
+  width: 386px;
+  height: 315px;
+}
+table.pExampleMessage tr.boxContent {
+  height: 293px;
+  vertical-align: top;
+}
+table.pExampleMessage td.tabHeaderOut {
+  padding-left: 0px;
+  padding-top: 2px;
+}
+div.pEMText {
+  height: 277px;
+  font-size: 14px;
+  text-align: left;
+  overflow: auto;
+  white-space: normal;
+}
+div.pErMText {
+  height: 277px;
+  font-size: 14px;
+  text-align: left;
+  overflow: auto;
+  white-space: normal;
+}
+
+/* tournament page */
+
+table.tourChooser {
+  background-image: url(../_images/tournamentPages/chooseTournamentBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -10px -6px;
+  height: 109px;
+  width: 890px;
+}
+table.tourChooser tr.boxContent {
+  height: 87px;
+}
+td.tourChooser {
+  padding-top: 0px !important;
+}
+img.tour {
+  width: 170px;
+  height: 75px;
+}
+table.tourHeadingMessageBox {
+  background-image: url(../_images/tournamentPages/tournamentBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -10px 1px;
+  height: 193px;
+  width: 890px;
+}
+table.tourHeadingMessageBox tr.boxContent {
+  height: 171px;
+}
+td.tourHeadingPictureHolder {
+  width: 320px;
+  text-align: center;
+}
+img.tourHeadingPicture {
+  width: 300px;
+  height: 125px;
+}
+td.tourHeadingText {
+  vertical-align: middle;
+  width: 586px;
+}
+div.tourHeadingTextTitle {
+  width: 550px;
+  font-size: 22px;
+  text-align: left;
+  white-space: normal;
+  white-space: normal;
+}
+div.tourHeadingText {
+  width: 550px;
+  font-size: 14px;
+  text-align: left;
+  white-space: normal;
+}
+div.tourHeadingWinner {
+  width: 550px;
+  font-size: 14px;
+  text-align: left;
+  white-space: normal;
+}
+table.tourInitialMessageBox {
+  background-image: url("../_images/tournamentPages/counterBoxBg.png");
+  background-repeat: no-repeat;
+  background-position: -10px -3px;
+  height: 37px;
+  width: 890px;
+}
+tr.tourInitialMessageBox > td {
+}
+table.tourInitialPasscodeBox {
+  background-image: url(../_images/tournamentPages/signInBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -10px -6px;
+  height: 142px;
+  width: 345px;
+}
+table.tourInitialPasscodeBox tr.boxBody {
+  height: 73px;
+}
+td.tourInitialPasscodePassword  {
+  height: 22px;
+  width: 270px;
+  font-size: 18px;
+  vertical-align: top;
+  text-align: left;
+}
+td.tourInitialPasscodeSignInButton  {
+  height: 39px;
+  width: 166px;
+}
+input.tourInitialPasscodePassword {
+  margin-top: 26px;
+  margin-left: 33px;
+  font-size: 18px;
+  border: 0px solid;
+  width: 274px;
+}
+table.tourInitialPasscodeBox tr.boxFooter {
+  text-align: right;
+  height: 47px;
+}
+img.tourInitialPasscodeSignInButton {
+  margin-right: 12px;
+}
+
+table.tourInitialGamePlayGrey {
+  background-image: url(../_images/tournamentPages/playTournamentBoxGreyBg.png);
+  background-repeat: no-repeat;
+  background-position: -3px -10px;
+  height: 147px;
+  width: 533px;
+}
+table#tourInitialGamePlayGrey tr.boxContent {
+  height: 125px;
+}
+td.tourInitialGamePlayGrey {
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 15px;
+  padding-bottom: 16px;
+}
+table.tourInitialGamePlayEnabled {
+  background-image: url(../_images/tournamentPages/playTournamentBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -3px -10px;
+  height: 147px;
+  width: 533px;
+}
+tr.tourInitialGamePlay2 > td {
+  padding-top: 8px;
+}
+td.tourInitialPlayNow {
+  width: 192px;
+}
+td.tourInitialText {
+  font-size: 26px;
+  width: 324px;
+  text-align: left;
+  vertical-align: top;
+}
+
+/* tab header */
+
+tr.tabHeaderOut {
+  height: 24px;
+}
+td.tabHeaderOut {
+  padding-left: 10px;
+}
+tr.tabHeader {
+  height: 24px;
+  vertical-align: bottom;
+}
+tr.tabHeader .tabHeaderLeft {
+  background-image: url("../_images/commonButtons/tab-headers-combined.png");
+  background-position: 0px -53px;
+  background-repeat: no-repeat;
+  width: 8px;
+}
+tr.tabHeader .tabHeaderCenter {
+  background-image: url("../_images/commonButtons/tab-headers-combined.png");
+  background-position: 0px -27px;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
+}
+tr.tabHeader .tabHeaderRight {
+  background-image: url("../_images/commonButtons/tab-headers-combined.png");
+  background-position: -130px -53px;
+  background-repeat: no-repeat;
+  width: 15px;
+}
+tr.tabHeader .tabHeaderLeftOff {
+  background-image: url("../_images/commonButtons/tab-headers-combined.png");
+  background-position: -35px -53px;
+  background-repeat: no-repeat;
+  width: 8px;
+  cursor: pointer;
+}
+tr.tabHeader .tabHeaderRight + .tabHeaderLeftOff {
+  background-image: url("../_images/commonButtons/tab-headers-combined.png");
+  background-position: -146px -53px;
+  background-repeat: no-repeat;
+  width: 8px;
+}
+tr.tabHeader .tabHeaderRightOff + .tabHeaderLeftOff {
+  background-image: url("../_images/commonButtons/tab-headers-combined.png");
+  background-position: -115px -53px;
+  background-repeat: no-repeat;
+  width: 8px;
+}
+tr.tabHeader .tabHeaderCenterOff {
+  background-image: url("../_images/commonButtons/tab-headers-combined.png");
+  background-position: 0px -1px;
+  background-repeat: no-repeat;
+  color: #49727A;
+  font-size: 18px;
+  font-weight: normal;
+  cursor: pointer;
+}
+tr.tabHeader .tabHeaderRightOff {
+  background-image: url("../_images/commonButtons/tab-headers-combined.png");
+  background-position: -45px -53px;
+  background-repeat: no-repeat;
+  width: 15px;
+  cursor: pointer;
+}
+tr.tabHeader .tabHeaderRightEnd {
+  background-image: url("../_images/commonButtons/tab-headers-combined.png");
+  background-position: -60px -53px;
+  background-repeat: no-repeat;
+  width: 8px;
+}
+tr.tabHeader .tabHeaderRight + .tabHeaderRightEnd {
+  background-image: url("../_images/commonButtons/tab-headers-combined.png");
+  background-position: -25px -53px;
+  background-repeat: no-repeat;
+  width: 8px;
+}
+tr.tabHeader > td {
+  height: 24px;
+}
+tr.tabHeader > td > div {
+  display: inline;
+  position: relative;
+}
+tr.tabHeader > td > div > div {
+  display: table-cell;
+  height: 24px;
+  vertical-align: top;
+  padding-top: 0px;
+}
+
+/* language selector */
+
+table.languageSelectionBox {
+  background-image: url("../_images/commonButtons/blueBar.png");
+  background-repeat: no-repeat;
+  background-position: -10px -1px;
+  height: 48px;
+  width: 890px;
+  text-align: center;
+}
+td.languageSelectionBox {
+  padding-bottom: 9px;
+  padding-left: 4px;
+  padding-right: 7px;
+  padding-top: 2px;
+}
+div.languageSelectionBox { text-align: center; }
+
+/* worldwide rankings */
+
+table.worldwideRankingsOut {
+  background-image: url("../_images/rankingPage/06worldWideRanking03.png");
+  background-repeat: no-repeat;
+  background-position: 0px -1px;
+  width: 508px;
+  height: 1100px;
+}
+tr.worldwideRankingsOut {
+  height: 1075px;
+  vertical-align: top;
+}
+table.worldwideRankingsOut td.tabHeaderOut {
+  padding-top: 3px;
+}
+td.worldwideRankingsOut {
+  padding-top: 20px;
+  padding-bottom: 28px;
+  padding-left: 15px;
+  padding-right: 12px;
+}
+td.worldwideRankingsTop {
+  padding:10px 12px 8px 15px;
+}
+
+#tourInfoBoxTagDropDown{
+font-weight: bold;
+color: #517A83;
+border: 0px none #FFF100;
+margin: 0px;
+padding: 5px 0px 0px 15px;
+text-align: left;
+float: right;
+height: 27px;
+width: 280px;
+position: relative;
+top: -6px;
+font-size: 16px;
+background: url(../_images/rankingPage/tagBox.png) no-repeat;
+right: 10px;
+}
+#tourInfoBoxTagBox{
+font-weight: bold;
+color: white;
+border: 0px none #FFF100;
+margin: 0px;
+padding: 5px 0px 0px;
+text-align: left;
+float: left;
+height: 30px;
+
+position: relative;
+left: 30px;
+
+font-size: 16px;
+}
+div#worldwideRankingsOut {
+  height: 1027px;
+  overflow: auto;
+}
+table.worldwideRankings {
+  font-size: 20px;
+  width: 100%;
+}
+tr.worldwideRankings {
+  height: 41px;
+}
+td.worldwideRankingsRank {
+  width: 40px;
+  text-align: right;
+}
+td.worldwideRankingsGravatar {
+  width: 50px;
+}
+img.worldwideRankingsGravatar {
+  width: 36px;
+  border: 0px #8FA5AB solid;
+  border-radius: 3px; /* chrome */
+  -moz-border-radius: 3px; /* firefox */
+}
+td.worldwideRankingsNickname {
+  width: 235px;
+  text-align: left;
+}
+td.worldwideRankingsNickname font {
+  cursor: pointer;
+}
+td.worldwideRankingsBadge {
+  width: 45px;
+}
+td.worldwideRankingsFlag {
+  width: 41px;
+}
+td.worldwideRankingsSolved {
+  width: 70px;
+}
+
+/* country rankings */
+
+table.countryRankingsOut {
+  background-image: url("../_images/rankingPage/06worldWideRanking05.png");
+  background-repeat: no-repeat;
+  width: 398px;
+  height: 461px;
+}
+div.countryRankingsOut { width: 372px; height: 398px; margin-top: 25px; margin-left: 5px; margin-right: 5px; margin-bottom: 15px; overflow: auto; }
+tr.viewCountries {
+  height: 21px;
+}
+table.countryRankings {
+  font-size: 20px;
+  width: 100%;
+  height: 100%;
+}
+tr.countryRankings {
+  height: 40px;
+}
+td.countryRankingsRank {
+  width: 40px;
+  text-align: right;
+}
+td.countryRankingsFlag {
+  width: 47px;
+  cursor: pointer;
+}
+td.countryRankingsName {
+/*    width: 215px;*/
+  text-align: left;
+}
+td.countryRankingsName font {
+  cursor: pointer;
+}
+td.countryRankingsPlayer {
+  width: 70px;
+}
+td.countryRankingsSolved {
+  width: 70px;
+}
+
+/* tournament ranking */
+
+table.tournamentRankingsOut {
+  background-image: url("../_images/tournamentPages/tournamentRankingBoxBg.png");
+  background-repeat: no-repeat;
+  background-position: -10px -3px;
+  width: 886px;
+  height: 1127px;
+  font-weight: bold;
+}
+table.tournamentRankingsOut tr.tournamentHeader {
+  height: 27px;
+}
+table.heatRankings {
+  table-layout: auto;
+  width: 100%;
+  text-align: center;
+}
+table.heatRankings td {
+  overflow: hidden;
+}
+table.heatRankings > tbody {
+  height: 1033px;
+  overflow: auto;
+  display: block;
+}
+table.heatRankings tr.heatHeader {
+  height: 16px;
+  font-size: 14px;
+  font-weight: normal;
+  color: white;
+  display: block;
+}
+table.tournamentRankingsOut tr.tournamentHeader > td {
+  padding-top: 3px;
+}
+td.tournamentRankingsOut {
+  padding-left: 4px;
+  text-align: left;
+}
+/*
+table.tournamentRankings > thead > tr {
+  display: block;
+}
+table.tournamentRankings > tbody {
+  width: 876px;
+  height: 1127px;
+  overflow: auto;
+  display: block;
+}
+*/
+div.tournamentRankingsOut {
+  width: 876px;
+  height: 1052px;
+  display: block;
+}
+td.heatRankingsRank {
+  width: 40px;
+}
+td.heatRankingsGravatar {
+  width: 40px;
+}
+img.heatRankingsGravatar {
+  width: 30px;
+  height: 30px;
+  border: 0px #4F7984 solid;
+  cursor: pointer;
+  border-radius: 3px; /* chrome */
+  -moz-border-radius: 3px; /* firefox */
+}
+td.heatRankingsNickname {
+  text-align: left;
+  width: 200px;
+}
+td.heatRankingsNickname font {
+  cursor: pointer;
+  width: 200px;
+  display: block;
+  overflow: hidden;
+}
+td.heatRankingsFlag {
+  width: 40px;
+}
+img.heatRankingsFlag {
+  width: 38px;
+  height: 34px;
+}
+td.heatRankingsPreviousRank {
+  width: 30px;
+}
+td.heatRankingsProfessional {
+  font-size: 10px;
+  width: 65px;
+}
+td.heatRankingSolved {
+  background-image: url("../static/badges/ticks_on.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 20px;
+  height: 17px;
+}
+td.heatRankingUnsolved {
+  width: 20px;
+  height: 17px;
+}
+td.heatRankingsFinished {
+  width: 100px;
+}
+tr.tournamentFooter {
+  height: 49px;
+  text-align: right;
+  vertical-align: top;
+}
+img.tournamentContinueButton {
+  width: 166px;
+  height: 38px;
+  padding-right: 15px;
+  padding-top: 7px;
+}
+
+/* Challenge list */
+
+table.challenge_list {
+  white-space: normal;
+}
+table.challenge_list > tbody > tr:first-child {
+  background: #55DDDD;
+}
+table.challenge_list > tbody > tr:first-child > td:first-child,
+table.challenge_list > tbody > tr:first-child > td:first-child + td,
+table.challenge_list > tbody > tr:first-child > td:first-child + td + td,
+table.challenge_list > tbody > tr:first-child > td:first-child + td + td + td,
+table.challenge_list > tbody > tr:first-child > td:first-child + td + td + td + td
+{
+  background: #DDDD55;
+}
+table.challenge_players_list {
+  white-space: normal;
+}
+table.challenge_players_list > tbody > tr:first-child {
+  background: #55DDDD;
+}
+
+/* auth - login_required (this page generated dynamically by auth/do_openid_login.py) */
+
+h2.auth {
+  color: white;
+}
+table.auth td {
+  padding: 5px 5px 5px 5px;
+}
+a.auth div {
+  width: 150px;
+  height: 50px;
+  background: url('/static/auth_buttons.png')
+}
+a.auth div#gmail {
+  background-position: 0px -150px;
+}
+a.auth div#gmail:hover {
+  background-position: 150px -150px;
+}
+a.auth div#yahoo {
+  background-position: 0px -550px;
+}
+a.auth div#yahoo:hover {
+  background-position: 150px -550px;
+}
+a.auth div#myspace {
+  background-position: 0px -350px;
+}
+a.auth div#myspace:hover {
+  background-position: 150px -350px;
+}
+a.auth div#aol {
+  background-position: 0px 0px;
+}
+a.auth div#aol:hover {
+  background-position: 150px 0px;
+}
+a.auth div#myopenid {
+  background-position: 0px -300px;
+}
+a.auth div#myopenid:hover {
+  background-position: 150px -300px;
+}
+
+/* createMain */
+
+table.cmDescription {
+  background-image: url("../_images/createMain/descriptionBoxBg.png");
+  background-repeat: no-repeat;
+  background-position: -10px -6px;
+  height: 130px;
+  width: 890px;
+}
+table.cmDescription tr.boxContent {
+  height: 108px;
+}
+table.cmDescription tr.boxContent div.description {
+  height: 97px;
+  width: 880px;
+  white-space: normal;
+  text-align: left;
+}
+table.cmChooseTask {
+  background-image: url("../_images/createMain/chooseTaskBoxBg.png");
+  background-repeat: no-repeat;
+  background-position: -10px -6px;
+  height: 126px;
+  width: 890px;
+}
+table.cmChooseTask tr.boxContent {
+  height: 104px;
+}
+table.cmChooseTask tr.boxContent div.chooser {
+  height: 93px;
+  width: 880px;
+  white-space: normal;
+  text-align: center;
+  vertical-align: middle;
+}
+table.cmChooseTask tr.boxContent div.chooser img {
+  width: 141px;
+  height: 85px;
+}
+
+table.cmCopyright {
+  background-image: url("../_images/createMain/copyrightBoxBg.png");
+  background-repeat: no-repeat;
+  background-position: -10px -6px;
+  height: 166px;
+  width: 890px;
+}
+table.cmCopyright tr.boxContent {
+  height: 144px;
+}
+table.cmCopyright tr.boxContent div.copyright {
+  height: 111px;
+  width: 880px;
+  white-space: normal;
+  text-align: left;
+  overflow: auto;
+}
+table.cmCopyright tr.boxContent div.agree {
+  height: 22px;
+  width: 880px;
+  white-space: normal;
+  text-align: center;
+  vertical-align: top;
+}
+
+/* empty large button */
+
+span.emptyLargeButton {
+  background: url(../_images/commonButtons/largeButtonBlank_off.png) no-repeat scroll 100% 0%;
+  display: inline-block;
+  height: 32px;
+  width: 168px;
+  color: #4F7984;
+  font-weight: normal;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  padding-top: 6px;
+  overflow: hidden;
+}
+span.emptyLargeButton:hover {
+  background: url(../_images/commonButtons/largeButtonBlank_on.png) no-repeat scroll 100% 0%;
+  color: white;
+}
+span.emptyLargeButton[class ~= "disabled"] {
+  cursor: auto;
+}
+span.emptyLargeButton[class ~= "disabled"]:hover {
+  background: url(../_images/commonButtons/largeButtonBlank_off.png) no-repeat scroll 100% 0%;
+  color: #4F7984;
+}
+
+
+/* empty button */
+
+span.emptyButton {
+  background: url(../_images/commonButtons/blankPathButton_off.png) no-repeat scroll 100% 0%;
+  display: inline-block;
+  width: 135px;
+  height: 16px;
+  color: #4F7984;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  cursor: pointer;
+  overflow: hidden;
+}
+span.emptyButton:hover {
+  background: url(../_images/commonButtons/blankPathButton_on.png) no-repeat scroll 100% 0%;
+  color: white;
+}
+span.emptyButton[class ~= "disabled"] {
+  opacity: 0.5;
+  cursor: auto;
+}
+span.emptyButton[class ~= "disabled"]:hover {
+  background: url(../_images/commonButtons/blankPathButton_off.png) no-repeat scroll 100% 0%;
+  color: #4F7984;
+}
+
+/* empty small button */
+
+span.emptySmallButton {
+  background-image: url(../_images/commonButtons/smallButtonBlank_off.png);
+  background-repeat: no-repeat;
+  width: 104px;
+  height: 19px;
+  color: #4F7984;
+  font-weight: normal;
+  font-size: 13px;
+  text-align: center;
+  display: inline-block;
+  padding-top: 4px;
+  cursor: pointer;
+  overflow: hidden;
+}
+span.emptySmallButton:hover {
+  background-image: url(../_images/commonButtons/smallButtonBlank_on.png);
+  color: white;
+}
+
+/* small toggle button */
+
+span.smallToggleButton {
+  background-image: url(../_images/commonButtons/smallButtonBlank_off.png);
+  background-repeat: no-repeat;
+  width: 104px;
+  height: 23px;
+  color: #4F7984;
+  font-weight: normal;
+  font-size: 13px;
+  text-align: center;
+  display: inline-table;
+  cursor: pointer;
+  padding-top: 4px;
+  overflow: hidden;
+}
+span.smallToggleButton[class ~= "on"] {
+  background-image: url(../_images/commonButtons/smallButtonBlank_on.png);
+  color: white;
+}
+
+
+/* POPUP */
+
+div.popup {
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  position: absolute;
+  background-image: url('../_images/commonButtons/transparentGray.png');
+  text-align: center;
+  vertical-align: middle;
+  position: fixed;
+  _position: absolute;
+  top: 0;
+  _top: expression(eval(document.body.scrollTop));
+  overflow: auto;
+}
+
+table.popup {
+  width: 100%;
+  height: 100%;
+}
+table.popup td.popup {
+  text-align: center;
+}
+
+/* delete confirmation popup */
+
+div#confirmation td.warning {
+  width: 459px;
+}
+div#confirmation td.warning img {
+  width: 120px;
+  height: 101px;
+}
+div#confirmation td.close {
+  width: 25px;
+  vertical-align: top;
+}
+div#confirmation td.close img {
+  width: 25px;
+  height: 21px;
+}
+div#confirmation div.message {
+  height: 78px;
+  font-size: 16px;
+  font-weight: bold;
+}
+div#confirmation div.buttons {
+  height: 52px;
+}
+div#confirmation div.buttons > table > tbody > tr {
+  vertical-align: middle;
+}
+div#confirmation div.buttons > table > tbody > tr > td {
+  width: 242px;
+  text-align: center;
+}
+
+/* LOADING TITLE */
+
+div#loading {
+  border: solid black;
+  background-color: #FFFFE1;
+  display: none;
+  z-index: 100;
+  position: fixed;
+  _position: absolute;
+  top: 0;
+  _top: expression(eval(document.body.scrollTop));
+}
+
+/* pager */
+
+table.pager {
+  display: inline-table;
+  font-size: 20px;
+}
+
+/* aboutUs */
+
+#wrapper { white-space: normal; padding: 0px; height: 100%; width: 906px; left: auto; top: 0px; right: auto; text-align: center; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #4F7984; display: block; background: url(../_images/greyBackground.jpg) repeat-y fixed center top; margin: 0px auto; clear: both; overflow: hidden; }
+#wrapper  #mainHeader{ font-family: Verdana, Geneva, sans-serif; margin: 0px; padding: 0px; height: 67px; width: 906px; position: relative; background: #FFF url(../_images/landingPages/indexPage/01landingPageheader.jpg) no-repeat; left: 0px; top: 0px; }
+#logo{ background-image: url(../_images/landingPages/landingPageButtons/singpathLogo_off.png); cursor: pointer; display: block; position: relative; left: 9px; top: 9px; width: 169px; height: 46px; margin: 0px; padding: 0px; }
+#logo:hover, #logo.hover { background-image: url(../_images/landingPages/landingPageButtons/singpathLogo_on.png); }
+#userMenu, #logInBox{ margin: 0px; height: 30px; width: 460px; position: relative; float: right; font-weight: bold; color: #4F7984; font-size: 12px; padding: 0px; right: 20px; bottom: 18px; }
+#logInBox .commonBtn, #userMenu .commonBtn{ position: relative; margin: 2px 0px 0px 329px; }
+#logInBox .commonBtn .middle, #userMenu .commonBtn .middle{ font-size: 15px; text-shadow: 0px 1px 3px #AAA; line-height: 20px; padding: 0px 20px; }
+.messageBox , #userMenu .nickname{ margin: 0px; padding: 10px 0px 0px 3px; height: 30px; width: 300px; position: relative; float: left; background: url(../_images/landingPages/indexPage/messageBox.png) no-repeat; font-weight: bold; color: #4F7984; font-size: 12px; left: 10px; top: -4px; text-align: center; }
+#homeButton, #mainHeader  .homeBtn{ background-image: url(../_images/landingPages/landingPageButtons/houseProfile_off.png); background-repeat: no-repeat; margin: 0px; padding: 0px; height: 40px; width: 45px; position: relative; float: left; top: -5px; left: 0px; }
+#homeButton:hover, #userMenu .homeBtn:hover, #homeButton.hover,  #userMenu .homeBtn.hover { background-image: url(../_images/landingPages/landingPageButtons/houseProfile_on.png); }
+.gravatar { margin: 0px; padding: 0px; height: 40px; width: 45px; position: relative; float: left; top: -6px; left: 7px; }
+
+#wrapper #mainHeader #nameBox{ margin: 0px; padding: 8px 0px 0px; height: 30px; width: 300px; position: relative; float: left; background: url(../_images/landingPages/indexPage/messageBox.png) no-repeat; font-weight: bold; color: #4F7984; font-size: 14px; left: 15px; top: -3px; text-align: center; }
+#userMenu .shopBtn{ background-image: url(../_images/landingPages/landingPageButtons/shoppingTrolley_off.png); background-repeat: no-repeat; margin: 0px; padding: 0px; height: 40px; width: 45px; position: relative; float: right; right: 5px; top: -5px; }
+#userMenu .shopBtn:hover, #userMenu .shopBtn.hover{ background-image: url(../_images/landingPages/landingPageButtons/shoppingTrolley_on.png); }
+#wrapper #shadowUnderBar { color: #FFF; padding: 0px; width: 906px; position: relative; top: -10px; right: 0px; font-size: 10px; margin: 0px; height: 5px; clear: none; float: left; background: url(../_images/homePage/barShadow.png) no-repeat; }
+
+#menuOptions{ color: #FFF; padding: 0px; width: 906px; position: relative; top: -9px; right: 0px; font-size: 16px; margin: 0px; height: 40px; clear: none; float: left; background: url(../_images/landingPages/indexPage/menu_BarBlue.png) no-repeat; z-index: 2; }
+#menuOptionsText{ color: #FFF; float: right; width: 750px; position: relative; font-size: 14px; background-repeat: no-repeat; height: 25px; top: 6px; right: 0px; text-align: left; }
+#menuOptionsText a:link , #wrapper #menuOptions #menuOptionsText a:visited{ font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px 5px; padding: 3px 16px; text-align: center; }
+#menuOptionsText a:hover , #wrapper #menuOptions #menuOptionsText a:active{ font-weight: bold; color: #fff100; text-align: center; border: 2px solid #fff100; margin: 0px 5px; padding: 2px 14px; }
+#infoBarRanking { color: #FFF; padding: 0px; width: 906px; position: relative; top: -5px; right: 0px; font-size: 16px; margin: 0px; height: 40px; clear: none; float: left; background: url(../_images/rankingPage/06worldWideRanking_02.png) no-repeat; }
+
+#wrapper #infoBarRanking img { color: #FFF; padding: 6px 5px 5px; font-size: 16px; margin: 0px; }
+
+#infoBox { background-image: url(../_images/landingPages/aboutUsPage/01landingPageAboutUs_03.png); background-repeat: no-repeat; margin: 0px; padding: 0px; float: left; height: 500px; width: 620px; position: relative; top: -10px; }
+#infoBox  a:link , #infoBox  a:visited{ font-weight: bold; color: #497279; border: 0px none #FFF100; padding: 1px 3px; }
+#infoBox  a:hover , #infoBox  a:active{ font-weight: bold; color: #fff100; background: #497279; padding: 1px 3px; }
+.menuSelected { font-size: 15px; font-weight: bold; color: #fff100 !important; text-align: center; border: 2px none #FFFFFF; padding: 2px 10px; margin: 0px 5px; background: #517A83; }
+#infoBox .topTitle{ font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 25px; width: 300px; position: relative; left: 25px; top: 15px; font-size: 16px; }
+#infoBox .topText { color: #497279; padding: 0px; float: left; width: 582px; position: relative; font-size: 14px; background-repeat: no-repeat; margin: 0px; height: 180px; top: 14px; text-align: left; left: 25px; }
+#infoBox .bottomTitle{ font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 25px; width: 300px; position: relative; left: 25px; top: 20px; font-size: 16px; }
+#infoBox .bottomText { color: #497279; padding: 0px; float: left; width: 582px; position: relative; font-size: 14px; background-repeat: no-repeat; margin: 0px; height: 205px; top: 21px; text-align: left; left: 25px; }
+
+/* index.html */
+
+#wrapper #landingImage { margin: 0px 0px -40px 0px; padding: 0px; height: 328px; width: 906px; background-image: url(../_images/landingPages/indexPage/01landingPageImage.jpg); clear: none; float: left; left: 0px; top: -40px; position: relative; z-index: 1; }
+#wrapper #landingImage  #menuOptions{ color: #FFF; padding: 0px; float: right; width: 906px; position: relative; top: -9px; right: 0px; font-size: 14px; background-image: url(../_images/landingPages/indexPage/menu_BarBlue.png); background-repeat: no-repeat; margin: 0px; height: 40px; 
+}
+#wrapper #landingImage #menuOptions a:link , #landingImage #menuOptions a:visited{ font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px 5px; padding: 3px 16px; text-align: center; }
+#wrapper #landingImage #menuOptions a:hover , #landingImage #menuOptions a:active{ font-weight: bold; color: #fff100; text-align: center; border: 2px solid #fff100; margin: 0px 5px; padding: 2px 14px; }
+#wrapper #landingImage  #menuOptions #menuOptionsText{ color: #FFF; padding: 0px; float: right; width: 750px; position: relative; font-size: 14px; background-repeat: no-repeat; margin: 0px; height: 25px; top: 7px; right: 0px; 
+}
+#landingImageTVIcon  { display: block; position: relative; top: 140px; left: 20px; width: 150px; margin: 0px; padding: 0px; }
+#landingImageTVIcon  .tvIcon  { background-image: url(../_images/landingPages/landingPageButtons/television_off.png); background-repeat: no-repeat; width: 150px; height: 160px; }
+#landingImageTVIcon .tvIcon:hover, #landingImageTVIcon .tvIcon.hover, #landingImageTVIcon:hover .tvIcon, #landingImageTVIcon.hover .tvIcon { background-image: url(../_images/landingPages/landingPageButtons/television_on.png); }
+
+#wrapper #landingImage #statsTextBox{ margin: 0px; padding: 0px; height: 253px; width: 365px; background: url(../_images/landingPages/indexPage/statisticBox.png) no-repeat; float: right; right: 0px; position: relative; clear: none; bottom: 112px; }
+#wrapper #landingImage #statsTextBox #statsTextBoxTitleTop{ font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 25px; width: 300px; position: relative; left: 20px; top: 10px; font-size: 16px; }
+#wrapper #landingImage #statsTextBox #statsTextBoxtext{ margin: 0px; padding: 5px 0px; height: 190px; width: 327px; position: relative; left: 20px; top: 8px; float: left; background-repeat: no-repeat; font-weight: normal; text-align: left; overflow: auto; color: #FFF; border-top: none; border-right: none; border-bottom: none; border-left: none; 
+}
+#wrapper #landingImage #statsTextBox #statsTextBoxtext p { margin: 7px 0px; padding: 4px 5px; position: relative; left: 0px; top: 0px; background-repeat: no-repeat; text-align: left; overflow: auto; border: 2px solid #517A83; width: 285px; }
+
+#wrapper #landingTextBox { margin: 0px; padding: 0px; height: 255px; width: 542px; background: url(../_images/landingPages/indexPage/01landingPage03.png) no-repeat; clear: both; float: left; position: relative; 
+}
+#wrapper #landingTextBox #landingTextBoxTitleTop { font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 25px; width: 300px; position: relative; left: 30px; top: 10px; font-size: 16px; }
+#wrapper #landingTextBox #landingTextBoxtext { margin: 0px; padding: 0px; height: 195px; width: 495px; position: relative; left: 31px; top: 15px; float: left; background-repeat: no-repeat; font-weight: normal; text-align: left; overflow: auto; 
+}
+#wrapper #friendsTextBox { margin: 0px; padding: 0px; height: 255px; width: 362px; background: url(../_images/landingPages/indexPage/01landingPage04.png) no-repeat; float: right; right: 0px; position: relative; clear: none; top: 0px; }
+#wrapper #friendsTextBox #friendsTextBoxTitleTop { font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 25px; width: 300px; position: relative; left: 20px; top: 10px; font-size: 16px; }
+#wrapper #friendsTextBox #friendsTextBoxtext { margin: 0px; padding: 7px 5px; height: 140px; width: 320px; position: relative; left: 15px; top: 8px; float: left; background-repeat: no-repeat; font-weight: normal; text-align: left; overflow: auto; color: #517A83; border-top: none; border-right: none; border-bottom: none; border-left: none; 
+}
+#friendsTextBoxtext .player { margin-right: -3px; }
+#wrapper #friendsTextBox #friendsTextBoxtext img { margin: 0px; padding: 4px 3px 0px; position: relative; background-repeat: no-repeat; font-weight: bold; color: #FFF; border-top: none; border-right: none; border-bottom: none; border-left: none; }
+
+#friendsTextBoxtextSocial { margin: 0px; padding: 17px 15px 7px 5px; height: 35px; width: 322px; position: relative; left: 10px; top: 2px; float: left; background-repeat: no-repeat; font-weight: normal; text-align: right; color: #517A83; border-top: none; border-right: none; border-bottom: none; border-left: none; }
+
+#friendsTextBoxtextSocial .text { line-height: 30px; }
+#friendsTextBoxtextSocial .facebook { background-image: url(../_images/landingPages/landingPageButtons/socialButtonsFacebook_off.png); background-repeat: no-repeat; display: block; float: right; width: 36px; height: 29px; margin-left: 10px; }
+#friendsTextBoxtextSocial .facebook:hover, #friendsTextBoxtextSocial .facebook.hover { background-image: url(../_images/landingPages/landingPageButtons/socialButtonsFacebook_on.png); }
+#friendsTextBoxtextSocial .twitter { background-image: url(../_images/landingPages/landingPageButtons/socialButtonsTwitter_off.png); background-repeat: no-repeat; display: block; float: right; width: 36px; height: 29px; margin-left: 5px; }
+#friendsTextBoxtextSocial .twitter:hover, #friendsTextBoxtextSocial .twitter.hover { background-image: url(../_images/landingPages/landingPageButtons/socialButtonsTwitter_on.png); }
+
+#wrapper #landingLogos { margin: 0px; padding: 0px; height: 75px; width: 906px; clear: both; float: left; left: 0px; top: 0px; }
+#wrapper #aboutUsMenuOptions  { color: #FFF; padding: 0px; float: left; width: 906px; position: relative; top: 0px; right: 0px; font-size: 16px; background-image: url(../_images/landingPages/indexPage/menu_BarBlue.png); background-repeat: no-repeat; margin: 0px; height: 40px; clear: left; 
+}
+#wrapper #shopBox { margin: 0px; padding: 0px; float: left; height: 105%; width: 906px; position: relative; top: -15px; background: no-repeat; 
+}
+#wrapper #shopBox #shopBoxTitleTopAll{ font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 25px; width: 350px; position: relative; font-size: 16px; top: 14px; left: 7px; }
+#wrapper #shopBox #shopBoxBodyInfo { color: #497279; padding: 0px; float: left; width: 906px; position: relative; font-size: 14px; margin: 0px; height: 560px; top: 14px; text-align: left; left: 0px; overflow: auto; background: url(../_images/landingPages/shopPages/01landingPageShop_04.png) no-repeat; 
+}
+#wrapper #shopBox #shopBoxBodyInfo #shopBoxSpecialsBox { color: #497279; padding: 0px; float: left; width: 880px; position: relative; font-size: 14px; margin: 0px; height: 255px; top: 10px; text-align: left; left: 13px; overflow: auto; background: url(../_images/landingPages/shopPages/specialOfferTab.png) no-repeat; }
+#wrapper #shopBox #shopBoxBodyInfo #shopBoxSpecialsBoxTitleTop{ font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 25px; width: 200px; position: relative; left: 18px; top: 9px; font-size: 16px; }
+#wrapper #shopBox #shopBoxBodyInfo #shopBoxSpecialsBox01Info { color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 165px; width: 267px; position: relative; left: 24px; top: 14px; clear: left; }
+
+#wrapper #shopBox #shopBoxBodyInfo #shopBoxSpecialsBox02Info { color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 165px; width: 267px; position: relative; left: 40px; top: 14px; }
+#wrapper #shopBox #shopBoxBodyInfo #shopBoxSpecialsBox03Info { color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 165px; width: 267px; position: relative; left: 52px; top: 14px; }
+#wrapper #shopBox #shopBoxBodyInfo #shopBoxBarMove{ color: #FFF; padding: 0px; width: 880px; position: relative; top: 14px; right: 0px; font-size: 16px; margin: 0px; height: 40px; clear: left; float: left; text-align: center; }
+
+#wrapper #shopBox #shopBoxBodyInfo #shopBox01 { color: #497279; padding: 0px; float: left; width: 297px; position: relative; font-size: 14px; margin: 0px; height: 264px; top: 5px; text-align: left; left: 13px; overflow: auto; background: url(../_images/landingPages/shopPages/largeTab.png) no-repeat; }
+#wrapper #shopBox #shopBoxBodyInfo #shopBox01TitleTop{ font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 25px; width: 200px; position: relative; left: 17px; top: 10px; font-size: 16px; }
+#wrapper #shopBox #shopBoxBodyInfo #shopBox02 { color: #497279; padding: 0px; float: left; width: 297px; position: relative; font-size: 14px; margin: 0px; height: 264px; top: 5px; text-align: left; left: 6px; overflow: auto; background: url(../_images/landingPages/shopPages/largeTab.png) no-repeat; }
+#wrapper #shopBox #shopBoxBodyInfo #shopBox01Info { color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 220px; width: 267px; position: relative; left: 16px; top: 9px; }
+#wrapper #shopBox #shopBoxBodyInfo #shopBox01Info p { font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 5px; text-align: left; float: left; font-size: 15px; }
+#wrapper #shopBox #shopBoxBodyInfo #shopBox02TitleTop{ font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 25px; width: 200px; position: relative; left: 17px; top: 10px; font-size: 16px; }
+#wrapper #shopBox #shopBoxBodyInfo #shopBox02Info { color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 220px; width: 267px; position: relative; left: 16px; top: 9px; }
+#wrapper #shopBox #shopBoxBodyInfo #shopBox02Info p { font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 5px; text-align: left; float: left; font-size: 15px; }
+
+
+#wrapper #shopBox #shopBoxBodyInfo #shopBox03 { color: #497279; padding: 0px; float: left; width: 297px; position: relative; font-size: 14px; margin: 0px; height: 264px; top: 5px; text-align: left; left: 0px; overflow: auto; background: url(../_images/landingPages/shopPages/largeTab.png) no-repeat; }
+#wrapper #shopBox #shopBoxBodyInfo #shopBox03Info { color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 220px; width: 267px; position: relative; left: 16px; top: 9px; }
+#wrapper #shopBox #shopBoxBodyInfo #shopBox03Info p { font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 5px; text-align: left; float: left; font-size: 15px; }
+#wrapper #shopBox #shopBoxBodyInfo #shopBox03TitleTop { font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 25px; width: 200px; position: relative; left: 17px; top: 10px; font-size: 16px; }
+
+
+
+
+#wrapper #tourInfoBox { margin: 0px; padding: 0px; float: left; height: 105%; width: 510px; position: relative; top: -15px; background: no-repeat; 
+}
+#wrapper #tourInfoBox #tourInfoBoxTitleTopAll{ font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 25px; width: 350px; position: relative; font-size: 16px; top: 14px; left: 9px; }
+#wrapper #firstStartSlice { margin: 0px; padding: 0px; float: left; height: 25px; width: 9px; position: relative; top: 0px; left: 1px; background: url(../_images/commonButtons/blankButtons/tab-headers-combined.png) no-repeat -5px -51px; }
+#wrapper #firstMiddleSlice { font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 3px 10px 0px; text-align: left; float: left; height: 25px; width: 100px; position: relative; font-size: 16px; top: 1px; left: 1px; background: url(../_images/commonButtons/blankButtons/tab-headers-combined.png) no-repeat 0px -26px; }
+
+#wrapper #firstJoinSlice { font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 3px 10px 0px; text-align: left; float: left; height: 27px; width: 12px; position: relative; font-size: 16px; top: -1px; left: 1px; background: url(../_images/commonButtons/blankButtons/tab-headers-combined.png) no-repeat -150px -50px; }
+
+#wrapper #firstEndSlice { margin: 0px; padding: 0px; float: left; height: 25px; width: 24px; position: relative; top: 0px; left: 1px; background: url(../_images/commonButtons/blankButtons/tab-headers-combined.png) no-repeat -14px -51px; }
+
+#wrapper #secondMiddleSlice { font-weight: bold; color: #517A83; border: 0px none #FFF100; margin: 0px; padding: 5px 10px 0px; text-align: left; float: left; height: 25px; width: 120px; position: relative; font-size: 16px; top: -1px; left: -1px; background: url(../_images/commonButtons/blankButtons/tab-headers-combined.png) no-repeat 0px 0px; }
+#wrapper #secondEndSlice { margin: 0px; padding: 0px; float: left; height: 25px; width: 28px; position: relative; top: 0px; left: -1px; background: url(../_images/commonButtons/blankButtons/tab-headers-combined.png) no-repeat -53px -51px; }
+
+
+#wrapper #tourInfoBox #tourInfoBoxBodyInfo { color: #497279; padding: 0px; float: left; width: 509px; position: relative; font-size: 14px; margin: 0px; height: 1300px; top: 14px; text-align: left; left: 0px; overflow: auto; background: url(../_images/rankingPage/06worldWideRanking_05.png) no-repeat; 
+}
+#wrapper #tourInfoBox #tourInfoBoxBodyInfo #tourInfoBoxTagBox{ font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 5px 0px 0px; text-align: left; float: left; height: 30px; width: 400px; position: relative; left: 30px; top: 5px; font-size: 16px; }
+#wrapper #tourInfoBox #tourInfoBoxBodyInfo #tourInfoBoxTitleSolved{ font-weight: normal; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: center; float: right; height: 15px; width: 50px; position: relative; top: 18px; font-size: 12px; right: 25px; }
+#wrapper #tourInfoBox #tourInfoBoxBodyInfo #tourInfoBoxTagDropDown { font-weight: bold; color: #517A83; border: 0px none #FFF100; margin: 0px; padding: 5px 0px 0px 15px; text-align: left; float: right; height: 27px; width: 280px; position: relative; top: -6px; font-size: 16px; background: url(../_images/rankingPage/tagBox.png) no-repeat; right: 10px; }
+#wrapper #rankingList   { color: #497279; padding: 0px; float: left; width: 480px; position: relative; font-size: 14px; margin: 0px; height: 1180px; top: -4px; text-align: left; left: 16px; overflow: auto; }
+
+#wrapper #tourInfoBox #tourInfoBoxBodyInfo #tourInfoBoxStats{ color: #FFFFFF; padding: 2px 10px 0px; float: left; width: 454px; position: relative; font-size: 14px; margin: 0px; height: 20px; text-align: right; left: 16px; overflow: hidden; border: 2px solid #497279; bottom: -5px; }
+#wrapper #countryRankingBox { margin: 0px; padding: 0px; float: right; height: 625px; width: 396px; position: relative; top: -10px; background: url(../_images/rankingPage/06worldWideRanking_04.png) no-repeat; clear: none; 
+}
+#wrapper #countryRankingBox #countryRankingBoxTitleTop{ font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 25px; width: 150px; position: relative; left: 15px; top: 15px; font-size: 16px; }
+#wrapper #countryRankingBox #countryRankingBoxViewButton { margin: 0px; padding: 0px; float: right; height: 24px; width: 120px; top: 5px; right: -25px; position: relative; 
+}
+#wrapper #countryRankingTitleUsers { font-weight: normal; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: center; float: right; height: 15px; width: 50px; position: relative; top: 31px; font-size: 12px; right: 50px; }
+#wrapper #rankCtryList  { color: #497279; padding: 0px; float: left; width: 368px; position: relative; font-size: 16px; margin: 0px; height: 522px; top: 27px; text-align: left; left: 12px; overflow: auto; 
+}
+#wrapper #countryRankingBox #countryRankingBoxStats { color: #FFFFFF; padding: 2px 10px 0px; float: left; width: 348px; position: relative; font-size: 14px; margin: 0px; height: 20px; text-align: right; left: 12px; overflow: hidden; border: 2px solid #497279; bottom: -37px; }
+#wrapper #createOptionsBox { margin: 0px; padding: 0px; float: right; height: 465px; width: 324px; position: relative; top: -5px; background: url(../_images/createMain/09createMain_03.png) no-repeat; right: -2px; clear: none; 
+}
+#wrapper #rankShareBox { margin: 0px; padding: 0px; float: right; height: 85px; width: 396px; position: relative; top: -10px; background: url(../_images/rankingPage/06worldWideRanking_06.png) no-repeat; clear: none; 
+}
+#wrapper #rankShareBox #rankShareBoxTitleTop{ font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 25px; width: 150px; position: relative; left: 15px; top: 5px; font-size: 16px; }
+#wrapper #rankShareBox #rankShareBoxInfoText { color: #497279; padding: 10px 0px 0px 20px; float: left; width: 100px; position: relative; font-size: 16px; margin: 0px; height: 26px; top: 5px; text-align: left; left: 12px; overflow: auto; clear: left; font-weight: bold; }
+#wrapper #rankShareBox #rankShareBoxInfoAddThis { color: #497279; padding: 2px 0px 0px; float: right; width: 250px; position: relative; font-size: 16px; margin: 0px; height: 32px; top: 5px; text-align: left; left: -10px; overflow: auto; 
+}
+#wrapper #rankStatsBox { margin: 0px; padding: 0px; float: right; height: 305px; width: 396px; position: relative; top: -10px; background: url(../_images/rankingPage/06worldWideRanking_07.png) no-repeat; clear: none; 
+}
+#wrapper #rankStatsBox #rankStatsBoxTitleTop{ font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 25px; width: 150px; position: relative; left: 15px; top: 15px; font-size: 16px; }
+#wrapper #rankStatsBox #rankStatsBoxViewButton { margin: 0px; padding: 0px; float: right; height: 24px; width: 120px; top: 5px; right: 15px; position: relative; 
+}
+#wrapper #rankStatsBox #rankStatsBoxText { color: #FFFFFF; padding: 5px 0px; float: left; width: 372px; position: relative; font-size: 16px; margin: 0px; height: 242px; top: 14px; text-align: left; left: 12px; overflow: auto; 
+}
+#wrapper #rankStatsBox #rankStatsBoxText p  { margin: 7px 0px; padding: 4px 5px; position: relative; left: 0px; top: 0px; background-repeat: no-repeat; text-align: left; overflow: auto; border: 2px solid #517A83; width: 328px; }
+#wrapper #adsBox { margin: 0px; padding: 0px; float: right; height: 250px; width: 396px; position: relative; top: -10px; background: url(../_images/rankingPage/06worldWideRanking_08.png) no-repeat; clear: none; 
+}
+#wrapper #adsBox #adsBoxTitleTop{ font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 25px; width: 150px; position: relative; left: 15px; top: 10px; font-size: 16px; }
+#wrapper #adsBox #adsBoxImage { color: #FFFFFF; padding: 0px; float: left; width: 375px; position: relative; font-size: 16px; margin: 0px; height: 190px; top: 8px; text-align: left; left: 8px; 
+}
+
+#wrapper #createOptionsBox #createOptionsBoxTitleTop{ font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 25px; width: 200px; position: relative; left: 15px; top: 10px; font-size: 16px; }
+#wrapper #createOptionsBox #createOptionsBoxBody { color: #497279; padding: 0px; float: left; width: 295px; position: relative; font-size: 16px; background-repeat: no-repeat; margin: 0px; height: 380px; top: 15px; text-align: left; left: 15px; 
+}
+#wrapper #createOptionsBox #createOptionsBoxBody img { padding: 8px 6px; float: left; position: relative; background-repeat: no-repeat; margin: 0px; }
+#wrapper #createContBox { margin: 0px; padding: 0px; float: left; height: 110px; width: 579px; position: relative; top: -5px; background: url(../_images/createMain/09createMain_02.png) no-repeat; clear: none; 
+}
+#wrapper #createContBox #createContBoxTitleTop{ font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 25px; width: 300px; position: relative; left: 25px; top: 8px; font-size: 16px; }
+#wrapper #createContBox #createContBoxText { color: #497279; padding: 0px; float: left; width: 538px; position: relative; font-size: 14px; background-repeat: no-repeat; margin: 0px; height: 68px; top: 8px; text-align: left; left: 25px; overflow: auto; 
+}
+#wrapper #createInfoBox { margin: 0px; padding: 0px; float: left; height: 190px; width: 579px; position: relative; top: -5px; background: url(../_images/createMain/09createMain_04.png) no-repeat; clear: none; 
+}
+#wrapper #createInfoBox #createInfoBoxTitleTop{ font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 25px; width: 300px; position: relative; left: 25px; top: 8px; font-size: 16px; }
+#wrapper #createInfoBox #createInfoBoxText { color: #FFFFFF; padding: 0px 12px 0px 0px; float: left; width: 530px; position: relative; font-size: 14px; background-repeat: no-repeat; margin: 0px; height: 95px; top: 6px; text-align: left; left: 25px; overflow: auto; 
+}
+#wrapper #createInfoBox #createInfoBoxCreate { color: #FFFFFF; padding: 5px 10px 0px 0px; float: left; width: 532px; position: relative; font-size: 14px; background-repeat: no-repeat; margin: 0px; height: 35px; top: 6px; text-align: right; left: 25px; border-top: 2px solid #FFF; border-right: 2px none #FFF; border-bottom: 2px none #FFF; border-left: 2px none #FFF; }
+
+#wrapper #createCopyBox { margin: 0px; padding: 0px; float: left; height: 140px; width: 579px; position: relative; top: -5px; background: url(../_images/createMain/09createMain_05.png) no-repeat; clear: none; 
+}
+#wrapper #createCopyBox #createCopyBoxTitleTop{ font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 25px; width: 300px; position: relative; left: 25px; top: 8px; font-size: 16px; }
+#wrapper #createCopyBox #createCopyBoxText { color: #497279; padding: 0px; float: left; width: 538px; position: relative; font-size: 14px; background-repeat: no-repeat; margin: 0px; height: 88px; top: 8px; text-align: left; left: 25px; overflow: auto; 
+}
+#wrapper #runCodeInfoBox { margin: 0px; padding: 0px; float: left; height: 175px; width: 906px; position: relative; top: -10px; background: url(../_images/currentPathPage/05runCodePage_02.png) no-repeat; clear: none; 
+}
+#wrapper #runCodeInfoBox #runCodeInfoBoxTitleTop{ font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 25px; width: 260px; position: relative; left: 15px; top: 12px; font-size: 16px; }
+#wrapper #runCodeInfoBox #runCodeInfoBoxTitleTop a:link , #wrapper #runCodeInfoBox #runCodeInfoBoxTitleTop a:visited{ font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px 5px; padding: 1px 4px; text-align: center; }
+#wrapper #runCodeInfoBox #runCodeInfoBoxTitleTop a:hover , #wrapper #runCodeInfoBox #runCodeInfoBoxTitleTop a:active{ font-weight: bold; color: #517A83; text-align: center; margin: 0px 5px; padding: 1px 4px; background: #CCC; }
+#wrapper #runCodeInfoBox #runCodeInfoBoxViewButton { margin: 0px; padding: 0px; float: right; height: 24px; width: 120px; top: 3px; right: 15px; position: relative; 
+}
+#wrapper #runCodeInfoBox #runCodeInfoBoxText { color: #517A83; padding: 0px 12px 0px 0px; float: left; width: 800px; position: relative; font-size: 14px; background-repeat: no-repeat; margin: 0px; height: 120px; top: 10px; text-align: left; left: 25px; overflow: auto; 
+}
+#wrapper #runCodeInfoBox #runCodeInfoBoxTextBook { color: #517A83; padding: 0px; float: left; width: 50px; position: relative; font-size: 14px; background-repeat: no-repeat; margin: 0px; height: 95px; top: 15px; text-align: left; left: 25px; }
+#wrapper #runCodeInfoBar { color: #FFF; padding: 7px 0px 0px 30px; width: 876px; position: relative; top: -10px; right: 0px; font-size: 16px; margin: 0px; height: 40px; clear: none; float: left; background: url(../_images/currentPathPage/05runCodePage_03.png) no-repeat; text-align: left; font-weight: bold; }
+#wrapper #runCodeInfoBar #runCodeInfoBarClock { color: #517A83; padding: 0px; float: right; width: 115px; position: relative; font-size: 14px; margin: 0px; height: 35px; top: 0px; text-align: center; background: url(../_images/currentPathPage/05runCodePage_11.png) no-repeat; clear: none; right: 8px; }
+#wrapper #runCodeInfoBar #runCodeInfoBarClockTime { color: #FFFFFF; padding: 0px; position: relative; font-size: 22px; margin: 0px; top: 1px; text-align: center; left: 2px; height: 18px; width: 110px; letter-spacing: 0.1em; }
+
+
+#wrapper #runCodeBox { margin: 0px; padding: 0px; float: left; height: 547px; width: 508px; position: relative; top: -5px; background: url(../_images/currentPathPage/05runCodePage_04.png) no-repeat; clear: none; 
+}
+#wrapper #runCodeBox #runCodeBoxTitleTop{ font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 25px; width: 220px; position: relative; left: 15px; top: 27px; font-size: 16px; }
+
+#wrapper #runCodeBox #runCodeBoxTitleTop a:link , #wrapper #runCodeBox #runCodeBoxTitleTop a:visited{ font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px 5px; padding: 1px 4px; text-align: center; }
+#wrapper #runCodeBox #runCodeBoxTitleTop a:hover , #wrapper #runCodeBox #runCodeBoxTitleTop a:active{ font-weight: bold; color: #517A83; text-align: center; margin: 0px 5px; padding: 1px 4px; background: #CCC; }
+#wrapper #runCodeBox #runCodeBoxRunCodeTop { border: 0px none #FFF100; margin: 0px; padding: 0px; float: right; height: 40px; width: 230px; position: relative; top: 8px; right: 6px; }
+#wrapper #runCodeBox #runCodeBoxBody { color: #497279; float: left; width: 466px; position: relative; font-size: 14px; margin: 0px; height: 428px; top: 10px; text-align: left; left: 16px; overflow: auto; padding: 5px; border: 1px solid #497279; 
+}
+#wrapper #runCodeBox #runCodeBoxRunCodeBottom { border: 0px none #FFF100; margin: 0px; padding: 0px; float: right; height: 40px; width: 230px; position: relative; top: 16px; right: 6px; }
+#wrapper #runCodeMesBox { margin: 0px; padding: 0px; float: left; height: 105%; width: 397px; position: relative; top: -15px; background: no-repeat; 
+}
+#wrapper #runCodeMesBox #runCodeMesBoxTitleTopAll{ font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 25px; width: 350px; position: relative; font-size: 16px; top: 14px; left: 2px; }
+#wrapper #runCodeMesBox #runCodeMesBoxBodyInfo { color: #497279; padding: 10px 20px; float: left; width: 357px; position: relative; font-size: 14px; margin: 0px; height: 378px; top: 12px; text-align: left; left: 0px; overflow: auto; background: url(../_images/currentPathPage/05runCodePage_06.png) no-repeat; 
+}
+#wrapper #runCodeStatsBox { margin: 0px; padding: 0px; float: right; height: 202px; width: 396px; position: relative; top: 15px; background: url(../_images/currentPathPage/05runCodePage_07.png) no-repeat; clear: none; 
+}
+#wrapper #runCodeStatsBox #runCodeStatsBoxTitleTop{ font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 25px; width: 150px; position: relative; left: 15px; top: 7px; font-size: 16px; }
+#wrapper #runCodeStatsBox #runCodeStatsBoxViewButton { margin: 0px; padding: 0px; float: right; height: 24px; width: 120px; top: 0px; right: 15px; position: relative; 
+}
+#wrapper #runCodeStatsBox #runCodeStatsBoxText { color: #FFFFFF; padding: 5px 0px; float: left; width: 372px; position: relative; font-size: 16px; margin: 0px; height: 132px; top: 5px; text-align: left; left: 12px; overflow: auto; 
+}
+#wrapper #runCodeStatsBox #runCodeStatsBoxText p  { margin: 7px 0px; padding: 4px 5px; position: relative; left: 0px; top: 0px; background-repeat: no-repeat; text-align: left; overflow: auto; border: 2px solid #517A83; width: 328px; }
+#wrapper #tourSelectBox { margin: 0px; padding: 0px; float: left; height: 85px; width: 906px; position: relative; top: -10px; background: url(../_images/tournamentPages/07tournament_02.png) no-repeat; clear: none; 
+}
+#wrapper #tourSelectBox #tourSelectBoxTypeSelector{ font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: center; float: left; height: 35px; width: 880px; position: relative; left: 10px; top: 8px; font-size: 16px; }
+#wrapper #tourSelectBox #tourSelectBoxTypeSelector img { border: 0px none #FFF100; margin: 0px; padding: 0px 10px; position: relative; }
+
+#wrapper #tourSelectBox #tourSelectBoxPathSelector { color: #517A83; padding: 0px 12px 0px 0px; float: left; width: 870px; position: relative; font-size: 14px; background-repeat: no-repeat; margin: 0px; height: 35px; top: 10px; text-align: left; left: 22px; 
+}
+#wrapper #tourSelectBox #tourSelectBoxPathSelector img{ color: #FFF; padding: 6px 5px 5px; font-size: 16px; margin: 0px; }
+
+#wrapper #tourActualSelectBox { margin: 0px; padding: 0px; float: left; height: 105%; width: 906px; position: relative; top: -15px; background: no-repeat; 
+}
+#wrapper #tourActualSelectBox #tourActualSelectBoxTitleTopAll{ font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 25px; width: 710px; position: relative; font-size: 16px; top: 14px; left: 8px; }
+#wrapper #threeFirstStartSlice { margin: 0px; padding: 0px; float: left; height: 25px; width: 9px; position: relative; top: 0px; left: 1px; background: url(../_images/commonButtons/blankButtons/tab-headers-combined.png) no-repeat -5px -51px; }
+#wrapper #threeFirstMiddleSlice { font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 3px 10px 0px; text-align: left; float: left; height: 25px; width: 195px; position: relative; font-size: 14px; top: 1px; left: 1px; background: url(../_images/commonButtons/blankButtons/tab-headers-combined.png) no-repeat 0px -26px; }
+#wrapper #threeFirstJoinSlice { font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 3px 10px 0px; text-align: left; float: left; height: 27px; width: 12px; position: relative; font-size: 16px; top: -1px; left: 1px; background: url(../_images/commonButtons/blankButtons/tab-headers-combined.png) no-repeat -150px -50px; }
+#wrapper #threeFirstEndSlice { margin: 0px; padding: 0px; float: left; height: 25px; width: 24px; position: relative; top: 0px; left: 1px; background: url(../_images/commonButtons/blankButtons/tab-headers-combined.png) no-repeat -14px -51px; }
+#wrapper #threeSecondMiddleSlice { font-weight: bold; color: #517A83; border: 0px none #FFF100; margin: 0px; padding: 5px 10px 0px; text-align: left; float: left; height: 25px; width: 145px; position: relative; font-size: 14px; top: -1px; left: -1px; background: url(../_images/commonButtons/blankButtons/tab-headers-combined.png) no-repeat 0px 0px; }
+#wrapper #threeSecondEndSlice { margin: 0px; padding: 0px; float: left; height: 25px; width: 28px; position: relative; top: 0px; left: -1px; background: url(../_images/commonButtons/blankButtons/tab-headers-combined.png) no-repeat -53px -51px; }
+#wrapper #threeSecondJoinSlice { font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 3px 10px 0px; text-align: left; float: left; height: 27px; width: 14px; position: relative; font-size: 16px; top: -1px; left: -1px; background: url(../_images/commonButtons/blankButtons/tab-headers-combined.png) no-repeat -115px -50px; }
+#wrapper #threeThirdMiddleSlice { font-weight: bold; color: #517A83; border: 0px none #FFF100; margin: 0px; padding: 5px 10px 0px; text-align: left; float: left; height: 25px; width: 200px; position: relative; font-size: 14px; top: -1px; left: -1px; background: url(../_images/commonButtons/blankButtons/tab-headers-combined.png) no-repeat 0px 0px; }
+#wrapper #threeThirdEndSlice { margin: 0px; padding: 0px; float: left; height: 25px; width: 28px; position: relative; top: 0px; left: -1px; background: url(../_images/commonButtons/blankButtons/tab-headers-combined.png) no-repeat -53px -51px; }
+#wrapper #tourActualSelectBox #tourActualSelectBoxViewButton { margin: 0px; padding: 0px; float: right; height: 24px; width: 190px; top: 15px; right: 2px; position: relative; 
+}
+#wrapper #tourActualSelectBox #tourActualSelectBoxBodyInfo { color: #497279; padding: 5px 15px; float: left; width: 876px; position: relative; font-size: 14px; margin: 0px; height: 130px; top: 12px; text-align: left; left: 0px; overflow: hidden; background: url(../_images/tournamentPages/07tournament_04.png) no-repeat; 
+}
+#wrapper #tourActualSelectBox #tourActualSelectBoxBodyInfo img { color: #FFF; padding: 0px; font-size: 16px; margin: 0px; }
+#wrapper #tourOrgInfoBox { margin: 0px; padding: 0px; float: left; height: 210px; width: 906px; position: relative; top: 10px; background: url(../_images/tournamentPages/07tournament_05_invitational.png) no-repeat; clear: none; 
+}
+#wrapper #tourOrgInfoBox #tourOrgInfoBoxTitleTop{ font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 25px; width: 260px; position: relative; left: 25px; top: 7px; font-size: 16px; }
+#wrapper #tourOrgInfoBox #tourOrgInfoBoxViewButton { margin: 0px; padding: 0px; float: right; height: 24px; width: 120px; top: 3px; right: 15px; position: relative; 
+}
+#wrapper #tourOrgInfoBox #tourOrgInfoBoxImage { color: #517A83; padding: 0px; float: left; width: 305px; position: relative; font-size: 14px; background-repeat: no-repeat; margin: 0px; height: 155px; top: 11px; text-align: left; left: 20px; clear: left; }
+#wrapper #tourOrgInfoBox #tourOrgInfoBoxText { color: #517A83; padding: 0px 12px 0px 0px; float: left; width: 540px; position: relative; font-size: 14px; background-repeat: no-repeat; margin: 0px; height: 120px; top: 10px; text-align: left; left: 30px; overflow: auto; 
+}
+
+
+
+
+
+#wrapper  #mainFooter{ font-family: Verdana, Geneva, sans-serif; margin: 0px; height: 80px; width: 906px; position: relative; top: 0px; left: 0px; font-weight: bold; padding: 0px; clear: both; float: left; 
+}
+#menuFooterTop{ margin: 0px; padding: 14px 0px 0px; height: 26px; width: 906px; position: relative; top: 0px; background: #FFF url(../_images/landingPages/indexPage/01landingPage17.jpg) no-repeat; left: 0px; font-size: 12px; text-align: center; }
+#menuFooterTop a{ display: inline-block; }
+#menuFooterTop a:link , #menuFooterTop a:visited{ font-weight: bold; color: #CCCCCC; border: 0px none #FFF100; margin: -1px 5px; padding: 2px 8px; text-align: center; }
+#menuFooterTop a:hover , #menuFooterTop a:active{ font-weight: bold; color: #517A83; text-align: center; border: 2px solid #517A83; margin: -1px 5px; padding: 0px 6px; }
+.smallerLeftText { font-size: 10px; }
+.bold { font-weight: bold; }
+.boldText { font-size: 1.1em; font-weight: bold; }
+.smallTextBold { font-size: 12px; font-weight: bold; }
+
+.boldTextLarge { font-size: 1.4em; font-weight: bold; }
+
+
+#wrapper #mainFooter #menuFooterBottom{ margin: 0px; padding: 12px 0px 0px 15px; height: 30px; width: 891px; position: relative; top: 0px; background: #FFF url(../_images/landingPages/indexPage/01landingPage18.jpg) no-repeat; left: 0px; color: #FFF; font-size: 14px; text-align: left; clear: both; float: left; }
+#gr8ph1csLogo { background-image: url(../_images/landingPages/landingPageButtons/gr8ph1csLogo_off.png); float: right; display: block; position: relative; top: -24px; right: 10px; width: 140px; height: 34px; margin: 0px; padding: 0px; }
+#gr8ph1csLogo:hover, #gr8ph1csLogo.hover { background-image: url(../_images/landingPages/landingPageButtons/gr8ph1csLogo_on.png); }
+
+#wrapper #Footer {
+  background-image: url(../_images/landingPage/01landingPage05.jpg);
+  height: 30px;
+  width: 906px;
+  position: relative;
+  bottom: 0px;
+  background-repeat: no-repeat;
+  float: left;
+  padding-top: 8px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  text-align: center;
+}
+
+#wrapper #gr8ph1csFooter { background-color: #999; height: 30px; width: 906px; position: relative; right: 0px; clear: both; margin: 0px; padding: 0px; text-align: right; float: left; 
+}
+
+/* path edit */
+
+table.pathEdit {
+  height: 216px;
+  width: 482px;
+}
+table.pathEdit > tbody > tr {
+  height: 54px;
+}
+table.pathEdit > tbody > tr > td:first-child {
+  width: 167px;
+  text-align: center;
+}
+table.pathEdit > tbody > tr > td:first-child + td.inputLong {
+  width: 315px;
+  padding-bottom: 17px;
+}
+table.pathEdit > tbody > tr > td:first-child + td > input,
+table.pathEdit > tbody > tr > td:first-child + td > select {
+  border: 0px solid;
+}
+table.pathEdit div#popup_path_language {
+    text-align: left;
+    font-size: 13px;
+    font-weight: bold;
+    padding-left: 9px;
+    padding-right: 11px;
+}
+table.levels td.cpRunPathSmallerButton div.editpath {
+  display: inline-block;
+}
+table.levelsEdit td.cpRunPathSmallerButton div.editpath {
+  display: inline-block;
+}
+td.cpRunPathSmallerButton div.editpath {
+  height: 32px;
+  vertical-align: middle;
+  text-align: center;
+  overflow: hidden;
+}
+table.levelsEdit td.cpDetailsSmaller {
+  width: 158px;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+table.levelsEdit td.cpRunPathSmallerButton {
+  width: 170px;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+table.levels div.editpath {
+  width: 0px;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+table.levelsEdit div.editpath {
+  width: 39px;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+
+/* edit problemset */
+
+div.editproblemset {
+  width: 0px;
+  overflow: hidden;
+  height: 29px;
+  display: none;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+table.pathLevelsEdit div.editproblemset {
+  width: 36px;
+  display: inline-block;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+table.pathLevelsEdit td.levelDescription {
+  width: 218px;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+table.pathLevelsEdit td.levelBadge {
+  width: 76px;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+div#popup_problemset_path {
+    text-align: left;
+    font-size: 13px;
+    font-weight: bold;
+    padding-left: 9px;
+    padding-right: 11px;
+}
+=======
+body { text-align: center; padding: 0px; left: auto; right: auto; color: #4F7984; font-family: Arial,Helvetica,sans-serif; font-size: 14px; white-space: nowrap; background: #666 url(../_images/background.jpg) repeat-x center top; margin: 0px auto; 
+}
+table {
+  border-spacing: 0px;
+  table-layout: fixed;
+}
+td {
+  padding: 0px;
+  overflow: hidden;
+}
+.__page {
+  border: 0px solid black;
+  width: 906px;
+  margin: 0 auto;
+}
+.__header {
+  border: 0px solid red;
+  width: 100%;
+}
+table.__body {
+  border: 0px solid blue;
+  display: table;
+  background-image: url("../_images/greyBackground.jpg");
+  background-repeat: repeat-y;
+}
+tr.element > td {
+  padding-left: 10px;
+  padding-right: 6px;
+  padding-top: 8px;
+}
+tr.element1 > td {
+  padding-left: 10px;
+  padding-top: 8px;
+}
+tr.element2 > td {
+  padding-left: 5px;
+  padding-right: 6px;
+  padding-top: 8px;
+}
+tr.bottomBox > td {
+  padding-bottom: 8px;
+}
+.__col1 {
+  display: table-cell;
+  vertical-align: top;
+  width: 508px;
+}
+.__col2 {
+  display: table-cell;
+  vertical-align: top;
+  width: 398px;
+}
+.__profiles {
+  width: 100%;
+}
+.__currpaths {
+  width: 100%;
+}
+.__badges {
+  width: 100%;
+  background: #789657;
+}
+.__toprankings {
+  width: 100%;
+  background: #AB3434;
+}
+.__footer {
+  border: 0px solid red;
+  width: 100%;
+}
+
+.wrapper {
+  background-image: url("../_images/greyBackground.jpg");
+  background-position: center center;
+  background-repeat: repeat-y;
+}
+a {
+  text-decoration: none;
+  color: #4F7984;
+}
+img {
+  border: 0px solid;
+}
+
+/* box header and box content */
+
+td.boxHeader {
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 0px;
+  vertical-align: bottom;
+}
+tr.boxHeaderWithButton > td.boxHeader {
+  padding-top: 8px;
+}
+td.boxHeaderButton {
+  text-align: right;
+  height: 29px;
+  padding-right: 15px;
+}
+tr.boxContent > td {
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 6px;
+}
+tr.boxBody > td {
+  padding-top: 5px;
+  padding-left: 8px;
+  padding-right: 12px;
+  padding-bottom: 5px;
+}
+
+/* HEADER */
+
+table.header {
+  font-family: Verdana, Geneva, sans-serif;
+  background-image: url(../_images/02headerShadow01.jpg);
+  background-repeat: no-repeat;
+  margin: 0px;
+  padding: 0px;
+  height: 70px;
+  width: 906px;
+  top: 0px;
+}
+td.logo {
+  text-align: left;
+  width: 397px;
+}
+a.logo {
+  margin-left: 9px;
+}
+img.logo {
+  width: 169px;
+  height: 46px;
+  margin-top: -4px;
+}
+.logIndetailsTop {
+  background-image: url(../_images/02homeLogin03.png);
+  background-repeat: no-repeat;
+  background-position: 0px 9px;
+}
+td.logInProfile {
+  width: 84px;
+  text-align: right;
+}
+div.logInProfile {
+  left: 40px;
+  top: 15px;
+}
+img.logInProfile {
+  margin-top: 15px;
+}
+.logInProfileHome {
+  margin: 0px;
+  padding: 0px;
+  height: 37px;
+  width: 44px;
+  left: 40px;
+  top: 12px;
+}
+div.logInGravatarPhoto {
+  left: 98px;
+  top: 10px;
+  width: 40px;
+  height: 40px;
+}
+img.logInGravatarPhoto {
+  height: 40px;
+  width: 40px;
+  margin-top: 12px;
+  margin-right: 8px;
+  border-radius: 4px; /* chrome */
+  -moz-border-radius: 4px; /* firefox */
+}
+td.logInGravatarPhoto {
+  width: 76px;
+  text-align: center;
+}
+.logIndetailsNameText {
+  margin-top: 12px;
+  height: 20px;
+  width: 310px;
+  font-weight: bold;
+}
+td.logIndetailsNameText {
+  background-position: 0 18px;
+  background-repeat: no-repeat;
+  vertical-align: bottom;
+  padding-bottom: 10px;
+  background-image: url('../_images/homePage/inputLong.png');
+  width: 315px;
+  text-align: center;
+}
+
+
+
+/* PROFILE */
+
+td.profileDetails {
+  vertical-align: top;
+}
+table.profileDetails {
+  background-image: url(../_images/homePage/profileBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -11px -1px;
+  width: 494px;
+  height: 285px;
+  font-size: 16px;
+  font-weight: bold;
+  border-spacing: 0px;
+}
+table.profileDetails[class ~= "student"] {
+  background-image: url(../_images/homePage/profileStudentBoxBg.png);
+}
+table.profileDetails[class ~= "professional"] {
+  background-image: url(../_images/homePage/profileProfessionalBoxBg.png);
+}
+table.profileDetailsSmall {
+  background-image: url(../_images/homePage/profileBoxBgSmall.png);
+  background-repeat: no-repeat;
+  background-position: -11px -5px;
+  width: 494px;
+  height: 240px;
+  font-size: 16px;
+  font-weight: bold;
+  border-spacing: 0px;
+}
+table.profileDetailsSmall[class ~= "student"] {
+  background-image: url(../_images/homePage/profileStudentBoxBgSmall.png);
+}
+table.profileDetailsSmall[class ~= "professional"] {
+  background-image: url(../_images/homePage/profileProfessionalBoxBgSmall.png);
+}
+div.editDetailsButton {
+  height: 24px;
+  width: 104px;
+}
+img.editDetailsButton {
+  margin-right: 15px;
+}
+table.profileDetails > tbody > tr.boxContent {
+  height: 256px;
+}
+table.profileDetails > tbody > tr.boxContent > td {
+  padding-top: 0px;
+}
+table.profileDetailsSmall > tbody > tr.boxContent {
+  height: 211px;
+}
+table.profileDetailsSmall > tbody > tr.boxContent > td {
+  padding-top: 0px;
+}
+tr.profileNameText {
+  height: 24px;
+}
+td.profileNameText {
+  color: #F7D3A4;
+}
+div.profileNameText {
+  vertical-align: middle;
+}
+table.profileDetails tr.hpGravatarLarge {
+  height: 226px;
+}
+table.profileDetailsSmall tr.hpGravatarLarge {
+  height: 181px;
+}
+td.hpGravatarLarge {
+  width: 141px;
+  text-align: right;
+  vertical-align: top;
+  padding-top: 10px;
+}
+img.hpGravatarLarge {
+  margin-right: 16px;
+  width: 95px;
+  height: 95px;
+  border-radius: 9px; /* chrome */
+  -moz-border-radius: 9px; /* firefox */
+}
+div.countryAndGender {
+  padding-top: 10px;
+  padding-left: 18px;
+  text-align: left;
+}
+table.profileDetailsInfo td {
+  padding: 3px;
+  text-align: left;
+}
+table.profileDetailsInfo td.label {
+  text-align: right;
+}
+table.profileDetailsInfo td.value {
+  white-space: normal;
+  font-weight: normal;
+}
+
+/* Current Paths */
+
+table.homeCurrentPath {
+  background-image: url(../_images/homePage/currentPathsBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -11px -4px;
+  width: 494px;
+  height: 327px;
+  vertical-align: top;
+}
+table.homeCurrentPath td.boxHeader {
+  padding-left: 0px;
+  padding-top: 3px;
+}
+td.levels {
+  vertical-align: top;
+  padding-left: 19px;
+  padding-right: 13px;
+}
+div.levels, div.myPaths, div.otherPaths {
+  overflow: auto;
+  height: 238px;
+}
+table.levels {
+  width: 450px;
+}
+tr.cpLevelButton {
+  border: 0px solid;
+  height: 40px;
+}
+td.cpLevelButton {
+  text-align: left;
+  width: 172px;
+}
+td.cpLevelSmallerButton {
+  text-align: left;
+  width: 122px;
+}
+img.cpLevelButton {
+  margin-left: 5px;
+}
+td.horizontalLine {
+  background-image: url(../_images/homePage/horizontalLine.png);
+  background-repeat: no-repeat;
+  background-position: 3px 0px;
+  height: 4px;
+}
+.cpDetails {
+  font-size: 20px;
+  font-weight: bold;
+  height: 30px;
+  width: 120px;
+  text-align: left;
+}
+.cpDetailsSmaller {
+  font-size: 14px;
+  font-weight: bold;
+  width: 197px;
+  text-align: left;
+  vertical-align: middle;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+td.cpRunPathButton {
+  width: 180px;
+  text-align: right;
+}
+td.cpRunPathSmallerButton {
+  width: 131px;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+td.cpRunPathSmallerButton > div {
+  display: inline-block;
+  height: 32px;
+  vertical-align: middle;
+}
+td.cpRunPathSmallerButton > div > a {
+  display: inline-block;
+  position: relative;
+  top: 4px;
+}
+div.cpRunPathButton {
+  height: 32px;
+  width: 140px;
+}
+td.cpCreateButton {
+  width: 140px;
+  height: 52px;
+  text-align: left;
+  vertical-align: top;
+}
+img.cpCreateButton {
+  margin-top: 5px;
+  margin-left: 9px;
+}
+td.cpTournamentButton {
+  width: 140px;
+  height: 55px;
+  text-align: right;
+  vertical-align: top;
+}
+img.cpTournamentButton {
+  margin-top: 5px;
+  margin-right: 9px;
+}
+td.cpNoPaths {
+  text-align: left;
+  white-space: normal;
+}
+
+/* confirmationBox box */
+
+table.confirmationBox {
+  background-image: url(../_images/commonButtons/confirmDeleteBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -10px -7px;
+  width: 498px;
+  height: 266px;
+  display: inline-table;
+}
+table.confirmationBox > tbody > tr.header {
+  height: 22px;
+}
+table.confirmationBox > tbody > tr > td.header {
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: left;
+  padding-left: 10px;
+  vertical-align: top;
+}
+table.confirmationBox > tbody > tr.content {
+  vertical-align: top;
+  height: 244px;
+}
+table.confirmationBox > tbody > tr > td.content {
+  padding-left: 5px;
+  padding-right: 9px;
+  padding-top: 1px;
+  padding-bottom: 9px;
+}
+table.confirmationBox div.content {
+  width: 484px;
+  height: 234px;
+}
+table.confirmationBox > tbody > tr.footer {
+  height: 0px;
+}
+
+/* underConstruction box */
+
+table.underConstructionBox {
+  background-image: url(../_images/commonButtons/underConstructionBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -11px -6px;
+  width: 644px;
+  height: 208px;
+  display: inline-table;
+}
+table.underConstructionBox > tbody > tr.header {
+  height: 23px;
+}
+table.underConstructionBox > tbody > tr > td.header {
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 2px;
+}
+table.underConstructionBox > tbody > tr.content {
+  vertical-align: top;
+}
+table.underConstructionBox > tbody > tr > td.content {
+  padding-left: 5px;
+  padding-right: 9px;
+  padding-top: 1px;
+  padding-bottom: 9px;
+}
+table.underConstructionBox div.content {
+}
+table.underConstructionBox > tbody > tr.footer {
+  height: 0px;
+}
+div#underConstruction td.warning {
+  width: 580px;
+}
+div#underConstruction td.warning img {
+  width: 547px;
+  height: 90px;
+}
+div#underConstruction td.close {
+  width: 25px;
+  vertical-align: top;
+}
+div#underConstruction td.close img {
+  width: 25px;
+  height: 21px;
+}
+div#underConstruction div.message {
+  height: 78px;
+  font-size: 16px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+div#underConstruction div.message * {
+  vertical-align: middle;
+}
+div#underConstruction div.message img {
+  height: 50px;
+}
+div#underConstruction div.buttons {
+  height: 52px;
+}
+div#underConstruction div.buttons > table > tbody > tr {
+  vertical-align: middle;
+}
+div#underConstruction div.buttons > table > tbody > tr > td {
+  width: 242px;
+  text-align: center;
+}
+
+/* Badges */
+
+table.homeBadges {
+  background-image: url(../_images/homePage/badgesBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -4px -6px;
+  width: 387px;
+  height: 212px;
+}
+tr.viewBadgesButton {
+  height: 33px;
+}
+td.viewBadgesButton {
+  text-align: right;
+}
+img.viewBadgesButton {
+  width: 104px;
+  height: 24px;
+  margin-top: 4px;
+  margin-right: 15px;
+  display: none;
+}
+td.hbBadgesZone {
+  vertical-align: top;
+  padding-top: 4px;
+}
+div.hbBadgesZone {
+  white-space: normal;
+  height: 168px;
+  overflow: auto;
+  width: 377px;
+}
+
+
+/* Top rankings */
+
+table.topRankings {
+  background-image: url(../_images/02topRanking.png);
+  background-repeat: no-repeat;
+  background-position: -4px -4px;
+  width: 387px;
+  height: 211px;
+}
+tr.viewRankingButton {
+  height: 29px;
+}
+tr.topRankings {
+  height: 187px;
+}
+td.viewRankingButton {
+  text-align: right;
+}
+div.topRankings {
+  height: 171px;
+  width: 377px;
+}
+img.viewRankingButton {
+  margin-right: 15px;
+}
+table.topRankingsRow {
+  width: 377px;
+}
+tr.topRankingsRow {
+  height: 59px;
+}
+tr.topRankingsRow1 img {
+  margin-top: 3px;
+}
+td.topRankingsRank {
+  width: 42px;
+  font-size: 24px;
+}
+td.topRankingsGravatar {
+  width: 41px;
+  text-align: left;
+}
+img.topRankingsGravatar {
+  width: 34px;
+  height: 34px;
+  border: 0px #4F7984 solid;
+  border-radius: 3px; /* chrome */
+  -moz-border-radius: 3px; /* firefox */
+}
+td.topRankingsName {
+  width: 172px;
+  font-weight: bold;
+  text-align: left;
+}
+td.topRankingsName font {
+  cursor: pointer;
+}
+td.topRankingsBadge {
+  width: 45px;
+  text-align: left;
+}
+img.topRankingsBadge {
+  margin-top: 4px;
+}
+td.topRankingsFlag {
+  width: 37px;
+}
+td.topRankingsSolved {
+  width: 40px;
+  font-weight: bold;
+}
+
+/* Challenges */
+
+table.homeChallenges {
+  background-image: url(../_images/homePage/challengesBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -4px -2px;
+  height: 199px;
+  width: 387px;
+}
+a.viewChallengesButton table {
+  display: inline-table;
+}
+a.viewChallengesButton div {
+  padding-right: 15px;
+}
+table.homeChallenges tr.boxContent > td {
+  vertical-align: top;
+  padding-right: 8px;
+  padding-top: 0px;
+  padding-bottom: 8px;
+}
+div#hpChallenges {
+  width: 374px;
+  height: 162px;
+  overflow: auto;
+}
+table.hpChallenge > tbody > tr {
+  height: 40px;
+  text-align: left;
+}
+table.hpChallenge > tbody > tr > td.name {
+  width: 194px;
+  border-bottom: 2px solid #4F7984;
+}
+table.hpChallenge > tbody > tr > td.name > a {
+  color: #4F7984;
+}
+table.hpChallenge > tbody > tr > td.location {
+  width: 45px;
+  border-bottom: 2px solid #4F7984;
+}
+table.hpChallenge > tbody > tr > td.needed {
+  width: 90px;
+  border-bottom: 2px solid #4F7984;
+}
+table.hpChallenge > tbody > tr > td.locked {
+  width: 45px;
+  border-bottom: 2px solid #4F7984;
+}
+
+/* footer */
+
+.footer {
+  background-image: url(../_images/landingPages/indexPage/01landingPage17.jpg);
+  height: 38px;
+  width: 906px;
+  text-align: center;
+  clear:both;
+}
+td.gr8ph1csFooter { 
+background-image:url(../_images/landingPages/indexPage/01landingPage18.jpg);   
+text-align: right;
+background-color: #999;
+padding: 3px 0px;
+}
+
+img.gr8ph1csFooter {
+  width: 138px;
+  height: 27px;
+}
+.footer a:link {
+  color: #999;
+}
+.footer a:visited {
+  color: #999;
+}
+.footer a:hover {
+  color: #F7D3A4;
+}
+.footer a:active {
+  color: #333;
+}
+
+/* current path */
+
+table.levCurrentPathMessageBox {
+  background-image: url(../_images/levelsPage/currentPathBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -11px -6px;
+  height: 132px;
+  width: 889px;
+  vertical-align: top;
+}
+table.levCurrentPathMessageBox tr.levCurrentPathMessageBox {
+  height: 108px;
+}
+table.levCurrentPathMessageBox td.levCurrentPathMessageBox {
+  padding-bottom: 9px;
+  padding-left: 5px;
+  padding-right: 8px;
+  padding-top: 5px;
+}
+table.levCurrentPathMessageBox td.tabHeaderOut {
+  padding-left: 0px;
+}
+div.levCPTextTitle {
+  text-align: left;
+  height: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+div.levCPText {
+  text-align: left;
+  height: 74px;
+  overflow: auto;
+  white-space: normal;
+}
+
+/* Current Level */
+
+td.levCurrentLevelMessageBox {
+  background-image: url(../_images/gamesPage/04games02.png);
+  background-repeat: no-repeat;
+  height: 140px;
+  width: 906px;
+  vertical-align: top;
+}
+div.levCLTextTitle {
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 35px;
+}
+div.levCLText {
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 70px;
+  overflow: auto;
+  white-space: normal;
+}
+
+/* levelgames */
+
+.levelGamesChoose {
+  background-image: url(../_images/gamesPage/levelgames.png);
+  background-repeat: no-repeat;
+  height: 489px;
+  width: 508px;
+}
+div.levelGamesChooseLoading {
+  text-align: left;
+  overflow: auto;
+  width: 479px;
+  height: 393px;
+}
+table.levelGames, table.levelGamesEdit, table.levelGamesContribute {
+  width: 470px;
+}
+tr.levelGames {
+  height: 32px;
+}
+table.levelGames td.levelGameMoveButtons {
+  width: 0px;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+table.levelGames td.levelGameDescription {
+  width: 305px;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+table.levelGames td.levelGameEditor {
+  width: 106px;
+  text-align: center;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+table.levelGames td.levelGameSolved {
+  width: 59px;
+  text-align: center;
+  vertical-align: top;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+table.levelGamesEdit td.levelGameMoveButtons {
+  width: 78px;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+table.levelGamesEdit td.levelGameDescription {
+  width: 149px;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+table.levelGamesEdit td.levelGameEditor {
+  width: 106px;
+  text-align: center;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+table.levelGamesEdit td.levelGameSolved {
+  width: 137px;
+  text-align: left;
+  vertical-align: top;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+table.levelGamesContribute td.levelGameMoveButtons {
+  width: 0px;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+table.levelGamesContribute td.levelGameDescription {
+  width: 266px;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+table.levelGamesContribute td.levelGameEditor {
+  width: 106px;
+  text-align: center;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+table.levelGamesContribute td.levelGameSolved {
+  width: 98px;
+  text-align: left;
+  vertical-align: top;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+tr.levelGames div.badge {
+  width: 20px;
+  height: 32px;
+  vertical-align: middle;
+  text-align: center;
+  display: inline-block;
+}
+tr.levelGames div.contribute {
+  height: 32px;
+  vertical-align: middle;
+  text-align: center;
+  overflow: hidden;
+}
+table.levelGames div.contribute {
+  width: 0px;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+table.levelGamesEdit div.contribute {
+  width: 39px;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+tr.levelGames div.badge img.badge {
+  padding-top: 10px;
+}
+tr.levelGames div.contributehidden {
+  display: none;
+}
+tr.levelGames div.contributevisible {
+  display: inline-block;
+}
+tr.levelGames div.editproblemhidden {
+  display: none;
+}
+tr.levelGames div.editproblemvisible {
+  display: inline-block;
+}
+tr.levelGames div.editproblem {
+  height: 32px;
+  vertical-align: middle;
+  text-align: center;
+  overflow: hidden;
+}
+table.levelGames div.editproblem {
+  width: 0px;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+table.levelGamesEdit div.editproblem {
+  width: 78px;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+tr.levelGames img.decision {
+  width: 39px;
+  height: 29px;
+  vertical-align: middle;
+  text-align: center;
+}
+tr.levelGames div.decision { /*just a placeholder*/
+  width: 39px;
+  height: 29px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* message box */
+
+td.levMessageBox {
+  background-image: url(../_images/currentPathPage/05CurrentPath03.png);
+  height: 48px;
+  width: 906px;
+  text-align: center;
+}
+table.levMessageBox {
+  padding-left: 28px;
+}
+.levMBText {
+  height: 35px;
+  width: 800px;
+  font-size: 14px;
+  text-align: left;
+  color: #FFF;
+
+}
+.levMBBookIcon {
+  text-align: right;
+  height: 40px;
+  width: 50px;
+}
+
+/* levels */
+
+table.levelsChoose {
+  background-image: url(../_images/levelsPage/levelsBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -11px 25px;
+  height: 482px;
+  width: 494px;
+}
+table.levelsChoose[class ~= problemsChoose] {
+  background-image: url(../_images/levelsPage/problemsBoxBg.png);
+}
+table.levelsChoose td.levelsChooseLoading {
+  padding-top: 17px;
+  padding-bottom: 9px;
+}
+table.levelsChoose td.tabHeaderOut {
+  padding-left: 0px;
+  padding-top: 2px;
+}
+div.levelsChooseLoading {
+  text-align: left;
+  overflow: auto;
+  width: 479px;
+  height: 393px;
+}
+table.pathLevels {
+  padding: 0px;
+  border-spacing: 0px;
+  width: 100%;
+}
+table.pathLevels tr {
+  height: 33px;
+}
+td.lpathLevelButton {
+  width: 110px;
+}
+td.pathLevelButton img {
+  width: 104px;
+  height: 24px;
+}
+td.pathLevelButton span.emptySmallButton {
+  font-size: 16px;
+  padding-top: 3px;
+}
+td.levelDescription {
+  width: 254px;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+td.levelProgress {
+  text-align: center;
+  width: 50px;
+}
+td.levelBadge {
+  width: 40px;
+  height: 33px;
+  text-align: right;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+td.levelBadge > div:first-child {
+  width: 40px;
+  height: 30px;
+  display: inline-block;
+}
+td.levelsNextGameButton {
+  height: 41px;
+  text-align: right;
+}
+img.levelsNextGameButton {
+  margin-right: 14px;
+}
+
+/* share box */
+
+table.shareBox {
+  background-image: url(../_images/commonButtons/shareBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -9px -4px;
+  height: 74px;
+  width: 494px;
+}
+table.shareBox tr.boxContent {
+  height: 53px;
+}
+table.shareBox td.shareBoxText {
+  height: 35px;
+  font-size: 14px;
+  text-align: left;
+  color: #4F7984;
+  vertical-align: top;
+  padding-bottom: 0;
+  padding-top: 16px;
+  padding-left: 15px;
+}
+table.shareBox td.shareBoxButtons {
+  height: 35px;
+  width: 200px;
+  font-size: 14px;
+  text-align: left;
+  color: #FFF;
+  vertical-align: bottom;
+  padding-bottom: 14px;
+  padding-top: 0px;
+}
+
+/* share box small */
+
+table.shareBoxSmall {
+  background-image: url(../_images/commonButtons/shareBoxBgSmall.png);
+  background-repeat: no-repeat;
+  background-position: -3px -4px;
+  height: 76px;
+  width: 387px;
+}
+table.shareBoxSmall tr.boxContent {
+  height: 53px;
+}
+table.shareBoxSmall td.shareBoxText {
+  height: 35px;
+  font-size: 14px;
+  text-align: left;
+  color: #4F7984;
+  vertical-align: top;
+  padding-bottom: 0;
+  padding-top: 7px;
+  white-space: normal;
+  padding-left: 15px;
+}
+table.shareBoxSmall td.shareBoxButtons {
+  height: 35px;
+  width: 200px;
+  font-size: 14px;
+  text-align: left;
+  color: #FFF;
+  vertical-align: bottom;
+  padding-bottom: 14px;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/* play game */
+
+table.playGameOptions {
+  background-image: url(../_images/levelsPage/playGameBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -4px -5px;
+  height: 118px;
+  width: 386px;
+}
+tr.playGameOptionsRow1 td {
+  padding-top: 5px;
+}
+tr.playGameOptionsRow2 td {
+  padding-bottom: 5px;
+}
+
+
+/* bytes */
+
+table.bytesAdv {
+  background-image: url(../_images/levelsPage/bytesBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -6px -8px;
+  height: 176px;
+  width: 386px;
+}
+
+/* bytesBox box */
+
+table.bytesBox {
+  background-image: url(../_images/challengeView/bytesBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -4px -6px;
+  width: 391px;
+  height: 218px;
+}
+table.bytesBox > tbody > tr.header {
+  height: 22px;
+}
+table.bytesBox > tbody > tr > td.header {
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: left;
+  padding-left: 10px;
+  vertical-align: top;
+}
+table.bytesBox > tbody > tr.content {
+  vertical-align: top;
+  height: 196px;
+}
+table.bytesBox > tbody > tr > td.content {
+  padding-left: 5px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 10px;
+}
+table.bytesBox div.content {
+  width: 376px;
+  height: 184px;
+}
+table.bytesBox > tbody > tr.footer {
+  height: 0px;
+}
+
+
+/* play page */
+
+table.tourCurrentPathMessageBox {
+  background-image: url(../_images/tournamentPages/currentProblemBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -11px -11px;
+  height: 154px;
+  width: 889px;
+}
+table.tourCurrentPathMessageBox > tbody > tr.boxContent {
+  height: 132px;
+}
+div.tourCPTextTitle {
+  height: 22px;
+  font-size: 20px;
+  text-align: left;
+}
+div.tourCPText {
+  height: 99px;
+  font-size: 14px;
+  text-align: left;
+  overflow:auto;
+  white-space: normal;
+}
+table.tourMessageBox {
+  background-image: url(../_images/tournamentPages/counterBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -11px -3px;
+  height: 37px;
+  width: 889px;
+}
+td.tourMBText {
+  width: 500px;
+  height: 37px;
+  font-size: 14px;
+  text-align: left;
+  color: #FFF;
+}
+td.tourMBText div {
+  padding-left: 10px;
+}
+td.tourMBLabel {
+  width: 220px;
+  font-size: 18px;
+  font-weight: bolder;
+  color: #FFF;
+  text-align: right;
+}
+td.tourMBClock {
+  width: 170px;
+  height: 37px;
+  font-size: 26px;
+  font-weight: bolder;
+  color: #FFF;
+  text-align: right;
+}
+td.tourMBClock span {
+  padding-right: 11px;
+}
+table.tourCurrentPathTestPage {
+  background-image: url(../_images/tournamentPages/codeBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -9px -4px;
+  width: 493px;
+  height: 534px;
+}
+tr.tourRunCodeTopButton {
+  height: 50px;
+}
+td.tourRunCodeTopButton {
+  text-align: right;
+  vertical-align: top;
+  padding-top: 3px;
+  padding-right: 15px;
+}
+img.tourRunCodeTopButton {
+  width: 166px;
+  height: 38px;
+}
+table.tourCurrentPathTestPage td.boxHeader {
+  padding-top: 0px;
+  padding-bottom: 7px;
+}
+#user_code_editor{
+    position: relative;
+    height: 433px;
+    width: 472px;
+    margin-left: 10px;
+    text-align: left;
+}
+tr.tourRunCodeBottomButton {
+  height: 47px;
+}
+td.tourRunCodeBottomButton {
+  text-align: right;
+  vertical-align: top;
+  padding-top: 6px;
+  padding-right: 15px;
+}
+img.tourRunCodeBottomButton {
+  width: 166px;
+  height: 38px;
+}
+table.pExampleMessage {
+  background-image: url(../_images/tournamentPages/exampleBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -4px 4px;
+  width: 386px;
+  height: 315px;
+}
+table.pExampleMessage tr.boxContent {
+  height: 293px;
+  vertical-align: top;
+}
+table.pExampleMessage td.tabHeaderOut {
+  padding-left: 0px;
+  padding-top: 2px;
+}
+div.pEMText {
+  height: 277px;
+  font-size: 14px;
+  text-align: left;
+  overflow: auto;
+  white-space: normal;
+}
+div.pErMText {
+  height: 277px;
+  font-size: 14px;
+  text-align: left;
+  overflow: auto;
+  white-space: normal;
+}
+
+/* tournament page */
+
+table.tourChooser {
+  background-image: url(../_images/tournamentPages/chooseTournamentBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -10px -6px;
+  height: 109px;
+  width: 890px;
+}
+table.tourChooser tr.boxContent {
+  height: 87px;
+}
+td.tourChooser {
+  padding-top: 0px !important;
+}
+img.tour {
+  width: 170px;
+  height: 75px;
+}
+table.tourHeadingMessageBox {
+  background-image: url(../_images/tournamentPages/tournamentBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -10px 1px;
+  height: 193px;
+  width: 890px;
+}
+table.tourHeadingMessageBox tr.boxContent {
+  height: 171px;
+}
+td.tourHeadingPictureHolder {
+  width: 320px;
+  text-align: center;
+}
+img.tourHeadingPicture {
+  width: 300px;
+  height: 125px;
+}
+td.tourHeadingText {
+  vertical-align: middle;
+  width: 586px;
+}
+div.tourHeadingTextTitle {
+  width: 550px;
+  font-size: 22px;
+  text-align: left;
+  white-space: normal;
+  white-space: normal;
+}
+div.tourHeadingText {
+  width: 550px;
+  font-size: 14px;
+  text-align: left;
+  white-space: normal;
+}
+div.tourHeadingWinner {
+  width: 550px;
+  font-size: 14px;
+  text-align: left;
+  white-space: normal;
+}
+table.tourInitialMessageBox {
+  background-image: url("../_images/tournamentPages/counterBoxBg.png");
+  background-repeat: no-repeat;
+  background-position: -10px -3px;
+  height: 37px;
+  width: 890px;
+}
+tr.tourInitialMessageBox > td {
+}
+table.tourInitialPasscodeBox {
+  background-image: url(../_images/tournamentPages/signInBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -10px -6px;
+  height: 142px;
+  width: 345px;
+}
+table.tourInitialPasscodeBox tr.boxBody {
+  height: 73px;
+}
+td.tourInitialPasscodePassword  {
+  height: 22px;
+  width: 270px;
+  font-size: 18px;
+  vertical-align: top;
+  text-align: left;
+}
+td.tourInitialPasscodeSignInButton  {
+  height: 39px;
+  width: 166px;
+}
+input.tourInitialPasscodePassword {
+  margin-top: 26px;
+  margin-left: 33px;
+  font-size: 18px;
+  border: 0px solid;
+  width: 274px;
+}
+table.tourInitialPasscodeBox tr.boxFooter {
+  text-align: right;
+  height: 47px;
+}
+img.tourInitialPasscodeSignInButton {
+  margin-right: 12px;
+}
+
+table.tourInitialGamePlayGrey {
+  background-image: url(../_images/tournamentPages/playTournamentBoxGreyBg.png);
+  background-repeat: no-repeat;
+  background-position: -3px -10px;
+  height: 147px;
+  width: 533px;
+}
+table#tourInitialGamePlayGrey tr.boxContent {
+  height: 125px;
+}
+td.tourInitialGamePlayGrey {
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 15px;
+  padding-bottom: 16px;
+}
+table.tourInitialGamePlayEnabled {
+  background-image: url(../_images/tournamentPages/playTournamentBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -3px -10px;
+  height: 147px;
+  width: 533px;
+}
+tr.tourInitialGamePlay2 > td {
+  padding-top: 8px;
+}
+td.tourInitialPlayNow {
+  width: 192px;
+}
+td.tourInitialText {
+  font-size: 26px;
+  width: 324px;
+  text-align: left;
+  vertical-align: top;
+}
+
+/* tab header */
+
+tr.tabHeaderOut {
+  height: 24px;
+}
+td.tabHeaderOut {
+  padding-left: 10px;
+}
+tr.tabHeader {
+  height: 24px;
+  vertical-align: bottom;
+}
+tr.tabHeader .tabHeaderLeft {
+  background-image: url("../_images/commonButtons/tab-headers-combined.png");
+  background-position: 0px -53px;
+  background-repeat: no-repeat;
+  width: 8px;
+}
+tr.tabHeader .tabHeaderCenter {
+  background-image: url("../_images/commonButtons/tab-headers-combined.png");
+  background-position: 0px -27px;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
+}
+tr.tabHeader .tabHeaderRight {
+  background-image: url("../_images/commonButtons/tab-headers-combined.png");
+  background-position: -130px -53px;
+  background-repeat: no-repeat;
+  width: 15px;
+}
+tr.tabHeader .tabHeaderLeftOff {
+  background-image: url("../_images/commonButtons/tab-headers-combined.png");
+  background-position: -35px -53px;
+  background-repeat: no-repeat;
+  width: 8px;
+  cursor: pointer;
+}
+tr.tabHeader .tabHeaderRight + .tabHeaderLeftOff {
+  background-image: url("../_images/commonButtons/tab-headers-combined.png");
+  background-position: -146px -53px;
+  background-repeat: no-repeat;
+  width: 8px;
+}
+tr.tabHeader .tabHeaderRightOff + .tabHeaderLeftOff {
+  background-image: url("../_images/commonButtons/tab-headers-combined.png");
+  background-position: -115px -53px;
+  background-repeat: no-repeat;
+  width: 8px;
+}
+tr.tabHeader .tabHeaderCenterOff {
+  background-image: url("../_images/commonButtons/tab-headers-combined.png");
+  background-position: 0px -1px;
+  background-repeat: no-repeat;
+  color: #49727A;
+  font-size: 18px;
+  font-weight: normal;
+  cursor: pointer;
+}
+tr.tabHeader .tabHeaderRightOff {
+  background-image: url("../_images/commonButtons/tab-headers-combined.png");
+  background-position: -45px -53px;
+  background-repeat: no-repeat;
+  width: 15px;
+  cursor: pointer;
+}
+tr.tabHeader .tabHeaderRightEnd {
+  background-image: url("../_images/commonButtons/tab-headers-combined.png");
+  background-position: -60px -53px;
+  background-repeat: no-repeat;
+  width: 8px;
+}
+tr.tabHeader .tabHeaderRight + .tabHeaderRightEnd {
+  background-image: url("../_images/commonButtons/tab-headers-combined.png");
+  background-position: -25px -53px;
+  background-repeat: no-repeat;
+  width: 8px;
+}
+tr.tabHeader > td {
+  height: 24px;
+}
+tr.tabHeader > td > div {
+  display: inline;
+  position: relative;
+}
+tr.tabHeader > td > div > div {
+  display: table-cell;
+  height: 24px;
+  vertical-align: top;
+  padding-top: 0px;
+}
+
+/* language selector */
+
+table.languageSelectionBox {
+  background-image: url("../_images/commonButtons/blueBar.png");
+  background-repeat: no-repeat;
+  background-position: -10px -1px;
+  height: 48px;
+  width: 890px;
+  text-align: center;
+}
+td.languageSelectionBox {
+  padding-bottom: 9px;
+  padding-left: 4px;
+  padding-right: 7px;
+  padding-top: 2px;
+}
+div.languageSelectionBox { text-align: center; }
+
+/* worldwide rankings */
+
+table.worldwideRankingsOut {
+  background-image: url("../_images/rankingPage/06worldWideRanking03.png");
+  background-repeat: no-repeat;
+  background-position: 0px -1px;
+  width: 508px;
+  height: 1100px;
+}
+tr.worldwideRankingsOut {
+  height: 1075px;
+  vertical-align: top;
+}
+table.worldwideRankingsOut td.tabHeaderOut {
+  padding-top: 3px;
+}
+td.worldwideRankingsOut {
+  padding-top: 20px;
+  padding-bottom: 28px;
+  padding-left: 15px;
+  padding-right: 12px;
+}
+td.worldwideRankingsTop {
+  padding:10px 12px 8px 15px;
+}
+
+#tourInfoBoxTagDropDown{
+font-weight: bold;
+color: #517A83;
+border: 0px none #FFF100;
+margin: 0px;
+padding: 5px 0px 0px 15px;
+text-align: left;
+float: right;
+height: 27px;
+width: 280px;
+position: relative;
+top: -6px;
+font-size: 16px;
+background: url(../_images/rankingPage/tagBox.png) no-repeat;
+right: 10px;
+}
+#tourInfoBoxTagBox{
+font-weight: bold;
+color: white;
+border: 0px none #FFF100;
+margin: 0px;
+padding: 5px 0px 0px;
+text-align: left;
+float: left;
+height: 30px;
+
+position: relative;
+left: 30px;
+
+font-size: 16px;
+}
+div#worldwideRankingsOut {
+  height: 1027px;
+  overflow: auto;
+}
+table.worldwideRankings {
+  font-size: 20px;
+  width: 100%;
+}
+tr.worldwideRankings {
+  height: 41px;
+}
+td.worldwideRankingsRank {
+  width: 40px;
+  text-align: right;
+}
+td.worldwideRankingsGravatar {
+  width: 50px;
+}
+img.worldwideRankingsGravatar {
+  width: 36px;
+  border: 0px #8FA5AB solid;
+  border-radius: 3px; /* chrome */
+  -moz-border-radius: 3px; /* firefox */
+}
+td.worldwideRankingsNickname {
+  width: 235px;
+  text-align: left;
+}
+td.worldwideRankingsNickname font {
+  cursor: pointer;
+}
+td.worldwideRankingsBadge {
+  width: 45px;
+}
+td.worldwideRankingsFlag {
+  width: 41px;
+}
+td.worldwideRankingsSolved {
+  width: 70px;
+}
+
+/* country rankings */
+
+table.countryRankingsOut {
+  background-image: url("../_images/rankingPage/06worldWideRanking05.png");
+  background-repeat: no-repeat;
+  width: 398px;
+  height: 461px;
+}
+div.countryRankingsOut { width: 372px; height: 398px; margin-top: 25px; margin-left: 5px; margin-right: 5px; margin-bottom: 15px; overflow: auto; }
+tr.viewCountries {
+  height: 21px;
+}
+table.countryRankings {
+  font-size: 20px;
+  width: 100%;
+  height: 100%;
+}
+tr.countryRankings {
+  height: 40px;
+}
+td.countryRankingsRank {
+  width: 40px;
+  text-align: right;
+}
+td.countryRankingsFlag {
+  width: 47px;
+  cursor: pointer;
+}
+td.countryRankingsName {
+/*    width: 215px;*/
+  text-align: left;
+}
+td.countryRankingsName font {
+  cursor: pointer;
+}
+td.countryRankingsPlayer {
+  width: 70px;
+}
+td.countryRankingsSolved {
+  width: 70px;
+}
+
+/* tournament ranking */
+
+table.tournamentRankingsOut {
+  background-image: url("../_images/tournamentPages/tournamentRankingBoxBg.png");
+  background-repeat: no-repeat;
+  background-position: -10px -3px;
+  width: 886px;
+  height: 1127px;
+  font-weight: bold;
+}
+table.tournamentRankingsOut tr.tournamentHeader {
+  height: 27px;
+}
+table.heatRankings {
+  table-layout: auto;
+  width: 100%;
+  text-align: center;
+}
+table.heatRankings td {
+  overflow: hidden;
+}
+table.heatRankings > tbody {
+  height: 1033px;
+  overflow: auto;
+  display: block;
+}
+table.heatRankings tr.heatHeader {
+  height: 16px;
+  font-size: 14px;
+  font-weight: normal;
+  color: white;
+  display: block;
+}
+table.tournamentRankingsOut tr.tournamentHeader > td {
+  padding-top: 3px;
+}
+td.tournamentRankingsOut {
+  padding-left: 4px;
+  text-align: left;
+}
+/*
+table.tournamentRankings > thead > tr {
+  display: block;
+}
+table.tournamentRankings > tbody {
+  width: 876px;
+  height: 1127px;
+  overflow: auto;
+  display: block;
+}
+*/
+div.tournamentRankingsOut {
+  width: 876px;
+  height: 1052px;
+  display: block;
+}
+td.heatRankingsRank {
+  width: 40px;
+}
+td.heatRankingsGravatar {
+  width: 40px;
+}
+img.heatRankingsGravatar {
+  width: 30px;
+  height: 30px;
+  border: 0px #4F7984 solid;
+  cursor: pointer;
+  border-radius: 3px; /* chrome */
+  -moz-border-radius: 3px; /* firefox */
+}
+td.heatRankingsNickname {
+  text-align: left;
+  width: 200px;
+}
+td.heatRankingsNickname font {
+  cursor: pointer;
+  width: 200px;
+  display: block;
+  overflow: hidden;
+}
+td.heatRankingsFlag {
+  width: 40px;
+}
+img.heatRankingsFlag {
+  width: 38px;
+  height: 34px;
+}
+td.heatRankingsPreviousRank {
+  width: 30px;
+}
+td.heatRankingsProfessional {
+  font-size: 10px;
+  width: 65px;
+}
+td.heatRankingSolved {
+  background-image: url("../static/badges/ticks_on.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 20px;
+  height: 17px;
+}
+td.heatRankingUnsolved {
+  width: 20px;
+  height: 17px;
+}
+td.heatRankingsFinished {
+  width: 100px;
+}
+tr.tournamentFooter {
+  height: 49px;
+  text-align: right;
+  vertical-align: top;
+}
+img.tournamentContinueButton {
+  width: 166px;
+  height: 38px;
+  padding-right: 15px;
+  padding-top: 7px;
+}
+
+/* Challenge list */
+
+table.challenge_list {
+  white-space: normal;
+}
+table.challenge_list > tbody > tr:first-child {
+  background: #55DDDD;
+}
+table.challenge_list > tbody > tr:first-child > td:first-child,
+table.challenge_list > tbody > tr:first-child > td:first-child + td,
+table.challenge_list > tbody > tr:first-child > td:first-child + td + td,
+table.challenge_list > tbody > tr:first-child > td:first-child + td + td + td,
+table.challenge_list > tbody > tr:first-child > td:first-child + td + td + td + td
+{
+  background: #DDDD55;
+}
+table.challenge_players_list {
+  white-space: normal;
+}
+table.challenge_players_list > tbody > tr:first-child {
+  background: #55DDDD;
+}
+
+/* auth - login_required (this page generated dynamically by auth/do_openid_login.py) */
+
+h2.auth {
+  color: white;
+}
+table.auth td {
+  padding: 5px 5px 5px 5px;
+}
+a.auth div {
+  width: 150px;
+  height: 50px;
+  background: url('/static/auth_buttons.png')
+}
+a.auth div#gmail {
+  background-position: 0px -150px;
+}
+a.auth div#gmail:hover {
+  background-position: 150px -150px;
+}
+a.auth div#yahoo {
+  background-position: 0px -550px;
+}
+a.auth div#yahoo:hover {
+  background-position: 150px -550px;
+}
+a.auth div#myspace {
+  background-position: 0px -350px;
+}
+a.auth div#myspace:hover {
+  background-position: 150px -350px;
+}
+a.auth div#aol {
+  background-position: 0px 0px;
+}
+a.auth div#aol:hover {
+  background-position: 150px 0px;
+}
+a.auth div#myopenid {
+  background-position: 0px -300px;
+}
+a.auth div#myopenid:hover {
+  background-position: 150px -300px;
+}
+
+/* createMain */
+
+table.cmDescription {
+  background-image: url("../_images/createMain/descriptionBoxBg.png");
+  background-repeat: no-repeat;
+  background-position: -10px -6px;
+  height: 130px;
+  width: 890px;
+}
+table.cmDescription tr.boxContent {
+  height: 108px;
+}
+table.cmDescription tr.boxContent div.description {
+  height: 97px;
+  width: 880px;
+  white-space: normal;
+  text-align: left;
+}
+table.cmChooseTask {
+  background-image: url("../_images/createMain/chooseTaskBoxBg.png");
+  background-repeat: no-repeat;
+  background-position: -10px -6px;
+  height: 126px;
+  width: 890px;
+}
+table.cmChooseTask tr.boxContent {
+  height: 104px;
+}
+table.cmChooseTask tr.boxContent div.chooser {
+  height: 93px;
+  width: 880px;
+  white-space: normal;
+  text-align: center;
+  vertical-align: middle;
+}
+table.cmChooseTask tr.boxContent div.chooser img {
+  width: 141px;
+  height: 85px;
+}
+
+table.cmCopyright {
+  background-image: url("../_images/createMain/copyrightBoxBg.png");
+  background-repeat: no-repeat;
+  background-position: -10px -6px;
+  height: 166px;
+  width: 890px;
+}
+table.cmCopyright tr.boxContent {
+  height: 144px;
+}
+table.cmCopyright tr.boxContent div.copyright {
+  height: 111px;
+  width: 880px;
+  white-space: normal;
+  text-align: left;
+  overflow: auto;
+}
+table.cmCopyright tr.boxContent div.agree {
+  height: 22px;
+  width: 880px;
+  white-space: normal;
+  text-align: center;
+  vertical-align: top;
+}
+
+/* empty large button */
+
+span.emptyLargeButton {
+  background: url(../_images/commonButtons/largeButtonBlank_off.png) no-repeat scroll 100% 0%;
+  display: inline-block;
+  height: 32px;
+  width: 168px;
+  color: #4F7984;
+  font-weight: normal;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  padding-top: 6px;
+  overflow: hidden;
+}
+span.emptyLargeButton:hover {
+  background: url(../_images/commonButtons/largeButtonBlank_on.png) no-repeat scroll 100% 0%;
+  color: white;
+}
+span.emptyLargeButton[class ~= "disabled"] {
+  cursor: auto;
+}
+span.emptyLargeButton[class ~= "disabled"]:hover {
+  background: url(../_images/commonButtons/largeButtonBlank_off.png) no-repeat scroll 100% 0%;
+  color: #4F7984;
+}
+
+
+/* empty button */
+
+span.emptyButton {
+  background: url(../_images/commonButtons/blankPathButton_off.png) no-repeat scroll 100% 0%;
+  display: inline-block;
+  width: 135px;
+  height: 16px;
+  color: #4F7984;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  cursor: pointer;
+  overflow: hidden;
+}
+span.emptyButton:hover {
+  background: url(../_images/commonButtons/blankPathButton_on.png) no-repeat scroll 100% 0%;
+  color: white;
+}
+span.emptyButton[class ~= "disabled"] {
+  opacity: 0.5;
+  cursor: auto;
+}
+span.emptyButton[class ~= "disabled"]:hover {
+  background: url(../_images/commonButtons/blankPathButton_off.png) no-repeat scroll 100% 0%;
+  color: #4F7984;
+}
+
+/* empty small button */
+
+span.emptySmallButton {
+  background-image: url(../_images/commonButtons/smallButtonBlank_off.png);
+  background-repeat: no-repeat;
+  width: 104px;
+  height: 19px;
+  color: #4F7984;
+  font-weight: normal;
+  font-size: 13px;
+  text-align: center;
+  display: inline-block;
+  padding-top: 4px;
+  cursor: pointer;
+  overflow: hidden;
+}
+span.emptySmallButton:hover {
+  background-image: url(../_images/commonButtons/smallButtonBlank_on.png);
+  color: white;
+}
+
+/* small toggle button */
+
+span.smallToggleButton {
+  background-image: url(../_images/commonButtons/smallButtonBlank_off.png);
+  background-repeat: no-repeat;
+  width: 104px;
+  height: 23px;
+  color: #4F7984;
+  font-weight: normal;
+  font-size: 13px;
+  text-align: center;
+  display: inline-table;
+  cursor: pointer;
+  padding-top: 4px;
+  overflow: hidden;
+}
+span.smallToggleButton[class ~= "on"] {
+  background-image: url(../_images/commonButtons/smallButtonBlank_on.png);
+  color: white;
+}
+
+
+/* POPUP */
+
+div.popup {
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  position: absolute;
+  background-image: url('../_images/commonButtons/transparentGray.png');
+  text-align: center;
+  vertical-align: middle;
+  position: fixed;
+  _position: absolute;
+  top: 0;
+  _top: expression(eval(document.body.scrollTop));
+  overflow: auto;
+}
+
+table.popup {
+  width: 100%;
+  height: 100%;
+}
+table.popup td.popup {
+  text-align: center;
+}
+
+/* delete confirmation popup */
+
+div#confirmation td.warning {
+  width: 459px;
+}
+div#confirmation td.warning img {
+  width: 120px;
+  height: 101px;
+}
+div#confirmation td.close {
+  width: 25px;
+  vertical-align: top;
+}
+div#confirmation td.close img {
+  width: 25px;
+  height: 21px;
+}
+div#confirmation div.message {
+  height: 78px;
+  font-size: 16px;
+  font-weight: bold;
+}
+div#confirmation div.buttons {
+  height: 52px;
+}
+div#confirmation div.buttons > table > tbody > tr {
+  vertical-align: middle;
+}
+div#confirmation div.buttons > table > tbody > tr > td {
+  width: 242px;
+  text-align: center;
+}
+
+/* LOADING TITLE */
+
+div#loading {
+  border: solid black;
+  background-color: #FFFFE1;
+  display: none;
+  z-index: 100;
+  position: fixed;
+  _position: absolute;
+  top: 0;
+  _top: expression(eval(document.body.scrollTop));
+}
+
+/* pager */
+
+table.pager {
+  display: inline-table;
+  font-size: 20px;
+}
+
+/* aboutUs */
+
+#wrapper { white-space: normal; padding: 0px; height: 100%; width: 906px; left: auto; top: 0px; right: auto; text-align: center; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #4F7984; display: block; background: url(../_images/greyBackground.jpg) repeat-y fixed center top; margin: 0px auto; clear: both; overflow: hidden; }
+#wrapper  #mainHeader{ font-family: Verdana, Geneva, sans-serif; margin: 0px; padding: 0px; height: 67px; width: 906px; position: relative; background: #FFF url(../_images/landingPages/indexPage/01landingPageheader.jpg) no-repeat; left: 0px; top: 0px; }
+#logo{ background-image: url(../_images/landingPages/landingPageButtons/singpathLogo_off.png); cursor: pointer; display: block; position: relative; left: 9px; top: 9px; width: 169px; height: 46px; margin: 0px; padding: 0px; }
+#logo:hover, #logo.hover { background-image: url(../_images/landingPages/landingPageButtons/singpathLogo_on.png); }
+#userMenu, #logInBox{ margin: 0px; height: 30px; width: 460px; position: relative; float: right; font-weight: bold; color: #4F7984; font-size: 12px; padding: 0px; right: 20px; bottom: 18px; }
+#logInBox .commonBtn, #userMenu .commonBtn{ display: block; position: relative; margin: 2px 0px 0px 329px; }
+#logInBox .commonBtn .middle, #userMenu .commonBtn .middle{ font-size: 15px; text-shadow: 0px 1px 3px #AAA; line-height: 20px; padding: 0px 20px; }
+.messageBox , #userMenu .nickname{ margin: 0px; padding: 10px 0px 0px 3px; height: 30px; width: 300px; position: relative; float: left; background: url(../_images/landingPages/indexPage/messageBox.png) no-repeat; font-weight: bold; color: #4F7984; font-size: 12px; left: 10px; top: -4px; text-align: center; }
+#homeButton, #mainHeader  .homeBtn{ background-image: url(../_images/landingPages/landingPageButtons/houseProfile_off.png); background-repeat: no-repeat; margin: 0px; padding: 0px; height: 40px; width: 45px; position: relative; float: left; top: -5px; left: 0px; }
+#homeButton:hover, #userMenu .homeBtn:hover, #homeButton.hover,  #userMenu .homeBtn.hover { background-image: url(../_images/landingPages/landingPageButtons/houseProfile_on.png); }
+.gravatar { margin: 0px; padding: 0px; height: 40px; width: 45px; position: relative; float: left; top: -6px; left: 7px; }
+
+#wrapper #mainHeader #nameBox{ margin: 0px; padding: 8px 0px 0px; height: 30px; width: 300px; position: relative; float: left; background: url(../_images/landingPages/indexPage/messageBox.png) no-repeat; font-weight: bold; color: #4F7984; font-size: 14px; left: 15px; top: -3px; text-align: center; }
+#userMenu .shopBtn{ background-image: url(../_images/landingPages/landingPageButtons/shoppingTrolley_off.png); background-repeat: no-repeat; margin: 0px; padding: 0px; height: 40px; width: 45px; position: relative; float: right; right: 5px; top: -5px; }
+#userMenu .shopBtn:hover, #userMenu .shopBtn.hover{ background-image: url(../_images/landingPages/landingPageButtons/shoppingTrolley_on.png); }
+#wrapper #shadowUnderBar { color: #FFF; padding: 0px; width: 906px; position: relative; top: -10px; right: 0px; font-size: 10px; margin: 0px; height: 5px; clear: none; float: left; background: url(../_images/homePage/barShadow.png) no-repeat; }
+
+#menuOptions{ color: #FFF; padding: 0px; width: 906px; position: relative; top: -9px; right: 0px; font-size: 16px; margin: 0px; height: 40px; clear: none; float: left; background: url(../_images/landingPages/indexPage/menu_BarBlue.png) no-repeat; z-index: 2; }
+#menuOptionsText{ color: #FFF; float: right; width: 750px; position: relative; font-size: 14px; background-repeat: no-repeat; height: 25px; top: 6px; right: 0px; text-align: left; }
+#menuOptionsText a:link , #wrapper #menuOptions #menuOptionsText a:visited{ font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px 5px; padding: 3px 16px; text-align: center; }
+#menuOptionsText a:hover , #wrapper #menuOptions #menuOptionsText a:active{ font-weight: bold; color: #fff100; text-align: center; border: 2px solid #fff100; margin: 0px 5px; padding: 2px 14px; }
+#infoBarRanking { color: #FFF; padding: 0px; width: 906px; position: relative; top: -5px; right: 0px; font-size: 16px; margin: 0px; height: 40px; clear: none; float: left; background: url(../_images/rankingPage/06worldWideRanking_02.png) no-repeat; }
+
+#wrapper #infoBarRanking img { color: #FFF; padding: 6px 5px 5px; font-size: 16px; margin: 0px; }
+
+/* index.html */
+
+#wrapper #landingImage { margin: 0px 0px -40px 0px; padding: 0px; height: 328px; width: 906px; background-image: url(../_images/landingPages/indexPage/01landingPageImage.jpg); clear: none; float: left; left: 0px; top: -40px; position: relative; z-index: 1; }
+#wrapper #landingImage  #menuOptions{ color: #FFF; padding: 0px; float: right; width: 906px; position: relative; top: -9px; right: 0px; font-size: 14px; background-image: url(../_images/landingPages/indexPage/menu_BarBlue.png); background-repeat: no-repeat; margin: 0px; height: 40px; 
+}
+#wrapper #landingImage #menuOptions a:link , #landingImage #menuOptions a:visited{ font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px 5px; padding: 3px 16px; text-align: center; }
+#wrapper #landingImage #menuOptions a:hover , #landingImage #menuOptions a:active{ font-weight: bold; color: #fff100; text-align: center; border: 2px solid #fff100; margin: 0px 5px; padding: 2px 14px; }
+#wrapper #landingImage  #menuOptions #menuOptionsText{ color: #FFF; padding: 0px; float: right; width: 750px; position: relative; font-size: 14px; background-repeat: no-repeat; margin: 0px; height: 25px; top: 7px; right: 0px; 
+}
+#landingImageTVIcon  { display: block; position: relative; top: 140px; left: 20px; width: 150px; margin: 0px; padding: 0px; }
+#landingImageTVIcon  .tvIcon  { background-image: url(../_images/landingPages/landingPageButtons/television_off.png); background-repeat: no-repeat; width: 150px; height: 160px; }
+#landingImageTVIcon .tvIcon:hover, #landingImageTVIcon .tvIcon.hover, #landingImageTVIcon:hover .tvIcon, #landingImageTVIcon.hover .tvIcon { background-image: url(../_images/landingPages/landingPageButtons/television_on.png); }
+
+#wrapper #landingImage #statsTextBox{ margin: 0px; padding: 0px; height: 253px; width: 365px; background: url(../_images/landingPages/indexPage/statisticBox.png) no-repeat; float: right; right: 0px; position: relative; clear: none; bottom: 112px; }
+#wrapper #landingImage #statsTextBox #statsTextBoxTitleTop{ font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 25px; width: 300px; position: relative; left: 20px; top: 10px; font-size: 16px; }
+#wrapper #landingImage #statsTextBox #statsTextBoxtext{ margin: 0px; padding: 5px 0px; height: 190px; width: 327px; position: relative; left: 20px; top: 8px; float: left; background-repeat: no-repeat; font-weight: normal; text-align: left; overflow: auto; color: #FFF; border-top: none; border-right: none; border-bottom: none; border-left: none; 
+}
+#wrapper #landingImage #statsTextBox #statsTextBoxtext p { margin: 7px 0px; padding: 4px 5px; position: relative; left: 0px; top: 0px; background-repeat: no-repeat; text-align: left; overflow: auto; border: 2px solid #517A83; width: 285px; }
+
+#wrapper #landingTextBox { margin: 0px; padding: 0px; height: 255px; width: 542px; background: url(../_images/landingPages/indexPage/01landingPage03.png) no-repeat; clear: both; float: left; position: relative; 
+}
+#wrapper #landingTextBox #landingTextBoxTitleTop { font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 25px; width: 300px; position: relative; left: 30px; top: 10px; font-size: 16px; }
+#wrapper #landingTextBox #landingTextBoxtext { margin: 0px; padding: 0px; height: 195px; width: 495px; position: relative; left: 31px; top: 15px; float: left; background-repeat: no-repeat; font-weight: normal; text-align: left; overflow: auto; 
+}
+#wrapper #friendsTextBox { margin: 0px; padding: 0px; height: 255px; width: 362px; background: url(../_images/landingPages/indexPage/01landingPage04.png) no-repeat; float: right; right: 0px; position: relative; clear: none; top: 0px; }
+#wrapper #friendsTextBox #friendsTextBoxTitleTop { font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 25px; width: 300px; position: relative; left: 20px; top: 10px; font-size: 16px; }
+#wrapper #friendsTextBox #friendsTextBoxtext { margin: 0px; padding: 7px 5px; height: 140px; width: 320px; position: relative; left: 15px; top: 8px; float: left; background-repeat: no-repeat; font-weight: normal; text-align: left; overflow: auto; color: #517A83; border-top: none; border-right: none; border-bottom: none; border-left: none; 
+}
+
+#wrapper #friendsTextBox #friendsTextBoxtext img { margin: 0px; padding: 4px 3px 0px; position: relative; background-repeat: no-repeat; font-weight: bold; color: #FFF; border-top: none; border-right: none; border-bottom: none; border-left: none; }
+
+#friendsTextBoxtextSocial { margin: 0px; padding: 17px 15px 7px 5px; height: 35px; width: 322px; position: relative; left: 10px; top: 2px; float: left; background-repeat: no-repeat; font-weight: normal; text-align: right; color: #517A83; border-top: none; border-right: none; border-bottom: none; border-left: none; }
+
+#friendsTextBoxtextSocial .text { line-height: 30px; }
+#friendsTextBoxtextSocial .facebook { background-image: url(../_images/landingPages/landingPageButtons/socialButtonsFacebook_off.png); background-repeat: no-repeat; display: block; float: right; width: 36px; height: 29px; margin-left: 10px; }
+#friendsTextBoxtextSocial .facebook:hover, #friendsTextBoxtextSocial .facebook.hover { background-image: url(../_images/landingPages/landingPageButtons/socialButtonsFacebook_on.png); }
+#friendsTextBoxtextSocial .twitter { background-image: url(../_images/landingPages/landingPageButtons/socialButtonsTwitter_off.png); background-repeat: no-repeat; display: block; float: right; width: 36px; height: 29px; margin-left: 5px; }
+#friendsTextBoxtextSocial .twitter:hover, #friendsTextBoxtextSocial .twitter.hover { background-image: url(../_images/landingPages/landingPageButtons/socialButtonsTwitter_on.png); }
+
+#wrapper #landingLogos { margin: 0px; padding: 0px; height: 75px; width: 906px; clear: both; float: left; left: 0px; top: 0px; }
+#wrapper #aboutUsMenuOptions  { color: #FFF; padding: 0px; float: left; width: 906px; position: relative; top: 0px; right: 0px; font-size: 16px; background-image: url(../_images/landingPages/indexPage/menu_BarBlue.png); background-repeat: no-repeat; margin: 0px; height: 40px; clear: left; 
+}
+#wrapper #shopBox { margin: 0px; padding: 0px; float: left; height: 105%; width: 906px; position: relative; top: -15px; background: no-repeat; 
+}
+#wrapper #shopBox #shopBoxTitleTopAll{ font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 25px; width: 350px; position: relative; font-size: 16px; top: 14px; left: 7px; }
+#wrapper #shopBox #shopBoxBodyInfo { color: #497279; padding: 0px; float: left; width: 906px; position: relative; font-size: 14px; margin: 0px; height: 560px; top: 14px; text-align: left; left: 0px; overflow: auto; background: url(../_images/landingPages/shopPages/01landingPageShop_04.png) no-repeat; 
+}
+#wrapper #shopBox #shopBoxBodyInfo #shopBoxSpecialsBox { color: #497279; padding: 0px; float: left; width: 880px; position: relative; font-size: 14px; margin: 0px; height: 255px; top: 10px; text-align: left; left: 13px; overflow: auto; background: url(../_images/landingPages/shopPages/specialOfferTab.png) no-repeat; }
+#wrapper #shopBox #shopBoxBodyInfo #shopBoxSpecialsBoxTitleTop{ font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 25px; width: 200px; position: relative; left: 18px; top: 9px; font-size: 16px; }
+#wrapper #shopBox #shopBoxBodyInfo #shopBoxSpecialsBox01Info { color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 165px; width: 267px; position: relative; left: 24px; top: 14px; clear: left; }
+
+#wrapper #shopBox #shopBoxBodyInfo #shopBoxSpecialsBox02Info { color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 165px; width: 267px; position: relative; left: 40px; top: 14px; }
+#wrapper #shopBox #shopBoxBodyInfo #shopBoxSpecialsBox03Info { color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 165px; width: 267px; position: relative; left: 52px; top: 14px; }
+#wrapper #shopBox #shopBoxBodyInfo #shopBoxBarMove{ color: #FFF; padding: 0px; width: 880px; position: relative; top: 14px; right: 0px; font-size: 16px; margin: 0px; height: 40px; clear: left; float: left; text-align: center; }
+
+#wrapper #shopBox #shopBoxBodyInfo #shopBox01 { color: #497279; padding: 0px; float: left; width: 297px; position: relative; font-size: 14px; margin: 0px; height: 264px; top: 5px; text-align: left; left: 13px; overflow: auto; background: url(../_images/landingPages/shopPages/largeTab.png) no-repeat; }
+#wrapper #shopBox #shopBoxBodyInfo #shopBox01TitleTop{ font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 25px; width: 200px; position: relative; left: 17px; top: 10px; font-size: 16px; }
+#wrapper #shopBox #shopBoxBodyInfo #shopBox02 { color: #497279; padding: 0px; float: left; width: 297px; position: relative; font-size: 14px; margin: 0px; height: 264px; top: 5px; text-align: left; left: 6px; overflow: auto; background: url(../_images/landingPages/shopPages/largeTab.png) no-repeat; }
+#wrapper #shopBox #shopBoxBodyInfo #shopBox01Info { color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 220px; width: 267px; position: relative; left: 16px; top: 9px; }
+#wrapper #shopBox #shopBoxBodyInfo #shopBox01Info p { font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 5px; text-align: left; float: left; font-size: 15px; }
+#wrapper #shopBox #shopBoxBodyInfo #shopBox02TitleTop{ font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 25px; width: 200px; position: relative; left: 17px; top: 10px; font-size: 16px; }
+#wrapper #shopBox #shopBoxBodyInfo #shopBox02Info { color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 220px; width: 267px; position: relative; left: 16px; top: 9px; }
+#wrapper #shopBox #shopBoxBodyInfo #shopBox02Info p { font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 5px; text-align: left; float: left; font-size: 15px; }
+
+
+#wrapper #shopBox #shopBoxBodyInfo #shopBox03 { color: #497279; padding: 0px; float: left; width: 297px; position: relative; font-size: 14px; margin: 0px; height: 264px; top: 5px; text-align: left; left: 0px; overflow: auto; background: url(../_images/landingPages/shopPages/largeTab.png) no-repeat; }
+#wrapper #shopBox #shopBoxBodyInfo #shopBox03Info { color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 220px; width: 267px; position: relative; left: 16px; top: 9px; }
+#wrapper #shopBox #shopBoxBodyInfo #shopBox03Info p { font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 5px; text-align: left; float: left; font-size: 15px; }
+#wrapper #shopBox #shopBoxBodyInfo #shopBox03TitleTop { font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 25px; width: 200px; position: relative; left: 17px; top: 10px; font-size: 16px; }
+
+
+
+
+#wrapper #tourInfoBox { margin: 0px; padding: 0px; float: left; height: 105%; width: 510px; position: relative; top: -15px; background: no-repeat; 
+}
+#wrapper #tourInfoBox #tourInfoBoxTitleTopAll{ font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 25px; width: 350px; position: relative; font-size: 16px; top: 14px; left: 9px; }
+#wrapper #firstStartSlice { margin: 0px; padding: 0px; float: left; height: 25px; width: 9px; position: relative; top: 0px; left: 1px; background: url(../_images/commonButtons/blankButtons/tab-headers-combined.png) no-repeat -5px -51px; }
+#wrapper #firstMiddleSlice { font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 3px 10px 0px; text-align: left; float: left; height: 25px; width: 140px; position: relative; font-size: 16px; top: 1px; left: 1px; background: url(../_images/commonButtons/blankButtons/tab-headers-combined.png) no-repeat 0px -26px; }
+
+#wrapper #firstJoinSlice { font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 3px 10px 0px; text-align: left; float: left; height: 27px; width: 12px; position: relative; font-size: 16px; top: 0px; left: 1px; background: url(../_images/commonButtons/blankButtons/tab-headers-combined.png) no-repeat -150px -50px; }
+
+#wrapper #firstEndSlice { margin: 0px; padding: 0px; float: left; height: 25px; width: 24px; position: relative; top: 0px; left: 1px; background: url(../_images/commonButtons/blankButtons/tab-headers-combined.png) no-repeat -14px -51px; }
+
+#wrapper #secondMiddleSlice { font-weight: bold; color: #517A83; border: 0px none #FFF100; margin: 0px; padding: 5px 10px 0px; text-align: left; float: left; height: 25px; width: 100px; position: relative; font-size: 16px; top: 0px; left: -1px; background: url(../_images/commonButtons/blankButtons/tab-headers-combined.png) no-repeat 0px 0px; }
+#wrapper #secondEndSlice { margin: 0px; padding: 0px; float: left; height: 25px; width: 28px; position: relative; top: 0px; left: -1px; background: url(../_images/commonButtons/blankButtons/tab-headers-combined.png) no-repeat -53px -51px; }
+
+
+#wrapper #tourInfoBox #tourInfoBoxBodyInfo { color: #497279; padding: 0px; float: left; width: 509px; position: relative; font-size: 14px; margin: 0px; height: 1300px; top: 14px; text-align: left; left: 0px; overflow: auto; background: url(../_images/rankingPage/06worldWideRanking_05.png) no-repeat; 
+}
+#wrapper #tourInfoBox #tourInfoBoxBodyInfo #tourInfoBoxTagBox{ font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 5px 0px 0px; text-align: left; float: left; height: 30px; width: 400px; position: relative; left: 30px; top: 5px; font-size: 16px; }
+#wrapper #tourInfoBox #tourInfoBoxBodyInfo #tourInfoBoxTitleSolved{ font-weight: normal; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: center; float: right; height: 15px; width: 50px; position: relative; top: 18px; font-size: 12px; right: 25px; }
+#wrapper #tourInfoBox #tourInfoBoxBodyInfo #tourInfoBoxTagDropDown { font-weight: bold; color: #517A83; border: 0px none #FFF100; margin: 0px; padding: 5px 0px 0px 15px; text-align: left; float: right; height: 27px; width: 280px; position: relative; top: -6px; font-size: 16px; background: url(../_images/rankingPage/tagBox.png) no-repeat; right: 10px; }
+#wrapper #rankingList   { color: #497279; padding: 0px; float: left; width: 480px; position: relative; font-size: 14px; margin: 0px; height: 1180px; top: -4px; text-align: left; left: 16px; overflow: auto; }
+
+#wrapper #tourInfoBox #tourInfoBoxBodyInfo #tourInfoBoxStats{ color: #FFFFFF; padding: 2px 10px 0px; float: left; width: 454px; position: relative; font-size: 14px; margin: 0px; height: 20px; text-align: right; left: 16px; overflow: hidden; border: 2px solid #497279; bottom: -5px; }
+#wrapper #countryRankingBox { margin: 0px; padding: 0px; float: right; height: 625px; width: 396px; position: relative; top: -10px; background: url(../_images/rankingPage/06worldWideRanking_04.png) no-repeat; clear: none; 
+}
+#wrapper #countryRankingBox #countryRankingBoxTitleTop{ font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 25px; width: 150px; position: relative; left: 15px; top: 15px; font-size: 16px; }
+#wrapper #countryRankingBox #countryRankingBoxViewButton { margin: 0px; padding: 0px; float: right; height: 24px; width: 120px; top: 5px; right: -25px; position: relative; 
+}
+#wrapper #countryRankingTitleUsers { font-weight: normal; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: center; float: right; height: 15px; width: 50px; position: relative; top: 31px; font-size: 12px; right: 50px; }
+#wrapper #rankCtryList  { color: #497279; padding: 0px; float: left; width: 368px; position: relative; font-size: 16px; margin: 0px; height: 522px; top: 27px; text-align: left; left: 12px; overflow: auto; 
+}
+#wrapper #countryRankingBox #countryRankingBoxStats { color: #FFFFFF; padding: 2px 10px 0px; float: left; width: 348px; position: relative; font-size: 14px; margin: 0px; height: 20px; text-align: right; left: 12px; overflow: hidden; border: 2px solid #497279; bottom: -37px; }
+#wrapper #createOptionsBox { margin: 0px; padding: 0px; float: right; height: 465px; width: 324px; position: relative; top: -5px; background: url(../_images/createMain/09createMain_03.png) no-repeat; right: -2px; clear: none; 
+}
+#wrapper #rankShareBox { margin: 0px; padding: 0px; float: right; height: 85px; width: 396px; position: relative; top: -10px; background: url(../_images/rankingPage/06worldWideRanking_06.png) no-repeat; clear: none; 
+}
+#wrapper #rankShareBox #rankShareBoxTitleTop{ font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 25px; width: 150px; position: relative; left: 15px; top: 5px; font-size: 16px; }
+#wrapper #rankShareBox #rankShareBoxInfoText { color: #497279; padding: 10px 0px 0px 20px; float: left; width: 100px; position: relative; font-size: 16px; margin: 0px; height: 26px; top: 5px; text-align: left; left: 12px; overflow: auto; clear: left; font-weight: bold; }
+#wrapper #rankShareBox #rankShareBoxInfoAddThis { color: #497279; padding: 2px 0px 0px; float: right; width: 250px; position: relative; font-size: 16px; margin: 0px; height: 32px; top: 5px; text-align: left; left: -10px; overflow: auto; 
+}
+#wrapper #rankStatsBox { margin: 0px; padding: 0px; float: right; height: 305px; width: 396px; position: relative; top: -10px; background: url(../_images/rankingPage/06worldWideRanking_07.png) no-repeat; clear: none; 
+}
+#wrapper #rankStatsBox #rankStatsBoxTitleTop{ font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 25px; width: 150px; position: relative; left: 15px; top: 15px; font-size: 16px; }
+#wrapper #rankStatsBox #rankStatsBoxViewButton { margin: 0px; padding: 0px; float: right; height: 24px; width: 120px; top: 5px; right: 15px; position: relative; 
+}
+#wrapper #rankStatsBox #rankStatsBoxText { color: #FFFFFF; padding: 5px 0px; float: left; width: 372px; position: relative; font-size: 16px; margin: 0px; height: 242px; top: 14px; text-align: left; left: 12px; overflow: auto; 
+}
+#wrapper #rankStatsBox #rankStatsBoxText p  { margin: 7px 0px; padding: 4px 5px; position: relative; left: 0px; top: 0px; background-repeat: no-repeat; text-align: left; overflow: auto; border: 2px solid #517A83; width: 328px; }
+#wrapper #adsBox { margin: 0px; padding: 0px; float: right; height: 250px; width: 396px; position: relative; top: -10px; background: url(../_images/rankingPage/06worldWideRanking_08.png) no-repeat; clear: none; 
+}
+#wrapper #adsBox #adsBoxTitleTop{ font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 25px; width: 150px; position: relative; left: 15px; top: 10px; font-size: 16px; }
+#wrapper #adsBox #adsBoxImage { color: #FFFFFF; padding: 0px; float: left; width: 375px; position: relative; font-size: 16px; margin: 0px; height: 190px; top: 8px; text-align: left; left: 8px; 
+}
+
+#wrapper #createOptionsBox #createOptionsBoxTitleTop{ font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 25px; width: 200px; position: relative; left: 15px; top: 10px; font-size: 16px; }
+#wrapper #createOptionsBox #createOptionsBoxBody { color: #497279; padding: 0px; float: left; width: 295px; position: relative; font-size: 16px; background-repeat: no-repeat; margin: 0px; height: 380px; top: 15px; text-align: left; left: 15px; 
+}
+#wrapper #createOptionsBox #createOptionsBoxBody img { padding: 8px 6px; float: left; position: relative; background-repeat: no-repeat; margin: 0px; }
+#wrapper #createContBox { margin: 0px; padding: 0px; float: left; height: 110px; width: 579px; position: relative; top: -5px; background: url(../_images/createMain/09createMain_02.png) no-repeat; clear: none; 
+}
+#wrapper #createContBox #createContBoxTitleTop{ font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 25px; width: 300px; position: relative; left: 25px; top: 8px; font-size: 16px; }
+#wrapper #createContBox #createContBoxText { color: #497279; padding: 0px; float: left; width: 538px; position: relative; font-size: 14px; background-repeat: no-repeat; margin: 0px; height: 68px; top: 8px; text-align: left; left: 25px; overflow: auto; 
+}
+#wrapper #createInfoBox { margin: 0px; padding: 0px; float: left; height: 190px; width: 579px; position: relative; top: -5px; background: url(../_images/createMain/09createMain_04.png) no-repeat; clear: none; 
+}
+#wrapper #createInfoBox #createInfoBoxTitleTop{ font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 25px; width: 300px; position: relative; left: 25px; top: 8px; font-size: 16px; }
+#wrapper #createInfoBox #createInfoBoxText { color: #FFFFFF; padding: 0px 12px 0px 0px; float: left; width: 530px; position: relative; font-size: 14px; background-repeat: no-repeat; margin: 0px; height: 95px; top: 6px; text-align: left; left: 25px; overflow: auto; 
+}
+#wrapper #createInfoBox #createInfoBoxCreate { color: #FFFFFF; padding: 5px 10px 0px 0px; float: left; width: 532px; position: relative; font-size: 14px; background-repeat: no-repeat; margin: 0px; height: 35px; top: 6px; text-align: right; left: 25px; border-top: 2px solid #FFF; border-right: 2px none #FFF; border-bottom: 2px none #FFF; border-left: 2px none #FFF; }
+
+#wrapper #createCopyBox { margin: 0px; padding: 0px; float: left; height: 140px; width: 579px; position: relative; top: -5px; background: url(../_images/createMain/09createMain_05.png) no-repeat; clear: none; 
+}
+#wrapper #createCopyBox #createCopyBoxTitleTop{ font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 25px; width: 300px; position: relative; left: 25px; top: 8px; font-size: 16px; }
+#wrapper #createCopyBox #createCopyBoxText { color: #497279; padding: 0px; float: left; width: 538px; position: relative; font-size: 14px; background-repeat: no-repeat; margin: 0px; height: 88px; top: 8px; text-align: left; left: 25px; overflow: auto; 
+}
+#wrapper #runCodeInfoBox { margin: 0px; padding: 0px; float: left; height: 175px; width: 906px; position: relative; top: -10px; background: url(../_images/currentPathPage/05runCodePage_02.png) no-repeat; clear: none; 
+}
+#wrapper #runCodeInfoBox #runCodeInfoBoxTitleTop{ font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 25px; width: 260px; position: relative; left: 15px; top: 12px; font-size: 16px; }
+#wrapper #runCodeInfoBox #runCodeInfoBoxTitleTop a:link , #wrapper #runCodeInfoBox #runCodeInfoBoxTitleTop a:visited{ font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px 5px; padding: 1px 4px; text-align: center; }
+#wrapper #runCodeInfoBox #runCodeInfoBoxTitleTop a:hover , #wrapper #runCodeInfoBox #runCodeInfoBoxTitleTop a:active{ font-weight: bold; color: #517A83; text-align: center; margin: 0px 5px; padding: 1px 4px; background: #CCC; }
+#wrapper #runCodeInfoBox #runCodeInfoBoxViewButton { margin: 0px; padding: 0px; float: right; height: 24px; width: 120px; top: 3px; right: 15px; position: relative; 
+}
+#wrapper #runCodeInfoBox #runCodeInfoBoxText { color: #517A83; padding: 0px 12px 0px 0px; float: left; width: 800px; position: relative; font-size: 14px; background-repeat: no-repeat; margin: 0px; height: 120px; top: 10px; text-align: left; left: 25px; overflow: auto; 
+}
+#wrapper #runCodeInfoBox #runCodeInfoBoxTextBook { color: #517A83; padding: 0px; float: left; width: 50px; position: relative; font-size: 14px; background-repeat: no-repeat; margin: 0px; height: 95px; top: 15px; text-align: left; left: 25px; }
+#wrapper #runCodeInfoBar { color: #FFF; padding: 7px 0px 0px 30px; width: 876px; position: relative; top: -10px; right: 0px; font-size: 16px; margin: 0px; height: 40px; clear: none; float: left; background: url(../_images/currentPathPage/05runCodePage_03.png) no-repeat; text-align: left; font-weight: bold; }
+#wrapper #runCodeInfoBar #runCodeInfoBarClock { color: #517A83; padding: 0px; float: right; width: 115px; position: relative; font-size: 14px; margin: 0px; height: 35px; top: 0px; text-align: center; background: url(../_images/currentPathPage/05runCodePage_11.png) no-repeat; clear: none; right: 8px; }
+#wrapper #runCodeInfoBar #runCodeInfoBarClockTime { color: #FFFFFF; padding: 0px; position: relative; font-size: 22px; margin: 0px; top: 1px; text-align: center; left: 2px; height: 18px; width: 110px; letter-spacing: 0.1em; }
+
+
+#wrapper #runCodeBox { margin: 0px; padding: 0px; float: left; height: 547px; width: 508px; position: relative; top: -5px; background: url(../_images/currentPathPage/05runCodePage_04.png) no-repeat; clear: none; 
+}
+#wrapper #runCodeBox #runCodeBoxTitleTop{ font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 25px; width: 220px; position: relative; left: 15px; top: 27px; font-size: 16px; }
+
+#wrapper #runCodeBox #runCodeBoxTitleTop a:link , #wrapper #runCodeBox #runCodeBoxTitleTop a:visited{ font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px 5px; padding: 1px 4px; text-align: center; }
+#wrapper #runCodeBox #runCodeBoxTitleTop a:hover , #wrapper #runCodeBox #runCodeBoxTitleTop a:active{ font-weight: bold; color: #517A83; text-align: center; margin: 0px 5px; padding: 1px 4px; background: #CCC; }
+#wrapper #runCodeBox #runCodeBoxRunCodeTop { border: 0px none #FFF100; margin: 0px; padding: 0px; float: right; height: 40px; width: 230px; position: relative; top: 8px; right: 6px; }
+#wrapper #runCodeBox #runCodeBoxBody { color: #497279; float: left; width: 466px; position: relative; font-size: 14px; margin: 0px; height: 428px; top: 10px; text-align: left; left: 16px; overflow: auto; padding: 5px; border: 1px solid #497279; 
+}
+#wrapper #runCodeBox #runCodeBoxRunCodeBottom { border: 0px none #FFF100; margin: 0px; padding: 0px; float: right; height: 40px; width: 230px; position: relative; top: 16px; right: 6px; }
+#wrapper #runCodeMesBox { margin: 0px; padding: 0px; float: left; height: 105%; width: 397px; position: relative; top: -15px; background: no-repeat; 
+}
+#wrapper #runCodeMesBox #runCodeMesBoxTitleTopAll{ font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 25px; width: 350px; position: relative; font-size: 16px; top: 14px; left: 2px; }
+#wrapper #runCodeMesBox #runCodeMesBoxBodyInfo { color: #497279; padding: 10px 20px; float: left; width: 357px; position: relative; font-size: 14px; margin: 0px; height: 378px; top: 12px; text-align: left; left: 0px; overflow: auto; background: url(../_images/currentPathPage/05runCodePage_06.png) no-repeat; 
+}
+#wrapper #runCodeStatsBox { margin: 0px; padding: 0px; float: right; height: 202px; width: 396px; position: relative; top: 15px; background: url(../_images/currentPathPage/05runCodePage_07.png) no-repeat; clear: none; 
+}
+#wrapper #runCodeStatsBox #runCodeStatsBoxTitleTop{ font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 25px; width: 150px; position: relative; left: 15px; top: 7px; font-size: 16px; }
+#wrapper #runCodeStatsBox #runCodeStatsBoxViewButton { margin: 0px; padding: 0px; float: right; height: 24px; width: 120px; top: 0px; right: 15px; position: relative; 
+}
+#wrapper #runCodeStatsBox #runCodeStatsBoxText { color: #FFFFFF; padding: 5px 0px; float: left; width: 372px; position: relative; font-size: 16px; margin: 0px; height: 132px; top: 5px; text-align: left; left: 12px; overflow: auto; 
+}
+#wrapper #runCodeStatsBox #runCodeStatsBoxText p  { margin: 7px 0px; padding: 4px 5px; position: relative; left: 0px; top: 0px; background-repeat: no-repeat; text-align: left; overflow: auto; border: 2px solid #517A83; width: 328px; }
+#wrapper #tourSelectBox { margin: 0px; padding: 0px; float: left; height: 85px; width: 906px; position: relative; top: -10px; background: url(../_images/tournamentPages/07tournament_02.png) no-repeat; clear: none; 
+}
+#wrapper #tourSelectBox #tourSelectBoxTypeSelector{ font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: center; float: left; height: 35px; width: 880px; position: relative; left: 10px; top: 8px; font-size: 16px; }
+#wrapper #tourSelectBox #tourSelectBoxTypeSelector img { border: 0px none #FFF100; margin: 0px; padding: 0px 10px; position: relative; }
+
+#wrapper #tourSelectBox #tourSelectBoxPathSelector { color: #517A83; padding: 0px 12px 0px 0px; float: left; width: 870px; position: relative; font-size: 14px; background-repeat: no-repeat; margin: 0px; height: 35px; top: 10px; text-align: left; left: 22px; 
+}
+#wrapper #tourSelectBox #tourSelectBoxPathSelector img{ color: #FFF; padding: 6px 5px 5px; font-size: 16px; margin: 0px; }
+
+#wrapper #tourActualSelectBox { margin: 0px; padding: 0px; float: left; height: 105%; width: 906px; position: relative; top: -15px; background: no-repeat; 
+}
+#wrapper #tourActualSelectBox #tourActualSelectBoxTitleTopAll{ font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 25px; width: 710px; position: relative; font-size: 16px; top: 14px; left: 8px; }
+#wrapper #threeFirstStartSlice { margin: 0px; padding: 0px; float: left; height: 25px; width: 9px; position: relative; top: 0px; left: 1px; background: url(../_images/commonButtons/blankButtons/tab-headers-combined.png) no-repeat -5px -51px; }
+#wrapper #threeFirstMiddleSlice { font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 3px 10px 0px; text-align: left; float: left; height: 25px; width: 195px; position: relative; font-size: 14px; top: 1px; left: 1px; background: url(../_images/commonButtons/blankButtons/tab-headers-combined.png) no-repeat 0px -26px; }
+#wrapper #threeFirstJoinSlice { font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 3px 10px 0px; text-align: left; float: left; height: 27px; width: 12px; position: relative; font-size: 16px; top: -1px; left: 1px; background: url(../_images/commonButtons/blankButtons/tab-headers-combined.png) no-repeat -150px -50px; }
+#wrapper #threeFirstEndSlice { margin: 0px; padding: 0px; float: left; height: 25px; width: 24px; position: relative; top: 0px; left: 1px; background: url(../_images/commonButtons/blankButtons/tab-headers-combined.png) no-repeat -14px -51px; }
+#wrapper #threeSecondMiddleSlice { font-weight: bold; color: #517A83; border: 0px none #FFF100; margin: 0px; padding: 5px 10px 0px; text-align: left; float: left; height: 25px; width: 145px; position: relative; font-size: 14px; top: -1px; left: -1px; background: url(../_images/commonButtons/blankButtons/tab-headers-combined.png) no-repeat 0px 0px; }
+#wrapper #threeSecondEndSlice { margin: 0px; padding: 0px; float: left; height: 25px; width: 28px; position: relative; top: 0px; left: -1px; background: url(../_images/commonButtons/blankButtons/tab-headers-combined.png) no-repeat -53px -51px; }
+#wrapper #threeSecondJoinSlice { font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 3px 10px 0px; text-align: left; float: left; height: 27px; width: 14px; position: relative; font-size: 16px; top: -1px; left: -1px; background: url(../_images/commonButtons/blankButtons/tab-headers-combined.png) no-repeat -115px -50px; }
+#wrapper #threeThirdMiddleSlice { font-weight: bold; color: #517A83; border: 0px none #FFF100; margin: 0px; padding: 5px 10px 0px; text-align: left; float: left; height: 25px; width: 200px; position: relative; font-size: 14px; top: -1px; left: -1px; background: url(../_images/commonButtons/blankButtons/tab-headers-combined.png) no-repeat 0px 0px; }
+#wrapper #threeThirdEndSlice { margin: 0px; padding: 0px; float: left; height: 25px; width: 28px; position: relative; top: 0px; left: -1px; background: url(../_images/commonButtons/blankButtons/tab-headers-combined.png) no-repeat -53px -51px; }
+#wrapper #tourActualSelectBox #tourActualSelectBoxViewButton { margin: 0px; padding: 0px; float: right; height: 24px; width: 190px; top: 15px; right: 2px; position: relative; 
+}
+#wrapper #tourActualSelectBox #tourActualSelectBoxBodyInfo { color: #497279; padding: 5px 15px; float: left; width: 876px; position: relative; font-size: 14px; margin: 0px; height: 130px; top: 12px; text-align: left; left: 0px; overflow: hidden; background: url(../_images/tournamentPages/07tournament_04.png) no-repeat; 
+}
+#wrapper #tourActualSelectBox #tourActualSelectBoxBodyInfo img { color: #FFF; padding: 0px; font-size: 16px; margin: 0px; }
+#wrapper #tourOrgInfoBox { margin: 0px; padding: 0px; float: left; height: 210px; width: 906px; position: relative; top: 10px; background: url(../_images/tournamentPages/07tournament_05_invitational.png) no-repeat; clear: none; 
+}
+#wrapper #tourOrgInfoBox #tourOrgInfoBoxTitleTop{ font-weight: bold; color: #FFFFFF; border: 0px none #FFF100; margin: 0px; padding: 0px; text-align: left; float: left; height: 25px; width: 260px; position: relative; left: 25px; top: 7px; font-size: 16px; }
+#wrapper #tourOrgInfoBox #tourOrgInfoBoxViewButton { margin: 0px; padding: 0px; float: right; height: 24px; width: 120px; top: 3px; right: 15px; position: relative; 
+}
+#wrapper #tourOrgInfoBox #tourOrgInfoBoxImage { color: #517A83; padding: 0px; float: left; width: 305px; position: relative; font-size: 14px; background-repeat: no-repeat; margin: 0px; height: 155px; top: 11px; text-align: left; left: 20px; clear: left; }
+#wrapper #tourOrgInfoBox #tourOrgInfoBoxText { color: #517A83; padding: 0px 12px 0px 0px; float: left; width: 540px; position: relative; font-size: 14px; background-repeat: no-repeat; margin: 0px; height: 120px; top: 10px; text-align: left; left: 30px; overflow: auto; 
+}
+
+
+#wrapper #mainFooter #menuFooterBottom{ margin: 0px; padding: 12px 0px 0px 15px; height: 30px; width: 891px; position: relative; top: 0px; background: #FFF url(../_images/landingPages/indexPage/01landingPage18.jpg) no-repeat; left: 0px; color: #FFF; font-size: 14px; text-align: left; clear: both; float: left; }
+#gr8ph1csLogo { background-image: url(../_images/landingPages/landingPageButtons/gr8ph1csLogo_off.png); float: right; display: block; position: relative; top: -24px; right: 10px; width: 140px; height: 34px; margin: 0px; padding: 0px; }
+#gr8ph1csLogo:hover, #gr8ph1csLogo.hover { background-image: url(../_images/landingPages/landingPageButtons/gr8ph1csLogo_on.png); }
+
+#wrapper #Footer {
+  background-image: url(../_images/landingPage/01landingPage05.jpg);
+  height: 30px;
+  width: 906px;
+  position: relative;
+  bottom: 0px;
+  background-repeat: no-repeat;
+  float: left;
+  padding-top: 8px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  text-align: center;
+}
+
+#wrapper #gr8ph1csFooter { background-color: #999; height: 30px; width: 906px; position: relative; right: 0px; clear: both; margin: 0px; padding: 0px; text-align: right; float: left; 
+}
+
+/* path edit */
+
+table.pathEdit {
+  height: 216px;
+  width: 482px;
+}
+table.pathEdit > tbody > tr {
+  height: 54px;
+}
+table.pathEdit > tbody > tr > td:first-child {
+  width: 167px;
+  text-align: center;
+}
+table.pathEdit > tbody > tr > td:first-child + td.inputLong {
+  width: 315px;
+  padding-bottom: 17px;
+}
+table.pathEdit > tbody > tr > td:first-child + td > input,
+table.pathEdit > tbody > tr > td:first-child + td > select {
+  border: 0px solid;
+}
+table.pathEdit div#popup_path_language {
+    text-align: left;
+    font-size: 13px;
+    font-weight: bold;
+    padding-left: 9px;
+    padding-right: 11px;
+}
+table.levels td.cpRunPathSmallerButton div.editpath {
+  display: inline-block;
+}
+table.levelsEdit td.cpRunPathSmallerButton div.editpath {
+  display: inline-block;
+}
+td.cpRunPathSmallerButton div.editpath {
+  height: 32px;
+  vertical-align: middle;
+  text-align: center;
+  overflow: hidden;
+}
+table.levelsEdit td.cpDetailsSmaller {
+  width: 158px;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+table.levelsEdit td.cpRunPathSmallerButton {
+  width: 170px;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+table.levels div.editpath {
+  width: 0px;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+table.levelsEdit div.editpath {
+  width: 39px;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+
+/* edit problemset */
+
+div.editproblemset {
+  width: 0px;
+  overflow: hidden;
+  height: 29px;
+  display: none;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+table.pathLevelsEdit div.editproblemset {
+  width: 36px;
+  display: inline-block;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+table.pathLevelsEdit td.levelDescription {
+  width: 218px;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+table.pathLevelsEdit td.levelBadge {
+  width: 76px;
+  -webkit-transition: width 0.6s ease-in-out;
+}
+div#popup_problemset_path {
+    text-align: left;
+    font-size: 13px;
+    font-weight: bold;
+    padding-left: 9px;
+    padding-right: 11px;
+}

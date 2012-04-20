@@ -1,0 +1,56 @@
+@import stylus_functions
+
+a
+  text-decoration none
+  
+  &:link
+    color #CCC
+  
+  &:visited
+    color #999
+
+  &:hover
+    color #F7D3A4
+  
+  &:active
+    color #333
+
+
+.commonBtn
+  $width  = 8px
+  $height = 23px
+  
+  .left
+    background-image  url(../_images/commonButtons/parts/left.png)
+    background-repeat no-repeat
+    float             left
+    width             $width
+    height            $height
+  
+  .middle
+    background-image  url(../_images/commonButtons/parts/middle.png)
+    background-repeat repeat-x
+    font-family       Arial
+    color             $commonTextColor
+    line-height       21px
+    float             left
+    height            $height
+    padding           0px 5px
+  
+  .right
+    background-image  url(../_images/commonButtons/parts/right.png)
+    background-repeat no-repeat
+    float             left
+    width             $width
+    height            $height
+  
+  &:hover
+    .left
+      background-image url(../_images/commonButtons/parts/left-hover.png)
+    
+    .middle
+      background-image url(../_images/commonButtons/parts/middle-hover.png)
+      color            #FFF
+    
+    .right
+      background-image url(../_images/commonButtons/parts/right-hover.png)

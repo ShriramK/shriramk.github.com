@@ -1,0 +1,19 @@
+<!-- Prints all Rankings -->
+<div class="text">
+  <div ng-repeat="player in players" class="player">
+    <img ng-src="{{player.rank.src}}"     class="rank"     alt="{{player.rank.alt}}" />
+    <img ng-src="{{player.gravatar.src}}" class="gravatar" alt="{{player.gravatar.alt}}" />
+    <div class="name">
+      {{player.name}}
+    </div>
+    <div class="solvedNum">
+      {{player.solved_num}}
+    </div>
+    <img ng-src="{{player.playerCountryFlagURL}}" class="flag" />
+    <img ng-src="{{player.highestBadge.url}}"     class="highestBadge"
+      onclick = "alert('{{player.highestBadge.description}}')"
+      title   = "{{player.highestBadge.description}}"
+      alt     = "{{player.highestBadge.description}}"
+    />
+  </div>
+</div>

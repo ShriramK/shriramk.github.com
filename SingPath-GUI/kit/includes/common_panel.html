@@ -1,0 +1,34 @@
+<!-- Prints HTML Panel regarding passed scope data -->
+<div ng-class="containerClass">
+  <!-- Print a common btn with the controllet attributes for the btn JSON Object -->
+  <div ng-include src="'includes/common_btn.html'"></div>
+  
+  <div class="labelContainer">
+    <div class="label">
+      {{label}}
+    </div>
+    <div class="curve"></div>
+  </div>
+  
+  <div class="textContainer">
+    <div ng-switch on="containerClass">
+      <!-- Load the Profile Panel -->
+      <div ng-include ng-switch-when="profileContainer" src="'includes/profile_panel.html'"></div>
+      
+      <!-- Load the Badges Panel -->
+      <div ng-include ng-switch-when="badgesContainer" src="'includes/badges_panel.html'"></div>
+      
+      <!-- Load the Contributors Panel -->
+      <div ng-include ng-switch-when="contributorsContainer" src="'includes/contributors_panel.html'"></div>
+      
+      <!-- Load the Challenges Panel -->
+      <div ng-include ng-switch-when="challengesContainer" src="'includes/challenges_panel.html'"></div>
+      
+      <!-- Load the Staff Panel -->
+      <div ng-include ng-switch-when="staffContainer" src="'includes/staff_panel.html'"></div>
+      
+      <!-- Load the Ranking Panel -->
+      <div ng-include ng-switch-when="rankingContainer" src="'includes/ranking_panel.html'"></div>
+    </div>
+  </div>
+</div>

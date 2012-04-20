@@ -1,0 +1,50 @@
+<!-- Prints HTML Player Panel -->
+<div class="profileName">
+  {{profile.nickname}}
+</div>
+
+<div class="text">
+  <div class="imgWrapper">
+    <img ng-src="{{profile.gravatar}}"   class="gravatar" />
+    <img ng-src="{{profile.countrySrc}}" class="country"  />
+    <img ng-src="{{profile.genderSrc}}"  class="gender"   />
+  </div>
+
+  <div class="detailsWrapper">
+    <div class="details center">
+      <span class="label">
+        {{profile.professionalLabel}}
+      </span>
+    </div>
+    
+    <div class="details">
+      <span class="label">
+        Location:
+      </span>
+        {{profile.locationClamp}}
+    </div>
+    
+    <div class="details">
+      <span class="label">
+        Tags:
+      </span>
+        <a ng-repeat="tag in visibleTags" ng-src="/kit/ranking.html?tag={{tag}}" title="Ranking tag: {{tag}}">
+          {{tag}}
+        </a>
+        
+        <div ng-switch on="visibleTags.length != profile.tags.length">
+          <span ng-switch-when="true">...<span>
+        </div>
+    </div>
+    
+    <div class="details" ng-click="testClick(1, $event)">
+      <span class="label">
+        About Me:
+      </span>
+      {{profile.aboutClapm}}
+    </div>
+ </div>
+</div>
+
+<!-- Load the common popUp include with the Edit Details data -->
+<div ng-include src="'includes/common_pop_up.html'"></div>

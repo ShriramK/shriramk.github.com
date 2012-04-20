@@ -1,0 +1,723 @@
+body {
+  background-color: #666;
+  text-align: center;
+  padding: 0px;
+  left: auto;
+  right: auto;
+  height: auto;
+  width: auto;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  color: #4F7984;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 14px;
+}
+table {
+  border-spacing: 0px;
+}
+td {
+  padding: 0px;
+  overflow: hidden;
+}
+.__page {
+  border: 0px solid black;
+  width: 906px;
+  margin: 0 auto;
+}
+table.__body {
+  background-image: url("../_images/greyBackground.jpg");
+  background-repeat: repeat-y;
+  width: 100%;
+  border: 0px solid blue;
+  display: table;
+}
+div.divTitle {
+}
+div.divContent {
+  font-size: 13px;
+  white-space: normal;
+  overflow: auto;
+}
+td.element1 {
+  padding-left: 8px;
+  padding-top: 8px;
+  text-align: center;
+}
+td.element2 {
+  padding-left: 5px;
+  padding-right: 4px;
+  padding-top: 8px;
+}
+
+/* LOADING TITLE */
+
+div#loading {
+  border: solid black;
+  background-color: #FFFFE1;
+  display: none;
+  z-index: 100;
+  position: fixed;
+  top: 0;
+}
+
+/* HEADER */
+
+table.header {
+  font-family: Verdana, Geneva, sans-serif;
+  background-image: url(../_images/02headerShadow01.jpg);
+  background-repeat: no-repeat;
+  margin: 0px;
+  padding: 0px;
+  height: 70px;
+  width: 906px;
+  top: 0px;
+}
+td.logo {
+  text-align: left;
+  width: 397px;
+}
+a.logo {
+  margin-left: 9px;
+}
+img.logo {
+  width: 169px;
+  height: 46px;
+  border: 0px solid;
+  margin-top: -4px;
+}
+.logIndetailsTop {
+  background-image: url(../_images/02homeLogin03.png);
+  background-repeat: no-repeat;
+  background-position: 0px 10px;
+}
+td.logInProfile {
+  width: 84px;
+  text-align: right;
+}
+div.logInProfile {
+  left: 40px;
+  top: 15px;
+}
+img.logInProfile {
+  margin-top: 15px;
+}
+.logInProfileHome {
+  margin: 0px;
+  padding: 0px;
+  height: 37px;
+  width: 44px;
+  left: 40px;
+  top: 12px;
+}
+div.logInGravatarPhoto {
+  left: 98px;
+  top: 10px;
+  width: 40px;
+  height: 40px;
+}
+img.logInGravatarPhoto {
+  height: 40px;
+  width: 40px;
+  margin-top: 12px;
+  margin-right: 8px;
+  border-radius: 4px; /* chrome */
+  -moz-border-radius: 4px; /* firefox */
+}
+td.logInGravatarPhoto {
+  width: 76px;
+  text-align: center;
+}
+.logIndetailsNameText {
+  margin-top: 12px;
+  height: 20px;
+  width: 310px;
+  font-weight: bold;
+}
+td.logIndetailsNameText {
+  background-position: 0 19px;
+  background-repeat: no-repeat;
+  vertical-align: bottom;
+  padding-bottom: 9px;
+  background-image: url('../_images/homePage/inputLong.png');
+  width: 315px;
+  text-align: center;
+}
+
+/* pageHeader box */
+
+table.pageHeader {
+  background-image: url(../_images/02headerShadow01.jpg);
+  background-repeat: no-repeat;
+  background-position: -1px -1px;
+  width: 905px;
+  height: 69px;
+}
+table.pageHeader > tbody > tr.header {
+  height: 0px;
+}
+table.pageHeader > tbody > tr > td.header {
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: left;
+  padding-left: 10px;
+  vertical-align: top;
+}
+table.pageHeader > tbody > tr.content {
+  vertical-align: top;
+  height: 69px;
+}
+table.pageHeader > tbody > tr > td.content {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 7px;
+}
+table.pageHeader div.content {
+  width: 905px;
+  height: 62px;
+}
+table.pageHeader > tbody > tr.footer {
+  height: 0px;
+}
+/* messageBox box */
+
+table.messageBox {
+  background-image: url(../_images/challengeView/messageBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -10px -4px;
+  width: 893px;
+  height: 41px;
+}
+table.messageBox > tbody > tr.header {
+  height: 0px;
+}
+table.messageBox > tbody > tr > td.header {
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: left;
+  padding-left: 10px;
+  vertical-align: top;
+}
+table.messageBox > tbody > tr.content {
+  vertical-align: top;
+  height: 41px;
+}
+table.messageBox > tbody > tr > td.content {
+  padding-left: 5px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 11px;
+}
+table.messageBox div.content {
+  width: 878px;
+  height: 25px;
+  color: white;
+  text-align: left;
+}
+table.messageBox > tbody > tr.footer {
+  height: 0px;
+}
+table.twocolumn tr {
+  vertical-align: top;
+}
+div#challengeDetails {
+  text-align: left;
+}
+/* detailsBox box */
+
+table.detailsBox {
+  background-image: url(../_images/challengeView/detailsBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -10px -6px;
+  width: 498px;
+  height: 582px;
+}
+table.detailsBox > tbody > tr.header {
+  height: 22px;
+}
+table.detailsBox > tbody > tr > td.header {
+  color: white !important;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: left;
+  padding-left: 10px;
+  vertical-align: top;
+}
+table.detailsBox > tbody > tr.content {
+  vertical-align: top;
+  height: 560px;
+}
+table.detailsBox > tbody > tr > td.content {
+  padding-left: 6px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 10px;
+}
+table.detailsBox div.content {
+  width: 482px;
+  height: 548px;
+  overflow: auto;
+}
+table.detailsBox > tbody > tr.footer {
+  height: 0px;
+}
+font.label {
+  display: block;
+  font-weight: bold;
+}
+font.value {
+  display: block;
+  font-weight: normal;
+}
+
+/* actionsBox box */
+
+table.actionsBox {
+  background-image: url(../_images/challengeView/actionsBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -6px -11px;
+  width: 391px;
+  height: 162px;
+}
+table.actionsBox > tbody > tr.header {
+  height: 22px;
+}
+table.actionsBox > tbody > tr > td.header {
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: left;
+  padding-left: 10px;
+  vertical-align: top;
+}
+table.actionsBox > tbody > tr.content {
+  vertical-align: top;
+  height: 140px;
+}
+table.actionsBox > tbody > tr > td.content {
+  padding-left: 6px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 10px;
+}
+table.actionsBox div.content {
+  width: 375px;
+  height: 128px;
+}
+table.actionsBox > tbody > tr.footer {
+  height: 0px;
+}
+table.actionsBox font.register {
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+table.actionsBox font.send {
+  display: block;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+div#challengeActions {
+  text-align: center;
+}
+table.actionsBox font.disclaimer {
+  display: block;
+  padding-top: 20px;
+  font-size: 10px;
+}
+table.actionsBox table.send {
+  padding-top: 0px;
+  display: inline-block;
+}
+table.actionsBox td.sendLabel {
+  padding-top: 9px;
+  font-size: 12px;
+}
+table.actionsBox td.send {
+  background-image: url('../_images/homePage/inputLong.png');
+  width: 315px;
+  border: 0px solid;
+  font-weight: bold;
+  color: #4F7984;
+  height: 31px;
+  padding: 0;
+  margin: 0;
+  border-spacing: 0;
+}
+table.actionsBox td.send div {
+  padding-left: 0px;
+  padding-top: 6px;
+}
+table.actionsBox td.send input {
+  width: 298px;
+  height: 18px;
+  border: 0px solid;
+  background: white;
+  font-size: 13px;
+}
+table.sendmessage td.button {
+  text-align: right;
+}
+table.file {
+  padding-top: 6px;
+}
+table.file td {
+  vertical-align: middle;
+}
+
+/* linksBox box */
+
+table.linksBox {
+  background-image: url(../_images/challengeView/linksBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -6px -6px;
+  width: 391px;
+  height: 210px;
+}
+table.linksBox > tbody > tr.header {
+  height: 22px;
+}
+table.linksBox > tbody > tr > td.header {
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: left;
+  padding-left: 10px;
+  vertical-align: top;
+}
+table.linksBox > tbody > tr.content {
+  vertical-align: top;
+  height: 188px;
+}
+table.linksBox > tbody > tr > td.content {
+  padding-left: 6px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 10px;
+}
+table.linksBox div.content {
+  width: 375px;
+  height: 176px;
+}
+table.linksBox > tbody > tr.footer {
+  height: 0px;
+}
+div#challengeLinks {
+  text-align: center;
+}
+div#challengeLinks font.value {
+  padding-top: 10px;
+}
+div#challengeLinks table.link {
+  padding-top: 10px;
+  display: inline-block;
+}
+div#challengeLinks td.linkLabel {
+  padding-top: 7px;
+}
+div#challengeLinks td.link {
+  background-image: url('../_images/homePage/inputLong.png');
+  width: 315px;
+  border: 0px solid;
+  font-weight: bold;
+  color: #4F7984;
+  height: 31px;
+  padding: 0;
+  margin: 0;
+  border-spacing: 0;
+}
+div#challengeLinks td.link div {
+  padding-left: 0px;
+  padding-top: 6px;
+}
+div#challengeLinks td.link input {
+  width: 298px;
+  height: 18px;
+  border: 0px solid;
+  background: white;
+  font-size: 13px;
+}
+
+/* privateBox box */
+
+table.privateBox {
+  background-image: url(../_images/challengeView/privateMsgLockedBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -6px -7px;
+  width: 391px;
+  height: 172px;
+}
+table.privateBox > tbody > tr.header {
+  height: 22px;
+}
+table.privateBox > tbody > tr > td.header {
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: left;
+  padding-left: 10px;
+  vertical-align: top;
+}
+table.privateBox > tbody > tr.content {
+  vertical-align: top;
+  height: 150px;
+}
+table.privateBox > tbody > tr > td.content {
+  padding-left: 6px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 10px;
+}
+table.privateBox div.content {
+  width: 375px;
+  height: 138px;
+}
+table.privateBox > tbody > tr.footer {
+  height: 0px;
+}
+/* privateBox2 box */
+
+table.privateBox2 {
+  background-image: url(../_images/challengeView/privateMsgUnlockedBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -6px -7px;
+  width: 391px;
+  height: 172px;
+}
+table.privateBox2 > tbody > tr.header {
+  height: 22px;
+}
+table.privateBox2 > tbody > tr > td.header {
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: left;
+  padding-left: 10px;
+  vertical-align: top;
+}
+table.privateBox2 > tbody > tr.content {
+  vertical-align: top;
+  height: 150px;
+}
+table.privateBox2 > tbody > tr > td.content {
+  padding-left: 6px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 10px;
+}
+table.privateBox2 div.content {
+  width: 375px;
+  height: 138px;
+  overflow: auto;
+}
+table.privateBox2 > tbody > tr.footer {
+  height: 0px;
+}
+/* bytesBox box */
+
+table.bytesBox {
+  background-image: url(../_images/challengeView/bytesBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -4px -6px;
+  width: 391px;
+  height: 218px;
+}
+table.bytesBox > tbody > tr.header {
+  height: 22px;
+}
+table.bytesBox > tbody > tr > td.header {
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: left;
+  padding-left: 10px;
+  vertical-align: top;
+}
+table.bytesBox > tbody > tr.content {
+  vertical-align: top;
+  height: 196px;
+}
+table.bytesBox > tbody > tr > td.content {
+  padding-left: 5px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 10px;
+}
+table.bytesBox div.content {
+  width: 376px;
+  height: 184px;
+}
+table.bytesBox > tbody > tr.footer {
+  height: 0px;
+}
+
+/* footer */
+
+.__footer {
+  border: 0px solid;
+  width: 100%;
+}
+.footer {
+  background-image: url(../_images/landingPage/01landingPage05.jpg);
+  height: 38px;
+  width: 906px;
+  text-align: center;
+  font-size: 14px;
+}
+td.gr8ph1csFooter {
+  text-align: right;
+  background-color: #999;
+}
+img.gr8ph1csFooter {
+  width: 138px;
+  height: 27px;
+  border: 0px solid;
+}
+.footer a:link {
+  color: #999;
+  text-decoration: none;
+}
+.footer a:visited {
+  text-decoration: none;
+  color: #999;
+}
+.footer a:hover {
+  text-decoration: none;
+  color: #F7D3A4;
+}
+.footer a:active {
+  text-decoration: none;
+  color: #333;
+}
+
+/* empty small button */
+
+span.emptySmallButton {
+  background-image: url(../_images/commonButtons/smallButtonBlank_off.png);
+  background-repeat: no-repeat;
+  width: 104px;
+  height: 23px;
+  color: #4F7984;
+  font-weight: normal;
+  font-size: 13px;
+  text-align: center;
+  display: inline-block;
+  padding-top: 4px;
+  cursor: pointer;
+}
+span.emptySmallButton:hover {
+  background-image: url(../_images/commonButtons/smallButtonBlank_on.png);
+  color: white;
+}
+
+/* empty button */
+
+span.emptyButton {
+  background: url(../_images/commonButtons/blankPathButton_off.png) no-repeat scroll 100% 0%;
+  display: inline-block;
+  height: 32px;
+  width: 140px;
+  color: #4F7984;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 8px;
+  cursor: pointer;
+}
+span.emptyButton:hover {
+  background: url(../_images/commonButtons/blankPathButton_on.png) no-repeat scroll 100% 0%;
+  color: white;
+}
+
+/* back button */
+
+a.backToChallengeBoard {
+  text-decoration: none;
+}
+a.backToChallengeBoard div {
+  text-align: center;
+}
+
+/* share box */
+
+table.shareBox {
+  background-image: url(../_images/commonButtons/shareBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -9px -4px;
+  height: 74px;
+  width: 494px;
+}
+td.boxHeader {
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 0px;
+  vertical-align: bottom;
+}
+table.shareBox tr.boxContent {
+  height: 53px;
+}
+table.shareBox td.shareBoxText {
+  height: 35px;
+  font-size: 14px;
+  text-align: left;
+  color: #4F7984;
+  vertical-align: top;
+  padding-bottom: 0;
+  padding-top: 16px;
+  padding-left: 15px;
+}
+table.shareBox td.shareBoxButtons {
+  height: 35px;
+  width: 200px;
+  font-size: 14px;
+  text-align: left;
+  color: #FFF;
+  vertical-align: bottom;
+  padding-bottom: 14px;
+  padding-top: 0px;
+}
+
+/* share box small */
+
+table.shareBoxSmall {
+  background-image: url(../_images/commonButtons/shareBoxBgSmall.png);
+  background-repeat: no-repeat;
+  background-position: -3px -4px;
+  height: 76px;
+  width: 387px;
+}
+table.shareBoxSmall tr.boxContent {
+  height: 53px;
+}
+table.shareBoxSmall td.shareBoxText {
+  height: 35px;
+  font-size: 14px;
+  text-align: left;
+  color: #4F7984;
+  vertical-align: top;
+  padding-bottom: 0;
+  padding-top: 7px;
+  white-space: normal;
+  padding-left: 15px;
+}
+table.shareBoxSmall td.shareBoxButtons {
+  height: 35px;
+  width: 200px;
+  font-size: 14px;
+  text-align: left;
+  color: #FFF;
+  vertical-align: bottom;
+  padding-bottom: 14px;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+

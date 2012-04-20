@@ -1,0 +1,953 @@
+body {
+	color: #333;
+	font-family: "Lucida Console", Monaco, monospace;
+	background-color: #333;
+	margin: 0px;
+	padding: 0px;
+}
+#wrapper {
+	height: 750px;
+	width: 1000px;
+	margin: auto;
+	background-color: #999;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 14px;
+	color: #CCC;
+	padding-top: 0px;
+	padding-right: auto;
+	padding-bottom: auto;
+	padding-left: auto;
+	top: 0px;
+	clear: both;
+}
+#wrapper #footerCopyright {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 14px;
+	color: #FFF;
+	clear: both;
+	padding: 3px;
+}
+
+
+#header {
+	margin: 0px;
+	padding: 0px;
+	height: 58px;
+	width: 1000px;
+	background-image: url(../_images/mainArtwork/Singpath_web_01.jpg);
+	background-color: #CCC;
+}
+#wrapper #header #logo {
+	margin: 0px;
+	padding: 0px;
+	height: 45px;
+	width: 165px;
+	position: relative;
+	left: 15px;
+	top: 7px;
+}
+#wrapper #header #loginInfo {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 14px;
+	color: #FFF;
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	height: 40px;
+	width: 450px;
+	position: relative;
+	top: 10px;
+	right: 25px;
+	font-weight: bold;
+	text-align: right;
+}
+
+
+
+#bar {
+	background-image: url(../_images/mainArtwork/Singpath_web_02.jpg);
+	margin: 0px;
+	padding: 0px;
+	height: 4px;
+	width: 1000px;
+}
+#mainImagePic {
+	background-image: url(../_images/mainArtwork/Singpath_web_03.jpg);
+	background-repeat: no-repeat;
+	margin: 0px;
+	padding: 0px;
+	height: 315px;
+	width: 1000px;
+}
+#wrapper #mainImagePic #buttons {
+	top: 0px;
+	clip: rect(0px,auto,auto,auto);
+	padding: 5px;
+	float: none;
+	text-align: center;
+}
+#wrapper #mainImagePic #linkedIn {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 12px;
+	float: right;
+	position: relative;
+	color: #FFF;
+	top: 36px;
+	right: 40px;
+	text-align: center;
+	width: 20px;
+}
+#wrapper #mainImagePic #textInput {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 18px;
+	font-style: normal;
+	float: right;
+	height: 20px;
+	width: 305px;
+	position: relative;
+	top: 75px;
+	right: 25px;
+	margin: 0px;
+	padding: 0px;
+}
+#wrapper #mainImagePic #password {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 18px;
+	position: relative;
+	top: 120px;
+	float: right;
+	height: 20px;
+	width: 305px;
+	right: -280px;
+	margin: 0px;
+	padding: 0px;
+	font-style: normal;
+}
+#wrapper #mainImagePic #signIn {
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	height: 50px;
+	width: 100px;
+	top: 135px;
+	position: relative;
+	right: 25px;
+	clear: inherit;
+}
+#wrapper #mainImagePic #signUpNow {
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	height: 50px;
+	width: 120px;
+	position: relative;
+	right: -68px;
+	clear: inherit;
+	top: 216px;
+}
+
+
+#wrapper #mainImagePic #textBottom {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 40px;
+	position: relative;
+	color: #FFF;
+	float: left;
+	top: 220px;
+	clip: rect(auto,auto,auto,auto);
+	height: auto;
+	width: auto;
+	left: 20px;
+}
+
+
+
+
+
+
+
+#mainTextBox {
+	margin: 0px;
+	padding: 0px;
+	height: 307px;
+	width: 1000px;
+	background-image: url(../_images/mainArtwork/Singpath_web_04.jpg);
+	background-color: #CCC;
+}
+
+#wrapper #mainTextBox #text {
+	height: 145px;
+	width: 940px;
+	top: 20px;
+	font-size: 14px;
+	text-align: center;
+	color: #497279;
+	position: relative;
+	left: 30px;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-weight: bold;
+}
+
+#barFooter {
+	background-image: url(../_images/mainArtwork/Singpath_web_02.jpg);
+	margin: 0px;
+	width: 1000px;
+	height: 15px;
+	font-family: "Lucida Console", Monaco, monospace;
+	color: #999;
+	clear: left;
+	position: relative;
+	background-repeat: no-repeat;
+	background-color: #FFF;
+	text-align: center;
+	font-size: 14px;
+	font-style: normal;
+	vertical-align: bottom;
+	font-weight: bold;
+	background-position: top;
+	padding-top: 7px;
+	float: left;
+}
+#wrapper #barFooter #copyright {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 5px;
+	width: 125px;
+	position: relative;
+	top: 2px;
+	clear: both;
+	clip: rect(0px,auto,auto,auto);
+	left: 5px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#wrapper #profileInfo {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 14px;
+	margin: 0px;
+	padding: 0px;
+	height: 232px;
+	width: 509px;
+	left: 0px;
+	top: 0px;
+	background-image: url(../_images/homeLoginArtwork/home_login_03.jpg);
+	float: left;
+}
+#wrapper #profileInfo #EditProfileButton {
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	height: 19px;
+	width: 117px;
+	position: relative;
+	top: 2px;
+	right: 12px;
+}
+#wrapper #profileInfo #name {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 16px;
+	height: 20px;
+	width: 400px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	position: relative;
+	left: 60px;
+	top: -46px;
+	text-align: center;
+	font-weight: bold;
+	color: #FFF;
+}
+#wrapper #profileInfo #details {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 14px;
+	color: #497279;
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+	float: left;
+	height: 60px;
+	width: 250px;
+	position: relative;
+	top: 60px;
+	left: 145px;
+	font-weight: bold;
+}
+
+#wrapper #profileInfo #photo {
+	height: 110px;
+	width: 110px;
+	margin: 0px;
+	padding: 0px;
+	top: -63px;
+	position: relative;
+	left: 25px;
+	background-color: #000;
+	clear: both;
+	float: left;
+}
+#wrapper #profileInfo #levelBadges {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 32px;
+	width: 96px;
+	position: relative;
+	left: 32px;
+	top: 88px;
+	background-color: #CCC;
+	clear: both;
+}
+#wrapper #profileInfo #locationRanking {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+	clear: right;
+	float: right;
+	height: 50px;
+	width: 200px;
+	right: 48px;
+	bottom: -22px;
+	position: relative;
+	text-align: right;
+	color: #497279;
+}
+
+
+
+
+#wrapper #topRankingInfo {
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	height: 232px;
+	width: 219px;
+	background-image: url(../_images/homeLoginArtwork/home_login_05.jpg);
+}
+#wrapper #topRankingInfo #TRLocation01 {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 14px;
+	color: #FFF;
+	margin: 0px;
+	padding: 0px;
+	height: 15px;
+	width: 200px;
+	position: relative;
+	left: 7px;
+	top: -109px;
+	text-align: center;
+}
+
+#wrapper #topRankingInfo #L01_01Details {
+	margin: 0px;
+	padding: 0px;
+	height: 35px;
+	width: 200px;
+	position: relative;
+	top: -55px;
+	left: 7px;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 14px;
+	color: #497279;
+}
+
+#wrapper #topRankingInfo #TRlocation02 {
+	font-family: "Lucida Console", Monaco, monospace;
+	color: #FFF;
+	margin: 0px;
+	padding: 0px;
+	height: 15px;
+	width: 200px;
+	position: relative;
+	left: 7px;
+	top: 2px;
+	text-align: center;
+}
+#wrapper #topRankingInfo #L02_01Details {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 14px;
+	color: #497279;
+	margin: 0px;
+	padding: 0px;
+	height: 35px;
+	width: 200px;
+	position: relative;
+	left: 7px;
+	top: 54px;
+}
+#wrapper #topRankingInfo #TRLocation03 {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 14px;
+	color: #FFF;
+	margin: 0px;
+	padding: 0px;
+	height: 15px;
+	width: 200px;
+	position: relative;
+	left: 7px;
+	top: 109px;
+	text-align: center;
+}
+#wrapper #topRankingInfo #L03_01Details {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 14px;
+	color: #497279;
+	margin: 0px;
+	padding: 0px;
+	height: 35px;
+	width: 200px;
+	position: relative;
+	left: 7px;
+	top: 161px;
+}
+#wrapper #topRankingInfo #vArankings {
+	margin: 0px;
+	padding: 0px;
+	height: 19px;
+	width: 121px;
+	position: relative;
+	left: 45px;
+	bottom: -53px;
+}
+
+
+
+
+
+
+
+#wrapper #currentPath {
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+	float: left;
+	height: 192px;
+	width: 509px;
+	background-image: url(../_images/homeLoginArtwork/home_login_06.jpg);
+	position: relative;
+}
+#wrapper #currentPath #viewAllLevelsCP {
+	font-family: "Lucida Console", Monaco, monospace;
+	color: #497279;
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	height: 19px;
+	width: 117px;
+	position: relative;
+	top: 1px;
+	right: 12px;
+	text-align: right;
+}
+
+#wrapper #currentPath #pythonLevel {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 25px;
+	width: 50px;
+	position: relative;
+	top: 12px;
+	left: -80px;
+}
+#wrapper #currentPath #levelIndicator {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 14px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 25px;
+	width: 100px;
+	position: relative;
+	left: 165px;
+	top: 25px;
+	clear: left;
+	color: #497279;
+}
+#wrapper #currentPath #runPath {
+	margin: 0px;
+	padding: 0px;
+	clear: right;
+	float: right;
+	height: 25px;
+	width: 100px;
+	top: 18px;
+	right: 15px;
+	position: relative;
+}
+
+
+
+#wrapper #challenges {
+	font-family: "Lucida Console", Monaco, monospace;
+	margin: 0px;
+	padding: 0px;
+	height: 192px;
+	width: 491px;
+	background-image: url(../_images/homeLoginArtwork/home_login_07.jpg);
+	float: right;
+}
+#wrapper #challenges #achieveData {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 14px;
+	color: #497279;
+	margin: 0px;
+	padding: 0px;
+	height: 150px;
+	width: 462px;
+	position: relative;
+	left: 12px;
+	top: 30px;
+}
+
+#wrapper #topRatedFriends {
+	font-family: "Lucida Console", Monaco, monospace;
+	background-image: url(../_images/homeLoginArtwork/home_login_08.jpg);
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	position: relative;
+	height: 198px;
+	width: 509px;
+}
+#wrapper #topRatedFriends #TRFoverallButton {
+	margin: 0px;
+	padding: 0px;
+	height: 19px;
+	width: 117px;
+	position: relative;
+	left: 255px;
+	top: -107px;
+}
+#wrapper #topRatedFriends #TRFbadgesButton {
+	margin: 0px;
+	padding: 0px;
+	height: 19px;
+	width: 117px;
+	position: relative;
+	top: -107px;
+	right: -380px;
+}
+#wrapper #topRatedFriends #TRF01FriendData {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 14px;
+	color: #497279;
+	margin: 0px;
+	padding: 0px;
+	height: 37px;
+	width: 486px;
+	position: relative;
+	left: 14px;
+	top: -43px;
+	float: left;
+	background-color: #CCC;
+}
+#wrapper #topRatedFriends #TRF02FriendData {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 14px;
+	color: #497279;
+	margin: 0px;
+	padding: 0px;
+	height: 37px;
+	width: 486px;
+	position: relative;
+	left: 14px;
+	top: 35px;
+	float: left;
+	background-color: #CCC;
+}
+#wrapper #topRatedFriends #TRF03FriendData {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 14px;
+	color: #497279;
+	margin: 0px;
+	padding: 0px;
+	height: 37px;
+	width: 486px;
+	position: relative;
+	left: 14px;
+	top: 113px;
+	float: left;
+	background-color: #CCC;
+}
+#wrapper #topRatedFriends #seeAllMyFriendsButton {
+	margin: 0px;
+	padding: 0px;
+	height: 21px;
+	width: 124px;
+	position: relative;
+	left: 55px;
+	bottom: -50px;
+}
+#wrapper #topRatedFriends #InviteFriendsButton {
+	margin: 0px;
+	padding: 0px;
+	height: 21px;
+	width: 124px;
+	position: relative;
+	bottom: -50px;
+	right: -310px;
+}
+
+
+
+
+
+#wrapper #newsBytes {
+	background-image: url(../_images/homeLoginArtwork/home_login_09.jpg);
+	margin: 0px;
+	padding: 0px;
+	clear: right;
+	float: right;
+	height: 198px;
+	width: 491px;
+	position: relative;
+}
+#wrapper #newsBytes #bytesData {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 14px;
+	color: #497279;
+	margin: 0px;
+	padding: 0px;
+	height: 150px;
+	width: 462px;
+	position: relative;
+	left: 12px;
+	top: 30px;
+}
+
+
+
+
+
+#wrapper #badgesInfo {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 14px;
+	margin: 0px;
+	padding: 0px;
+	height: 232px;
+	width: 272px;
+	background-image: url(../_images/homeLoginArtwork/home_login_04.jpg);
+	float: left;
+	position: relative;
+}
+#wrapper #badgesInfo #badgesDetails {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 14px;
+	margin: 0px;
+	padding: 5px;
+	float: left;
+	height: 180px;
+	width: 245px;
+	position: relative;
+	left: 8px;
+	top: 30px;
+	clear: left;
+}
+
+#wrapper #badgesInfo #viewAllBadges {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 14px;
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	height: 19px;
+	width: 117px;
+	position: relative;
+	top: -188px;
+	clip: rect(0px,auto,auto,auto);
+	right: 12px;
+}
+
+#wrapper #currentPathDetails {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 14px;
+	color: #497279;
+	position: relative;
+	height: 135px;
+	width: 1000px;
+	background-image: url(../_images/pathPage/Singpath_Path_03.jpg);
+	background-repeat: no-repeat;
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+	float: left;
+}
+
+#wrapper #currentPathDetails #pathHeading {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+	height: 25px;
+	width: 950px;
+	position: relative;
+	top: 40px;
+	left: 25px;
+}
+
+#wrapper #currentPathDetails #pathDetails {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;
+	height: 65px;
+	width: 950px;
+	position: relative;
+	top: 40px;
+	left: 25px;
+}
+
+
+#wrapper #message {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFF;
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+	float: left;
+	height: 43px;
+	width: 1000px;
+	background-image: url(../_images/pathPage/Singpath_Path_04.jpg);
+	background-repeat: no-repeat;
+	top: 0px;
+	clip: rect(0px,auto,auto,auto);
+}
+#wrapper #message #messageText {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+	height: 25px;
+	width: 900px;
+	position: relative;
+	left: 25px;
+	top: 10px;
+	text-align: top;
+}
+
+#wrapper #testArea {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 14px;
+	font-weight: bold;
+	background-image: url(../_images/pathPage/Singpath_Path_05.jpg);
+	background-repeat: no-repeat;
+	margin: 0px;
+	padding: 0px;
+	height: 444px;
+	width: 535px;
+	position: relative;
+	clear: left;
+	top: 0px;
+	clip: rect(0px,auto,auto,auto);
+	float: left;
+}
+#wrapper #testArea #testText {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 14px;
+	color: #497279;
+	margin: 0px;
+	padding: 0px;
+	height: 350px;
+	width: 510px;
+	position: relative;
+	top: 35px;
+	left: 15px;
+	background-color: #FFF;
+}
+#wrapper #testArea #runCodeButton {
+	margin: 0px;
+	padding: 0px;
+	height: 38px;
+	width: 121px;
+	position: relative;
+	bottom: -52px;
+	float: right;
+	right: 10px;
+}
+
+
+
+#wrapper #example {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 14px;
+	color: #497279;
+	background-image: url(../_images/pathPage/Singpath_Path_06.jpg);
+	margin: 0px;
+	padding: 0px;
+	height: 231px;
+	width: 465px;
+	float: right;
+	position: relative;
+}
+#wrapper #example #exampleText {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 14px;
+	color: #497279;
+	margin: 0px;
+	padding: 0px;
+	height: 190px;
+	width: 225px;
+	position: relative;
+	left: 10px;
+	top: 35px;
+	float: left;
+	clear: left;
+}
+#wrapper #example #statusText {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 14px;
+	color: #FFF;
+	margin: 0px;
+	padding: 0px;
+	clear: left;
+	float: right;
+	height: 190px;
+	width: 193px;
+	position: relative;
+	top: 35px;
+	right: 15px;
+}
+
+
+#wrapper #errorMessage {
+	font-family: "Lucida Console", Monaco, monospace;
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	height: 213px;
+	width: 465px;
+	position: relative;
+	background-image: url(../_images/pathPage/Singpath_Path_07.jpg);
+	clear: right;
+	right: 0px;
+}
+#wrapper #errorMessage #errorText {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 14px;
+	color: #497279;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 165px;
+	width: 438px;
+	position: relative;
+	left: 10px;
+	top: 30px;
+}
+#wrapper #currentPathDetails #pathDetails #Heading {
+	font-weight: bold;
+}
+
+#wrapper #currentPathDetails #viewAllLevelsButton {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 14px;
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	height: 19px;
+	width: 117px;
+	position: relative;
+	top: 8px;
+	right: 25px;
+}
+#wrapper #Lpath {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 14px;
+	color: #497279;
+	margin: 0px;
+	padding: 0px;
+	height: 135px;
+	width: 1000px;
+	background-image: url(../_images/Levels/Singpath_web_level_03.jpg);
+	background-repeat: no-repeat;
+}
+#wrapper #Lpath #LpathHeading {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+	height: 25px;
+	width: 950px;
+	position: relative;
+	top: -25px;
+	left: 25px;
+}
+#wrapper #Lpath #LpathDetails {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;
+	height: 65px;
+	width: 950px;
+	position: relative;
+	top: 60px;
+	left: 25px;
+}
+#wrapper #lLevels {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 14px;
+	color: #497279;
+	margin: 0px;
+	padding: 0px;
+	height: 444px;
+	width: 535px;
+	position: relative;
+	top: 0px;
+	float: left;
+	background-image: url(../_images/Levels/Singpath_web_level_05.jpg);
+	background-repeat: no-repeat;
+}
+#wrapper #LgamePlay {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 231px;
+	width: 244px;
+	position: relative;
+	background-image: url(../_images/Levels/Singpath_web_level_06.jpg);
+}
+#wrapper #LtopRanking {
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	height: 231px;
+	width: 221px;
+	background-image: url(../_images/Levels/Singpath_web_level_07.jpg);
+	position: relative;
+}
+#wrapper #Lbytes {
+	background-image: url(../_images/Levels/Singpath_web_level_09.jpg);
+	background-repeat: no-repeat;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 213px;
+	width: 221px;
+	position: relative;
+	top: 0px;
+	right: 0px;
+}
+#wrapper #Linformation {
+	background-image: url(../_images/Levels/Singpath_web_level_08.jpg);
+	background-repeat: no-repeat;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 213px;
+	width: 244px;
+	position: relative;
+}

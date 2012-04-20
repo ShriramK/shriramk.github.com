@@ -1,0 +1,220 @@
+/* createProblem page */
+
+/* description box */
+
+table.cpDescription {
+  background-image: url(../_images/createProblem/descriptionBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -11px -11px;
+  width: 889px;
+  height: 154px;
+  text-align: left;
+}
+table.cpDescription tr.boxContent {
+  height: 132px;
+}
+table.cpDescription td.description {
+  vertical-align: top;
+  padding-top: 0px;
+  padding-bottom: 4px;
+}
+table.cpDescription div.title {
+  font-size: 16px;
+  font-weight: bold;
+}
+table.cpDescription div.description {
+  height: 123px;
+  font-size: 13px;
+  white-space: normal;
+  overflow: auto;
+}
+table.cpDescription div.description td.step {
+  background-image: url(../_images/createProblem/stepBg.png);
+  background-repeat: no-repeat;
+  background-position: 0px -1px;
+  width: 143px;
+  height: 106px;
+  vertical-align: top;
+}
+table.cpDescription div.description td.step img {
+  display: block;
+}
+table.cpDescription div.description td.step div.step {
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+/* info box */
+
+table.cpInfo {
+  background-image: url(../_images/createProblem/infoBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -11px -5px;
+  height: 37px;
+  width: 889px;
+  color: white;
+  text-align: left;
+}
+table.cpInfo td.info {
+  padding-left: 5px;
+}
+
+/* problem details box */
+
+table.cpProblemDetails {
+  background-image: url(../_images/createProblem/problemDetailsBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -11px -11px;
+  height: 259px;
+  width: 889px;
+}
+table.cpProblemDetails > tbody > tr.boxContent {
+  height: 237px;
+}
+table.cpProblemDetails > tbody > tr.boxContent > td {
+  padding-bottom: 9px;
+  padding-right: 8px;
+  padding-top: 0px;
+  padding-left: 5px;
+}
+table.problemDetails > tbody > tr {
+  height: 32px;
+}
+table.problemDetails > tbody > tr > td {
+  padding: 3px;
+  text-align: left;
+}
+table.problemDetails td.label {
+  text-align: right;
+}
+table.problemDetails td.language, table.problemDetails td.path, table.problemDetails td.level, table.problemDetails td.problemName {
+  background-image: url(../_images/createProblem/inputBox.png);
+  background-repeat: no-repeat;
+  background-position: -2px -1px;
+  padding-left: 9px;
+}
+table.problemDetails select#language, table.problemDetails select#path, table.problemDetails select#level, table.problemDetails input#problemName {
+  width: 271px;
+  border: 0px solid;
+  color: #4F7984;
+  font-weight: bold;
+  margin: 0px;
+}
+table.checkicon > tbody > tr {
+  height: 20px;
+}
+table.checkicon > tbody > tr > td {
+  padding: 0px;
+  margin: 0px;
+}
+table.checkicon > tbody > tr > td:first-child + td {
+  padding-left: 15px;
+}
+table.problemDetails td.problemDetails {
+  background-image: url(../_images/createProblem/detailsBox.png);
+  background-repeat: no-repeat;
+  background-position: -2px -1px;
+  padding-left: 9px;
+  padding-right: 9px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+table.problemDetails textarea#problemDetails {
+  border: 0px solid;
+  width: 647px;
+  height: 65px;
+  color: #4F7984;
+  font-weight: bold;
+  font-family: Arial;
+}
+
+/* example box */
+
+table.exampleBox {
+  background-image: url(../_images/createProblem/exampleBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -4px 27px;
+  width: 386px;
+  height: 377px;
+  text-align: left;
+}
+table.exampleBox td.tabHeaderOut {
+  padding-left: 0px;
+  padding-top: 3px;
+}
+table.example td.example {
+  background-image: url(../_images/createProblem/bigBox.png);
+  background-repeat: no-repeat;
+  background-position: -2px -1px;
+  padding-left: 9px;
+  padding-right: 9px;
+  padding-top: 9px;
+  padding-bottom: 8px;
+}
+table.example textarea.example {
+  width: 342px;
+  height: 284px;
+  border: 0px solid;
+}
+
+/* public and private error messages */
+
+td.publicErrorMessages, td.privateErrorMessages {
+  vertical-align: top;
+}
+div#publicErrorMessages, div#privateErrorMessages {
+  white-space: normal;
+  width: 376px;
+  height: 339px;
+  overflow: auto;
+}
+div#publicErrorMessages td.good, div#privateErrorMessages td.good {
+  color: white;
+  background-color: green;
+}
+div#publicErrorMessages td.bad, div#privateErrorMessages td.bad {
+  color: white;
+  background-color: red;
+}
+
+/* submit box */
+
+td.cpSubmit {
+  text-align: center;
+}
+table.submit {
+  background-image: url(../_images/createProblem/submitBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -8px -12px;
+  width: 383px;
+  height: 142px;
+  text-align: left;
+  display: inline-table;
+}
+table.submit tr.boxContent {
+  height: 79px;
+  vertical-align: top;
+}
+table.submit tr.submitButton {
+  height: 41px;
+  text-align: right;
+}
+table.submit td.submitButton {
+  padding-right: 10px;
+}
+table.submit img.submitProblem {
+  width: 166px;
+  height: 38px;
+  border: 0px solid;
+}
+
+/* code editor box */
+
+table.tourCurrentPathTestPage {
+  background-image: url(../_images/createProblem/skeletonBoxBg.png);
+}
+table.tourCurrentPathTestPage td.boxHeader {
+  padding-top: 0px;
+  padding-bottom: 9px;
+  padding-left: 0px;
+}

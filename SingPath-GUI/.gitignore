@@ -1,0 +1,12 @@
+*.pyc
+*.*~
+.DS*.*
+
+/Compile_in_kit_dir
+/api/docs/api/angular.directive.ng
+/api/docs/api/angular.widget.@ng
+/api/docs/api/angular.widget.ng
+/kit/_css/test.css
+/kit/_css/test.styl
+/start_test_server.bat
+/test_server.js

@@ -1,0 +1,2284 @@
+body {
+	text-align: center;
+	padding: 0px;
+	left: auto;
+	right: auto;
+	color: #4F7984;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	white-space: nowrap;
+	background: #666 url(../_images/background.jpg) repeat-x center top;
+	margin: 0px auto;
+}
+/* aboutUs */
+
+#wrapper {
+	white-space: normal;
+	padding: 0px;
+	height: 100%;
+	width: 906px;
+	left: auto;
+	top: 0px;
+	right: auto;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #4F7984;
+	display: block;
+	background: url(../_images/greyBackground.jpg) repeat-y fixed center top;
+	margin: 0px auto;
+	clear: both;
+	overflow: hidden;
+}
+#wrapper #mainHeader {
+	font-family: Verdana, Geneva, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	height: 67px;
+	width: 906px;
+	position: relative;
+	background: #FFF url(../_images/landingPages/indexPage/01landingPageheader.jpg) no-repeat;
+	left: 0px;
+	top: 0px;
+}
+#wrapper #mainHeader #logo {
+	margin: 0px;
+	padding: 0px;
+	height: 46px;
+	width: 169px;
+	position: relative;
+	left: 9px;
+	top: 9px;
+}
+#wrapper #mainHeader #logInBox {
+	margin: 0px;
+	height: 30px;
+	width: 460px;
+	position: relative;
+	float: right;
+	font-weight: bold;
+	color: #4F7984;
+	font-size: 12px;
+	padding: 0px;
+	right: 20px;
+	bottom: 18px;
+}
+#wrapper #mainHeader #messageBox {
+	margin: 0px;
+	padding: 10px 0px 0px 3px;
+	height: 30px;
+	width: 300px;
+	position: relative;
+	float: left;
+	background: url(../_images/landingPages/indexPage/messageBox.png) no-repeat;
+	font-weight: bold;
+	color: #4F7984;
+	font-size: 12px;
+	left: 10px;
+	top: -4px;
+	text-align: center;
+}
+#wrapper #mainHeader #signInButton {
+	margin: 0px;
+	padding: 0px;
+	height: 25px;
+	width: 110px;
+	position: relative;
+	float: right;
+	right: 20px;
+	top: 3px;
+}
+#wrapper #mainHeader #homeButton {
+	margin: 0px;
+	padding: 0px;
+	height: 40px;
+	width: 45px;
+	position: relative;
+	float: left;
+	top: -5px;
+	left: 0px;
+}
+#wrapper #mainHeader #mHGravatarImage {
+	margin: 0px;
+	padding: 0px;
+	height: 40px;
+	width: 45px;
+	position: relative;
+	float: left;
+	top: -8px;
+	left: 7px;
+}
+#wrapper #mainHeader #nameBox {
+	margin: 0px;
+	padding: 8px 0px 0px;
+	height: 30px;
+	width: 300px;
+	position: relative;
+	float: left;
+	background: url(../_images/landingPages/indexPage/messageBox.png) no-repeat;
+	font-weight: bold;
+	color: #4F7984;
+	font-size: 14px;
+	left: 15px;
+	top: -3px;
+	text-align: center;
+}
+#wrapper #mainHeader #shopButton {
+	margin: 0px;
+	padding: 0px;
+	height: 40px;
+	width: 45px;
+	position: relative;
+	float: right;
+	right: 5px;
+	top: -5px;
+}
+#wrapper #shadowUnderBar {
+	color: #FFF;
+	padding: 0px;
+	width: 906px;
+	position: relative;
+	top: -10px;
+	right: 0px;
+	font-size: 10px;
+	margin: 0px;
+	height: 5px;
+	clear: none;
+	float: left;
+	background: url(../_images/homePage/barShadow.png) no-repeat;
+}
+#wrapper #menuOptions {
+	color: #FFF;
+	padding: 0px;
+	width: 906px;
+	position: relative;
+	top: -9px;
+	right: 0px;
+	font-size: 16px;
+	margin: 0px;
+	height: 40px;
+	clear: none;
+	float: left;
+	background: url(../_images/landingPages/indexPage/menu_BarBlue.png) no-repeat;
+}
+#wrapper #menuOptions #menuOptionsText {
+	color: #FFF;
+	float: right;
+	width: 750px;
+	position: relative;
+	font-size: 14px;
+	background-repeat: no-repeat;
+	height: 25px;
+	top: 6px;
+	right: 0px;
+	text-align: left;
+}
+#wrapper #menuOptions #menuOptionsText a:link, #wrapper #menuOptions #menuOptionsText a:visited {
+	font-weight: bold;
+	color: #FFFFFF;
+	border: 0px none #FFF100;
+	margin: 0px 5px;
+	padding: 3px 16px;
+	text-align: center;
+}
+#wrapper #menuOptions #menuOptionsText a:hover, #wrapper #menuOptions #menuOptionsText a:active {
+	font-weight: bold;
+	color: #fff100;
+	text-align: center;
+	border: 2px solid #fff100;
+	margin: 0px 5px;
+	padding: 2px 14px;
+}
+#wrapper #infoBarRanking {
+  background-image: url(../_images/commonButtons/blueBar.png);
+  background-repeat: no-repeat;
+  background-position: -10px -1px;
+  height: 48px;
+  width: 890px;
+  text-align: center;
+}
+#wrapper #infoBarRanking img {
+	color: #FFF;
+	padding: 6px 5px 5px;
+	font-size: 16px;
+	margin: 0px;
+}
+#wrapper #aboutUsInfoBox {
+	background-image: url(../_images/landingPages/aboutUsPage/01landingPageAboutUs_03.png);
+	background-repeat: no-repeat;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 500px;
+	width: 620px;
+	position: relative;
+	top: -10px;
+}
+#wrapper #aboutUsInfoBox a:link, #wrapper #aboutUsInfoBox a:visited {
+	font-weight: bold;
+	color: #497279;
+	border: 0px none #FFF100;
+	padding: 1px 3px;
+}
+#wrapper #aboutUsInfoBox a:hover, #wrapper #aboutUsInfoBox a:active {
+	font-weight: bold;
+	color: #fff100;
+	background: #497279;
+	padding: 1px 3px;
+}
+.menuSelected {
+	font-size: 15px;
+	font-weight: bold;
+	color: #fff100;
+	text-align: center;
+	border: 2px none #FFFFFF;
+	padding: 2px 10px;
+	margin: 0px 5px;
+	background: #517A83;
+}
+#wrapper #aboutUsInfoBox #aboutUsInfoBoxTitleTop {
+	font-weight: bold;
+	color: #FFFFFF;
+	border: 0px none #FFF100;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	float: left;
+	height: 25px;
+	width: 300px;
+	position: relative;
+	left: 25px;
+	top: 15px;
+	font-size: 16px;
+}
+#wrapper #aboutUsInfoBox #aboutUsInfoBoxTextTop {
+	color: #497279;
+	padding: 0px;
+	float: left;
+	width: 582px;
+	position: relative;
+	font-size: 14px;
+	background-repeat: no-repeat;
+	margin: 0px;
+	height: 200px;
+	top: 14px;
+	text-align: left;
+	left: 25px;
+	overflow: auto;
+}
+#wrapper #aboutUsInfoBox #aboutUsInfoBoxTitleBottom {
+	font-weight: bold;
+	color: #FFFFFF;
+	border: 0px none #FFF100;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	float: left;
+	height: 25px;
+	width: 300px;
+	position: relative;
+	left: 25px;
+	top: 20px;
+	font-size: 16px;
+}
+#wrapper #aboutUsInfoBox #aboutUsInfoBoxTextBottom {
+	color: #497279;
+	padding: 0px;
+	float: left;
+	width: 582px;
+	position: relative;
+	font-size: 14px;
+	background-repeat: no-repeat;
+	margin: 0px;
+	height: 205px;
+	top: 21px;
+	text-align: left;
+	left: 25px;
+	overflow: auto;
+}
+#wrapper #aboutUsStaffBox {
+	background-image: url(../_images/landingPages/aboutUsPage/01landingPageAboutUs_04.png);
+	background-repeat: no-repeat;
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	height: 500px;
+	width: 286px;
+	position: relative;
+	top: -10px;
+}
+#wrapper #aboutUsStaffBox #aboutUsStaffBoxTitleTop {
+	font-weight: bold;
+	color: #FFFFFF;
+	border: 0px none #FFF100;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	float: left;
+	height: 25px;
+	width: 150px;
+	position: relative;
+	left: 25px;
+	top: 15px;
+	font-size: 16px;
+}
+#wrapper #aboutUsStaffBox #aboutUsStaffBoxviewButton {
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	height: 24px;
+	width: 104px;
+	top: 5px;
+	right: 20px;
+	position: relative;
+}
+#wrapper #aboutUsStaffBox #aboutUsStaffBoxText {
+	color: #497279;
+	padding: 0px;
+	float: left;
+	width: 253px;
+	position: relative;
+	font-size: 16px;
+	background-repeat: no-repeat;
+	margin: 0px;
+	height: 438px;
+	top: 15px;
+	text-align: left;
+	left: 18px;
+	overflow: auto;
+}
+
+/* contactUs */
+
+#wrapper #contactUsInfoBox {
+	background-image: url(../_images/contactPage/01landingPageContact05.png);
+	background-repeat: no-repeat;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 410px;
+	width: 620px;
+}
+#wrapper #contactUsInfoBox #contactUsInfoBoxText {
+	color: #497279;
+	padding: 0px;
+	float: left;
+	width: 590px;
+	position: relative;
+	font-size: 16px;
+	background-repeat: no-repeat;
+	margin: 0px;
+	height: 340px;
+	top: 25px;
+	text-align: left;
+	left: 20px;
+}
+/* index.html */
+
+#wrapper #landingImage {
+	margin: 0px;
+	padding: 0px;
+	height: 328px;
+	width: 906px;
+	background-image: url(../_images/landingPages/indexPage/01landingPageImage.jpg);
+	clear: none;
+	float: left;
+	left: 0px;
+	top: 0px;
+	position: relative;
+}
+#wrapper #landingImage #menuOptions {
+	color: #FFF;
+	padding: 0px;
+	float: right;
+	width: 906px;
+	position: relative;
+	top: -9px;
+	right: 0px;
+	font-size: 14px;
+	background-image: url(../_images/landingPages/indexPage/menu_BarBlue.png);
+	background-repeat: no-repeat;
+	margin: 0px;
+	height: 40px;
+}
+#wrapper #landingImage #menuOptions a:link, #landingImage #menuOptions a:visited {
+	font-weight: bold;
+	color: #FFFFFF;
+	border: 0px none #FFF100;
+	margin: 0px 5px;
+	padding: 3px 16px;
+	text-align: center;
+}
+#wrapper #landingImage #menuOptions a:hover, #landingImage #menuOptions a:active {
+	font-weight: bold;
+	color: #fff100;
+	text-align: center;
+	border: 2px solid #fff100;
+	margin: 0px 5px;
+	padding: 2px 14px;
+}
+#wrapper #landingImage #menuOptions #menuOptionsText {
+	color: #FFF;
+	padding: 0px;
+	float: right;
+	width: 750px;
+	position: relative;
+	font-size: 14px;
+	background-repeat: no-repeat;
+	margin: 0px;
+	height: 25px;
+	top: 7px;
+	right: 0px;
+}
+#wrapper #landingImage #landingImageTVIcon {
+	margin: 0px;
+	padding: 0px;
+	height: 160px;
+	width: 135px;
+	position: relative;
+	top: 120px;
+	left: 20px;
+}
+#wrapper #landingImage #statsTextBox {
+	margin: 0px;
+	padding: 0px;
+	height: 253px;
+	width: 365px;
+	background: url(../_images/landingPages/indexPage/statisticBox.png) no-repeat;
+	float: right;
+	right: 0px;
+	position: relative;
+	clear: none;
+	bottom: 95px;
+}
+#wrapper #landingImage #statsTextBox #statsTextBoxTitleTop {
+	font-weight: bold;
+	color: #FFFFFF;
+	border: 0px none #FFF100;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	float: left;
+	height: 25px;
+	width: 300px;
+	position: relative;
+	left: 20px;
+	top: 10px;
+	font-size: 16px;
+}
+#wrapper #landingImage #statsTextBox #statsTextBoxtext {
+	margin: 0px;
+	padding: 5px 0px;
+	height: 190px;
+	width: 327px;
+	position: relative;
+	left: 20px;
+	top: 8px;
+	float: left;
+	background-repeat: no-repeat;
+	font-weight: normal;
+	text-align: left;
+	overflow: auto;
+	color: #FFF;
+	border-top: none;
+	border-right: none;
+	border-bottom: none;
+	border-left: none;
+}
+#wrapper #landingImage #statsTextBox #statsTextBoxtext p {
+	margin: 7px 0px;
+	padding: 4px 5px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	background-repeat: no-repeat;
+	text-align: left;
+	overflow: auto;
+	border: 2px solid #517A83;
+	width: 285px;
+}
+#wrapper #landingTextBox {
+	margin: 0px;
+	padding: 0px;
+	height: 255px;
+	width: 542px;
+	background: url(../_images/landingPages/indexPage/01landingPage03.png) no-repeat;
+	clear: both;
+	float: left;
+	position: relative;
+}
+#wrapper #landingTextBox #landingTextBoxTitleTop {
+	font-weight: bold;
+	color: #FFFFFF;
+	border: 0px none #FFF100;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	float: left;
+	height: 25px;
+	width: 300px;
+	position: relative;
+	left: 30px;
+	top: 10px;
+	font-size: 16px;
+}
+#wrapper #landingTextBox #landingTextBoxtext {
+	margin: 0px;
+	padding: 0px;
+	height: 195px;
+	width: 495px;
+	position: relative;
+	left: 31px;
+	top: 15px;
+	float: left;
+	background-repeat: no-repeat;
+	font-weight: normal;
+	text-align: left;
+	overflow: auto;
+}
+#wrapper #friendsTextBox {
+	margin: 0px;
+	padding: 0px;
+	height: 255px;
+	width: 362px;
+	background: url(../_images/landingPages/indexPage/01landingPage04.png) no-repeat;
+	float: right;
+	right: 0px;
+	position: relative;
+	clear: none;
+	top: 0px;
+}
+#wrapper #friendsTextBox #friendsTextBoxTitleTop {
+	font-weight: bold;
+	color: #FFFFFF;
+	border: 0px none #FFF100;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	float: left;
+	height: 25px;
+	width: 300px;
+	position: relative;
+	left: 20px;
+	top: 10px;
+	font-size: 16px;
+}
+#wrapper #friendsTextBox #friendsTextBoxtext {
+	margin: 0px;
+	height: 140px;
+	width: 324px;
+	position: relative;
+	left: 12px;
+	top: 8px;
+	float: left;
+	background-repeat: no-repeat;
+	font-weight: normal;
+	text-align: left;
+	color: #517A83;
+	border-top: none;
+	border-right: none;
+	border-bottom: none;
+	border-left: none;
+	padding-top: 7px;
+	padding-right: 4px;
+	padding-bottom: 7px;
+	padding-left: 4px;
+}
+#wrapper #friendsTextBox #friendsTextBoxtext img {
+	margin: 0px;
+	font-weight: bold;
+	color: #FFF;
+	padding-top: 4px;
+	padding-right: 2px;
+	padding-bottom: 0px;
+	padding-left: 2px;
+}
+#wrapper #friendsTextBox #friendsTextBoxtextSocial {
+	margin: 0px;
+	padding: 7px 15px 7px 5px;
+	height: 35px;
+	width: 322px;
+	position: relative;
+	left: 10px;
+	top: 2px;
+	float: left;
+	background-repeat: no-repeat;
+	font-weight: normal;
+	text-align: right;
+	color: #517A83;
+	border-top: none;
+	border-right: none;
+	border-bottom: none;
+	border-left: none;
+}
+#wrapper #friendsTextBox #friendsTextBoxtextSocial img {
+	margin: 0px;
+	position: relative;
+	background-repeat: no-repeat;
+	font-weight: bold;
+	color: #FFF;
+	border-top: none;
+	border-right: none;
+	border-bottom: none;
+	border-left: none;
+	padding-top: 4px;
+	padding-right: 4px;
+	padding-bottom: 0px;
+	padding-left: 4px;
+}
+#wrapper #landingLogos {
+	margin: 0px;
+	padding: 0px;
+	height: 75px;
+	width: 906px;
+	clear: both;
+	float: left;
+	left: 0px;
+	top: 0px;
+}
+#wrapper #aboutUsMenuOptions {
+	color: #FFF;
+	padding: 0px;
+	float: left;
+	width: 906px;
+	position: relative;
+	top: 0px;
+	right: 0px;
+	font-size: 16px;
+	background-image: url(../_images/landingPages/indexPage/menu_BarBlue.png);
+	background-repeat: no-repeat;
+	margin: 0px;
+	height: 40px;
+	clear: left;
+}
+/* shop page */
+
+#wrapper #shopBox {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 105%;
+	width: 906px;
+	position: relative;
+	top: -15px;
+	background: no-repeat;
+}
+#wrapper #shopBox #shopBoxTitleTopAll {
+	font-weight: bold;
+	color: #FFFFFF;
+	border: 0px none #FFF100;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	float: left;
+	height: 25px;
+	width: 350px;
+	position: relative;
+	font-size: 16px;
+	top: 14px;
+	left: 7px;
+}
+#wrapper #shopBox #shopBoxBodyInfo {
+	color: #497279;
+	padding: 0px;
+	float: left;
+	width: 906px;
+	position: relative;
+	font-size: 14px;
+	margin: 0px;
+	height: 560px;
+	top: 14px;
+	text-align: left;
+	left: 0px;
+	overflow: auto;
+	background: url(../_images/landingPages/shopPages/01landingPageShop_04.png) no-repeat;
+}
+#wrapper #shopBox #shopBoxBodyInfo #shopBoxSpecialsBox {
+	color: #497279;
+	padding: 0px;
+	float: left;
+	width: 880px;
+	position: relative;
+	font-size: 14px;
+	margin: 0px;
+	height: 255px;
+	top: 10px;
+	text-align: left;
+	left: 13px;
+	overflow: auto;
+	background: url(../_images/landingPages/shopPages/specialOfferTab.png) no-repeat;
+}
+#wrapper #shopBox #shopBoxBodyInfo #shopBoxSpecialsBoxTitleTop {
+	font-weight: bold;
+	color: #FFFFFF;
+	border: 0px none #FFF100;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	float: left;
+	height: 25px;
+	width: 200px;
+	position: relative;
+	left: 18px;
+	top: 9px;
+	font-size: 16px;
+}
+#wrapper #shopBox #shopBoxBodyInfo #shopBoxSpecialsBox01Info {
+	color: #FFFFFF;
+	border: 0px none #FFF100;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	float: left;
+	height: 165px;
+	width: 267px;
+	position: relative;
+	left: 24px;
+	top: 14px;
+	clear: left;
+}
+#wrapper #shopBox #shopBoxBodyInfo #shopBoxSpecialsBox02Info {
+	color: #FFFFFF;
+	border: 0px none #FFF100;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	float: left;
+	height: 165px;
+	width: 267px;
+	position: relative;
+	left: 40px;
+	top: 14px;
+}
+#wrapper #shopBox #shopBoxBodyInfo #shopBoxSpecialsBox03Info {
+	color: #FFFFFF;
+	border: 0px none #FFF100;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	float: left;
+	height: 165px;
+	width: 267px;
+	position: relative;
+	left: 52px;
+	top: 14px;
+}
+#wrapper #shopBox #shopBoxBodyInfo #shopBoxBarMove {
+	color: #FFF;
+	padding: 0px;
+	width: 880px;
+	position: relative;
+	top: 14px;
+	right: 0px;
+	font-size: 16px;
+	margin: 0px;
+	height: 40px;
+	clear: left;
+	float: left;
+	text-align: center;
+}
+#wrapper #shopBox #shopBoxBodyInfo #shopBox01 {
+	color: #497279;
+	padding: 0px;
+	float: left;
+	width: 297px;
+	position: relative;
+	font-size: 14px;
+	margin: 0px;
+	height: 264px;
+	top: 5px;
+	text-align: left;
+	left: 13px;
+	overflow: auto;
+	background: url(../_images/landingPages/shopPages/largeTab.png) no-repeat;
+}
+#wrapper #shopBox #shopBoxBodyInfo #shopBox01TitleTop {
+	font-weight: bold;
+	color: #FFFFFF;
+	border: 0px none #FFF100;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	float: left;
+	height: 25px;
+	width: 200px;
+	position: relative;
+	left: 17px;
+	top: 10px;
+	font-size: 16px;
+}
+#wrapper #shopBox #shopBoxBodyInfo #shopBox02 {
+	color: #497279;
+	padding: 0px;
+	float: left;
+	width: 297px;
+	position: relative;
+	font-size: 14px;
+	margin: 0px;
+	height: 264px;
+	top: 5px;
+	text-align: left;
+	left: 6px;
+	overflow: auto;
+	background: url(../_images/landingPages/shopPages/largeTab.png) no-repeat;
+}
+#wrapper #shopBox #shopBoxBodyInfo #shopBox01Info {
+	color: #FFFFFF;
+	border: 0px none #FFF100;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	float: left;
+	height: 220px;
+	width: 267px;
+	position: relative;
+	left: 16px;
+	top: 9px;
+}
+#wrapper #shopBox #shopBoxBodyInfo #shopBox01Info p {
+	font-weight: bold;
+	color: #FFFFFF;
+	border: 0px none #FFF100;
+	margin: 0px;
+	padding: 5px;
+	text-align: left;
+	float: left;
+	font-size: 15px;
+}
+#wrapper #shopBox #shopBoxBodyInfo #shopBox02TitleTop {
+	font-weight: bold;
+	color: #FFFFFF;
+	border: 0px none #FFF100;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	float: left;
+	height: 25px;
+	width: 200px;
+	position: relative;
+	left: 17px;
+	top: 10px;
+	font-size: 16px;
+}
+#wrapper #shopBox #shopBoxBodyInfo #shopBox02Info {
+	color: #FFFFFF;
+	border: 0px none #FFF100;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	float: left;
+	height: 220px;
+	width: 267px;
+	position: relative;
+	left: 16px;
+	top: 9px;
+}
+#wrapper #shopBox #shopBoxBodyInfo #shopBox02Info p {
+	font-weight: bold;
+	color: #FFFFFF;
+	border: 0px none #FFF100;
+	margin: 0px;
+	padding: 5px;
+	text-align: left;
+	float: left;
+	font-size: 15px;
+}
+#wrapper #shopBox #shopBoxBodyInfo #shopBox03 {
+	color: #497279;
+	padding: 0px;
+	float: left;
+	width: 297px;
+	position: relative;
+	font-size: 14px;
+	margin: 0px;
+	height: 264px;
+	top: 5px;
+	text-align: left;
+	left: 0px;
+	overflow: auto;
+	background: url(../_images/landingPages/shopPages/largeTab.png) no-repeat;
+}
+#wrapper #shopBox #shopBoxBodyInfo #shopBox03Info {
+	color: #FFFFFF;
+	border: 0px none #FFF100;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	float: left;
+	height: 220px;
+	width: 267px;
+	position: relative;
+	left: 16px;
+	top: 9px;
+}
+#wrapper #shopBox #shopBoxBodyInfo #shopBox03Info p {
+	font-weight: bold;
+	color: #FFFFFF;
+	border: 0px none #FFF100;
+	margin: 0px;
+	padding: 5px;
+	text-align: left;
+	float: left;
+	font-size: 15px;
+}
+#wrapper #shopBox #shopBoxBodyInfo #shopBox03TitleTop {
+	font-weight: bold;
+	color: #FFFFFF;
+	border: 0px none #FFF100;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	float: left;
+	height: 25px;
+	width: 200px;
+	position: relative;
+	left: 17px;
+	top: 10px;
+	font-size: 16px;
+}
+/* tournament ranking page */
+
+
+#wrapper #tourInfoBox {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 105%;
+	width: 510px;
+	position: relative;
+	top: -15px;
+	background: no-repeat;
+}
+#wrapper #tourInfoBox #tourInfoBoxTitleTopAll {
+	font-weight: bold;
+	color: #FFFFFF;
+	border: 0px none #FFF100;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	float: left;
+	height: 25px;
+	width: 350px;
+	position: relative;
+	font-size: 16px;
+	top: 14px;
+	left: 9px;
+}
+#wrapper #firstStartSlice {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 25px;
+	width: 9px;
+	position: relative;
+	top: 0px;
+	left: 1px;
+	background: url(../_images/commonButtons/blankButtons/tab-headers-combined.png) no-repeat -5px -51px;
+}
+#wrapper #firstMiddleSlice {
+	font-weight: bold;
+	color: #FFFFFF;
+	border: 0px none #FFF100;
+	margin: 0px;
+	padding: 3px 10px 0px;
+	text-align: left;
+	float: left;
+	height: 25px;
+	width: 100px;
+	position: relative;
+	font-size: 16px;
+	top: 1px;
+	left: 1px;
+	background: url(../_images/commonButtons/blankButtons/tab-headers-combined.png) no-repeat 0px -26px;
+}
+#wrapper #firstJoinSlice {
+	font-weight: bold;
+	color: #FFFFFF;
+	border: 0px none #FFF100;
+	margin: 0px;
+	padding: 3px 10px 0px;
+	text-align: left;
+	float: left;
+	height: 27px;
+	width: 12px;
+	position: relative;
+	font-size: 16px;
+	top: -1px;
+	left: 1px;
+	background: url(../_images/commonButtons/blankButtons/tab-headers-combined.png) no-repeat -150px -50px;
+}
+#wrapper #firstEndSlice {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 25px;
+	width: 24px;
+	position: relative;
+	top: 0px;
+	left: 1px;
+	background: url(../_images/commonButtons/blankButtons/tab-headers-combined.png) no-repeat -14px -51px;
+}
+#wrapper #secondMiddleSlice {
+	font-weight: bold;
+	color: #517A83;
+	border: 0px none #FFF100;
+	margin: 0px;
+	padding: 5px 10px 0px;
+	text-align: left;
+	float: left;
+	height: 25px;
+	width: 120px;
+	position: relative;
+	font-size: 16px;
+	top: -1px;
+	left: -1px;
+	background: url(../_images/commonButtons/blankButtons/tab-headers-combined.png) no-repeat 0px 0px;
+}
+#wrapper #secondEndSlice {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 25px;
+	width: 28px;
+	position: relative;
+	top: 0px;
+	left: -1px;
+	background: url(../_images/commonButtons/blankButtons/tab-headers-combined.png) no-repeat -53px -51px;
+}
+#wrapper #tourInfoBox #tourInfoBoxBodyInfo {
+	color: #497279;
+	padding: 0px;
+	float: left;
+	width: 509px;
+	position: relative;
+	font-size: 14px;
+	margin: 0px;
+	height: 1300px;
+	top: 14px;
+	text-align: left;
+	left: 0px;
+	overflow: auto;
+	background: url(../_images/rankingPage/06worldWideRanking_05.png) no-repeat;
+}
+#wrapper #tourInfoBox #tourInfoBoxBodyInfo #tourInfoBoxTagBox {
+	font-weight: bold;
+	color: #FFFFFF;
+	border: 0px none #FFF100;
+	margin: 0px;
+	padding: 5px 0px 0px;
+	text-align: left;
+	float: left;
+	height: 30px;
+	width: 400px;
+	position: relative;
+	left: 30px;
+	top: 5px;
+	font-size: 16px;
+}
+#wrapper #tourInfoBox #tourInfoBoxBodyInfo #tourInfoBoxTitleSolved {
+	font-weight: normal;
+	color: #FFFFFF;
+	border: 0px none #FFF100;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	float: right;
+	height: 15px;
+	width: 50px;
+	position: relative;
+	top: 18px;
+	font-size: 12px;
+	right: 25px;
+}
+#wrapper #tourInfoBox #tourInfoBoxBodyInfo #tourInfoBoxTagDropDown {
+	font-weight: bold;
+	color: #517A83;
+	border: 0px none #FFF100;
+	margin: 0px;
+	padding: 5px 0px 0px 15px;
+	text-align: left;
+	float: right;
+	height: 27px;
+	width: 280px;
+	position: relative;
+	top: -6px;
+	font-size: 16px;
+	background: url(../_images/rankingPage/tagBox.png) no-repeat;
+	right: 10px;
+}
+#wrapper #rankingList {
+	color: #497279;
+	padding: 0px;
+	float: left;
+	width: 480px;
+	position: relative;
+	font-size: 14px;
+	margin: 0px;
+	height: 1180px;
+	top: -4px;
+	text-align: left;
+	left: 16px;
+	overflow: auto;
+}
+#wrapper #tourInfoBox #tourInfoBoxBodyInfo #tourInfoBoxStats {
+	color: #FFFFFF;
+	padding: 2px 10px 0px;
+	float: left;
+	width: 454px;
+	position: relative;
+	font-size: 14px;
+	margin: 0px;
+	height: 20px;
+	text-align: right;
+	left: 16px;
+	overflow: hidden;
+	border: 2px solid #497279;
+	bottom: -5px;
+}
+#wrapper #countryRankingBox {
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	height: 625px;
+	width: 396px;
+	position: relative;
+	top: -10px;
+	background: url(../_images/rankingPage/06worldWideRanking_04.png) no-repeat;
+	clear: none;
+}
+#wrapper #countryRankingBox #countryRankingBoxTitleTop {
+	font-weight: bold;
+	color: #FFFFFF;
+	border: 0px none #FFF100;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	float: left;
+	height: 25px;
+	width: 150px;
+	position: relative;
+	left: 15px;
+	top: 15px;
+	font-size: 16px;
+}
+#wrapper #countryRankingBox #countryRankingBoxViewButton {
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	height: 24px;
+	width: 120px;
+	top: 5px;
+	right: -25px;
+	position: relative;
+}
+#wrapper #countryRankingTitleUsers {
+	font-weight: normal;
+	color: #FFFFFF;
+	border: 0px none #FFF100;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	float: right;
+	height: 15px;
+	width: 50px;
+	position: relative;
+	top: 31px;
+	font-size: 12px;
+	right: 50px;
+}
+#wrapper #rankCtryList {
+	color: #497279;
+	padding: 0px;
+	float: left;
+	width: 368px;
+	position: relative;
+	font-size: 16px;
+	margin: 0px;
+	height: 522px;
+	top: 27px;
+	text-align: left;
+	left: 12px;
+	overflow: auto;
+}
+#wrapper #countryRankingBox #countryRankingBoxStats {
+	color: #FFFFFF;
+	padding: 2px 10px 0px;
+	float: left;
+	width: 348px;
+	position: relative;
+	font-size: 14px;
+	margin: 0px;
+	height: 20px;
+	text-align: right;
+	left: 12px;
+	overflow: hidden;
+	border: 2px solid #497279;
+	bottom: -37px;
+}
+#wrapper #createOptionsBox {
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	height: 465px;
+	width: 324px;
+	position: relative;
+	top: -5px;
+	background: url(../_images/createMain/09createMain_03.png) no-repeat;
+	right: -2px;
+	clear: none;
+}
+#wrapper #rankShareBox {
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	height: 85px;
+	width: 396px;
+	position: relative;
+	top: -10px;
+	background: url(../_images/rankingPage/06worldWideRanking_06.png) no-repeat;
+	clear: none;
+}
+#wrapper #rankShareBox #rankShareBoxTitleTop {
+	font-weight: bold;
+	color: #FFFFFF;
+	border: 0px none #FFF100;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	float: left;
+	height: 25px;
+	width: 150px;
+	position: relative;
+	left: 15px;
+	top: 5px;
+	font-size: 16px;
+}
+#wrapper #rankShareBox #rankShareBoxInfoText {
+	color: #497279;
+	padding: 10px 0px 0px 20px;
+	float: left;
+	width: 100px;
+	position: relative;
+	font-size: 16px;
+	margin: 0px;
+	height: 26px;
+	top: 5px;
+	text-align: left;
+	left: 12px;
+	overflow: auto;
+	clear: left;
+	font-weight: bold;
+}
+#wrapper #rankShareBox #rankShareBoxInfoAddThis {
+	color: #497279;
+	padding: 2px 0px 0px;
+	float: right;
+	width: 250px;
+	position: relative;
+	font-size: 16px;
+	margin: 0px;
+	height: 32px;
+	top: 5px;
+	text-align: left;
+	left: -10px;
+	overflow: auto;
+}
+#wrapper #rankStatsBox {
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	height: 305px;
+	width: 396px;
+	position: relative;
+	top: -10px;
+	background: url(../_images/rankingPage/06worldWideRanking_07.png) no-repeat;
+	clear: none;
+}
+#wrapper #rankStatsBox #rankStatsBoxTitleTop {
+	font-weight: bold;
+	color: #FFFFFF;
+	border: 0px none #FFF100;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	float: left;
+	height: 25px;
+	width: 150px;
+	position: relative;
+	left: 15px;
+	top: 15px;
+	font-size: 16px;
+}
+#wrapper #rankStatsBox #rankStatsBoxViewButton {
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	height: 24px;
+	width: 120px;
+	top: 5px;
+	right: 15px;
+	position: relative;
+}
+#wrapper #rankStatsBox #rankStatsBoxText {
+	color: #FFFFFF;
+	padding: 5px 0px;
+	float: left;
+	width: 372px;
+	position: relative;
+	font-size: 16px;
+	margin: 0px;
+	height: 242px;
+	top: 14px;
+	text-align: left;
+	left: 12px;
+	overflow: auto;
+}
+#wrapper #rankStatsBox #rankStatsBoxText p {
+	margin: 7px 0px;
+	padding: 4px 5px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	background-repeat: no-repeat;
+	text-align: left;
+	overflow: auto;
+	border: 2px solid #517A83;
+	width: 328px;
+}
+#wrapper #adsBox {
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	height: 250px;
+	width: 396px;
+	position: relative;
+	top: -10px;
+	background: url(../_images/rankingPage/06worldWideRanking_08.png) no-repeat;
+	clear: none;
+}
+#wrapper #adsBox #adsBoxTitleTop {
+	font-weight: bold;
+	color: #FFFFFF;
+	border: 0px none #FFF100;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	float: left;
+	height: 25px;
+	width: 150px;
+	position: relative;
+	left: 15px;
+	top: 10px;
+	font-size: 16px;
+}
+#wrapper #adsBox #adsBoxImage {
+	color: #FFFFFF;
+	padding: 0px;
+	float: left;
+	width: 375px;
+	position: relative;
+	font-size: 16px;
+	margin: 0px;
+	height: 190px;
+	top: 8px;
+	text-align: left;
+	left: 8px;
+}
+/* create main page */
+
+
+#wrapper #createOptionsBox #createOptionsBoxTitleTop {
+	font-weight: bold;
+	color: #FFFFFF;
+	border: 0px none #FFF100;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	float: left;
+	height: 25px;
+	width: 200px;
+	position: relative;
+	left: 15px;
+	top: 10px;
+	font-size: 16px;
+}
+#wrapper #createOptionsBox #createOptionsBoxBody {
+	color: #497279;
+	padding: 0px;
+	float: left;
+	width: 295px;
+	position: relative;
+	font-size: 16px;
+	background-repeat: no-repeat;
+	margin: 0px;
+	height: 380px;
+	top: 15px;
+	text-align: left;
+	left: 15px;
+}
+#wrapper #createOptionsBox #createOptionsBoxBody img {
+	padding: 8px 6px;
+	float: left;
+	position: relative;
+	background-repeat: no-repeat;
+	margin: 0px;
+}
+#wrapper #createContBox {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 110px;
+	width: 579px;
+	position: relative;
+	top: -5px;
+	background: url(../_images/createMain/09createMain_02.png) no-repeat;
+	clear: none;
+}
+#wrapper #createContBox #createContBoxTitleTop {
+	font-weight: bold;
+	color: #FFFFFF;
+	border: 0px none #FFF100;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	float: left;
+	height: 25px;
+	width: 300px;
+	position: relative;
+	left: 25px;
+	top: 8px;
+	font-size: 16px;
+}
+#wrapper #createContBox #createContBoxText {
+	color: #497279;
+	padding: 0px;
+	float: left;
+	width: 538px;
+	position: relative;
+	font-size: 14px;
+	background-repeat: no-repeat;
+	margin: 0px;
+	height: 68px;
+	top: 8px;
+	text-align: left;
+	left: 25px;
+	overflow: auto;
+}
+#wrapper #createInfoBox {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 190px;
+	width: 579px;
+	position: relative;
+	top: -5px;
+	background: url(../_images/createMain/09createMain_04.png) no-repeat;
+	clear: none;
+}
+#wrapper #createInfoBox #createInfoBoxTitleTop {
+	font-weight: bold;
+	color: #FFFFFF;
+	border: 0px none #FFF100;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	float: left;
+	height: 25px;
+	width: 300px;
+	position: relative;
+	left: 25px;
+	top: 8px;
+	font-size: 16px;
+}
+#wrapper #createInfoBox #createInfoBoxText {
+	color: #FFFFFF;
+	padding: 0px 12px 0px 0px;
+	float: left;
+	width: 530px;
+	position: relative;
+	font-size: 14px;
+	background-repeat: no-repeat;
+	margin: 0px;
+	height: 95px;
+	top: 6px;
+	text-align: left;
+	left: 25px;
+	overflow: auto;
+}
+#wrapper #createInfoBox #createInfoBoxCreate {
+	color: #FFFFFF;
+	padding: 5px 10px 0px 0px;
+	float: left;
+	width: 532px;
+	position: relative;
+	font-size: 14px;
+	background-repeat: no-repeat;
+	margin: 0px;
+	height: 35px;
+	top: 6px;
+	text-align: right;
+	left: 25px;
+	border-top: 2px solid #FFF;
+	border-right: 2px none #FFF;
+	border-bottom: 2px none #FFF;
+	border-left: 2px none #FFF;
+}
+#wrapper #createCopyBox {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 140px;
+	width: 579px;
+	position: relative;
+	top: -5px;
+	background: url(../_images/createMain/09createMain_05.png) no-repeat;
+	clear: none;
+}
+#wrapper #createCopyBox #createCopyBoxTitleTop {
+	font-weight: bold;
+	color: #FFFFFF;
+	border: 0px none #FFF100;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	float: left;
+	height: 25px;
+	width: 300px;
+	position: relative;
+	left: 25px;
+	top: 8px;
+	font-size: 16px;
+}
+#wrapper #createCopyBox #createCopyBoxText {
+	color: #497279;
+	padding: 0px;
+	float: left;
+	width: 538px;
+	position: relative;
+	font-size: 14px;
+	background-repeat: no-repeat;
+	margin: 0px;
+	height: 88px;
+	top: 8px;
+	text-align: left;
+	left: 25px;
+	overflow: auto;
+}
+/* run code page */
+
+
+#wrapper #runCodeInfoBox {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 175px;
+	width: 906px;
+	position: relative;
+	top: -10px;
+	background: url(../_images/currentPathPage/05runCodePage_02.png) no-repeat;
+	clear: none;
+}
+#wrapper #runCodeInfoBox #runCodeInfoBoxTitleTop {
+	font-weight: bold;
+	color: #FFFFFF;
+	border: 0px none #FFF100;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	float: left;
+	height: 25px;
+	width: 260px;
+	position: relative;
+	left: 15px;
+	top: 12px;
+	font-size: 16px;
+}
+#wrapper #runCodeInfoBox #runCodeInfoBoxTitleTop a:link, #wrapper #runCodeInfoBox #runCodeInfoBoxTitleTop a:visited {
+	font-weight: bold;
+	color: #FFFFFF;
+	border: 0px none #FFF100;
+	margin: 0px 5px;
+	padding: 1px 4px;
+	text-align: center;
+}
+#wrapper #runCodeInfoBox #runCodeInfoBoxTitleTop a:hover, #wrapper #runCodeInfoBox #runCodeInfoBoxTitleTop a:active {
+	font-weight: bold;
+	color: #517A83;
+	text-align: center;
+	margin: 0px 5px;
+	padding: 1px 4px;
+	background: #CCC;
+}
+#wrapper #runCodeInfoBox #runCodeInfoBoxViewButton {
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	height: 24px;
+	width: 120px;
+	top: 3px;
+	right: 15px;
+	position: relative;
+}
+#wrapper #runCodeInfoBox #runCodeInfoBoxText {
+	color: #517A83;
+	padding: 0px 12px 0px 0px;
+	float: left;
+	width: 765px;
+	position: relative;
+	font-size: 14px;
+	background-repeat: no-repeat;
+	margin: 0px;
+	height: 120px;
+	top: 10px;
+	text-align: left;
+	left: 25px;
+	overflow: auto;
+}
+#wrapper #runCodeInfoBox #runCodeInfoBoxTextBook {
+	color: #517A83;
+	padding: 0px;
+	float: left;
+	width: 90px;
+	position: relative;
+	font-size: 14px;
+	background-repeat: no-repeat;
+	margin: 0px;
+	height: 115px;
+	top: 15px;
+	text-align: left;
+	left: 25px;
+}
+#wrapper #runCodeInfoBar {
+	color: #FFF;
+	padding: 7px 0px 0px 30px;
+	width: 876px;
+	position: relative;
+	top: -10px;
+	right: 0px;
+	font-size: 14px;
+	margin: 0px;
+	height: 40px;
+	clear: none;
+	float: left;
+	background: url(../_images/currentPathPage/05runCodePage_03.png) no-repeat;
+	text-align: left;
+	font-weight: bold;
+}
+#wrapper #runCodeInfoBar #runCodeInfoBarClock {
+	color: #517A83;
+	padding: 0px;
+	float: right;
+	width: 115px;
+	position: relative;
+	font-size: 14px;
+	margin: 0px;
+	height: 35px;
+	top: 0px;
+	text-align: center;
+	background: url(../_images/currentPathPage/05runCodePage_11.png) no-repeat;
+	clear: none;
+	right: 8px;
+}
+#wrapper #runCodeInfoBar #runCodeInfoBarClockTime {
+	color: #FFFFFF;
+	padding: 0px;
+	position: relative;
+	font-size: 22px;
+	margin: 0px;
+	top: 1px;
+	text-align: center;
+	left: 2px;
+	height: 18px;
+	width: 110px;
+	letter-spacing: 0.1em;
+}
+#wrapper #runCodeBox {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 547px;
+	width: 508px;
+	position: relative;
+	top: -5px;
+	background: url(../_images/currentPathPage/05runCodePage_04.png) no-repeat;
+	clear: none;
+}
+#wrapper #runCodeBox #runCodeBoxTitleTop {
+	font-weight: bold;
+	color: #FFFFFF;
+	border: 0px none #FFF100;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	float: left;
+	height: 25px;
+	width: 220px;
+	position: relative;
+	left: 15px;
+	top: 27px;
+	font-size: 16px;
+}
+#wrapper #runCodeBox #runCodeBoxTitleTop a:link, #wrapper #runCodeBox #runCodeBoxTitleTop a:visited {
+	font-weight: bold;
+	color: #FFFFFF;
+	border: 0px none #FFF100;
+	margin: 0px 5px;
+	padding: 1px 4px;
+	text-align: center;
+}
+#wrapper #runCodeBox #runCodeBoxTitleTop a:hover, #wrapper #runCodeBox #runCodeBoxTitleTop a:active {
+	font-weight: bold;
+	color: #517A83;
+	text-align: center;
+	margin: 0px 5px;
+	padding: 1px 4px;
+	background: #CCC;
+}
+#wrapper #runCodeBox #runCodeBoxRunCodeTop {
+	border: 0px none #FFF100;
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	height: 40px;
+	width: 230px;
+	position: relative;
+	top: 8px;
+	right: 6px;
+}
+#wrapper #runCodeBox #runCodeBoxBody {
+	color: #497279;
+	float: left;
+	width: 466px;
+	position: relative;
+	font-size: 14px;
+	margin: 0px;
+	height: 428px;
+	top: 10px;
+	text-align: left;
+	left: 16px;
+	overflow: auto;
+	padding: 5px;
+	border: 1px solid #497279;
+}
+#wrapper #runCodeBox #runCodeBoxRunCodeBottom {
+	border: 0px none #FFF100;
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	height: 40px;
+	width: 230px;
+	position: relative;
+	top: 16px;
+	right: 6px;
+}
+#wrapper #runCodeMesBox {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 105%;
+	width: 397px;
+	position: relative;
+	top: -15px;
+	background: no-repeat;
+}
+#wrapper #runCodeMesBox #runCodeMesBoxTitleTopAll {
+	font-weight: bold;
+	color: #FFFFFF;
+	border: 0px none #FFF100;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	float: left;
+	height: 25px;
+	width: 350px;
+	position: relative;
+	font-size: 16px;
+	top: 14px;
+	left: 2px;
+}
+#wrapper #runCodeMesBox #runCodeMesBoxBodyInfo {
+	color: #497279;
+	padding: 10px 20px;
+	float: left;
+	width: 357px;
+	position: relative;
+	font-size: 14px;
+	margin: 0px;
+	height: 378px;
+	top: 12px;
+	text-align: left;
+	left: 0px;
+	overflow: auto;
+	background: url(../_images/currentPathPage/05runCodePage_06.png) no-repeat;
+}
+#wrapper #tourSelectBox {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 85px;
+	width: 906px;
+	position: relative;
+	top: -10px;
+	background: url(../_images/tournamentPages/07tournament_02.png) no-repeat;
+	clear: none;
+}
+#wrapper #tourSelectBox #tourSelectBoxTypeSelector {
+	font-weight: bold;
+	color: #FFFFFF;
+	border: 0px none #FFF100;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	float: left;
+	height: 35px;
+	width: 880px;
+	position: relative;
+	left: 10px;
+	top: 8px;
+	font-size: 16px;
+}
+#wrapper #tourSelectBox #tourSelectBoxTypeSelector img {
+	border: 0px none #FFF100;
+	margin: 0px;
+	padding: 0px 10px;
+	position: relative;
+}
+#wrapper #tourSelectBox #tourSelectBoxPathSelector {
+	color: #517A83;
+	padding: 0px 12px 0px 0px;
+	float: left;
+	width: 870px;
+	position: relative;
+	font-size: 14px;
+	background-repeat: no-repeat;
+	margin: 0px;
+	height: 35px;
+	top: 10px;
+	text-align: left;
+	left: 22px;
+}
+#wrapper #tourSelectBox #tourSelectBoxPathSelector img {
+	color: #FFF;
+	padding: 6px 5px 5px;
+	font-size: 16px;
+	margin: 0px;
+}
+#wrapper #tourActualSelectBox {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 105%;
+	width: 906px;
+	position: relative;
+	top: -15px;
+	background: no-repeat;
+}
+#wrapper #tourActualSelectBox #tourActualSelectBoxTitleTopAll {
+	font-weight: bold;
+	color: #FFFFFF;
+	border: 0px none #FFF100;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	float: left;
+	height: 25px;
+	width: 710px;
+	position: relative;
+	font-size: 16px;
+	top: 14px;
+	left: 8px;
+}
+#wrapper #threeFirstStartSlice {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 25px;
+	width: 9px;
+	position: relative;
+	top: 0px;
+	left: 1px;
+	background: url(../_images/commonButtons/blankButtons/tab-headers-combined.png) no-repeat -5px -51px;
+}
+#wrapper #threeFirstMiddleSlice {
+	font-weight: bold;
+	color: #FFFFFF;
+	border: 0px none #FFF100;
+	margin: 0px;
+	padding: 3px 10px 0px;
+	text-align: left;
+	float: left;
+	height: 25px;
+	width: 195px;
+	position: relative;
+	font-size: 14px;
+	top: 1px;
+	left: 1px;
+	background: url(../_images/commonButtons/blankButtons/tab-headers-combined.png) no-repeat 0px -26px;
+}
+#wrapper #threeFirstJoinSlice {
+	font-weight: bold;
+	color: #FFFFFF;
+	border: 0px none #FFF100;
+	margin: 0px;
+	padding: 3px 10px 0px;
+	text-align: left;
+	float: left;
+	height: 27px;
+	width: 12px;
+	position: relative;
+	font-size: 16px;
+	top: -1px;
+	left: 1px;
+	background: url(../_images/commonButtons/blankButtons/tab-headers-combined.png) no-repeat -150px -50px;
+}
+#wrapper #threeFirstEndSlice {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 25px;
+	width: 24px;
+	position: relative;
+	top: 0px;
+	left: 1px;
+	background: url(../_images/commonButtons/blankButtons/tab-headers-combined.png) no-repeat -14px -51px;
+}
+#wrapper #threeSecondMiddleSlice {
+	font-weight: bold;
+	color: #517A83;
+	border: 0px none #FFF100;
+	margin: 0px;
+	padding: 5px 10px 0px;
+	text-align: left;
+	float: left;
+	height: 25px;
+	width: 145px;
+	position: relative;
+	font-size: 14px;
+	top: -1px;
+	left: -1px;
+	background: url(../_images/commonButtons/blankButtons/tab-headers-combined.png) no-repeat 0px 0px;
+}
+#wrapper #threeSecondEndSlice {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 25px;
+	width: 28px;
+	position: relative;
+	top: 0px;
+	left: -1px;
+	background: url(../_images/commonButtons/blankButtons/tab-headers-combined.png) no-repeat -53px -51px;
+}
+#wrapper #threeSecondJoinSlice {
+	font-weight: bold;
+	color: #FFFFFF;
+	border: 0px none #FFF100;
+	margin: 0px;
+	padding: 3px 10px 0px;
+	text-align: left;
+	float: left;
+	height: 27px;
+	width: 14px;
+	position: relative;
+	font-size: 16px;
+	top: -1px;
+	left: -1px;
+	background: url(../_images/commonButtons/blankButtons/tab-headers-combined.png) no-repeat -115px -50px;
+}
+#wrapper #threeThirdMiddleSlice {
+	font-weight: bold;
+	color: #517A83;
+	border: 0px none #FFF100;
+	margin: 0px;
+	padding: 5px 10px 0px;
+	text-align: left;
+	float: left;
+	height: 25px;
+	width: 200px;
+	position: relative;
+	font-size: 14px;
+	top: -1px;
+	left: -1px;
+	background: url(../_images/commonButtons/blankButtons/tab-headers-combined.png) no-repeat 0px 0px;
+}
+#wrapper #threeThirdEndSlice {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 25px;
+	width: 28px;
+	position: relative;
+	top: 0px;
+	left: -1px;
+	background: url(../_images/commonButtons/blankButtons/tab-headers-combined.png) no-repeat -53px -51px;
+}
+#wrapper #tourActualSelectBox #tourActualSelectBoxViewButton {
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	height: 24px;
+	width: 190px;
+	top: 15px;
+	right: 2px;
+	position: relative;
+}
+#wrapper #tourActualSelectBox #tourActualSelectBoxBodyInfo {
+	color: #497279;
+	padding: 5px 15px;
+	float: left;
+	width: 876px;
+	position: relative;
+	font-size: 14px;
+	margin: 0px;
+	height: 130px;
+	top: 12px;
+	text-align: left;
+	left: 0px;
+	overflow: hidden;
+	background: url(../_images/tournamentPages/07tournament_04.png) no-repeat;
+}
+#wrapper #tourActualSelectBox #tourActualSelectBoxBodyInfo img {
+	color: #FFF;
+	padding: 0px;
+	font-size: 16px;
+	margin: 0px;
+}
+/* tournament Organisation page */
+
+
+#wrapper #tourOrgInfoBox {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 210px;
+	width: 906px;
+	position: relative;
+	top: 10px;
+	background: url(../_images/tournamentPages/07tournament_05_invitational.png) no-repeat;
+	clear: none;
+}
+#wrapper #tourOrgInfoBox #tourOrgInfoBoxTitleTop {
+	font-weight: bold;
+	color: #FFFFFF;
+	border: 0px none #FFF100;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	float: left;
+	height: 25px;
+	width: 260px;
+	position: relative;
+	left: 25px;
+	top: 7px;
+	font-size: 16px;
+}
+#wrapper #tourOrgInfoBox #tourOrgInfoBoxViewButton {
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	height: 24px;
+	width: 120px;
+	top: 0px;
+	right: 15px;
+	position: relative;
+}
+#wrapper #tourOrgInfoBox #tourOrgInfoBoxImage {
+	color: #517A83;
+	padding: 0px;
+	float: left;
+	width: 305px;
+	position: relative;
+	font-size: 14px;
+	background-repeat: no-repeat;
+	margin: 0px;
+	height: 155px;
+	top: 11px;
+	text-align: left;
+	left: 20px;
+	clear: left;
+}
+#wrapper #tourOrgInfoBox #tourOrgInfoBoxText {
+	color: #517A83;
+	padding: 0px 12px 0px 0px;
+	float: left;
+	width: 540px;
+	position: relative;
+	font-size: 14px;
+	background-repeat: no-repeat;
+	margin: 0px;
+	height: 120px;
+	top: 10px;
+	text-align: left;
+	left: 30px;
+	overflow: auto;
+}
+#wrapper #tourOrgInfoBox #tourOrgInfoBoxTextIconBottom {
+	color: #517A83;
+	padding: 0px 12px 0px 0px;
+	float: left;
+	width: 280px;
+	position: relative;
+	font-size: 14px;
+	background-repeat: no-repeat;
+	margin: 0px;
+	height: 40px;
+	top: 10px;
+	text-align: left;
+	left: 30px;
+	overflow: auto;
+}
+#wrapper #tourOrgInfoBox #tourOrgInfoBoxInviteBox {
+	color: #517A83;
+	float: left;
+	width: 250px;
+	position: relative;
+	font-size: 14px;
+	background-repeat: no-repeat;
+	margin: 0px;
+	height: 40px;
+	top: 25px;
+	text-align: left;
+	left: 60px;
+	padding: 0px;
+}
+#wrapper #tourOrgInfoBox #tourOrgInfoBoxInviteBox img {
+	position: relative;
+	background-repeat: no-repeat;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 8px;
+	padding-bottom: 0px;
+	padding-left: 8px;
+}
+#wrapper #tourOrgInfoBar {
+	color: #FFF;
+	padding: 7px 0px 0px 30px;
+	width: 876px;
+	position: relative;
+	top: 5px;
+	right: 0px;
+	font-size: 14px;
+	margin: 0px;
+	height: 40px;
+	clear: none;
+	float: left;
+	background: url(../_images/currentPathPage/05runCodePage_03.png) no-repeat;
+	text-align: left;
+	font-weight: bold;
+}
+#wrapper #tourOrgInfoBar #tourOrgInfoBarClock {
+	color: #517A83;
+	padding: 0px;
+	float: right;
+	width: 152px;
+	position: relative;
+	font-size: 14px;
+	margin: 0px;
+	height: 35px;
+	top: -18px;
+	text-align: center;
+	clear: none;
+	right: 12px;
+	background-image: url(../_images/tournamentPages/07tournament_09.png);
+	background-repeat: no-repeat;
+}
+#wrapper #tourOrgInfoBar #tourOrgInfoBarClockTime {
+	color: #FFFFFF;
+	padding: 0px;
+	position: relative;
+	font-size: 22px;
+	margin: 0px;
+	top: 1px;
+	text-align: center;
+	left: 2px;
+	height: 25px;
+	width: 152px;
+	letter-spacing: 0.1em;
+}
+/* document footer */
+
+
+#wrapper #mainFooter {
+	font-family: Verdana, Geneva, sans-serif;
+	margin: 0px;
+	height: 80px;
+	width: 906px;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	font-weight: bold;
+	padding: 0px;
+	clear: both;
+	float: left;
+}
+#wrapper #mainFooter #menuFooterTop {
+	margin: 0px;
+	padding: 14px 0px 0px;
+	height: 26px;
+	width: 906px;
+	position: relative;
+	top: 0px;
+	background: #FFF url(../_images/landingPages/indexPage/01landingPage17.jpg) no-repeat;
+	left: 0px;
+	font-size: 12px;
+	text-align: center;
+}
+#wrapper #mainFooter #menuFooterTop a:link, #wrapper #mainFooter #menuFooterTop a:visited {
+	font-weight: bold;
+	color: #CCCCCC;
+	border: 0px none #FFF100;
+	margin: 0px 5px;
+	padding: 3px 8px;
+	text-align: center;
+}
+#wrapper #mainFooter #menuFooterTop a:hover, #wrapper #mainFooter #menuFooterTop a:active {
+	font-weight: bold;
+	color: #517A83;
+	text-align: center;
+	border: 2px solid #517A83;
+	margin: 0px 5px;
+	padding: 2px 6px;
+}
+#wrapper #mainFooter #menuFooterBottom {
+	margin: 0px;
+	padding: 12px 0px 0px 15px;
+	height: 30px;
+	width: 891px;
+	position: relative;
+	top: 0px;
+	background: #FFF url(../_images/landingPages/indexPage/01landingPage18.jpg) no-repeat;
+	left: 0px;
+	color: #FFF;
+	font-size: 14px;
+	text-align: left;
+	clear: both;
+	float: left;
+}
+#wrapper #mainFooter #gr8ph1csLogo {
+	margin: 0px;
+	padding: 0px;
+	height: 40px;
+	width: 150px;
+	position: relative;
+	top: -24px;
+	clear: none;
+	float: right;
+	right: 0px;
+}
+/* styles */
+
+.smallerLeftText {
+	font-size: 10px;
+}
+.boldText {
+	font-size: 1.1em;
+	font-weight: bold;
+}
+.smallTextBold {
+	font-size: 12px;
+	font-weight: bold;
+}
+.boldTextLarge {
+	font-size: 1.4em;
+	font-weight: bold;
+}

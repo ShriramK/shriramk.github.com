@@ -1,0 +1,82 @@
+/* new Badge Pop Up box */
+@import stylus_functions
+
+.popUp
+  commonPopUp()
+  
+  .newBadge
+    font-size 12px
+    
+    .textContainer
+      background url(../_images/backgrounds/badges_pop_up.png) no-repeat
+      width      496px
+      height     187px
+      
+      .column
+        text-align left
+        float      left
+        position   relative
+        width      226px
+        height     170px
+        padding    10px 10px 0px 10px
+        
+        &.left
+          color #FFF
+          
+          h3
+            float left
+          
+          .text
+            font-weight bold
+            float       left
+            width       155px
+        
+        &.right
+          color #517A83
+        
+        .badge
+          background-color #FFF
+          border-radius    10px
+          float            left
+          padding          5px
+          margin-right     10px
+        
+        h3
+          font-size 1.2em
+          margin    0px
+        
+        .text
+          font-size 1em
+        
+        .readBtn
+          background url(../_images/landingPages/landingPageButtons/readMore_off.png) no-repeat
+          position   absolute
+          right      0px
+          bottom     0px
+          width      65px
+          height     15px
+          margin     0px 15px 7px 0px
+          
+          &:hover
+            background url(../_images/landingPages/landingPageButtons/readMore_on.png)
+      
+      .socialBtn
+        display    inline-block
+        margin-top 5px
+        width      34px
+        height     34px
+        
+        &.twitter
+          background url(../_images/landingPages/landingPageButtons/social_buttons/twitter_off.png) no-repeat
+          &:hover
+            background url(../_images/landingPages/landingPageButtons/social_buttons/twitter_on.png) no-repeat
+          
+        &.facebook
+          background url(../_images/landingPages/landingPageButtons/social_buttons/facebook_off.png) no-repeat
+          &:hover
+            background url(../_images/landingPages/landingPageButtons/social_buttons/facebook_on.png) no-repeat
+          
+        &.google
+          background url(../_images/landingPages/landingPageButtons/social_buttons/google_off.png) no-repeat
+          &:hover
+            background url(../_images/landingPages/landingPageButtons/social_buttons/google_on.png) no-repeat

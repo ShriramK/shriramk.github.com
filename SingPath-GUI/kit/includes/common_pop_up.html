@@ -1,0 +1,60 @@
+<!-- Print a common PopUp Menu -->
+<div class="popUp {{popUp.class}}">
+  <div class="container" onclick="gae_bingo.bingo('{{popUp.name}} PopUp closed')" ng-click="popUp.class = 'hide'">
+    
+    <!-- Top-Left Label -->
+    <!-- Note: ng-click="$event.stopPropagation()" prevents the click event from bubbling up to the DOM tree -->
+    <div ng-class="'mainContent ' + contentClass" ng-click="$event.stopPropagation()">
+      <div class="labelContainer">
+        <div class="label">
+          {{popUp.label}}
+        </div>
+        <div class="curve"></div>
+      </div>
+      
+      <!-- Top-Right Close btn -->
+      <div class="closeBtn" onclick="gae_bingo.bingo('{{popUp.name}} PopUp closed')" ng-click="popUp.class = 'hide'"></div>
+      
+      <!-- Switch between Main Contents -->
+      <div ng-switch on="popUp.name" class="textContainer">
+        
+        <!-- Edit Profile PopUp -->
+        <div ng-include ng-switch-when="editDetails" src="'includes/edit_profile_pop_up.html'"></div>
+        
+        <!-- New Badge PopUp -->
+        <div ng-include ng-switch-when="newBadge" src="'includes/new_badge_pop_up.html'"></div>
+        
+      </div>
+      
+      <!-- Check for any bottom option btns -->
+      <div ng-switch on="popUp.btns.length">
+        <div ng-switch-when="0"></div>
+        
+        <!-- Show the bottom option btns only if there's any -->
+        <div ng-switch-default>
+          <!-- Bottom container with option btns -->
+          <div class="labelBottomContainer">
+            <div class="curve"></div>
+            <div class="label">
+              
+              <!-- Print all option btns -->
+              <a ng-repeat = "btn in popUp.btns"
+                ng-href  = "{{btn.href}}"
+                ng-bind  = "btn.label"
+                ng-click = "btn.click()"
+                ng-show  = "btn.show()"
+                class    = "btn {{btn.class}}"
+                title    = "{{btn.title}}"
+                
+                onclick = "gae_bingo.bingo('{{popUp.name}} {{btn.label}}')"
+              ></a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    
+  </div>
+</div>

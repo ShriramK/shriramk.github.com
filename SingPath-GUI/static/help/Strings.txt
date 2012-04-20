@@ -1,0 +1,419 @@
+Sections needing more work are tagged with ###
+
+CHANGE LOG:
+3/9/09 DMQ 204-218 Added example of chained method calls.
+
+===== Python Strings =====                 DRAFT                  DMQ  5/10/09
+
+Prerequisite: UsingPython.txt
+
+This page introduces Python strings with examples, focusing on those methods
+and operations which are simplest and most useful.  See the references {1,2}
+for more. 
+
+{1} Complete, up-to-date, well-organized documentation is available at
+http://docs.python.org, which should appear in your web browser when you press
+F1 in a Python window.
+{2} Python in a Nutshell, 2nd ed. Alex Martelli, O'Reilly 2006, a little out-
+of-date, but thorough and well-written.
+
+=== String Contents ===
+
+The Python str object contains a sequence of characters such as 'a' or 'Z' or
+'µ' or '?'.  Python supports the unicode character set, so we are not limited
+to just roman A-Z characters.  There is no special "char" type for single
+characters.  They are represented as simply a string of length one.  Single
+and double quotes are equivalent.  Use whichever you like, or what is needed
+to quote a string with the other quote character included.  Single quotes are
+easier to type.  Use triple quotes for strings that contain any newline
+characters.  Here are some examples you can try.
+
+   >>> str1 = "Don't use ' if your string has ' without an escape."
+   >>> str2 = "'a' or 'Z' or 'µ' or '?'"
+   >>> str3 = ''  # an empty string is a valid string object
+
+   >>> multi = '''\
+   This is a multiline string, with three newline characters.
+   The first newline is deleted by an end-of-line escape.
+   No problem with ' or ".
+   '''
+   >>> multi   # raw contents
+   'This is a multiline string, with three newline characters.\nThe first
+   newline is deleted by an end-of-line escape.\nNo problem with \' or ".\n'
+
+   >>> print(multi)  # formatted output
+   This is a multiline string, with three newline characters.
+   The first newline is deleted by an end-of-line escape.
+   No problem with ' or ".
+
+Like all other objects in Python, str objects themselves have at least two
+string representations, formatted and raw.  The print function uses the
+formatted method.
+
+   >>> str2
+   "'a' or 'Z' or '\xb5' or '\u2211'"
+   >>> print(str2)
+   'a' or 'Z' or 'µ' or '?'
+
+   >>> str3
+   ''
+   >>> print(str3)
+
+   >>>
+
+Notice how the different methods handle non-ASCII characters.  A raw display
+shows the representation of the character in memory (a one-byte hex code or
+two-byte unicode).  The formatted display will do the best it can to render
+the character in whatever font is available.  {{The text editor used here was
+able to display the Greek letter mu, but not sigma, which just appears as a
+?.}}  ###
+
+The builtin functions repr() and str() provide raw and formatted conversions,
+returning a string rather than an immediate printout.
+
+   >>> f = 1/10
+   >>> repr(f)  # a float with full precision
+   '0.10000000000000001'
+   >>> str(f)   # less precise, but more readable
+   '0.1'
+   >>>
+
+=== Escape Codes ===
+
+Python uses backslash (\) "escape" codes to insert special characters in a
+string.  Here are some common codes:
+
+    * \' -- single quote
+    * \" -- double quote
+    * \t -- tab
+    * \n -- newline (the return key on the keyboard)
+    * \xFF  one byte in hexidecimal
+    * \uFFFF  a two-byte unicode            {{need examples}}         ###
+    * \\ -- backslash
+
+If you need numerous backslashes in a string, you can disable the special
+interpretation of \ as an escape character by preceding the first quote with
+an r, and entering it as a "raw" string.  This affects only the input of a
+string.  The internal representation still has \\ escaped backslashes.
+
+   >>> str4 = r'def\s+([a-zA-Z_][a-zA-Z_0-9]*)\s*\(\s*\):'
+   >>> str4
+   'def\\s+([a-zA-Z_][a-zA-Z_0-9]*)\\s*\\(\\s*\\):'
+   >>> print(str4)
+   def\s+([a-zA-Z_][a-zA-Z_0-9]*)\s*\(\s*\):
+
+The example here is a typical pattern string for the re (regular expression)
+module.  re has its own interpretation of \ escape codes, so we must "bypass"
+Python's interpretation.
+
+=== String Index Numbers ===
+
+The characters in a string s are each identified by an index number. The
+leftmost character is s[0], the next s[1], and so on, up to s[N], where N is
+one less than the length of the string.  Negative indices are counted from the
+right, so s[-1] is the last character.  This is very handy when you don't know
+the length of the string.
+
+   >>> s = 'Hello'   # a string of length 5
+
+     label                  object
+     ------           +---+---+---+---+---+
+    |  s   |  ---->   | H | e | l | l | o |
+     ------           +---+---+---+---+---+
+                      0   1   2   3   4   5   indices
+                     -5  -4  -3  -2  -1       measured from end
+
+This "zero based" indexing is used also in Java, C, and many other languages.
+You can think of index numbers as labeling the lines between the characters.
+Thus s[1:5] is the substring 'ello'.  s[5] raises an IndexError.
+
+"Off-by-one" errors are very common in working with strings.  Keep the above
+sketch in mind to avoid these errors.
+
+=== String Methods ===
+
+Python str objects have a very complete set of methods.
+
+>>> dir('')
+['__add__', '__class__', '__contains__', '__delattr__', '__doc__', '__eq__',
+'__format__', '__ge__', '__getattribute__', '__getitem__', '__getnewargs__',
+'__gt__', '__hash__', '__init__', '__iter__', '__le__', '__len__', '__lt__',
+'__mod__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__',
+'__repr__', '__rmod__', '__rmul__', '__setattr__', '__str__',
+'__subclasshook__', '_formatter_field_name_split', '_formatter_parser',
+'capitalize', 'center', 'count', 'encode', 'endswith', 'expandtabs', 'find',
+'format', 'index', 'isalnum', 'isalpha', 'isdecimal', 'isdigit',
+'isidentifier', 'islower', 'isnumeric', 'isspace', 'istitle', 'isupper',
+'join', 'ljust', 'lower', 'lstrip', 'maketrans', 'partition', 'replace',
+'rfind', 'rindex', 'rjust', 'rpartition', 'rsplit', 'rstrip', 'split',
+'splitlines', 'startswith', 'strip', 'swapcase', 'title', 'translate',
+'upper', 'zfill']
+
+Here are examples of methods we will need for the problems:
+
+   >>> '123'.isdigit()  # all decimal digits (0-9)
+   True
+   >>> 'abcµ'.isalpha()  # all letters (a-z,A-Z and other alphabets)
+   True
+
+   >>> 'abcµ123'.isalnum()  # all letters and digits
+   True
+   >>> '\t  \n'.isspace()   # all whitespace
+   True
+
+   >>> 'abcµ123'.startswith('abc')
+   True
+   >>> 'abcµ123'.endswith('µ123')
+   True
+
+   >>> 'ABC'.isupper()  # all uppercase
+   True
+   >>> 'abc'.islower()  # all lowercase
+   True
+
+The builtin function len() works on strings by calling the string method
+__len__().  The underscores on method __len__() are a reminder that you should
+use the function, not the method.
+
+   >>> len('abcde')     # same as 'abcde'.__len__()
+   5
+
+Methods find and rfind are useful for locating substrings.
+
+   >>> s4 = 'abc xyz abc abc xyz abc'
+   >>> s4.find('xyz')    # find the first occurrence of 'xyz'
+   4
+   >>> s4.find('xyz', 5) # starting at index 5
+   16
+   >>> s4.rfind('xyz')   # starting from the right and scanning left
+   16
+
+All of the above methods return information about existing strings.  There are
+also methods that generate new strings.
+
+   >>> 'abc'.upper()
+   'ABC'
+   >>> 'ABC'.lower()
+   'abc'
+   >>> '123'.zfill(7)        # fill with zeros on the left
+   '0000123'
+   >>> 'Here is the title of my new book'.title()
+   'Here Is The Title Of My New Book'
+   >>> '\t xyz  \n'.strip()  # strip off whitespace, fore and aft
+   'xyz'
+
+Methods can be combined in one line.  noun.verb.verb.verb... is a common
+pattern in object-oriented programming, especially when there is a "pipeline"
+of operations to be performed on a single object.
+
+   >>> s4
+   'abc xyz abc abc xyz abc'
+   >>> s4.replace('xyz', '---').upper()
+   'ABC --- ABC ABC --- ABC'
+   >>> s4.upper().replace('XYZ', '---').replace('--- ABC', '123').lower()
+   'abc 123 abc 123'
+
+The return value from each method is the object on which the next method
+operates.  This is a lot easier to read and write than the deeply nested
+verb(verb(verb(noun))) pattern in languages that do everything with functions.
+
+Python strings are immutable.  Returned strings are new objects.
+
+   >>> s5 = s4.replace('xyz', '---')
+   >>> s5
+   'abc --- abc abc --- abc'
+   >>> s4
+   'abc xyz abc abc xyz abc'   # original string unchanged
+
+Of course, you can assign the old name to the new object, and defeat Python's
+efforts to keep your life simple.
+
+   >>> s4 = s4.replace('xyz', '---', 1)
+   >>> s4
+   'abc --- abc abc xyz abc'
+   >>> s4.count('xy')
+   1
+
+Use the help() function, if you forget the details on any of these methods.
+
+   >>> help(s4.replace)
+
+   replace(...)
+       S.replace (old, new[, count]) -> str
+
+       Return a copy of S with all occurrences of substring
+       old replaced by new.  If the optional argument count is
+       given, only the first count occurrences are replaced.
+
+=== String Operators ===
+
+You can do everything with methods, but sometimes the object.method() style is
+awkward. The most commonly used string methods have operators as an
+alternative.
+
+   >>> '{{' + 'xyz' + '}}'  # concatenation ('{{'.__add__('xyz').__add__('}}')
+   '{{xyz}}'
+   >>> 20 * '-- '           # repetition ( '-- '.__mul__(20)  )
+   '-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- '
+   >>> 'y' in 'xyz'         # membership ('xyz'.__contains__('y'))
+   True
+   >>> [n*2 for n in 'xyz']  # iteration (we'll talk about lists later) ###
+   ['xx', 'yy', 'zz']
+
+Slicing syntax is one of the beauties of Python.
+
+   >>> s = '0123456789'
+   >>> s[2:5]
+   '234'
+   >>> s[5:]   # default to end
+   '56789'
+   >>> s[:5]   # default from beginning
+   '01234'
+   >>> s[-1]   # negative indices are measured from the end
+   '9'
+
+   >>> s[2:8:2] # a third index is a "step" value
+   '246'
+   >>> s[::-1]   # you can even step backwards
+   '9876543210'
+   >>> s          # remember, Python strings are immutable
+   '0123456789'
+
+Comparisons work as you should expect.
+
+   >>> s1 = 'abc'
+   >>> s2 = 'ABC'
+   >>> s1 != s2          # comparisons are case sensitive
+   True
+   >>> s1 == s2.lower()  # nothing tricky to compare values of two strings
+   True
+   >>> s1 is s2.lower()  # if you really need to test identity of objects
+   False
+
+Comparison operators ( <, <=, ==, !=, >, >= ) are a lot easier to type and
+read than __lt__(), __le__(), __eq__(), __ne__(), __gt__(), and __ge__() .
+
+   >>> ' ' < 'A' < 'Z' < '_' < 'a' < 'z'   # all must be True
+   True
+   >>> 'abc' > 'ab c'   # order is determined by the first char that differs
+   True
+
+=== String Parsing ===
+
+"Parsing" is the extraction of useful information from a string, and
+separation into more easily processed parts.  This can be as simple as just
+creating a list of words that were separated by whitespace in the original
+string, or much more complex extractions involving special characters,
+sequences and logic.  Use the regular expression module "re" for complex
+string processing.  For the simple cases, Python provides string methods
+split() and splitlines().  These return lists of the parts that were extracted
+from the string.  See the ###lists### help page for more on list syntax.
+
+>>> multi.split()       # returns a list of 24 tokens
+['This', 'is', 'a', 'multiline', 'string,', 'with', 'three', 'newline',
+'characters.', 'The', 'first', 'newline', 'is', 'deleted', 'by', 'an', 'end-
+of-line', 'escape.', 'No', 'problem', 'with', "'", 'or', '".']
+
+>>> multi.splitlines()  # returns a list of 3 complete lines
+['This is a multiline string, with three newline characters.', 'The first
+newline is deleted by an end-of-line escape.', 'No problem with \' or ".']
+
+>>> 'abc/-*-/xyz'.partition('/-*-/')  # another way to split a string
+('abc', '/-*-/', 'xyz')
+
+The opposite of splitting is joining.  Split makes a string into a list.  Join
+makes a list back into a string.  This is handy if you want to parse items
+from an irregular string, and put them back in the same order, but with
+uniform separation.
+
+   >>> s = 'Here   is  \t \t an \n irregular    string.'
+   >>> parsed_parts = s.split()  # skip all whitespace characters
+   >>> parsed_parts
+   ['Here', 'is', 'an', 'irregular', 'string.']
+   >>> '-'.join(parsed_parts)    # join with a single hyphen
+   'Here-is-an-irregular-string.'
+
+The join method seems backward at first, but that is because join is a method
+of the string object, not of the list object.  While it might be possible to
+write a join method for lists, it would require doing something different for
+list items that were not strings.  So the decision was made to keep the join
+method with the other string methods, and we just have to get used to the fact
+that it "reads backwards" in English.  A single space is the most common
+separator, so you will often see ' '.join(...some list...).
+
+   >>> help(s.join)
+
+   join(...)
+       S.join(sequence) -> str
+
+       Return a string which is the concatenation of the strings in the
+       sequence.  The separator between elements is S.
+
+See examples 3 and 4 for more complex parsing problems.
+
+=== String Processing Examples ===
+
+== Example 1 ==
+
+Given a string where the string "OOP" appears at least two times, find the
+first and last OOP in the whole string. Return the text from between the two
+OOP.
+
+   def oopPair(s):
+     start = s.find('OOP') + 3  # position just after the first OOP
+     end   = s.rfind('OOP')     # position just before the last OOP
+     return s[start:end]
+
+== Example 2 ==
+
+Suppose you have a string like this: "Once there was a woman name:angelina:
+and a man name:tony: and their freind name:jane: and ...". Inside of a long
+text there are little "name:" sections. Write a function to print a list of
+all the names.
+
+   def printNames(s):
+       i = 0
+       while True:
+           found = s.find('name:', i) # start scan at index i
+           if found == -1:  break
+           start = found + 5          # just after 'name:'
+           end = s.find(':', start)   # just before next ':'
+           print(s[start:end])
+           i = end + 1
+
+== Example 3 ==
+
+Suppose we have a string that contains some text with a pair of parentheses
+somewhere inside of it, like this: "It was hot (darn hot!) I'm telling you".
+We want to fix the string so that the part in parenthesis is in all upper
+case.
+
+   >>> s = "It was hot (so hot!) I'm telling you."
+   >>> left = s.find('(') + 1          # just after the first '('
+   >>> right = s.find(')')             # just before the first ')'
+   >>> result = s[:left] + s[left:right].upper() + s[right:]
+   >>> result
+   "It was hot (SO HOT!) I'm telling you."
+
+== Example 4 ==
+
+Find the identifiers in a string, and tag each with a leading $. Identifiers
+start with an alpha or underscore [a-zA-Z_] and continue with any number of
+the characters [a-zA-Z_0-9].  The identifier will be isolated by a ' ' space
+on both sides, or the beginning or end of the string.
+
+This is an example of a problem with a tedious solution involving nested
+loops, tests of each character for membership in a large class of characters,
+scanning ahead to find the end of a pattern, substituting a new pattern made
+from pieces of the old pattern, and handling special situations like the
+beginning and end of a string.
+
+Regular expressions provide a more powerful way to process strings.  See
+http://docs.python.org/3.0/library/re.html for more on the re module.
+
+>>> import re
+>>> def findID(s):
+        return re.sub(r'(^|\s+)([a-zA-Z_][a-zA-Z_0-9]*)', r' $\2', s)
+
+>>> findID('893 *wkc _kns3 wkd')
+'893 *wkc $_kns3 $wkd'

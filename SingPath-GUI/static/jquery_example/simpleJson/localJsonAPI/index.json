@@ -1,0 +1,17 @@
+{
+  "foo": "local - The quick brown fox jumps over the lazy dog.",
+  "bar": "local - ABCDEFG",
+  "baz": [52, 97],
+  "text": "local - This is a local test",
+  "playerNickname": "Bob",
+  "playerCity": "Serangoon",
+  "playerCountry": "Singapore",
+  "currentPath": "Python",
+  "highestRanking": "8",
+  "highetsRankedOnCurrentPath": "Bill Gates",
+  "highetsRankedOnCurrentPathCountry": "MM Lee",  
+  "currentLevel": "02", 
+  "currentLevelProgress": "10", 
+  "levelBadges": "levelBadge images go here.",
+  "futureBadges": "future badge image links go here."
+}

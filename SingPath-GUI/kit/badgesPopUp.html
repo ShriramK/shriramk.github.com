@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="routeAndResource">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Tournament Start Pop Up</title>
+  
+  <link href="_css/SingpathMainShane.css" rel="stylesheet" type="text/css" />
+  <link href="_css/common.css"            rel="stylesheet" type="text/css" />
+  <link href="_css/badges_pop_up.css"     rel="stylesheet" type="text/css" />
+  
+  <!-- Open Graph metadata used in Facebook and Google Plus -->
+  <meta property="og:title"       content="Congratulations on onFire Creator Badge" />
+  <meta property="og:description" content="This badge was awarded because you created a problem in Python and 8 people solved it. You are now on fire!!" /> 
+  <meta property="og:image"       content="_images/badges/badge007.png" />
+  
+  <script src="lib/angular/angular.min.js"          type="text/javascript"></script>
+  <script src="lib/angular/angular-resource.min.js" type="text/javascript"></script>
+  <script src="js/app_modules.js"                   type="text/javascript"></script>
+  <script src="js/commonTools.js"                   type="text/javascript"></script>
+  <script src="js/controllers.js"                   type="text/javascript"></script>
+  <script src="js/newBadge.js"                      type="text/javascript"></script>
+  
+  <script src="_js/jquery-1.7.2.min.js" type="text/javascript"></script>
+  <script src="/gae_bingo/static/js/gae_bingo.js" type="text/javascript" charset="utf-8"></script>
+  
+  <script type="text/javascript">
+    function MM_preloadImages() { //v3.0
+      var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+      var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+      if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+    }
+    
+    // Caching hover images
+    MM_preloadImages('_images/landingPages/landingPageButtons/social_buttons/twitter_on.png', '_images/landingPages/landingPageButtons/social_buttons/facebook_on.png', '_images/landingPages/landingPageButtons/social_buttons/google_on.png');
+    
+    // Add a gae_bingo test
+    gae_bingo.ab_test('new-badge-clicks', {"top-half": 50, "bottom-half": 50}, ['Twitter link', 'Facebook link', 'Google Plus link', 'Read more', 'newBadge PopUp closed', 'newBadge Continue Playing']);
+    
+  </script>
+</head>
+<body>
+  
+  <!-- Load the common popUp include with the new Badge data -->
+  <div ng-include ng-controller="newBadgeCtrl" src="'includes/common_pop_up.html'"></div>
+  
+</body>
+</html>

@@ -1,0 +1,12 @@
+<!-- Print All Contributors -->
+<div class="text" ng-cloak>
+  <div ng-repeat="contributor in contributors" class="profile">
+    <img ng-src="{{baseSrc + contributor.src}}.png" alt="{{contributor.name}}, {{contributor.title}}" />
+    <div class="name">
+      {{contributor.name}},
+    </div>
+    <div class="title">
+      {{contributor.title}}
+    </div>
+  </div>
+</div>

@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <title>SingPath - Json API Test</title>
+	<!--  <link rel="stylesheet" href="/static/singpath.css" type="text/css">             -->
+  </head>
+  <body>
+  	<form name="input" action="/jsonapi/verify_solution_post" method="post" >
+		Quick form to test verify_solution:<br>
+        solution:<textarea name="user_code" rows="5" cols="40">
+alpha='abcdefghijklmnopqrstuvwxyz'
+pi=3.1
+		</textarea><br/>
+		<!--solution:<input type="text" name="user_code" value="b=2" /><br />-->
+		problem ID:<input type="text" name="problem_id" value="10032" /><br />
+		game ID:<input type="text" name="game_id" value="1484038" /><br />
+		<input type="submit" value="Submit" />
+	</form> 
+	<br/>
+	<br/>
+	<form name="input" action="/jsonapi/update_nickname_post" method="post" >
+		Quick form to test update_nickname:<br>
+		New nickname:<input type="text" name="newNickname" value="BigJoe" /><br />
+		<input type="submit" value="Submit" />
+	</form> 
+	<br/>
+	<br/>
+	<form name="input" action="/jsonapi/check_tournament_password_post" method="post" >
+		Quick form to test check_tournament_password:<br>
+		tournamentID:<input type="text" name="tournamentID" value="1234" /><br />
+		password:<input type="text" name="password" value="password" /><br />
+		<input type="submit" value="Submit" />
+	</form> 
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+    <br/>
+    <br/>
+	
+	
+	
+	<form name="input" action="create_game" method="post" >
+		Quick form to test create_game:<br>
+		problemsetID:<input type="text" name="problemsetID" value="11021" /><br />
+		numProblems:<input type="text" name="numProblems" value="2" /><br />
+		<input type="submit" value="Submit" />
+	</form> 
+	<br/>
+	<br/>
+	<form name="input" action="create_tournament" method="post" >
+		TBD - Quick form to test create_tournament:<br>
+		Description:<input type="text" name="description" value="My new tournament" /><br />
+		<input type="submit" value="Submit" />
+	</form> 
+	<br/>
+
+
+	<br/>
+	<form name="input" action="add_tournament_round" method="post" >
+		Quick form to test add_tournament_round:<br>
+		Description:<input type="text" name="description" value="My new round" /><br />
+		tournamentID:<input type="text" name="tournamentID" value="1234" /><br />
+		<input type="submit" value="Submit" />
+	</form> 
+	<br/>
+	<br/>
+	<form name="input" action="add_problem_to_round" method="post" >
+		Quick form to test add_problem_to_round:<br>
+		roundID:<input type="text" name="roundID" value="1234" /><br />
+		problemID:<input type="text" name="problemID" value="1234" /><br />
+		<input type="submit" value="Submit" />
+	</form> 
+	<br/>
+	<br/>
+	<form name="input" action="update_round_timing" method="post" >
+		Quick form to test update_round_timing:<br>
+		roundID:<input type="text" name="roundID" value="1234" /><br />
+		startNow:<input type="text" name="startNow" value="True" /><br />		
+		duration:<input type="text" name="duration" value="3600" /><br />
+		<input type="submit" value="Submit" />
+	</form> 
+	<br/>
+	<br/>
+	<form name="input" action="launch_game_for_round" method="post" >
+		Quick form to test launch_game_for_round:<br>
+		roundID:<input type="text" name="roundID" value="1234" /><br />
+		<input type="submit" value="Submit" />
+	</form> 
+	<br/>
+	<br/>
+	<form name="input" action="register_current_player_for_tournament" method="post" >
+		Quick form to test register_current_player_for_tournament:<br>
+		tournamentID:<input type="text" name="tournamentID" value="1234" /><br />
+		<input type="submit" value="Submit" />
+		
+	</form> 
+
+
+
+  </body>
+</html>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : newXMLDocument.xml
+    Created on : June 1, 2010, 8:41 PM
+    Author     : administrator
+    Description:
+        Purpose of the document follows.
+-->
+
+{"status": "ACCEPTING SOLUTIONS",
+
+"solvedProblemIDs": [52472],
+"problemIDs": [52472, 57555, 52741],
+"game_start": "2010-05-14 05:39:30.194841",
+"name": "Default Game",
+"currentTime": "2010-06-01 15:08:56.564459",
+"playerID": 57754,
+"problems": {"problems":
+[{
+
+"skeleton": "question=",
+"description": "Another sequential data type is the dictionary. Create a dictionary with three different indexes as shown in the example.",
+"examples": ">>> question['color']\r\n 'blue'\r\n>>> question[7]\r\n 'seven'\r\n>>> question[3.14]\r\n [3,1,4,6]",
+"problemsetorder": 1,
+"id": 52472,
+"name": "Dictionaries"},
+
+{"skeleton": "def sortedList(d):", "description": "The function keys() returns a list of all the keys in a dictionary. Create the function sortedList that returns a sorted
+list of the keys for a dictionary that is passed in. ",
+"examples": ">>> d = {'a':1, 'c':2, 'b':3}\r\n>>> sortedList(d)\r\n['a', 'b', 'c']",
+"problemsetorder": 4,
+"id": 57555,
+"name": "List the keys of a dictionary"},
+
+{"skeleton": "def lookup(d,v):\r\n    ", "description": "Create a function that takes a dictionary and a value.  It should return a list of all the keys that map to that
+value.  The list should be sorted.", "examples": ">>> d={'ta':4,8:'32',(5,3):'hi',(4,3,2):[4,3],'':4,73:8,839:234,34:857,'Hello':4}\r\n>>> lookup(d,4)\r\n ['', 'Hello', 'ta']\r\n>>> eng2sp = {'one': 'uno', 'two': 'dos', 'three': 'tres'}\r\n>>> lookup(eng2sp,'uno')\r\n ['one']\r\n>>> lookup(eng2sp,'siete')\r\n []", "problemsetorder": 5, "id": 52741, "name": "Reverse Lookup"}],
+
+"type": "problems"},
+
+"game_type": "Timed Interview",
+
+"nextProblemID": "TBD",
+"player": "Chris",
+"timelimit": 3600,
+"currentProblem_id": "TBD",
+"allSolved": false,
+"game_created": "2010-05-14 05:39:30.194936",
+"game_end": "None",
+"gameID": "1423004",
+"numSolvedProblems": 1,
+"numProblems": 3}

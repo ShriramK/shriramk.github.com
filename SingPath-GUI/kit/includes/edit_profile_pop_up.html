@@ -1,0 +1,64 @@
+<!-- Player Profile form with all Editable fields ready to alter -->
+<!-- While initializing the form we copy-by-address the form object in the popUp.form so it could be easily accessed from other includes -->
+<form name="profileDetailsForm" ng-init="popUp.form = profileDetailsForm" class="text">
+  
+  <div class="gravatarContainer">
+    <!-- Print Player Gravatar -->
+    <img ng-src="{{profilePopUp.gravatar}}" class="gravatar" />
+    
+    <!-- Print a common btn with the Gravatar btn attributes -->
+    <div ng-include ng-init="btn = gravatarBtn" src="'includes/common_btn.html'"></div>
+  </div>
+  
+  
+  <!-- Print all Edit Fields -->
+  <div class="infoContainer">
+    <div class="label">
+      Name:
+    </div>
+    <input type="text" ng-model="profilePopUp.nickname" ng-pattern="nicknameRegExp" required />
+    
+    <div class="label">
+      Location:
+    </div>
+    <input type="text" ng-model="profilePopUp.location" ng-pattern="locationRegExp" required />
+    
+    <div class="label">
+      Gender:
+    </div>
+    <select ng-model="profilePopUp.gender" ng-options="gender for gender in profilePopUp.genders"></select>
+    
+    <div class="label">
+      Year of Birth:
+    </div>
+    <input type="text" ng-model="profilePopUp.yearOfBirth" ng-pattern="yearRegExp" class="year" required />
+    <div class="note">
+      Your year of birth will always be kept private and will not be shown on your profile.
+    </div>
+    
+    <div class="label">
+      Tags:
+    </div>
+    <input type="text" ng-model="profilePopUp.tagsAsText" ng-pattern="tagsRegExp" />
+    
+    <div class="label">
+      Professional:
+    </div>
+    <div class="radioContainer">
+      <input type="radio" ng-model="profilePopUp.professionalOption" value="1" />
+    </div>
+    
+    <div class="label">
+      Student:
+    </div>
+    <div class="radioContainer">
+      <input type="radio" ng-model="profilePopUp.professionalOption" value="0" />
+    </div>
+    
+    <div class="label">
+      About Yourself:
+    </div>
+    <textarea ng-model="profilePopUp.about" ng-pattern="aboutRegExp"></textarea>
+  </div>
+  
+</form>

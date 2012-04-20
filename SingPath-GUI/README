@@ -1,0 +1,38 @@
+This is the public Github repository for the SingPath.com GUI. The GUI is developed in this project and then pulled in to the SingPath project as a remote Github repo. 
+
+Because the files for this project are on a gh-pages branch of a public Github repository, you can actually browse the website as if the files were being served by a web server. An example link is 
+http://singaporeclouds.github.com/SingPath-GUI/kit/index.html
+
+And since this project is using the Angularjs framework, you can run all of the end-to-end (E2E) tests for this project by clicking on the url http://singaporeclouds.github.com/SingPath-GUI/kit/test/e2e/static_runner.html. Notice how all of the tests load and turn green. 
+
+The current SingPath.com GUI is based on JQuery, but we are migrating the website over to use the Angularjs framework. So some pages use JQuery to make AJAX calls and other pages use Angluarjs. 
+
+The E2E tests that have been provided are loading pages and a few of the tests are checking to see if correct values are getting loaded properly via AJAX calls. The JSON data for the AJAX calls is being fetched from the /jsonapi folder. 
+
+All you need to do to contribute is:
+1. Fork this project on Github
+2. Add or improve at least one additional single-line test in the /kit/test/e2e/static_scenarios.js file to check that one more successful AJAX update is occurring as the pages load. 
+3. Then once all of the E2E tests are passing (including your new test), commit your changes back to your fork on Github. 
+4. Then press the "Pull Request" button in the top right corner of the Github screen for your Github fork so that we can review your changes. 
+
+You can copy the kit folder to a new folder in order to create an entirely new GUI or you can edit a single page in the kit GUI. Just fork the repository, make change, and the send a Pull Request to have your change(s) accepted. You can also clean up any duplicate code or bad HTML formatting that you come across. 
+
+If you have any questions, you can send us a link at pivotalexpert@gmail.com. 
+
+Here is a brief description of each of the folders and files in the root SingPath directory.
+
+alex	- This is the current GUI. It is a static directory containing the alex user interface mapped to /alex.
+
+api 	- This is a copy of the Angularjs documentation that is being converted into a specification for the SingPath jsonapi. 
+
+jsonapi	- a static folder used to mimic the responses from SingPath.com. These static json files are used to develop the GUI and when running the End-to-End (E2E) tests.
+
+kit     - This is the next GUI being developed. It is a static directory containing the kit user interface mapped to /kit. It will be more angularjs-based than alex and have more test coverage. 
+
+shane   - This is a static directory containing more conceptual designs for future GUI's. It is mostly static HTML and CSS. 
+
+static	- A static directory containing common files across all user interfaces
+
+README	- This file
+
+log_access - A legacy file used to handle posts to /log_access when developing and testing in localhost mode

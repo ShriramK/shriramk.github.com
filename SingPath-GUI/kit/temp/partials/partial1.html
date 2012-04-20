@@ -1,0 +1,70 @@
+<h2>Show angular functions for {{entityClass}} here. </h2>
+
+  <ul class="menu">
+    <li ng-repeat="c in entityClasses"><a ng-click="selectClass($index)">{{c}}</a> </li>
+  </ul>
+
+  <div> 
+    <form ng-submit="submit()">
+        <div ng-switch on="isNewEntityMode()">
+            <div ng-switch-when="true">
+                Create new {{entityClass}}<br>
+            </div>
+            <div ng-switch-default>
+                Modify {{entityClass}}<br>
+                ID: {{entity.id}}<br>
+            </div>
+        </div>
+        <table>
+            <tr ng-repeat="p in properties">
+                <td>{{p.name}}:</td>
+                <td>
+                    <div ng-switch on="p.type">
+                        <input ng-switch-when="Integer" name="entity[p.name]" size="10" ng:format="number">
+                        <span ng-switch-when="Reference">
+                            <input name="entity[p.name]" size="10" ng:format="number">
+                            {{getMainProperty(p.reference, entity[p.name])}}
+                            <button type="button" ng-click="resolve(p.reference, entity[p.name])">Resolve</button>
+                        </span>
+                        <input ng-switch-when="Boolean" name="entity[p.name]" size="6" ng:format="bool">
+                        <input ng-switch-when="DateTime" name="entity[p.name]" size="30" ng:format="datetime">
+                        <input ng-switch-when="List" name="entity[p.name]" size="100" ng:format="intlist">
+                        <span ng-switch-when="StringChoice">
+                            <select name="entity[p.name]" ng-options="c for c in p.choices">
+                                <option value="">-- None --</option>
+                            </select>
+                        </span>
+                        <input ng-switch-default name="entity[p.name]" size="100">
+                    </div>
+                    {{entity[p.name]}}
+                </td>
+            </tr>
+        </table>
+        <button type="submit">Save</button>
+        <button type="button" ng-click="cancel()">Cancel</button>
+    </form>
+    <hr>
+    <button type="button" ng-click="getAllEntities()">Refresh list</button><br>
+    <table border="1" style="border-collapse: collapse">
+        <tr >
+            <th>id</th>
+            <th ng-repeat="p in properties">{{p.name}}</th>
+            <th></th>
+        </tr>
+        <tr ng-repeat="e in this.entities">
+            <td>{{e.id}}</td>
+            <td ng-repeat="p in properties">{{e[p.name] | dynformat:p}}</td>
+            <td>
+                <button ng-click="getEntity(e.id)">Edit</button>
+                <button ng-click="removeEntity(e)">Delete</button>
+            </td>
+        </tr>
+    </table>
+<hr>
+Debug: <br>   
+<pre>this.entityClass = {{entityClass}}</pre>
+<pre>this.entity = {{entity}}</pre>
+<pre>this.properties = {{properties}}</pre>
+<pre>this.entities = {{entities}}</pre>
+<pre>this.entityCache = {{entityCache}}</pre>
+  </div>

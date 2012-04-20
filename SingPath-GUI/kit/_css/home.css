@@ -1,0 +1,80 @@
+.profileContainer,.badgesContainer,.challengesContainer,.rankingContainer{position:relative;padding:0;float:left;}
+.profileContainer .commonBtn,.badgesContainer .commonBtn,.challengesContainer .commonBtn,.rankingContainer .commonBtn{float:right;display:block;position:absolute;top:0;right:20px;margin:0;padding:0;}
+.profileContainer .commonBtn.big,.badgesContainer .commonBtn.big,.challengesContainer .commonBtn.big,.rankingContainer .commonBtn.big{font-size:13px}
+.profileContainer .commonBtn.small,.badgesContainer .commonBtn.small,.challengesContainer .commonBtn.small,.rankingContainer .commonBtn.small{font-size:10px}
+.profileContainer .labelContainer,.badgesContainer .labelContainer,.challengesContainer .labelContainer,.rankingContainer .labelContainer{float:left;position:absolute;margin:7px 0 0 1px;}
+.profileContainer .labelContainer .label,.badgesContainer .labelContainer .label,.challengesContainer .labelContainer .label,.rankingContainer .labelContainer .label{background-color:#7fa0b2;border-top-left-radius:10px;border-top-right-radius:0;border-bottom-right-radius:0;border-bottom-left-radius:0;-moz-border-radius-topleft:10px;-moz-border-radius-topright:0;-moz-border-radius-bottomright:0;-moz-border-radius-bottomleft:0;color:#fff;font-size:16px;font-weight:bold;line-height:20px;float:left;padding:1px 5px 0 14px}
+.profileContainer .labelContainer .curve,.badgesContainer .labelContainer .curve,.challengesContainer .labelContainer .curve,.rankingContainer .labelContainer .curve{background-image:url("../_images/backgrounds/curve_small_top.png");float:right;width:29px;height:20px}
+.profileContainer .textContainer,.badgesContainer .textContainer,.challengesContainer .textContainer,.rankingContainer .textContainer{margin:25px 0 0 0;padding:0;}
+.profileContainer .textContainer .text,.badgesContainer .textContainer .text,.challengesContainer .textContainer .text,.rankingContainer .textContainer .text{font-size:15px;margin:0;padding:0}
+.profileContainer .textContainer,.badgesContainer .textContainer,.challengesContainer .textContainer,.rankingContainer .textContainer{background-repeat:no-repeat;text-align:left;}
+.profileContainer .textContainer .text,.badgesContainer .textContainer .text,.challengesContainer .textContainer .text,.rankingContainer .textContainer .text{padding-left:14px}
+.profileContainer{margin-left:9px;}
+.profileContainer .textContainer{background-image:url("../_images/homePage/backgrounds/profile_box_small.png");width:499px;height:215px;}
+.profileContainer .textContainer .profileName{font-size:16px;font-weight:bold;color:#f7d3a4;text-align:center;line-height:32px}
+.profileContainer .textContainer .gravatar{border-top-left-radius:9px;border-top-right-radius:9px;border-bottom-right-radius:9px;border-bottom-left-radius:9px;-moz-border-radius-topleft:9px;-moz-border-radius-topright:9px;-moz-border-radius-bottomright:9px;-moz-border-radius-bottomleft:9px;float:left;margin:27px 0 -10px 0;width:95px;height:95px}
+.profileContainer .textContainer .text .imgWrapper{float:left;width:110px;}
+.profileContainer .textContainer .text .imgWrapper .country{margin:15px 0 0 15px}
+.profileContainer .textContainer .text .detailsWrapper .details{text-transform:capitalize;line-height:28px;margin-left:117px;padding-right:15px;}
+.profileContainer .textContainer .text .detailsWrapper .details .label{font-weight:bold;font-size:16px}
+.profileContainer .textContainer .text .detailsWrapper .details.center{text-align:center;margin-right:135px;padding:0}
+.badgesContainer,.challengesContainer,.rankingContainer{margin:24px 0 1px 2px;}
+.badgesContainer .textContainer,.challengesContainer .textContainer,.rankingContainer .textContainer{background-image:url("../_images/backgrounds/common_small_box.png");width:391px;height:190px;}
+.badgesContainer .textContainer .text,.challengesContainer .textContainer .text,.rankingContainer .textContainer .text{text-align:center;padding-top:10px}
+.badgesContainer .textContainer .text img{cursor:pointer;}
+.badgesContainer .textContainer .text img.first{margin:0 40%}
+.rankingContainer .textContainer{background-image:url("../_images/homePage/backgrounds/ranking.png");width:389px;height:187px;}
+.rankingContainer .textContainer .text{text-align:left;padding-top:6px;}
+.rankingContainer .textContainer .text .player{font-weight:bold;line-height:27px;clear:left;display:inline-block;width:100%;margin:15px 0 1px -8px;}
+.rankingContainer .textContainer .text .player .rank,.rankingContainer .textContainer .text .player .gravatar,.rankingContainer .textContainer .text .player .name,.rankingContainer .textContainer .text .player .highestBadge,.rankingContainer .textContainer .text .player .flag,.rankingContainer .textContainer .text .player .solvedNum{margin:2px 0 0 5px}
+.rankingContainer .textContainer .text .player .rank,.rankingContainer .textContainer .text .player .gravatar,.rankingContainer .textContainer .text .player .name{float:left}
+.rankingContainer .textContainer .text .player .gravatar{margin:2px 8px 0 -4px}
+.rankingContainer .textContainer .text .player .name{color:#4f7984}
+.rankingContainer .textContainer .text .player .highestBadge,.rankingContainer .textContainer .text .player .flag,.rankingContainer .textContainer .text .player .solvedNum{float:right}
+.rankingContainer .textContainer .text .player .highestBadge{cursor:pointer}
+.rankingContainer .textContainer .text .player .solvedNum{margin-right:8px}
+.homeCurrentPath{float:left;margin:5px 5px 0 10px}
+.popUp{background-color:rgba(0,0,0,0.25);position:fixed;top:0;left:0;width:100%;height:100%;z-index:10;}
+.popUp.show{display:table}
+.popUp.hide{display:none}
+.popUp .container{text-align:center;vertical-align:middle;cursor:pointer;display:table-cell;width:100%;height:100%;}
+.popUp .container .mainContent{position:relative;padding:0;text-align:left;white-space:normal;cursor:default;display:inline-block;}
+.popUp .container .mainContent .commonBtn{float:right;display:block;position:absolute;top:0;right:20px;margin:0;padding:0;}
+.popUp .container .mainContent .commonBtn.big{font-size:13px}
+.popUp .container .mainContent .commonBtn.small{font-size:10px}
+.popUp .container .mainContent .labelContainer{float:left;position:absolute;margin:7px 0 0 1px;}
+.popUp .container .mainContent .labelContainer .label{background-color:#7fa0b2;border-top-left-radius:10px;border-top-right-radius:0;border-bottom-right-radius:0;border-bottom-left-radius:0;-moz-border-radius-topleft:10px;-moz-border-radius-topright:0;-moz-border-radius-bottomright:0;-moz-border-radius-bottomleft:0;color:#fff;font-size:16px;font-weight:bold;line-height:20px;float:left;padding:1px 5px 0 14px}
+.popUp .container .mainContent .labelContainer .curve{background-image:url("../_images/backgrounds/curve_small_top.png");float:right;width:29px;height:20px}
+.popUp .container .mainContent .textContainer{margin:25px 0 0 0;padding:0;}
+.popUp .container .mainContent .textContainer .text{font-size:15px;margin:0;padding:0}
+.popUp .container .mainContent .closeBtn{background:url("../_images/commonButtons/popUpClose_off.png") no-repeat;cursor:pointer;position:absolute;top:10px;right:-15px;width:40px;height:35px;}
+.popUp .container .mainContent .closeBtn:hover{background:url("../_images/commonButtons/popUpClose_on.png") no-repeat}
+.popUp .container .mainContent .labelBottomContainer{float:right;overflow:hidden;margin:-5px 1px 0 0;width:179px;height:44px;}
+.popUp .container .mainContent .labelBottomContainer .label,.popUp .container .mainContent .labelBottomContainer .curve{float:left}
+.popUp .container .mainContent .labelBottomContainer .label{background-color:#7fa0b2;border-top-left-radius:0;border-top-right-radius:0;border-bottom-right-radius:10px;border-bottom-left-radius:0;-moz-border-radius-topleft:0;-moz-border-radius-topright:0;-moz-border-radius-bottomright:10px;-moz-border-radius-bottomleft:0;box-shadow:0 0 6px 0 #666;-moz-box-shadow:0 0 6px 0 #666;-webkit-box-shadow:0 0 6px 0 #666;height:41px;}
+.popUp .container .mainContent .labelBottomContainer .label .btn{background:url("../_images/commonButtons/largeButtonBlank_off.png") no-repeat;font-size:19px;color:#4f7984;text-align:center;text-shadow:1px 1px 5px #999;line-height:34px;cursor:pointer;display:block;width:166px;height:38px;margin-right:9px;}
+.popUp .container .mainContent .labelBottomContainer .label .btn:hover,.popUp .container .mainContent .labelBottomContainer .label .btn.on{background:url("../_images/commonButtons/largeButtonBlank_on.png") no-repeat;color:#fff}
+.popUp .container .mainContent .labelBottomContainer .label .btn.error{cursor:default;}
+.popUp .container .mainContent .labelBottomContainer .label .btn.error:hover{background:url("../_images/commonButtons/largeButtonBlank_off.png") no-repeat;color:#4f7984}
+.popUp .container .mainContent .labelBottomContainer .curve{background:url("../_images/backgrounds/curve_big_bottom.png") no-repeat;width:33px;height:42px;position:absolute;margin-left:-33px}
+.popUp .profile .textContainer{background-image:url("../_images/backgrounds/big_square_box.png");width:644px;height:442px;}
+.popUp .profile .textContainer .text{text-align:left;padding:10px;}
+.popUp .profile .textContainer .text .gravatarContainer,.popUp .profile .textContainer .text .infoContainer{float:left}
+.popUp .profile .textContainer .text .gravatarContainer{margin:0 -5px 0 35px;width:130px;}
+.popUp .profile .textContainer .text .gravatarContainer .gravatar{margin:34px 0 0 2px}
+.popUp .profile .textContainer .text .gravatarContainer .commonBtn{font-size:12px;display:block;position:relative;right:0;margin:16px 16px 0 0;}
+.popUp .profile .textContainer .text .gravatarContainer .commonBtn .middle{padding:0}
+.popUp .profile .textContainer .text .infoContainer{margin-top:20px;}
+.popUp .profile .textContainer .text .infoContainer .label,.popUp .profile .textContainer .text .infoContainer input,.popUp .profile .textContainer .text .infoContainer select,.popUp .profile .textContainer .text .infoContainer .radioContainer{float:left}
+.popUp .profile .textContainer .text .infoContainer .label{font-size:16px;font-weight:bold;text-align:right;clear:left;width:115px;margin-top:10px;padding-right:10px}
+.popUp .profile .textContainer .text .infoContainer input,.popUp .profile .textContainer .text .infoContainer select,.popUp .profile .textContainer .text .infoContainer .radioContainer,.popUp .profile .textContainer .text .infoContainer textarea{border:4px solid #7fa0b2;border-top-left-radius:7px;border-top-right-radius:7px;border-bottom-right-radius:7px;border-bottom-left-radius:7px;-moz-border-radius-topleft:7px;-moz-border-radius-topright:7px;-moz-border-radius-bottomright:7px;-moz-border-radius-bottomleft:7px;box-shadow:1px 1px 0 0 #aaa;-moz-box-shadow:1px 1px 0 0 #aaa;-webkit-box-shadow:1px 1px 0 0 #aaa;margin:5px 0;}
+.popUp .profile .textContainer .text .infoContainer input.ng-validation-error,.popUp .profile .textContainer .text .infoContainer select.ng-validation-error,.popUp .profile .textContainer .text .infoContainer .radioContainer.ng-validation-error,.popUp .profile .textContainer .text .infoContainer textarea.ng-validation-error,.popUp .profile .textContainer .text .infoContainer input.ng-invalid,.popUp .profile .textContainer .text .infoContainer select.ng-invalid,.popUp .profile .textContainer .text .infoContainer .radioContainer.ng-invalid,.popUp .profile .textContainer .text .infoContainer textarea.ng-invalid{border-color:#f00}
+.popUp .profile .textContainer .text .infoContainer input[type="text"],.popUp .profile .textContainer .text .infoContainer select,.popUp .profile .textContainer .text .infoContainer textarea{font-size:14px;color:#4f7984;font-weight:bold}
+.popUp .profile .textContainer .text .infoContainer input[type="text"],.popUp .profile .textContainer .text .infoContainer select{width:300px;padding-left:5px;}
+.popUp .profile .textContainer .text .infoContainer input[type="text"].year,.popUp .profile .textContainer .text .infoContainer select.year{text-align:right;width:43px;padding:0 5px 0 0}
+.popUp .profile .textContainer .text .infoContainer select{text-transform:capitalize}
+.popUp .profile .textContainer .text .infoContainer .radioContainer{background-color:#fff;width:20px;height:20px;}
+.popUp .profile .textContainer .text .infoContainer .radioContainer input{margin:3px}
+.popUp .profile .textContainer .text .infoContainer .note{font-size:9px;font-weight:bold;float:left;width:245px;margin:5px 0 0 10px}
+.popUp .profile .textContainer .text .infoContainer textarea{float:left;width:290px;height:100px;padding:5px;resize:none}
+.ng-content{text-align:left;white-space:normal}

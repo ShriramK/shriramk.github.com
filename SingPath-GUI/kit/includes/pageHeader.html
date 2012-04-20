@@ -1,0 +1,49 @@
+<div id="mainHeader">
+  <!-- Site Top Logo -->
+  <a href="index.html" onclick="gae_bingo.bingo('SingPath Logo')" id="logo" title="SingPath Logo"></a>
+  
+  <!-- User Login Menu-->
+  <div ng-controller="UserLoginMenuCtrl">
+    
+    <!-- Display a respected menu regarding user login status -->
+    <div ng-switch on="USER.isLogged">
+      
+      <!-- Display main user info -->
+      <div id="userMenu" ng-switch-when="true">
+        <a href="home.html" onclick="gae_bingo.bingo('Home')" class="homeBtn" title="Return to Your Home page"></a>
+        
+        <img ng-src="{{player.gravatar}}" class="gravatar" alt="gravatar" />
+        
+        <div class="nickname" ng-bind="player.nickname"></div>
+        
+        <a href="shop.html" onclick="gae_bingo.bingo('Shop')" class="shopBtn" title="Go to the SingPath Shop"></a>
+      </div>
+      
+      <!-- Display Login message and btn -->
+      <div id="logInBox" ng-switch-when="false">
+        <div class="messageBox">
+          Welcome, please sign in to your account
+        </div>
+        
+        <!-- Print a common btn with the sign in btn attributes -->
+        <div ng-include src="'includes/common_btn.html'"></div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+
+<!-- Head Page links -->
+<div id="menuOptions" ng-show="MENU">
+  <div id="menuOptionsText" ng-controller="HeadMenuOptionsCtrl">
+    <a ng-repeat = "option in options"
+      ng-href  = "{{option.href}}"
+      target   = "{{option.target}}"
+      ng-bind  = "option.text"
+      ng-class = "option.class"
+      onclick  = "gae_bingo.bingo('{{option.text}}')"
+      title    = "{{option.title}}"
+    ></a>
+  </div>
+</div>

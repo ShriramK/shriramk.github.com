@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html ng-app="routeAndResource">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>SingPath - The Most Fun Way to Practice Software</title>
+  
+  <link href="_css/SingPathMain.css" rel="stylesheet" type="text/css" />
+  <link href="_css/common.css"       rel="stylesheet" type="text/css" />
+  
+  <script src="lib/angular/angular.min.js"          type="text/javascript"></script>
+  <script src="lib/angular/angular-resource.min.js" type="text/javascript"></script>
+  <script src="js/app_modules.js"                   type="text/javascript"></script>
+  <script src="js/commonTools.js"                   type="text/javascript"></script>
+  <script src="js/controllers.js"                   type="text/javascript"></script>
+  <script src="_js/feedback-v2.js"                  type="text/javascript"></script>
+  
+  <script src="_js/jquery-1.7.2.min.js" type="text/javascript"></script>
+  <script src="/gae_bingo/static/js/gae_bingo.js" type="text/javascript" charset="utf-8"></script>
+  
+  <script type="text/javascript">
+    function MM_preloadImages() { //v3.0
+      var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+      var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+      if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+    }
+    
+    window.onload = function() {
+      MM_preloadImages('_images/landingPages/landingPageButtons/television_on.png','_images/landingPages/landingPageButtons/socialButtonsTwitter_on.png','_images/landingPages/landingPageButtons/socialButtonsFacebook_on.png');
+    }
+    
+    gae_bingo.ab_test("click-button-from-splash", { "top-half" : 50, "bottom-half" : 50 }, ["SingPath Logo", "Sign In", "Home", "Shop", "Play", "Splash", "About Us", "How to Use", "Contribution", "Tournament", "Ranking", "facebook", "twitter", "home", "about us", "how to use", "terms of use", "contribution", "feedback", "contact us", "shop", "Sign out", "gr8ph1cs Logo", "editDetails PopUp closed", "editDetails Save Details", "editDetails Invalid", "video"]);
+    
+  </script>
+</head>
+  <body ng-controller="LoadPageCtrl">
+    <div ng-view></div>
+  </body>
+</html>

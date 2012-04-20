@@ -1,0 +1,101 @@
+/* show profile */
+
+table.showProfile {
+  background-image: url(../_images/homePage/profileBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -11px -11px;
+  width: 494px;
+  height: 277px;
+  font-size: 16px;
+  font-weight: bold;
+  border-spacing: 0px;
+  display: inline-table;
+}
+table.showProfile[class ~= "professional"] {
+  background-image: url(../_images/homePage/profileProfessionalBoxBg.png);
+}
+table.showProfile[class ~= "student"] {
+  background-image: url(../_images/homePage/profileStudentBoxBg.png);
+}
+table.showProfile tr.boxHeader {
+  height: 22px;
+}
+table.showProfile tr.boxContent {
+  height: 255px;
+}
+table.showProfile > tbody > tr.boxContent > td {
+  padding-bottom: 11px;
+  padding-right: 7px;
+  padding-top: 0px;
+}
+table.showProfile2 {
+  height: 218px;
+  width: 482px;
+}
+table.showProfileName {
+  height: 26px;
+}
+table.showProfile2 tr.showProfileDetails {
+  height: 177px;
+}
+td.showProfileName {
+  color: #F7D3A4;
+  width: 454px;
+  vertical-align: top;
+}
+td.showProfileClose {
+  width: 40px;
+  vertical-align: top;
+}
+td.showProfileClose img {
+  width: 25px;
+  height: 21px;
+  border: 0px solid;
+}
+td.showGravatarLarge {
+  width: 100px;
+  vertical-align: top;
+  padding-top: 10px;
+}
+td.showGravatarLarge div#showGravatarLarge {
+  padding-bottom: 10px;
+}
+td.showGravatarLarge div#showGravatarLarge > img {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px; /* chrome */
+  -moz-border-radius: 8px; /* firefox */
+}
+td.showProfileDetails {
+  width: 382px;
+  vertical-align: top;
+}
+div.showProfileDetails {
+  width: 382px;
+  height: 177px;
+  overflow: auto;
+}
+div.male {
+  background-image: url(../_images/commonButtons/genderIconMale_off.png);
+  background-repeat: no-repeat;
+  width: 45px;
+  height: 29px;
+}
+div.male:hover {
+  background-image: url(../_images/commonButtons/genderIconMale_on.png);
+}
+div.female {
+  background-image: url(../_images/commonButtons/genderIconFemale_off.png);
+  background-repeat: no-repeat;
+  width: 45px;
+  height: 29px;
+}
+div.female:hover {
+  background-image: url(../_images/commonButtons/genderIconFemale_on.png);
+}
+div#country, div#gender {
+  display: inline-block;
+}
+div#country {
+  padding-left: 10px
+}

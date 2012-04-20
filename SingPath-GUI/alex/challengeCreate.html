@@ -1,0 +1,273 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+	<title>Singpath - The most fun way to practice software - Create Challenge</title>
+	<meta charset="utf-8" />
+	<link href="_css/SingpathMain.css" rel="stylesheet" type="text/css" />
+	<link href="_css/challengeCreate.css" rel="stylesheet" type="text/css" />
+	<link href="_css/datePicker.css" rel="stylesheet" type="text/css" />
+	<script src="_js/settings.js" type="text/javascript"></script>
+	<script src="_js/jquery-1.4.2.js" type="text/javascript"></script>
+	<script src="_js/jquery.jsonp-2.1.4.min.js" type="text/javascript"></script>	
+	<script src="_js/jsonrender/common.js" type="text/javascript"></script>
+	<script src="_js/jsonrender/challengeCreate.js" type="text/javascript"></script>
+	<script src="_js/feedback-v2.js" type="text/javascript"></script>
+	<script src="_js/date.js" type="text/javascript"></script>
+	<script src="_js/jquery.datePicker.js" type="text/javascript"></script>
+</head>
+<body>
+<center><div id="loading">Loading...</div></center>
+  <div id="beardy">
+    <table class="__page wrapper">
+      <tr>
+        <td>
+          <table width="100%" class="header">
+            <tr>
+              <td class="logo">
+                <a href="home.html" class="rolls logo"><img class="logo" src="_images/commonButtons/singpathLogo_off.png" alt="Singpath Logo"/></a>
+              </td>
+              <td class="logIndetailsTop">
+                <table>
+                  <tr>
+                    <td class="logInProfile">
+                      <a href="home.html" class="rolls logInProfile"><img class="logInProfile" src="_images/commonButtons/houseProfile_off.png" alt="Profile Home Button" width="44" height="37" border="0"/></a>
+                    </td>
+                    <td id="logInGravatarPhoto" class="logInGravatarPhoto">
+                    </td>
+                    <td class="logIndetailsNameText">
+                      <div id="logIndetailsNameText"></div>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr class="element1">
+        <td>
+          <table class="challengeInformationBox">
+            <tr class="tabHeaderOut">
+              <td class="tabHeaderOut">
+                <table class="tabHeader">
+                  <tr class="tabHeader">
+                    <td class="tabHeaderLeft"></td>
+                    <td class="tabHeaderCenter">Challenge Information</td>
+                    <td class="tabHeaderRight"></td>
+                    <td class="tabHeaderRightEnd"></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr class="content">
+              <td class="content">
+                <div id="challengeInformation" class="challengeInformationBox">
+                    SingPath is the best way to get several highly skilled
+                    individuals to do your challenge or create an action that you
+                    will be more than happy with. Please specify exactly what
+                    level you want for each programming language. You can select
+                    a required level to gain enthusiasm in your challenge and
+                    widen the exposure of the position that you are applying for.<br/>
+                    A challenge is a great way to push students or friends into
+                    achieving and excelling in Singpath.
+                </div>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr class="element1">
+        <td>
+          <table class="challengeDetailsBox">
+            <tr class="boxHeader">
+              <td class="boxHeader">
+                Challenge Details
+              </td>
+            </tr>
+            <tr class="content">
+              <td class="content">
+                <div id="challengeDetails" class="challengeDetailsBox">
+                    <table class="fields">
+                        <tr class="name_country">
+                            <td class="label">Challenge Name:</td>
+                            <td class="name inputLong">
+                                <input type="editbox" id="name"
+                                       placeholder="Add name of challenge here"
+                                       title="Add name of challenge here"/>
+                            </td>
+                            <td class="label">Country:</td>
+                            <td class="country inputMedium">
+                                <select id="country" title="Select a country if you would like to restrict your challenge to a specific country. Otherwise the challenge will be available in all countries."/>
+                            </td>
+                        </tr>
+                        <tr class="description">
+                            <td class="label">Challenge Description:</td>
+                            <td class="description textareaExtraLong" colspan="3">
+                                <textarea class="description" id="description"
+                                          placeholder="This is where you will add the description of your challenge. e.g. Pizza night this Friday for all those who unlock level 5 Python or a job description."
+                                          title="This is where you will add the description of your challenge. e.g. Pizza night this Friday for all those who unlock level 5 Python or a job description."></textarea>
+                            </td>
+                        </tr>
+                        <tr class="public_message">
+                            <td class="label">Public Message Details:</td>
+                            <td class="public_message textareaExtraLong" colspan="3">
+                                <textarea class="public_message" id="public_message"
+                                          placeholder="This is where you will add a message for anyone who is eligible to look at your challenge to see a public message."
+                                          title="This is where you will add a message for anyone who is eligible to look at your challenge to see a public message."></textarea>
+                            </td>
+                        </tr>
+                        <tr class="private_message">
+                            <td class="label">Private Message Details:</td>
+                            <td class="private_message textareaExtraLong" colspan="3">
+                                <textarea class="private_message" id="private_message"
+                                          placeholder="Let us know what action you want the people to take here.. For example, send email or send CV. This will only be seen once the person unlocks your challenge."
+                                          title="Let us know what action you want the people to take here.. For example, send email or send CV. This will only be seen once the person unlocks your challenge."></textarea>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr class="element1">
+        <td>
+          <table class="levels">
+            <tr class="">
+              <td class="">
+                <table class="level_chooser">
+                  <tr class="boxHeader">
+                    <td class="boxHeader">
+                      Registration Levels
+                    </td>
+                  </tr>
+                  <tr class="content">
+                    <td class="content">
+                      <div id="registration_levels" class="content">
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+              <td class="">
+                <table class="level_chooser">
+                  <tr class="boxHeader">
+                    <td class="boxHeader">
+                      Unlock Levels
+                    </td>
+                  </tr>
+                  <tr class="content">
+                    <td class="content">
+                      <div id="unlock_levels" class="content">
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+              <td class="">
+                <table class="dates">
+                  <tr class="boxHeader">
+                    <td class="boxHeader">
+                      Dates
+                    </td>
+                  </tr>
+                  <tr class="content">
+                    <td class="content">
+                      <div id="content" class="content">
+                          <table class="dates_chooser">
+                              <tr class="">
+                                  <td class="label">Start Date:</td>
+                                  <td class="date inputShort">
+                                      <input type="editbox" id="start_date" class="date-pick"
+                                             title="Please enter the date in dd/mm/yyyy or yyyy-mm-dd format."/>
+                                  </td>
+                                  <td>
+                                      <a id="start_date_picker" href="#" class="dp-choose-date" title="Choose date">Choose date</a>
+                                  </td>
+                              </tr>
+                              <tr class="">
+                                  <td class="label">End Date:</td>
+                                  <td class="date inputShort">
+                                      <input type="editbox" id="end_date" class="date-pick"
+                                             title="Please enter the date in dd/mm/yyyy or yyyy-mm-dd format."/>
+                                  </td>
+                                  <td>
+                                      <a id="end_date_picker" href="#" class="dp-choose-date" title="Choose date">Choose date</a>
+                                  </td>
+                              </tr>
+                          </table>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr class="element1 submit">
+        <td>
+          <table class="submit">
+            <tr class="boxHeader">
+              <td class="boxHeader">
+                Finished
+              </td>
+            </tr>
+            <tr class="content">
+              <td class="content">
+                <div class="submit_message">
+                    Once you have selected the appropriate action to follow your challenge
+                    and who it is attended to reach please hit the submit button to make it live
+                    attract those people.
+                </div>
+              </td>
+            </tr>
+            <tr class="button">
+              <td>
+                <a href="javascript:" class="rolls" onclick="createChallenge()">
+                    <img src="_images/createProblem/submit_off.png" alt="Submit challenge"
+                         class="rolls levelsNextGameButton"/>
+                </a>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <table class="__footer" id="__footer">
+            <tr>
+              <td class="footer">
+                <a href="home.html" title="home page Link" target="_parent">home</a> -
+                <a href="aboutUs.html">about us</a> -
+                terms of use -
+                <a href="contributions.html">contributions</a> -
+                feedback -
+                <a href="contactUs.html">contact us</a> -
+                <a href="/logout">sign out</a>
+              </td>
+            </tr>
+            <tr>
+              <td class="gr8ph1csFooter">
+                <a href="http://www.Gr8ph1cs.com"><img src="_images/Gr8ph1csCreative.png" class="gr8ph1csFooter" alt="Gr8ph1cs Creative Link" longdesc="http://www.Gr8ph1cs.com" /></a>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </div>
+   <script type="text/javascript">
+     var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+     document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+   </script>
+   <script type="text/javascript">
+     try {
+     var pageTracker = _gat._getTracker("UA-12331844-1");
+     pageTracker._trackPageview();
+     } catch(err) {}
+   </script>
+</body>
+
+</html>

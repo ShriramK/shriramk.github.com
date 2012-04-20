@@ -1,0 +1,86 @@
+/* challengeBoard page */
+
+/* all_challenges tab */
+
+table.challengeBoardOut {
+  background-image: url(../_images/challengeBoard/challengesBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -10px 27px;
+  width: 889px;
+  height: 1093px;
+  text-align: left;
+}
+table.challengeBoardOut tr.tabHeaderOut {
+  height: 27px;
+}
+table.challengeBoardOut tr.boxContent {
+  height: 1066px;
+}
+table.challengeBoardOut td.tabHeaderOut {
+  padding-left: 0px;
+}
+table.challengeBoardOut td.tabHeaderOut > table > tbody > tr > td:first-child {
+  width: 781px;
+  vertical-align: bottom;
+}
+table.challengeBoardOut tr.boxContent > td {
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 11px;
+  padding-top: 0px;
+  vertical-align: top;
+}
+table.challenge {
+  height: 16px;
+  text-align: center;
+  color: #ffffff;
+  white-space: normal;
+}
+table.all_challenge > tbody > tr {
+  height: 33px;
+}
+table.all_challenge > tbody > tr > td {
+  color: #4F7984;
+}
+table.challenge > tbody > tr > td.name {
+  width: 424px;
+  text-align: left;
+}
+table.all_challenge > tbody > tr > td.name {
+  font-size: 16px;
+}
+table.all_challenge > tbody > tr > td.name > a:link,
+table.all_challenge > tbody > tr > td.name > a:visited,
+table.all_challenge > tbody > tr > td.name > a:hover {
+  color: #4F7984;
+  text-decoration: none;
+}
+table.challenge > tbody > tr > td.location {
+  width: 61px;
+}
+table.challenge > tbody > tr > td.needed {
+  width: 120px;
+}
+table.challenge > tbody > tr > td.startdate {
+  width: 84px;
+}
+table.all_challenge > tbody > tr > td.startdate {
+  font-size: 16px;
+}
+table.challenge > tbody > tr > td.enddate {
+  width: 83px;
+}
+table.all_challenge > tbody > tr > td.enddate {
+  font-size: 16px;
+}
+table.challenge > tbody > tr > td.locked {
+  width: 78px;
+}
+div.all_challenges, div.my_challenges {
+  width: 873px;
+  height: 1038px;
+  text-align: center;
+}
+img.editchallenge {
+  border: 0px solid;
+}

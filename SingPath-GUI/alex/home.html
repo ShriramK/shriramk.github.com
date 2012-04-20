@@ -1,0 +1,309 @@
+<!doctype html>
+<html xmlns:ng="http://angularjs.org" ng:app>
+<head>
+	<title>Singpath - The most fun way to practice software - Home</title>
+	<meta charset="utf-8" />
+	<link href="_css/SingpathMain.css" rel="stylesheet" type="text/css" />
+	<link href="_css/editDetails.css" rel="stylesheet" type="text/css" />
+	<link href="_css/showProfile.css" rel="stylesheet" type="text/css" />
+	<script src="_js/settings.js" type="text/javascript"></script>
+	<script src="_js/jquery-1.4.2.js" type="text/javascript"></script>
+	<script src="_js/jquery.jsonp-2.1.4.min.js" type="text/javascript"></script>
+	<script src="_js/jsonrender/common.js" type="text/javascript"></script>
+	<script src="_js/jsonrender/home.js" type="text/javascript"></script>
+	<script src="_js/feedback-v2.js" type="text/javascript"></script>
+	
+	<script src="lib/angular/angular.min.js" ng:autobind ></script>
+    <script src="js/controllers.js"></script>
+	
+	<script>
+		HomeController.$inject = ['$resource', '$route', '$xhr'];
+		function HomeController($resource, $route, $xhr){
+			this.$xhr = $xhr;
+			this.player = undefined;
+			this.Jsonapi = $resource('../jsonapi/:id', {id: '@id'});
+			this.loadPlayer();
+		}
+		HomeController.prototype = {
+			loadPlayer: function() {
+				this.player = this.Jsonapi.get({id: 'player_test'}, function(p){
+					console.log(p)
+				});
+			}
+		}
+	</script>
+</head>
+<body ng:controller="HomeController">
+  <center><div id="loading">Loading...</div></center>
+<div id="showProfilePopup" class="popup" style="display: none">
+  <table class="popup">
+      <tr class="popup">
+        <td class="popup">
+          <table class="showProfile" id="showProfile">
+            <tr class="boxHeader">
+              <td class="boxHeader">Edit Path</td>
+            </tr>
+            <tr class="boxContent">
+              <td>
+                <table class="showProfileName">
+                  <tr>
+                    <td class="showProfileName">
+                      <div class="profileNameText"></div>
+                    </td>
+                    <td class="showProfileClose">
+                      <a href="javascript:" class="rolls"><img src="_images/commonButtons/close_off.png"
+                        alt="Close" class="showProfileButtons showProfileCancelButton rolls"
+                        onclick="$('#showProfilePopup').hide()"></a>
+                    </td>
+                  </tr>
+                </table>
+                <table class="pathEdit">
+                  <tr class="">
+                    <td class="">
+                      Language:
+                    </td>
+                    <td class="inputLong">
+                      <div id="popup_path_language"></div>
+                    </td>
+                  </tr>
+                  <tr class="">
+                    <td class="">
+                      Name:
+                    </td>
+                    <td class="inputLong">
+                      <input id="popup_path_name" type="text"/>
+                    </td>
+                  </tr>
+                  <tr class="">
+                    <td class="">
+                      Description:
+                    </td>
+                    <td class="inputLong">
+                      <input id="popup_path_desc" type="text"/>
+                    </td>
+                  </tr>
+                  <tr class="">
+                    <td class="" colspan="2">
+                      <span class="emptyButton" id="popup_save_button">Save</span>
+                      <span class="emptyButton" onclick="$('#showProfilePopup').hide()">Cancel</span>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+  </table>
+
+</div>
+  <div id="beardy">
+    <table class="__page" id="awrapper">
+      <tr>
+        <td>
+			<table width="100%" class="header">
+			  <tr>
+			    <td class="logo">
+			      <a href="home.html" class="rolls logo"><img class="logo" src="_images/commonButtons/singpathLogo_off.png" alt="Singpath Logo"/></a>
+			    </td>
+			    <td class="logIndetailsTop">
+			      <table>
+			        <tr>
+			          <td class="logInProfile">
+			            <a href="home.html" class="rolls logInProfile"><img class="logInProfile" src="_images/commonButtons/houseProfile_off.png" alt="Profile Home Button" width="44" height="37" border="0"/></a>
+			          </td>
+			          <td id="logInGravatarPhoto" class="logInGravatarPhoto">
+			          </td>
+			          <td class="logIndetailsNameText">
+			            <div id="logIndetailsNameText"></div>
+			          </td>
+			        </tr>
+			      </table>
+			    </td>
+			  </tr>
+			</table>
+        </td>
+      </tr>
+      <tr>
+        <td style="position: relative">
+          <table class="__body">
+            <tr class="__body" id="__body">
+              <td class="__col1" id="__col1">
+                <table class="__col1">
+                  <tr class="element1">
+                    <td>
+                      <table class="profileDetailsSmall" id="profileDetails">
+                        <tr class="boxHeaderWithButton">
+                          <td class="boxHeader">Profile</td>
+                          <td class="boxHeaderButton">
+                            <a href="javascript:" class="rolls" onclick="editDetails()">
+                              <span class="emptySmallButton">Edit Details</span>
+                            </a>
+                          </td>
+                        </tr>
+                        <tr class="boxContent">
+                          <td colspan="2">
+                            <table>
+                                <tr class="profileNameText">
+                                  <td class="profileNameText" colspan="2">
+                                    <div id="profileNameText" class="profileNameText"></div>
+                                  </td>
+                                </tr>
+                                <tr class="hpGravatarLarge">
+                                  <td class="hpGravatarLarge">
+                                    <div id="hpGravatarLarge" class="hpGravatarLarge"></div>
+                                    <div class="countryAndGender">
+                                        <div id="country"></div>
+                                        <div id="gender"></div>
+                                    </div>
+                                  </td>
+                                  <td class="hpProfileDetails">
+                                    <div id="hpProfileDetails" class="hpProfileDetails"></div>
+                                  </td>
+                                </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr class="element1 bottomBox">
+                    <td>
+                      <table class="homeCurrentPath">
+                        <tr class="boxHeader">
+                          <td class="boxHeader" colspan="2">
+                            <table class="tabHeader">
+                              <tr class="tabHeader">
+                                <td class="tabHeaderLeft" onclick="showTab(0)"></td>
+                                <td class="tabHeaderCenter" onclick="showTab(0)">Current Paths</td>
+                                <td class="tabHeaderRight" onclick="showTab(0)"></td>
+                                <td class="tabHeaderLeftOff" onclick="showTab(1)"></td>
+                                <td class="tabHeaderCenterOff" onclick="showTab(1)">My Paths</td>
+                                <td class="tabHeaderRightOff" onclick="showTab(1)"></td>
+                                <td class="tabHeaderLeftOff" onclick="showTab(2)"></td>
+                                <td class="tabHeaderCenterOff" onclick="showTab(2)">Other Paths</td>
+                                <td class="tabHeaderRightOff" onclick="showTab(2)"></td>
+                                <td class="tabHeaderRightEnd"></td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr class="boxBody">
+                          <td class="levels" colspan="2">
+                            <div class="levels">
+                              <table class="levels" id="levels">
+                              <!-- filling with ajax -->
+                              </table>
+                            </div>
+                            <div class="myPaths" style="display: none">
+                              <table class="levels" id="myPaths">
+                              <!-- filling with ajax -->
+                              </table>
+                            </div>
+                            <div class="otherPaths" style="display: none">
+                              <table class="levels" id="otherPaths">
+                              <!-- filling with ajax -->
+                              </table>
+                            </div>
+                            <input type="hidden" id="interface_id" value=""/>
+                          </td>
+                        </tr>
+                        <tr class="boxFooter">
+                          <td class="cpCreateButton"><a href="createMain.html" class="rolls"><img src="_images/homePageButtons/create_off.png" alt="create button" class="cpCreateButton" /></a></td>
+                          <td class="cpTournamentButton"><a href="tournament.html" class="rolls"><img src="_images/homePageButtons/tournament_off.png" alt="tournament button" class="cpTournamentButton" /></a></td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+              <td class="__col2" id="__col2">
+                <table class="__col2">
+                  <tr class="element2">
+                    <td>
+						<table class="homeBadges">
+						  <tr class="boxHeaderWithButton">
+						    <td class="boxHeader">Badges</td>
+						    <td class="boxHeaderButton">
+						      <a href="badges.html" class="rolls">
+						        <span class="emptySmallButton">View Badges</span>
+						      </a>
+						    </td>
+						  </tr>
+						  <tr class="boxContent">
+						    <td class="hbBadgesZone" colspan="2">
+						      <div id="hbBadgesZone" class="hbBadgesZone"></div>
+						    </td>
+						  </tr>
+						</table>
+                    </td>
+                  </tr>
+                  <tr class="element2">
+                    <td>
+                      <table class="topRankings">
+                        <tr class="boxHeaderWithButton">
+                          <td class="boxHeader"></td>
+                          <td class="boxHeaderButton">
+                            <a href="ranking.html" class="rolls" id="rankingLink">
+                              <span class="emptySmallButton">View Rankings</span>
+                            </a>
+                          </td>
+                        </tr>
+                        <tr class="boxContent">
+                          <td class="topRankings" colspan="2">
+                            <div class="topRankings" id="topRankings"></div>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr class="element2 bottomBox">
+                    <td>
+                      <table class="homeChallenges">
+                        <tr class="boxHeaderWithButton">
+                          <td class="boxHeader">Challenges</td>
+                          <td class="boxHeaderButton">
+                            <a href="challengeBoard.html" class="viewChallengesButton">
+                              <span class="emptySmallButton">Challenge Board</span>
+                            </a>
+                          </td>
+                        </tr>
+                        <tr class="boxContent">
+                          <td colspan="2">
+                            <div id="hpChallenges"></div>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+			<ng:include src="'partials/footer.html'"></ng:include>
+        </td>
+      </tr>
+    </table>
+  </div>
+   <script type="text/javascript">
+     var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+     document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+   </script>
+   <script type="text/javascript">
+     try {
+     var pageTracker = _gat._getTracker("UA-12331844-1");
+     pageTracker._trackPageview();
+     } catch(err) {}
+   </script>
+   <!-- Chatty Loader Code  
+     <script id="chatty_loader_script" type="text/javascript" language="javascript" src="http://app.chattybar.com/chatty-loader.js?room_id=66&site_id=66"></script>
+     End Chatty Loader Code 
+    -->
+   
+</body>
+
+</html>

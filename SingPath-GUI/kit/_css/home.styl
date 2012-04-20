@@ -1,0 +1,229 @@
+/* CSS rules for home.html */
+@import stylus_functions
+
+.profileContainer, .badgesContainer, .challengesContainer, .rankingContainer
+  commonBGContainer()
+  
+  float left
+  
+  .textContainer
+    background-repeat no-repeat
+    text-align        left
+    
+    .text
+      padding-left 14px
+
+
+.profileContainer
+  margin-left 9px
+  
+  .textContainer
+    background-image url(../_images/homePage/backgrounds/profile_box_small.png)
+    width            499px
+    height           215px
+    
+    .profileName
+      font-size   16px
+      font-weight bold
+      color       #F7D3A4
+      text-align  center
+      line-height 32px
+    
+    .gravatar
+      border-radius(9px)
+      float  left
+      margin 27px 0px -10px 0px
+      width  95px
+      height 95px
+    
+    .text
+      .imgWrapper
+        float left
+        width 110px
+        
+        .country
+          margin 15px 0px 0px 15px
+      
+      .detailsWrapper
+        .details
+          text-transform capitalize
+          line-height    28px
+          margin-left    117px
+          padding-right  15px
+          
+          .label
+            font-weight bold
+            font-size   16px
+          
+          &.center
+            text-align   center
+            margin-right 135px
+            padding      0px
+
+
+.badgesContainer, .challengesContainer, .rankingContainer
+  margin 24px 0px 1px 2px
+  
+  .textContainer
+    background-image url(../_images/backgrounds/common_small_box.png)
+    width            391px
+    height           190px
+    
+    .text
+      text-align  center
+      padding-top 10px
+
+
+.badgesContainer
+  .textContainer
+    .text
+      img
+        cursor pointer
+        
+        &.first
+          margin 0px 40%
+
+
+.rankingContainer
+  .textContainer
+    background-image url(../_images/homePage/backgrounds/ranking.png)
+    width            389px
+    height           187px
+    
+    .text
+      text-align  left
+      padding-top 6px
+      
+      .player
+        font-weight bold
+        line-height 27px
+        clear       left
+        display     inline-block
+        width       100%
+        margin      15px 0px 1px -8px
+        
+        .rank, .gravatar, .name, .highestBadge, .flag, .solvedNum
+          margin 2px 0px 0px 5px
+        
+        .rank, .gravatar, .name
+          float left
+        
+        .gravatar
+          margin 2px 8px 0px -4px
+        
+        .name
+          color $commonTextColor
+        
+        .highestBadge, .flag, .solvedNum
+          float right
+        
+        .highestBadge
+          cursor pointer
+        
+        .solvedNum
+          margin-right 8px
+
+.homeCurrentPath
+  float  left
+  margin 5px 5px 0px 10px
+
+.popUp
+  commonPopUp()
+  
+  .profile
+    .textContainer
+      background-image url(../_images/backgrounds/big_square_box.png)
+      width            644px
+      height           442px
+      
+      .text
+        text-align left
+        padding    10px
+        
+        .gravatarContainer, .infoContainer
+          float left
+        
+        .gravatarContainer
+          margin 0px -5px 0px 35px
+          width  130px
+          
+          .gravatar
+            margin 34px 0px 0px 2px
+          
+          .commonBtn
+            font-size 12px
+            display   block
+            position  relative
+            right     0px
+            margin    16px 16px 0px 0px
+            
+            .middle
+              padding 0px
+        
+        .infoContainer
+          margin-top 20px
+          
+          .label, input, select, .radioContainer
+            float left
+          
+          .label
+            font-size     16px
+            font-weight   bold
+            text-align    right
+            clear         left
+            width         115px
+            margin-top    10px
+            padding-right 10px
+          
+          input, select, .radioContainer, textarea
+            border 4px solid $commonBGColor
+            border-radius(7px)
+            box-shadow(1px, 1px, 0px, 0px, #AAA)
+            margin 5px 0px
+            
+            &.ng-validation-error, &.ng-invalid
+              border-color #F00
+          
+          input[type="text"], select, textarea
+            font-size    14px
+            color        $commonTextColor
+            font-weight  bold
+          
+          input[type="text"], select
+            width        300px
+            padding-left 5px
+            
+            &.year
+              text-align right
+              width      43px
+              padding    0px 5px 0px 0px
+          
+          select
+            text-transform capitalize
+          
+          .radioContainer
+            background-color #FFF
+            width            20px
+            height           20px
+            
+            input
+              margin 3px
+          
+          .note
+            font-size   9px
+            font-weight bold
+            float       left
+            width       245px
+            margin      5px 0px 0px 10px
+          
+          textarea
+            float   left
+            width   290px
+            height  100px
+            padding 5px
+            resize  none
+
+// Edit the Error validation message
+.ng-content
+  text-align  left
+  white-space normal

@@ -1,0 +1,9 @@
+[
+{"text": "Play"        , "href": "home.html"        , "target": "", "class": "", "title": "SingPath - The Most Fun Way to Practice Software"},
+{"text": "Splash"      , "href": "index.html"       , "target": "", "class": "", "title": "Splash"},
+{"text": "About Us"    , "href": "aboutUs.html"     , "target": "", "class": "", "title": "About Us"},
+{"text": "How to Use"  , "href": "howToUse.html"    , "target": "", "class": "", "title": "How to Use"},
+{"text": "Contribution", "href": "contribution.html", "target": "", "class": "", "title": "Contribution"},
+{"text": "Tournament"  , "href": "tournament.html"  , "target": "", "class": "", "title": "Tournament"},
+{"text": "Ranking"     , "href": "ranking.html"     , "target": "", "class": "", "title": "Ranking"}
+]

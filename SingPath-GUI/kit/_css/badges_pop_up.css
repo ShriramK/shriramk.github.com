@@ -1,0 +1,42 @@
+.popUp{background-color:rgba(0,0,0,0.25);position:fixed;top:0;left:0;width:100%;height:100%;z-index:10;}
+.popUp.show{display:table}
+.popUp.hide{display:none}
+.popUp .container{text-align:center;vertical-align:middle;cursor:pointer;display:table-cell;width:100%;height:100%;}
+.popUp .container .mainContent{position:relative;padding:0;text-align:left;white-space:normal;cursor:default;display:inline-block;}
+.popUp .container .mainContent .commonBtn{float:right;display:block;position:absolute;top:0;right:20px;margin:0;padding:0;}
+.popUp .container .mainContent .commonBtn.big{font-size:13px}
+.popUp .container .mainContent .commonBtn.small{font-size:10px}
+.popUp .container .mainContent .labelContainer{float:left;position:absolute;margin:7px 0 0 1px;}
+.popUp .container .mainContent .labelContainer .label{background-color:#7fa0b2;border-top-left-radius:10px;border-top-right-radius:0;border-bottom-right-radius:0;border-bottom-left-radius:0;-moz-border-radius-topleft:10px;-moz-border-radius-topright:0;-moz-border-radius-bottomright:0;-moz-border-radius-bottomleft:0;color:#fff;font-size:16px;font-weight:bold;line-height:20px;float:left;padding:1px 5px 0 14px}
+.popUp .container .mainContent .labelContainer .curve{background-image:url("../_images/backgrounds/curve_small_top.png");float:right;width:29px;height:20px}
+.popUp .container .mainContent .textContainer{margin:25px 0 0 0;padding:0;}
+.popUp .container .mainContent .textContainer .text{font-size:15px;margin:0;padding:0}
+.popUp .container .mainContent .closeBtn{background:url("../_images/commonButtons/popUpClose_off.png") no-repeat;cursor:pointer;position:absolute;top:10px;right:-15px;width:40px;height:35px;}
+.popUp .container .mainContent .closeBtn:hover{background:url("../_images/commonButtons/popUpClose_on.png") no-repeat}
+.popUp .container .mainContent .labelBottomContainer{float:right;overflow:hidden;margin:-5px 1px 0 0;width:179px;height:44px;}
+.popUp .container .mainContent .labelBottomContainer .label,.popUp .container .mainContent .labelBottomContainer .curve{float:left}
+.popUp .container .mainContent .labelBottomContainer .label{background-color:#7fa0b2;border-top-left-radius:0;border-top-right-radius:0;border-bottom-right-radius:10px;border-bottom-left-radius:0;-moz-border-radius-topleft:0;-moz-border-radius-topright:0;-moz-border-radius-bottomright:10px;-moz-border-radius-bottomleft:0;box-shadow:0 0 6px 0 #666;-moz-box-shadow:0 0 6px 0 #666;-webkit-box-shadow:0 0 6px 0 #666;height:41px;}
+.popUp .container .mainContent .labelBottomContainer .label .btn{background:url("../_images/commonButtons/largeButtonBlank_off.png") no-repeat;font-size:19px;color:#4f7984;text-align:center;text-shadow:1px 1px 5px #999;line-height:34px;cursor:pointer;display:block;width:166px;height:38px;margin-right:9px;}
+.popUp .container .mainContent .labelBottomContainer .label .btn:hover,.popUp .container .mainContent .labelBottomContainer .label .btn.on{background:url("../_images/commonButtons/largeButtonBlank_on.png") no-repeat;color:#fff}
+.popUp .container .mainContent .labelBottomContainer .label .btn.error{cursor:default;}
+.popUp .container .mainContent .labelBottomContainer .label .btn.error:hover{background:url("../_images/commonButtons/largeButtonBlank_off.png") no-repeat;color:#4f7984}
+.popUp .container .mainContent .labelBottomContainer .curve{background:url("../_images/backgrounds/curve_big_bottom.png") no-repeat;width:33px;height:42px;position:absolute;margin-left:-33px}
+.popUp .newBadge{font-size:12px;}
+.popUp .newBadge .textContainer{background:url("../_images/backgrounds/badges_pop_up.png") no-repeat;width:496px;height:187px;}
+.popUp .newBadge .textContainer .column{text-align:left;float:left;position:relative;width:226px;height:170px;padding:10px 10px 0 10px;}
+.popUp .newBadge .textContainer .column.left{color:#fff;}
+.popUp .newBadge .textContainer .column.left h3{float:left}
+.popUp .newBadge .textContainer .column.left .text{font-weight:bold;float:left;width:155px}
+.popUp .newBadge .textContainer .column.right{color:#517a83}
+.popUp .newBadge .textContainer .column .badge{background-color:#fff;border-top-left-radius:10px;border-top-right-radius:10px;border-bottom-right-radius:10px;border-bottom-left-radius:10px;-moz-border-radius-topleft:10px;-moz-border-radius-topright:10px;-moz-border-radius-bottomright:10px;-moz-border-radius-bottomleft:10px;float:left;padding:5px;margin-right:10px}
+.popUp .newBadge .textContainer .column h3{font-size:1.2em;margin:0}
+.popUp .newBadge .textContainer .column .text{font-size:1em}
+.popUp .newBadge .textContainer .column .readBtn{background:url("../_images/landingPages/landingPageButtons/readMore_off.png") no-repeat;position:absolute;right:0;bottom:0;width:65px;height:15px;margin:0 15px 7px 0;}
+.popUp .newBadge .textContainer .column .readBtn:hover{background:url("../_images/landingPages/landingPageButtons/readMore_on.png")}
+.popUp .newBadge .textContainer .socialBtn{display:inline-block;margin-top:5px;width:34px;height:34px;}
+.popUp .newBadge .textContainer .socialBtn.twitter{background:url("../_images/landingPages/landingPageButtons/social_buttons/twitter_off.png") no-repeat;}
+.popUp .newBadge .textContainer .socialBtn.twitter:hover{background:url("../_images/landingPages/landingPageButtons/social_buttons/twitter_on.png") no-repeat}
+.popUp .newBadge .textContainer .socialBtn.facebook{background:url("../_images/landingPages/landingPageButtons/social_buttons/facebook_off.png") no-repeat;}
+.popUp .newBadge .textContainer .socialBtn.facebook:hover{background:url("../_images/landingPages/landingPageButtons/social_buttons/facebook_on.png") no-repeat}
+.popUp .newBadge .textContainer .socialBtn.google{background:url("../_images/landingPages/landingPageButtons/social_buttons/google_off.png") no-repeat;}
+.popUp .newBadge .textContainer .socialBtn.google:hover{background:url("../_images/landingPages/landingPageButtons/social_buttons/google_on.png") no-repeat}

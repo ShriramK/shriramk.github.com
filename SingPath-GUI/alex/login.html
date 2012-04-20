@@ -1,0 +1,64 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+	<title>Singpath - The Most Fun Way to Practice Software</title>
+	<meta charset="utf-8" />
+	
+	<link href="_css/SingpathMain.css" rel="stylesheet" type="text/css" />
+	<script src="_js/settings.js" type="text/javascript"></script>
+	<script src="_js/LAB.min.js" type="text/javascript"></script>
+	<script src="_js/jquery-1.4.2.js" type="text/javascript"></script>
+	<script>
+	   $LAB
+       .script("_js/jquery.session.js").wait()
+       .script("_js/jsonrender/common.js").wait()
+       .script("_js/jsonrender/login.js")
+	   .wait(function(){
+			return;
+	   });
+	</script>
+	<script src="Scripts/swfobject_modified.js" type="text/javascript"></script>
+</head>
+
+<body>
+<center><div id="loading">Loading...</div></center>
+<div id="wrapper">
+	<div id="MainHeader">
+	    <div id="Logo"><a href="home/" class="rolls"><img src="_images/commonButtons/singpathLogo_off.png" alt="Singpath Logo" name="Singpath Logo" width="169" height="46" border="0" id="Singpath Logo" /></a></div>
+	  </div>
+	  <div id="landingImage">
+	    <div id="logIn">
+          <form name="loginForm" class="loginForm">
+            <div class="userName"><input type="textfield" class="userName" name="userName" value="asdasd"></div>
+            <div class="password"><input type="password" class="password" name="password" value="asdasd"></div>
+            <div id="signInButton"><a href="#" class="rolls" onclick="usrLogin()"><img src="_images/landingPageButtons/signIn_off.png" alt="Sign in to Singpath" name="signIn" width="166" height="39" border="0" id="signIn" /></a></div>
+          </form>
+	    </div>
+	    <div id="menuOptions"><a href="page1.html">home</a> -    </a href="page1.html">about us</a>     - <a href="page1.html">terms of use</a> -    <a href="page1.html">contributions</a> -    <a href="page1.html">feedback</a> -    <a href="page1.html">contact us</a></div>
+	  </div>
+	  <div id="landingText">
+	    <div id="signUpNow"><img src="_images/landingPage/notaMemberYet.png" width="139" height="25" alt="not a member yet?" /><a href="https://www.google.com/accounts/NewAccount?service=mail&amp;continue=http://mail.google.com/mail/e-11-11a40ec2469ee040d650f5002fa2542c-d1cddc10151a2978a019f2b7d08b24305dcd9d0b&amp;type=2" target="_blank" class="rolls"><img src="_images/landingPageButtons/signUp_off.png" alt="Sign Up Now to Google Mail" name="signUpNowButton" width="104" height="24" border="0" id="signUpNowButton" /></a></div>
+	    <div id="text">Singpath is a community of users and developers who want to test out their programming skills in a competitive and fun environment. There are a range of programming languages that you can test your skills with including Java, Ruby and Python. Specialise in one code or show your are the master of all things code by combining more than one! To see who can have the best bragging rights, compete inhome a head to head challenge in your selected community or people from all over the world! Try a time trial to see how fast you are or how long it will take you to do the selected task or level.<br />
+	      So what are you waiting for, sign up today and see how good you are! There are 17 levels and growing of trials,<br />
+	      so you think you can handle the truth?</div>
+	  </div>
+	  <div id="Footer"> <a href="page1.html" title="home page Link" target="_parent">home</a> - <a href="page1.html">about us</a> - <a href="page1.html">terms of use</a> - <a href="page1.html">contributions</a> - <a href="page1.html">feedback</a> - <a href="page1.html">contact us</a></div>
+	  <div id="gr8ph1csFooter">
+	    <a href="http://www.Gr8ph1cs.com"><img src="_images/Gr8ph1csCreative.png" width="138" height="27" alt="Gr8ph1cs Creative Link" longdesc="http://www.Gr8ph1cs.com" /></a>
+	  </div>
+	  <div></div>
+	  <div></div>
+	</div>
+   <script type="text/javascript">
+     var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+     document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+   </script>
+   <script type="text/javascript">
+     try {
+     var pageTracker = _gat._getTracker("UA-12331844-1");
+     pageTracker._trackPageview();
+     } catch(err) {}
+   </script>
+</body>
+
+</html>

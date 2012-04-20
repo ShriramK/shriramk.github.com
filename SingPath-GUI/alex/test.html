@@ -1,0 +1,41 @@
+<html>
+<head>
+<style type="text/css">
+<!--
+  td {
+    padding: 0px;
+  }
+  td.tabHeaderLeft, td.tabHeaderCenter, td.tabHeaderRight {
+    z-index: 10;
+  }
+  td.tabHeaderLeftOff, td.tabHeaderCenterOff, td.tabHeaderRightEnd {
+    z-index: 1;
+  }
+-->
+</style>
+</head>
+<body>
+  <table class="tabHeader" style="border-spacing: 0px;">
+    <tr class="tabHeader">
+      <td class="tabHeaderLeft" onclick="showCodeTab(0)"><img src="_images/rankingPage/tab-left.png"/></td>
+      <td class="tabHeaderCenter" onclick="showCodeTab(0)" style="background-image: url('_images/rankingPage/tab-center.png');background-repeat: repeat-x;">Solution</td>
+      <td class="tabHeaderRight" onclick="showCodeTab(0)" style="width: 10px; overflow: visible; display: block;"><img src="_images/rankingPage/tab-right.png"/></td>
+      <td class="tabHeaderLeftOff" onclick="showCodeTab(1)"><img src="_images/rankingPage/tab-left-off.png"/></td>
+      <td class="tabHeaderCenterOff" onclick="showCodeTab(1)" style="background-image: url('_images/rankingPage/tab-center-off.png');background-repeat: repeat-x;">Skeleton</td>
+      <td class="tabHeaderRightOff" onclick="showCodeTab(1)"><img src="_images/rankingPage/tab-right-off.png"/></td>
+      <td class="tabHeaderRightEnd"></td>
+    </tr>
+  </table>
+  <div>
+    <div style="display: inline">
+      <img src="_images/rankingPage/tab-left.png"/>
+    </div>
+    <div style="display: inline">
+      Solution
+    </div>
+    <div style="width: 10px; overflow: visible; display: inline;">
+      <img src="_images/rankingPage/tab-right.png"/>
+    </div>
+  </div>
+</body>
+</html>

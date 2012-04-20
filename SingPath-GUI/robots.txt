@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /eli/
+Disallow: /problems/
+Disallow: /tournament/

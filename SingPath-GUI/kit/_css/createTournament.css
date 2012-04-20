@@ -1,0 +1,316 @@
+#__body .tournamentCreateContentStep1Wrapepr{
+	padding:20px 0 20px 0;
+}
+
+#__body > td{
+	width:906px;
+}
+.topBar{
+	height:49px;
+	background:url("../_images/commonButtons/blueBar.png") no-repeat;
+	color:#FFF;
+}
+
+.tourCSteps{
+	height:197px;
+	background:url("../_images/tournamentPages/tournamentCreate/07tournamentCreate_31.png")no-repeat;
+	padding: 12px 14px;
+}
+
+#tournamentCreateContentStep1 .tourCType{
+	height:87px;
+	background:url("../_images/tournamentPages/tournamentCreate/07tournamentCreate_04.png")no-repeat;
+}
+#tournamentCreateContentStep1 td, #tournamentCreateContentStep2 td{
+	text-align:left;
+	vertical-align:top;
+}
+#tournamentCreateContentStep1 .tourCTabs{
+	height:22px;
+	padding:6px 0 0 9px;
+	/*background:url("../_images/tournamentPages/tournamentCreate/07tournamentCreate_05.png")no-repeat;*/
+}
+
+#tournamentCreateContentStep1 .tourCLevels{
+	height:614px;
+	padding:6px 0 0 19px;
+	background:url("../_images/tournamentPages/tournamentCreate/07tournamentCreate_06.png")no-repeat;
+}
+ 
+.tourCWarningSave{
+	height:46px;
+	background:url("../_images/tournamentPages/tournamentCreate/07tournamentCreate1_07.png")no-repeat;
+}
+#tournamentCreateContentStep1 .tourCQuestions{
+	height:386px;
+	padding:6px 0 0 19px;
+	background:url("../_images/tournamentPages/tournamentCreate/07tournamentCreate_09.png")no-repeat;
+}
+#tournamentCreateContentStep2 .tourCTourDetails{
+	height:544px;
+	background:url("../_images/tournamentPages/tournamentCreate/07tournamentCreate_32.png")no-repeat;
+}
+
+#tournamentCreateContentStep2 .tourCExtraInfo{
+	height:226px;
+	background:url("../_images/tournamentPages/tournamentCreate/07tournamentCreate_35.png")no-repeat;
+} 
+#tournamentCreateContentStep2 .tourCInvitations{
+	height:236px;
+	background:url("../_images/tournamentPages/tournamentCreate/07tournamentCreate_36.png")no-repeat;
+}
+.tcStep{
+	float:left;
+	width:276px;
+	white-space: normal;
+	padding: 3px 0 0 13px;
+}
+.tcS1{
+	
+
+}
+.tourCStepsDescription{
+	font-size: 16px;
+    padding: 0 0 0 8px;
+}
+.stepBold, .stepTitle{
+	font-weight:bold;
+}
+.stepTitle{
+	font-size:16px;
+	
+}
+.tourCStepsTitle{
+	color:#FFF;
+	font-size: 18px;
+	padding: 0 0 0 8px;
+}
+._BarTopLeft{
+	float:left; 
+	font-size: 15px;
+	text-align:left;
+	padding:2px 0 0 100px;
+	margin:0 0 0 20px;
+	height:47px;
+	width: 390px;
+	white-space: normal;
+}
+._BarTopRight{
+	float:right;
+}
+
+.tourCStep{
+	width:99px;
+	height:31px;
+}
+
+
+.tcQuestions .active{
+	color:#FFF;
+}
+
+/*#awrapper  #__body #tournamentCreateContentStep1 .tourCLevels td#tcQuestContentLeftS1{
+	width:158px !important;
+}*/
+.tcQuestPath,.tcQuestProblems{
+	width:725px;
+}
+.tcQuestPath{
+	background:url("../_images/tournamentPages/tournamentCreate/07tournamentCreate_14.png")no-repeat;
+	height:32px;
+}
+.tourCStep{
+	display:inline-block;
+}
+.tcQuestLevelBoxS{ 
+	background:url("../_images/tournamentPages/tournamentCreate/levelSelectBoxSmall.png")no-repeat;
+	height:202px;
+	padding:16px 0 0 0;
+}
+.tcQuestLevelBoxB{ 
+	background:url("../_images/tournamentPages/tournamentCreate/questionsSelectBoxLarge.png")no-repeat;
+	height:347px;
+}
+.tcQuestProblems{
+	background:url("../_images/tournamentPages/tournamentCreate/questionsSelectBoxLarge.png")no-repeat;
+	height:347px;
+}
+.tcLevelItem{
+	font-size:16px;
+	width: 630px;
+	margin:4px 0 0 0;
+}
+.tcLevelItem.active,.tcProblemItem.active,.roundProblemItem.active{
+	background:#F8D3A4;
+}
+.tcLevelItem.disabled,.tcProblemItem.disabled{
+	color:#888;
+}
+	
+/*07tournament_realtime.png
+07tournament_anytime.png*/
+.tourCStep1_on{
+	background:url("../_images/tournamentPages/tournamentCreate/step1_on.png") no-repeat;
+}
+.tourCStep1_off{
+	background:url("../_images/tournamentPages/tournamentCreate/step1_off.png") no-repeat;
+}
+
+.tourCStep2_on{
+	background:url("../_images/tournamentPages/tournamentCreate/step2_on.png") no-repeat;
+}
+.tourCStep2_off{
+
+	background:url("../_images/tournamentPages/tournamentCreate/step2_off.png") no-repeat;
+}
+.spSelectBox{
+	border:1px solid #57869F;
+	color:#57869F;
+	background:#FFF;
+	margin: 8px 0 0 15px;
+    width: 269px;
+    font-size: 14px;
+}
+.spInputBox{
+	border:0 none; 
+	color:#57869F;
+	background:#FFF;
+	margin: 8px 0 0 15px;
+    width: 269px;
+    font-size: 14px;
+}
+.tcLevels{
+	list-style:none;
+	margin: 0 0 0 10px;
+	width: 630px;
+	padding:0;
+}
+
+
+.tcProblems{ 
+	width: 630px;
+	font-size: 16px;
+	margin: 0 0 0 10px;
+	padding:10px 0 0 0;
+	list-style:none;
+}
+.tcProblems li,.roundProblemItem{
+	margin:0px 0 5px 1px;
+}
+.tcProblemItemTitle{
+	color:#FFF;
+	background:#57869F;
+}
+
+.tcProblemItem{
+	
+}
+
+.tcProbQuestions  .small{
+	font-size:14px;
+}
+
+.tcProbQuestions .item{
+    cursor: pointer;
+    display: inline;
+    font-size: 18px;
+    margin: 0 0 0 12px;
+ }
+
+.tcProbQuestions .active{
+ color:#FFF;
+}
+
+.round_problems_List{
+	width: 630px;
+	font-size: 16px;
+	margin: 0 0 0 10px;
+	padding:10px 0 0 0;
+	list-style:none;
+}
+ 
+.tourCTourTitle{
+	color: #FFFFFF;
+    font-size: 18px;
+    padding: 9px 0 0 19px;
+}
+
+.tcLevelItem, .tcProblemItem, .roundProblemItem{
+	cursor:pointer;
+}
+
+#tournamentCreateContentStep1 td.colTitles, #tournamentCreateContentStep2 td.colTitles {
+	text-align:right;
+	padding:10px 0 0 22px;
+}
+
+.tcTournamentDet{
+	background:url("../_images/tournamentPages/tournamentCreate/textBox4LinesHigh.png") no-repeat;
+	border:0 none;
+	width:654px;
+	height:88px;
+	min-width:654px;
+	min-height:88px;
+	max-width:654px;
+	max-height:88px;
+	padding: 10px;
+	color: #57869F;
+}
+
+.shortInput,.disabledShortInput{
+	background:url("../_images/tournamentPages/tournamentCreate/smallTextBox.png")no-repeat;
+	border:0 none;
+	height:19px;
+	padding: 8px 8px 8px 12px;
+    width: 115px;
+	color: #57869F;
+}
+.spLongInputBox{
+	background:url("../_images/tournamentPages/tournamentCreate/longTextBar.png")no-repeat;
+	border:0 none;
+	height:19px;
+	padding: 8px 8px 8px 12px;
+    width: 654px;
+	color: #57869F;
+}
+.tcQuestPath{
+	display:inline-block;
+}
+
+.tcqCountry{
+	width:400px;
+}
+.tcTournamentAddr{
+	background:url("../_images/tournamentPages/tournamentCreate/textBox4LinesSmall.png") no-repeat;
+	border:0 none;
+	width:654px;
+	height:59px;
+	min-width:654px;
+	min-height:59px;
+	max-width:654px;
+	max-height:59px;
+	padding: 10px;
+	color: #57869F;
+}
+.tourCInvitations table{
+	margin:10px 0 0 0;
+}
+
+.tcRealtime, .tcAnytime{
+	display:inline-block;
+	cursor:pointer;
+}
+.tcAnytime{
+	background:url("../_images/tournamentPages/tournamentCreate/07tournament_anytime.png") no-repeat;
+	height:37px;
+	width:421px;
+}
+
+.tcRealtime{
+	background:url("../_images/tournamentPages/tournamentCreate/07tournament_realtime.png")no-repeat;
+	height:36px;
+	width:425px;
+}
+.tcTimeTournament{
+	padding: 6px 0 0 36px;
+}

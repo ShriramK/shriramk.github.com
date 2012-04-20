@@ -1,0 +1,61 @@
+<div id="wrapper">
+  <!-- Include Page Header: Logo, Login menu, head menu option -->
+  <div ng-include src="'includes/pageHeader.html'"></div>
+  
+  <!-- Custom page content -->
+  <div id="landingImage" ng-controller="IndexStatsPageCtr" ng-cloak>
+    <a href="#" id="landingImageTVIcon">
+      <div class="tvIcon" title="Watch the SingPath videos"></div>
+      <span class="text">Coming Soon!!</span>
+    </a>
+    
+    <!-- Print Game Stats -->
+    <div ng-include src="'includes/statistics.html'"></div>
+  </div>
+  
+  <div id="landingTextBox">
+    <div id="landingTextBoxTitleTop">Home</div>
+    <div id="landingTextBoxtext">
+      <span class="bold">SingPath</span> is the most <b>FUN</b> way to practice software languages!<br/><br/>
+      <span class="bold">SingPath</span> is a game that lets people practice their programming skills in a fun environment.
+      Play in a variety of programming languages such as: <span class="bold">Python, JavaScript, Ruby, Objective C, Java</span>
+      and many other languages to come. <br/><br/>
+      Specialize in one language or show your flexibility and skill by playing in multiple languages.<br/><br/>
+      What are you waiting for? Sign in today and follow your chosen <b>Path</b>.
+    </div>
+  </div>
+  
+  <div id="friendsTextBox" ng-controller="IndexCtrl">
+    <div id="friendsTextBoxTitleTop">Players</div>
+    <div id="friendsTextBoxtext">
+      Right now there are there are
+      <span class="boldText" ng-cloak>{{stats.num_playing}}</span>
+      people playing<br/>
+      <span ng-repeat="player in current_players" ng-cloak class="player">
+        <img ng-src="{{player.gravatar}}" width="45" height="45" alt="{{player.nickname}}" />
+      </span>
+    </div>
+    
+    <div id="friendsTextBoxtextSocial">
+      <span class="text">follow us on</span>
+      <a href="http://twitter.com/#!/singpath"                                  onclick="gae_bingo.bingo('twitter')"  target="_blank" class="twitter"  title="follow us on Twitter" ></a>
+      <a href="http://www.facebook.com/apps/application.php?id=100409776687538" onclick="gae_bingo.bingo('facebook')" target="_blank" class="facebook" title="follow us on Facebook"></a>
+    </div>
+  </div>
+  
+  <div id="landingLogos" ng-controller="FooterLogosCtrl">
+    <img ng-repeat="logo in footerLogos" ng-src="{{baseSrcBegin + logo.src + baseSrcEnd}}" alt="{{logo.alt}}" />
+  </div>
+  
+  
+  <!-- Include Page Footer -->
+  <div ng-include src="'includes/pageFooter.html'"></div>
+</div>
+
+
+<!-- Janrain -->
+<div ng-include src="'includes/janrain.html'"></div>
+
+
+<!-- Google Analytics -->
+<div ng-include src="'includes/googleAnalytics.html'"></div>

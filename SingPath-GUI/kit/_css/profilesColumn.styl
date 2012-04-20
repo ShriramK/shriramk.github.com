@@ -1,0 +1,60 @@
+@import stylus_functions
+
+#contributorsInfoBox
+  background-image  url(../_images/landingPages/contributionPage/01landingPageContribution05.png)
+  background-repeat no-repeat
+  float             left
+  width             620px
+  height            505px
+  margin            0px
+  padding           0px
+
+  #contributorsInfoBoxText
+    background-repeat no-repeat
+    color             #497279
+    text-align        left
+    font-size         16px
+    float             left
+    position          relative
+    top               25px
+    left              20px
+    width             590px
+    height            340px
+    margin            0px
+    padding           0px
+
+.contributorsContainer, .staffContainer
+  commonBGContainer()
+  
+  float  right
+  width  286px
+  height 410px
+  margin 4px -5px 0px 0px
+  
+  .textContainer
+    background-image  url(../_images/backgrounds/backgroundBoxPortret.png)
+    background-repeat no-repeat
+    float             right
+    width             286px
+    height            410px
+    
+    .text
+      text-align center
+      overflow   auto
+      position   relative
+      top        9px
+      left       13px
+      width      250px
+      height     352px
+      
+      .profile
+        gradient('vertical', #EEEFF0FF, '#FFEEEFF0', #D4D5D6FF, '#FFD4D5D6')
+        border-radius(5px)
+        color   #497279
+        cursor  pointer
+        margin  4px 10px 6px 3px
+        padding 8px  4px 3px 4px
+        
+        &:hover
+          gradient('vertical', #7FA0B2FF, '#FF7FA0B2', #557682FF, '#FF557682')
+          color #FFF

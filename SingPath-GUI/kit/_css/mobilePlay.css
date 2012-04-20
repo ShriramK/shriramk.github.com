@@ -1,0 +1,134 @@
+table.mobileMessageBox {
+  background-image: url(../_images/mobilePlay/messageBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -5px -11px;
+  height: 131px;
+  width: 889px;
+}
+table.mobileMessageBox > tbody > tr.boxContent {
+  height: 109px;
+}
+table.mobileMessageBox > tbody > tr.boxContent > td {
+  padding-top: 0px;
+}
+table.mobileMessageBox div.tourCPText {
+  height: 59px;
+}
+table.mobileMessageBox div.bottomText {
+  height: 23px;
+  color: white;
+  text-align: left;
+}
+table.mobileMessageBox div.bottomText span {
+  padding-top: 6px;
+  display: block;
+}
+.connectedSortable {
+  border: 0px solid red;
+  margin: 0;
+  padding: 0;
+}
+ul.lines {
+  height: 272px;
+  width: 374px;
+}
+ul.solution {
+  height: 432px;
+  width: 482px;
+  -webkit-transition: height 0.5s ease-in-out;
+}
+.connectedSortable li {
+  margin: 5px 5px 5px 5px;
+  padding: 0px 0px 0px 0px;
+  font-size: 18px;
+  list-style-type: none;
+  text-align: left;
+  height: 31px;
+  vertical-align: middle;
+  overflow: hidden;
+  border-radius: 5px; /* chrome */
+  -moz-border-radius: 5px; /* firefox */
+}
+.connectedSortable li.line {
+  background: url(../_images/mobilePlay/lineBg.png) repeat-x;
+  color: white;
+}
+.connectedSortable li.fixline {
+  background: url(../_images/mobilePlay/fixlineBg.png) repeat-x;
+  color: #4F7984;
+}
+.connectedSortable pre {
+  margin: 0px;
+  line-height: 130%;
+  padding: 4px 0px 4px 10px;
+}
+.placeholder {
+  background: url(../_images/mobilePlay/placeholderBg.png) repeat-x;
+}
+.empty-ul {
+  width: 144px;
+  height: 44px;
+}
+
+table.mobilePlaySolution {
+  background-image: url(../_images/mobilePlay/codeBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -9px -4px;
+  width: 493px;
+  height: 534px;
+}
+table.mobilePlaySolution td.boxHeader {
+  padding-top: 22px;
+}
+table.mobilePlaySolution tr.tourRunCodeTopButton {
+  height: 43px;
+}
+td.mobile_user_code {
+  padding: 2px 7px 5px 4px;
+  vertical-align: top;
+}
+td.mobile_user_code div.user_code {
+  height: 432px;
+  width: 482px;
+}
+
+td > table.pExampleMessage {
+  height: 326px;
+}
+
+table.resultsBox {
+  background-image: url(../_images/mobilePlay/resultsBoxBg.png);
+  background-repeat: no-repeat;
+  background-position: -6px -9px;
+  width: 390px;
+  height: 214px;
+}
+table.resultsBox > tbody > tr.boxContent {
+  height: 193px;
+}
+table.resultsBox > tbody > tr.boxContent > td.boxContent {
+  padding: 3px 11px 7px 5px;
+}
+table.resultsBox div.content {
+  height: 183px;
+}
+
+div.execution_results {
+  width: 374px;
+  height: 183px;
+  white-space: normal;
+  text-align: left;
+  overflow: auto;
+}
+
+td div.pEMText {
+  overflow: hidden;
+}
+
+img.light {
+  vertical-align: bottom;
+}
+input.auto_next {
+  height: 16px;
+  width: 16px;
+}

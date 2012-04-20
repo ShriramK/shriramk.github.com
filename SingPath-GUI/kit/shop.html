@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html ng-app="resource">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>SingPath - The Most Fun Way to Practice Software - Shop</title>
+
+  <link href="_css/SingPathMain.css" rel="stylesheet" type="text/css" />
+  <link href="_css/common.css"       rel="stylesheet" type="text/css" />
+
+  <script src="lib/angular/angular.min.js"          type="text/javascript"></script>
+  <script src="lib/angular/angular-resource.min.js" type="text/javascript"></script>
+  <script src="js/app_modules.js"                   type="text/javascript"></script>
+  <script src="js/commonTools.js"                   type="text/javascript"></script>
+  <script src="js/controllers.js"                   type="text/javascript"></script>
+  <script src="_js/feedback-v2.js"                  type="text/javascript"></script>
+  
+  <script src="_js/jquery-1.7.2.min.js" type="text/javascript"></script>
+  <script src="/gae_bingo/static/js/gae_bingo.js" type="text/javascript" charset="utf-8"></script>
+  
+  <script type="text/javascript">
+gae_bingo.ab_test("click-button-from-shop", { "top-half" : 50, "bottom-half" : 50 }, ["SingPath Logo", "Sign In", "Home", "Shop", "Play", "Splash", "About Us", "How to Use", "Contribution", "Tournament", "Ranking", "home", "about us", "how to use", "terms of use", "contribution", "feedback", "contact us", "shop", "Sign out", "gr8ph1cs Logo"]);
+  </script>
+</head>
+<body ng-controller="LoadPageCtrl">
+  <div id="wrapper">
+    <!-- Include Page Header: Logo, Login menu, head menu option -->
+    <div ng-include src="'includes/pageHeader.html'"></div>
+    
+    
+    <!-- Custom page content -->
+    <div id="shopBox">
+      <div id="shopBoxTitleTopAll">
+        <div id="firstStartSlice"></div>
+        <div id="firstMiddleSlice">Shop</div>
+        <div id="firstJoinSlice"></div>
+        <div id="secondMiddleSlice">My Account</div>
+        <div id="secondEndSlice"></div>
+      </div>
+      
+      <div id="shopBoxBodyInfo">
+        <div id="shopBoxSpecialsBox">
+          <div id="shopBoxSpecialsBoxTitleTop">Specials</div>
+          <div id="shopBoxSpecialsBox01Info"><img src="../alex/_images/landingPages/shopPages/singpathPremium.png" width="268" height="158" alt="SingPath Path Shop" /></div>
+          <div id="shopBoxSpecialsBox02Info"><img src="../alex/_images/landingPages/shopPages/singpathPremium.png" width="268" height="158" alt="SingPath Path Shop" /></div><div id="shopBoxSpecialsBox03Info">
+            <img src="../alex/_images/landingPages/shopPages/singpathPremium.png" width="268" height="158" alt="SingPath Path Shop" /><br /></div>
+            <div id="shopBoxBarMove"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('leftArrow','','../alex/_images/commonButtons/leftButtonSmaller_on.png',1)"><img src="../alex/_images/commonButtons/leftButtonSmaller_off.png" alt="move to previous paths" name="leftArrow" width="20" height="24" border="0"></a><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('rightArrow','','../alex/_images/commonButtons/rightButtonSmaller_on.png',1)"><img src="../alex/_images/landingPages/shopPages/exampleArea.png" width="180" height="24" alt="Example Selection" /><img src="../alex/_images/commonButtons/rightButtonSmaller_off.png" alt="move to next paths" name="rightArrow" width="20" height="24" border="0"></a></div>
+        </div>
+        
+        <div id="shopBox01">
+          <div id="shopBox01TitleTop">Clothes & Accessories</div>
+          <div id="shopBox01Info">
+            <img src="../alex/_images/landingPages/shopPages/singpathShop_comingSoon.png" width="267" height="158" alt="SingPath Path Shop" /><br />
+            <p>You can buy your T-Shirts, Shorts,<br />
+              Jumpers, Umbrellas and more....</p>
+          </div>
+        </div>
+        
+        <div id="shopBox02">
+          <div id="shopBox02TitleTop">Paths & Credits</div>
+          <div id="shopBox02Info">
+          <img src="../alex/_images/landingPages/shopPages/singpathShop.png" width="267" height="158" alt="SingPath Path Shop" /><br />
+          <p>You can buy your Language Paths, buy credits for friends and more....</p></div>
+        </div>
+        
+        <div id="shopBox03">
+          <div id="shopBox03TitleTop">Books &amp; Digital Books</div>
+          <div id="shopBox03Info">
+            <img src="../alex/_images/landingPages/shopPages/singpathShop_comingSoon.png" width="267" height="158" alt="SingPath Path Shop" /><br />
+            <p>You can buy your all your books relating to Languages here and more....</p>
+          </div>
+        </div>
+        
+        <p>&nbsp;</p>
+      </div>
+    </div>
+    
+    
+    <!-- Include Page Footer -->
+    <div ng-include src="'includes/pageFooter.html'"></div>
+  </div>
+  
+  
+  <!-- Google Analytics -->
+  <div ng-include src="'includes/googleAnalytics.html'"></div>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html ng-app="resource">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>SingPath - The Most Fun Way to Practice Software - About Us</title>
+  
+  <link href="_css/SingPathMain.css"   rel="stylesheet" type="text/css" />
+  <link href="_css/common.css"         rel="stylesheet" type="text/css" />
+  <link href="_css/profilesColumn.css" rel="stylesheet" type="text/css" />
+  
+  <script src="lib/angular/angular.min.js"          type="text/javascript"></script>
+  <script src="lib/angular/angular-resource.min.js" type="text/javascript"></script>
+  <script src="js/app_modules.js"                   type="text/javascript"></script>
+  <script src="js/commonTools.js"                   type="text/javascript"></script>
+  <script src="js/controllers.js"                   type="text/javascript"></script>
+  <script src="_js/feedback-v2.js"                  type="text/javascript"></script>
+  
+  <script src="_js/jquery-1.7.2.min.js" type="text/javascript"></script>
+  <script src="/gae_bingo/static/js/gae_bingo.js" type="text/javascript" charset="utf-8"></script>
+  
+  <script type="text/javascript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+window.onload = function () {
+  MM_preloadImages('../kit/_images/landingPages/landingPageButtons/staffProfileSandra_on.png','../kit/_images/landingPages/landingPageButtons/staffProfileChris_on.png','../kit/_images/landingPages/landingPageButtons/staffProfileShane_on.png');
+}
+
+gae_bingo.ab_test("click-button-from-about-us", { "top-half" : 50, "bottom-half" : 50 }, ["SingPath Logo", "Sign In", "Home", "Shop", "Play", "Splash", "About Us", "How to Use", "Contribution", "Tournament", "Ranking", "More Staff", "home", "about us", "how to use", "terms of use", "contribution", "feedback", "contact us", "shop", "Sign out", "gr8ph1cs Logo"]);
+
+//-->
+  </script>
+</head>
+<body ng-controller="LoadPageCtrl">
+  <div id="wrapper">
+    <!-- Include Page Header: Logo, Login menu, head menu option -->
+    <div ng-include src="'includes/pageHeader.html'"></div>
+    
+    
+    <!-- Custom page content -->
+    <div id="infoBox">
+      <div class="topTitle">About Us</div>
+      <div class="topText">
+        <p>
+          <span class="boldText">SingPath</span>
+          ... the most fun way to practice software languages.
+        </p>
+        <p>
+          Learning to code is a skill. It takes practice, not just an understanding of the theory.
+          Just start with the first levels on one of the paths and the game will
+          automatically ask you the next problem that you haven't solved.
+        </p>
+        <p>
+          Many thanks to Nick Parlante for his excellent
+          <a href="http://codingbat.com/" target="_blank">codingBat.com</a>, the inspiration for this
+          website and thank you to David MacQuigg and Athar Hameed for their excellent port to the
+          <a href="http://www.google.com/apps/intl/en-sg/group/index.html" target="_blank">Google App Engine</a>.
+          And thank you to the many helpful guides on <a href="http://stackoverflow.com/" target="_blank">StackOverflow.com</a>.
+        </p>
+      </div>
+      <div class="bottomTitle">Contact Us</div>
+      <div class="bottomText">
+        <p>
+          Please use the feedback button found at the right margin of every page (powered by Get Satisfaction) to share
+          an idea, ask a question, inform us of a problem or to send us pat on the back for a job well done (we like those!)
+          <br />
+          <br />
+          <span class="boldText">Address:</span><br />
+          99 Robertson Quay<br />
+          #15-12<br />
+          Singapore 238258
+        </p>
+        <br />
+        <br />
+        <span class="boldText">Email: </span>
+        <a href="mailto:PivotalExpert@gmail.com">PivotalExpert@gmail.com</a>
+      </div>
+    </div>
+    
+    
+    <!-- Include the Staff Panel -->
+    <div ng-include ng-controller="StaffCtrl" src="'includes/common_panel.html'"></div>
+    
+    
+    <!-- Include Page Footer -->
+    <div ng-include src="'includes/pageFooter.html'"></div>
+  </div>
+
+
+  <!-- Google Analytics -->
+  <div ng-include src="'includes/googleAnalytics.html'"></div>
+</body>
+</html>

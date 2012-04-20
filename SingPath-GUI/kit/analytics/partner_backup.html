@@ -1,0 +1,94 @@
+<!doctype html>
+<html xmlns:ng="http://angularjs.org">
+<head>
+<title>Partner API Demonstration</title>
+<script src="http://www.singpath.com/alex/_js/jquery-1.4.2.min.js" type="text/javascript"></script>
+<script src="http://www.singpath.com/alex/lib/angular/angular.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+PartnerController.$inject = ['$resource'];
+function PartnerController($resource){
+ this.Check = $resource( '../../partner/Prevview1/get_current_player');
+ this.Activity = $resource( '../../partner/Prevview1/get_player_info/57754');
+ this.Remotely = $resource(
+		    'http://www.singpath.com/partner/Prevview1/get_player_info/57754',
+		    {alt: 'json', callback: 'JSON_CALLBACK'},
+		    { get:     {method: 'JSON'},
+		      replies: {method: 'JSON'}
+		    });
+ this.R = $resource(
+		    'http://www.singpath.com/partner/Prevview1/get_player_info/57754',
+		    {alt: 'json', callback: 'JSON_CALLBACK'},
+		    { get:     {method: 'JSON', params: {visibility: '@self'}},
+		      replies: {method: 'JSON', params: {visibility: '@self', comments: '@comments'}}
+		    });
+ this.fetch();
+
+}
+PartnerController.prototype = {
+ fetch: function(){
+  this.player = this.Activity.get();
+  this.check_current = this.Check.get();
+  this.check_remotely = this.Remotely.get();
+  this.r = this.R.get();
+ }
+};
+
+</script>
+</head>
+
+<body ng-controller="PartnerController">
+    This is a very simple page that can be referenced by developers using the SingPath partner API. <br>
+    This single HTML page uses the Angularjs framework to demonstrate what is being fetched from the API.<br>
+    <hr>
+    
+    <div ng-show="check_current.error">
+    	This div is shown if and invalid API key is provided or <b>the current user is not logged in to SingPath</b>. <br>
+    	This is the JSON encoded data that was returned from the SingPath API. <br>
+    	<b>{{this.check_current}}</b>
+    	<hr>
+    </div>
+    
+    <div ng-show="!check_current.error">
+    	This div is shown if a valid API key is provided and <b>the current user is logged in to SingPath</b>. <br>
+    	This is the JSON encoded data that was returned from the SingPath API. <br>
+    	<b>{{this.player}}</b>
+    	<hr>
+    </div>
+
+    <div ng-show="player.error">
+		This div is shown if an valid API key or invalid playerID are provided when fetching player details.<br>
+		This is the JSON encoded data that was returned from the SingPath API. <br>
+		<b>{{this.player}}</b>
+		<hr>
+	</div>
+    
+    <div ng-show="!player.error">
+		This div is shown if a <b>valid API key</b> and <b>valid playerID</b> are provided. <br>
+		This is the JSON encoded data that was returned from the SingPath API. <br>
+		<b>{{this.player}}</b>
+		<hr>
+	</div>
+	
+    <div ng-show="!player.error">
+		This is an example of how to show the player badges for a player. <br>
+		<li ng-repeat="badge in player.lastAwardedGamePathBadges">{{badge['badgeDescription']}}</li>
+		<hr>
+		
+	    <table border="1">
+   	    <tr>
+   	      <td>Name</td><td>Description</td><td>Path</td><td>Order</td><td>URL</td>
+   	    <tr>
+        <tr ng-repeat="badge in player.lastAwardedGamePathBadges">
+          <td>{{badge['badgeName']}}</td>
+          <td>{{badge['badgeDescription']}}</td>
+          <td>{{badge['pathName']}}</td>
+          <td>{{badge['level']}}</td>
+          <td>{{badge['url']}}</td>
+        </tr>
+      </table> 
+	</div>
+	*{{this.check_remotely}}*<br>
+	#{{this.r}}#
+</body>
+</html>

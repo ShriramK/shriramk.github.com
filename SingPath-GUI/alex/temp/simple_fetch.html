@@ -1,0 +1,31 @@
+<!doctype html>
+<html xmlns:ng="http://angularjs.org/">
+<head>
+  <meta charset="utf-8">
+  <title>my angular app</title>
+  <link rel="stylesheet" href="css/app.css"/>
+    <script src="../lib/angular/angular.min.js" ng:autobind></script>
+    <script type="text/javascript">
+    
+  		function SimpleController($resource) {
+    		this.Player = $resource('/jsonapi/player')
+    		
+    		this.player = this.Player.get()
+		}    
+		SimpleController.$inject = ['$resource']
+  	</script>
+  
+</head>
+<body ng:controller="SimpleController">
+
+  Hi Senthil. I just fetched the details for {{this.player.nickname}}. He is from {{player.country}}.<br>
+  Here is his gravatar <img src="{{player.gravatar}}">
+  
+  Debug:<br>
+  <pre> 
+  {{this.player}}
+  </pre>
+
+
+</body>
+</html>

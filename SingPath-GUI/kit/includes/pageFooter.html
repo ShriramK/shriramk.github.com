@@ -1,0 +1,27 @@
+<!-- Footer links and info -->
+<div id="mainFooter">
+  <div id="menuFooterTop" ng-controller="FooterMenuOptionsCtrl">
+    <a ng-repeat = "option in options"
+      ng-href  = "{{option.href}}"
+      target   = "{{option.target}}"
+      ng-bind  = "option.text"
+      onclick  = "gae_bingo.bingo('{{option.text}}')"
+      ng-class = "option.class"
+      title    = "{{option.title}}
+    "></a>
+    
+    <!-- Display the 'sing out' option only if the user is currently logged in -->
+    <span ng-switch on="USER.isLogged">
+      <a ng-switch-when="true" href="sign_out" onclick="gae_bingo.bingo('Sign out')" title="Sign out from Your Profile">
+        sign out
+      </a>
+    </span>
+  </div>
+  
+  <!-- Copyright and Company link -->
+  <div id="menuFooterBottom" ng-controller="CopyrightCtrl">
+    <span ng-bind="'&copy; SingPath '+ year"></span>
+    <br />
+    <a href="http://www.Gr8ph1cs.com" onclick="gae_bingo.bingo('gr8ph1cs Logo')" target="_blank" id="gr8ph1csLogo" title="Designed by gr8ph1cs Creative"></a>
+  </div>
+</div>

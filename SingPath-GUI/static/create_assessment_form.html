@@ -1,0 +1,30 @@
+<form name="input" action="/jsonapi/create_assessment?callback=?" method="post" >
+		Form to cross site test create_assessment:<br>
+		<!--solution:<input type="text" name="user_code" value="b=2" /><br />-->
+		pathID:<input type="text" name="pathID" value="10030" /><br />
+		numProblems:<input type="text" name="numProblems" value="5" /><br />
+	    maxLevel:<input type="text" name="maxLevel" value="5" /><br />
+		partner:<input type="text" name="partner" value="Quantine" /><br />
+		authorizationKey:<input type="text" name="authorizationKey" value="" /><br />
+	    partnerData_1:<input type="text" name="partnerData_1" value="" /><br />
+		partnerData_2:<input type="text" name="partnerData_2" value="" /><br />
+		<input type="submit" value="Submit" />
+</form> 
+<br/>
+
+<script src="jquery-1.4.2.min.js" type="text/javascript"> </script>
+<script type="text/javascript">
+$("form").submit(function(e){
+    var form = $(this);
+	$.ajax({
+     	url   : form.attr('action'),
+     	method: form.attr('method'),
+    	 data  : form.serialize(), // data to be submitted
+     	success: function(response){
+        alert(response); // do what you like with the response
+     },
+     dataType: 'jsonp'
+	});
+    return false;
+ });
+</script>

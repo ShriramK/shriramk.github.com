@@ -1,0 +1,216 @@
+td.tabHeaderOut {
+  padding-left: 0px !important;
+}
+.placeholder {
+  color: darkgray !important;
+}
+
+/* challengeCreate page */
+
+table.challengeInformationBox {
+  background-image: url(../_images/levelsPage/currentPathBoxBg.png);
+  background-position: -11px -6px;
+  background-repeat: no-repeat;
+  height: 134px;
+  text-align: left;
+  width: 889px;
+}
+table.challengeInformationBox > tbody > tr.content > td {
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 8px;
+  padding-top: 4px;
+}
+div.challengeInformationBox {
+  height: 96px;
+  white-space: normal;
+  overflow: auto;
+}
+
+table.challengeDetailsBox {
+  background-image: url(../_images/challengeCreate/challengeDetailsBoxBg.png);
+  background-position: -11px -11px;
+  background-repeat: no-repeat;
+  height: 283px;
+  text-align: left;
+  width: 889px;
+}
+div.challengeDetailsBox {
+  height: 247px;
+}
+table.challengeDetailsBox > tbody > tr.content > td {
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 8px;
+  padding-top: 4px;
+}
+tr.name_country {
+  height: 35px;
+}
+table.fields {
+  width: 856px;
+  height: 247px;
+}
+table.fields tr.description, table.fields tr.public_message, table.fields tr.private_message {
+  height: 70px;
+}
+td.label {
+  text-align: right;
+  padding-right: 0px;
+}
+table.fields tr > td.label:first-child {
+  width: 190px;
+}
+
+table.levels {
+  table-layout: auto;
+}
+table.levels > tbody > tr > td {
+  overflow: auto;
+  vertical-align: top;
+  padding-right: 10px;
+}
+table.level_chooser {
+  background-image: url(../_images/challengeCreate/levelChooserBoxBg.png);
+  background-position: -9px -10px;
+  background-repeat: no-repeat;
+  height: 272px;
+  text-align: left;
+  width: 290px;
+}
+table.level_chooser > tbody > tr.content > td {
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 10px;
+  padding-top: 6px;
+}
+table.level_chooser > tbody > tr.content > td > div {
+  height: 236px;
+}
+
+table.level_chooser_content > tbody > tr {
+  height: 36px;
+}
+
+table.dates {
+  background-image: url(../_images/challengeCreate/datesBoxBg.png);
+  background-position: -5px -10px;
+  background-repeat: no-repeat;
+  height: 127px;
+  text-align: left;
+  width: 290px;
+}
+table.dates > tbody > tr.content > td {
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 10px;
+  padding-top: 6px;
+}
+table.dates > tbody > tr.content > td > div {
+  height: 91px;
+}
+table.dates table.dates_chooser > tbody > tr {
+  height: 36px;
+}
+table.dates table.dates_chooser > tbody > tr > td.date {
+  width: 95px;
+}
+
+table.__page tr.submit > td {
+  text-align: right;
+  padding-right: 10px;
+}
+table.submit {
+  background-image: url(../_images/challengeCreate/submitBoxBg.png);
+  background-position: -9px -10px;
+  background-repeat: no-repeat;
+  height: 129px;
+  text-align: left;
+  width: 480px;
+  display: inline-table;
+}
+table.submit > tbody > tr.content > td {
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 10px;
+  padding-top: 0px;
+}
+table.submit > tbody > tr.content > td > div {
+  height: 58px;
+  white-space: normal;
+}
+table.submit > tbody > tr.button {
+  height: 45px;
+}
+table.submit > tbody > tr.button > td {
+  text-align: right;
+}
+
+
+td.inputRadio > input, td.inputShort > input, td.inputMedium > input, td.inputLong > input,
+td.inputRadio > select, td.inputShort > select, td.inputMedium > select, td.inputLong > select,
+td.textareaLong > textare, td.textareaExtraLong > textarea {
+  background: white;
+  border: 0px solid;
+  font-weight: bold;
+  color: #4F7984;
+  height: 19px;
+  padding: 0;
+  margin: 0;
+  border-spacing: 0;
+}
+td.inputRadio, td.inputShort, td.inputMedium, td.inputLong, td.textareaLong, td.textareaExtraLong {
+  background-position: 0 50%;
+  background-repeat: no-repeat;
+  vertical-align: bottom;
+  padding-bottom: 8px;
+  padding-left: 8px;
+}
+td.inputRadio {
+  background-image: url('../_images/homePage/inputSmall.png');
+  width: 216px;
+  padding-bottom: 5px;
+  padding-left: 6px;
+}
+td.inputRadio > input {
+  width: 27px;
+  height: 27px;
+}
+td.inputShort {
+  background-image: url('../_images/homePage/inputShort.png');
+  width: 102px;
+}
+td.inputShort > input, td.inputShort > select {
+  width: 86px;
+}
+td.inputMedium {
+  background-image: url('../_images/homePage/inputMedium.png');
+  width: 216px;
+}
+td.inputMedium > input, td.inputMedium > select {
+  width: 201px;
+}
+td.inputLong {
+  background-image: url('../_images/homePage/inputLong.png');
+  width: 315px;
+}
+td.inputLong > input, td.inputLong > select {
+  width: 298px;
+}
+td.textareaLong {
+  background-image: url('../_images/homePage/textareaLong.png');
+  width: 315px;
+}
+td.textareaLong > textarea {
+  width: 298px;
+  height: 83px;
+}
+td.textareaExtraLong {
+  background-image: url('../_images/challengeCreate/largeTextArea.png');
+  background-repeat: no-repeat;
+  width: 315px;
+}
+td.textareaExtraLong > textarea {
+  width: 651px;
+  height: 53px;
+}

@@ -1,0 +1,1 @@
+{"last_solved": false, "results": [{"status": true, "expected": "aaaa", "call": "repeat_word('a',4)", "received": "aaaa"}, {"status": false, "expected": "blobblobblobblobblob", "call": "repeat_word('blob',5)", "received": "aaaa"}], "printed": "", "other_tests_result": null, "game_id": "10932948", "next_problem_id": 18377, "problem_id": "18377"}

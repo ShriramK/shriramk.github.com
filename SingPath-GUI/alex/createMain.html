@@ -1,0 +1,314 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+	<title>Singpath - The most fun way to practice software - Create</title>
+	<meta charset="utf-8" />
+	<link href="_css/SingpathMain.css" rel="stylesheet" type="text/css" />
+	<link href="_css/showProfile.css" rel="stylesheet" type="text/css" />
+	<link href="_css/editDetails.css" rel="stylesheet" type="text/css" />
+	<script src="_js/settings.js" type="text/javascript"></script>
+	<script src="_js/LAB.min.js" type="text/javascript"></script>
+	<script src="_js/jquery-1.4.2.js" type="text/javascript"></script>
+	<script src="_js/jquery.jsonp-2.1.4.min.js" type="text/javascript"></script>
+
+	<script src="_js/jquery.countdown.min.js" type="text/javascript"></script>
+	<script src="_js/jsonrender/common.js" type="text/javascript"></script>
+	<script src="_js/jsonrender/createMain.js" type="text/javascript"></script>
+	
+	<script src="_js/feedback-v2.js" type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" href="_css/jquery.countdown.css" />
+</head>
+<body>
+<center><div id="loading">Loading...</div></center>
+<div id="showProfilePopup" class="popup" style="display: none">
+  <table class="popup">
+      <tr class="popup">
+        <td class="popup">
+          <table class="showProfile" id="showProfile">
+            <tr class="boxHeader">
+              <td class="boxHeader">Create Path</td>
+            </tr>
+            <tr class="boxContent">
+              <td>
+                <table class="showProfileName">
+                  <tr>
+                    <td class="showProfileName">
+                      <div class="profileNameText"></div>
+                    </td>
+                    <td class="showProfileClose">
+                      <a href="javascript:" class="rolls"><img src="_images/commonButtons/close_off.png"
+                        alt="Close" class="showProfileButtons showProfileCancelButton rolls"
+                        onclick="$('#showProfilePopup').hide()"></a>
+                    </td>
+                  </tr>
+                </table>
+                <table class="pathEdit">
+                  <tr class="">
+                    <td class="">
+                      Language:
+                    </td>
+                    <td class="inputLong">
+                      <select id="popup_path_language">
+                      </select>
+                    </td>
+                  </tr>
+                  <tr class="">
+                    <td class="">
+                      Name:
+                    </td>
+                    <td class="inputLong">
+                      <input id="popup_path_name" type="text"/>
+                    </td>
+                  </tr>
+                  <tr class="">
+                    <td class="">
+                      Description:
+                    </td>
+                    <td class="inputLong">
+                      <input id="popup_path_desc" type="text"/>
+                    </td>
+                  </tr>
+                  <tr class="">
+                    <td class="" colspan="2">
+                      <span class="emptyButton" onclick="savePath()">Save</span>
+                      <span class="emptyButton" onclick="$('#showProfilePopup').hide()">Cancel</span>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+  </table>
+
+</div>
+<div id="showProblemsetPopup" class="popup" style="display: none">
+  <table class="popup">
+      <tr class="popup">
+        <td class="popup">
+          <table class="showProfile" id="showProfile">
+            <tr class="boxHeader">
+              <td class="boxHeader">Create Problemset</td>
+            </tr>
+            <tr class="boxContent">
+              <td>
+                <table class="showProfileName">
+                  <tr>
+                    <td class="showProfileName">
+                      <div class="profileNameText"></div>
+                    </td>
+                    <td class="showProfileClose">
+                      <a href="javascript:" class="rolls"><img src="_images/commonButtons/close_off.png"
+                        alt="Close" class="showProfileButtons showProfileCancelButton rolls"
+                        onclick="$('#showProblemsetPopup').hide()"></a>
+                    </td>
+                  </tr>
+                </table>
+                <table class="pathEdit">
+                  <tr class="">
+                    <td class="">
+                      Path:
+                    </td>
+                    <td class="inputLong">
+                      <select id="popup_problemset_path">
+                      </select>
+                    </td>
+                  </tr>
+                  <tr class="">
+                    <td class="">
+                      Name:
+                    </td>
+                    <td class="inputLong">
+                      <input id="popup_problemset_name" type="text"/>
+                    </td>
+                  </tr>
+                  <tr class="">
+                    <td class="">
+                      Description:
+                    </td>
+                    <td class="inputLong">
+                      <input id="popup_problemset_desc" type="text"/>
+                    </td>
+                  </tr>
+                  <tr class="">
+                    <td class="" colspan="2">
+                      <span class="emptyButton" onclick="saveProblemset()">Save</span>
+                      <span class="emptyButton" onclick="$('#showProblemsetPopup').hide()">Cancel</span>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+  </table>
+
+</div>
+<div id="beardy">
+  <div id="popup" class="popup" style="display: none">
+    <table class="popup">
+      <tr class="popup">
+        <td class="popup">
+          <table class="underConstructionBox">
+            <tr class="header">
+              <td class="header">
+                Under Construction
+              </td>
+            </tr>
+            <tr class="content">
+              <td class="content">
+                <div id="content" class="content">
+                  <div id="underConstruction">
+                    <table class="icons">
+                      <tr>
+                        <td class="close">
+                        </td>
+                        <td class="warning">
+                          <img src="_images/commonButtons/underConstruction.png" alt="Under Construction"/>
+                        </td>
+                        <td class="close">
+                          <img src="_images/commonButtons/close_off.png" alt="Close" class="rolls close" onclick="$('#popup').hide()"/>
+                        </td>
+                      </tr>
+                    </table>
+                    <div class="message">
+                      If you have any questions or queries, please contact us at<br/>
+                      <a href="mailto:PivotalExpert@gmail.com">
+                        <img class="rolls" src="_images/commonButtons/emailIcon_off.png" alt="Send Email"/>
+                        PivotalExpert@gmail.com
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <div>
+    <table class="__page wrapper">
+      <tr>
+        <td>
+          <table width="100%" class="header">
+            <tr>
+              <td class="logo">
+                <a href="home.html" class="rolls logo"><img class="logo" src="_images/commonButtons/singpathLogo_off.png" alt="Singpath Logo"/></a>
+              </td>
+              <td class="logIndetailsTop">
+                <table>
+                  <tr>
+                    <td class="logInProfile">
+                      <a href="home.html" class="rolls logInProfile"><img class="logInProfile" src="_images/commonButtons/houseProfile_off.png" alt="Profile Home Button" width="44" height="37" border="0"/></a>
+                    </td>
+                    <td id="logInGravatarPhoto" class="logInGravatarPhoto">
+                    </td>
+                    <td class="logIndetailsNameText">
+                      <div id="logIndetailsNameText"></div>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr class="element">
+        <td>
+          <table class="cmDescription">
+            <tr class="boxHeader">
+              <td class="boxHeader">Create</td>
+            </tr>
+            <tr class="boxContent">
+              <td class="description">
+                <div id="description" class="description">Welcome to the Create Page, please choose one of the following options to add something extra to Singpath, it is your great 
+contributions to Singpath that keep making it stronger and better everyday. thanks.</div>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr class="element">
+        <td>
+          <table class="cmChooseTask">
+            <tr class="boxHeader">
+              <td class="boxHeader">Choose a Task</td>
+            </tr>
+            <tr class="boxContent">
+              <td class="chooseTask">
+                <div id="chooser" class="chooser">
+                  <a class="rolls" href="challengeCreate.html"><img src="_images/createMain/buttons/challengeButton_off.png"/></a>
+                  <a class="rolls" href="createProblem.html"><img src="_images/createMain/buttons/problemButton_off.png"/></a>
+                  <a class="rolls" href="javascript:" onclick="showProblemsetPopup()"><img src="_images/createMain/buttons/levelButton_off.png"/></a>
+                  <a class="rolls" href="javascript:" onclick="showEditPathPopup()"><img src="_images/createMain/buttons/pathsButton_off.png"/></a>
+                  <a class="rolls" href="javascript:" onclick="$('#popup').show()"><img src="_images/createMain/buttons/tournamentsButton_off.png"/></a>
+                  <a class="rolls" href="javascript:" onclick="$('#popup').show()"><img src="_images/createMain/buttons/jobsBoardButton_off.png"/></a>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr class="element bottomBox">
+        <td>
+          <table class="cmCopyright">
+            <tr class="boxHeader">
+              <td class="boxHeader">Copyright</td>
+            </tr>
+            <tr class="boxContent">
+              <td class="copyright">
+                <div id="copyright" class="copyright">
+                    By submitting you are claiming that you are the original creator
+                    of any submitted material and that you are agreeing to provide
+                    Singpath with a broad license to copy, repackage, reuse, alter
+                    and redistribute any uploaded material. Singpath makes no guarantees
+                    that uploaded material will be retained or deleted. Please see
+                    the Singpath content licensing agreement for additional details.</div>
+                <div class="agree"><!--input type="checkbox" id="agree">I accept the terms of the upload</input--></div>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <table class="__footer" id="__footer">
+            <tr>
+              <td class="footer">
+                <a href="home.html" title="home page Link" target="_parent">home</a> -
+                <a href="aboutUs.html">about us</a> -
+                terms of use -
+                <a href="contributions.html">contributions</a> -
+                feedback -
+                <a href="contactUs.html">contact us</a> -
+                <a href="/logout">sign out</a>
+              </td>
+            </tr>
+            <tr>
+              <td class="gr8ph1csFooter">
+                <a href="http://www.Gr8ph1cs.com"><img src="_images/Gr8ph1csCreative.png" class="gr8ph1csFooter" alt="Gr8ph1cs Creative Link" longdesc="http://www.Gr8ph1cs.com" /></a>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>
+   <script type="text/javascript">
+     var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+     document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+   </script>
+   <script type="text/javascript">
+     try {
+     var pageTracker = _gat._getTracker("UA-12331844-1");
+     pageTracker._trackPageview();
+     } catch(err) {}
+   </script>
+</body>
+
+</html>

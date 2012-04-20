@@ -1,0 +1,25 @@
+<h1>requests</h1>
+<button id="send-to-many">Invite</button>
+
+<div id="fb-root"></div>
+<script src="http://connect.facebook.net/en_US/all.js"></script>
+<script>
+  FB.init({
+    appId  : '121153877979182',
+    status : true, // check login status
+    cookie : true, // enable cookies to allow the server to access the session
+    xfbml  : true, // parse XFBML
+    channelUrl : 'http://www.singpath.com', // channel.html file
+    oauth  : true // enable OAuth 2.0
+  });
+</script>
+<script>
+document.getElementById('send-to-many').onclick = function() {
+  FB.ui({
+    method: 'apprequests',
+    message: 'You should learn more about the @[121153877979182:Platform].'
+  }, Log.info.bind('send-to-many callback'));
+}
+
+</script>
+

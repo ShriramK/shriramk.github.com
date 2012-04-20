@@ -1,0 +1,30 @@
+<!doctype html>
+<html ng-app="resource">
+<head>
+  <meta charset="utf-8">
+  <title>my angular app</title>
+  <link rel="stylesheet" href="css/app.css"/>
+  <script type="text/javascript">
+  function SimpleController2($route, $resource, $xhr) {
+    $route.parent(this)
+    this.Player = $resource('/jsonapi/player')
+    this.player = this.Player.get()
+}    
+SimpleController2.$inject = ['$route', '$resource', '$xhr']
+  </script>
+
+</head>
+<body ng-controller="AppCtrl">
+
+  <script src="../lib/angular/angular.min.js"      type="text/javascript"></script>
+  <script src="../lib/angular/angular-resource.min.js" type="text/javascript"></script>
+  <script src="js/app_modules.js"                  type="text/javascript"></script>
+  <script src="js/controllers.js"                  type="text/javascript"></script>
+  
+  <script src="js/filters.js"></script>
+  <script src="js/widgets.js"></script>
+
+  <div ng-view></div>
+  
+</body>
+</html>
